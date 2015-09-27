@@ -4,7 +4,7 @@
 * [Introduction](documentation/Introduction.md)
 * [Summary](SUMMARY.md)
 * [Hardware](documentation/Hardware.md)
-   * [Power Management](documentation/PowerManagement.md)
+   * [Power Management](documentation/PowerManagementIc.md)
    * [Muxing](documentation/Muxing.md)
 * [Operating Systems](documentation/OperatingSystems.md)
    * [Yocto](documentation/Yocto.md)
