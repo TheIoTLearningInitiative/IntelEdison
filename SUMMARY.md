@@ -18,7 +18,7 @@
    * [UPM](documentation/Upm.md)
    * [OpenCv](documentation/OpenCv.md)
 * [Package Management Systems](documentation/PackageManagementSystems.md)
-   * [Open PackaGe Management](documentation/Opkg.md)
+   * [Open Package Management](documentation/Opkg.md)
    * [Advanced Package Tool](documentation/AdvancedPackageTool.md)
 * [Debug](documentation/Debug.md)
 * [Customization](documentation/Customization.md)
