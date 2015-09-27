@@ -24,8 +24,6 @@ BlueTooth
     root@edison:~# systemctl start bluetooth
 
 
-bluetooth-agent 4835
-
 # Apt-Get Bluetooth
 
     root@edison:~# apt-get install bluetooth
