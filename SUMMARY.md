@@ -17,6 +17,7 @@
    * [BlueTooth](documentation/BlueTooth.md)
    * [Camera](documentation/Camera.md)
    * [Power](documentation/Power.md)
+   * WiFi
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
