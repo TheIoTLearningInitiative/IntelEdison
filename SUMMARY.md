@@ -19,5 +19,5 @@
 * [Package Management Systems](documentation/PackageManagementSystems.md)
    * [Opkg](documentation/Opkg.md)
 * [Debug](documentation/Debug.md)
-* Customization
+* [Customization](documentation/Customization.md)
 
