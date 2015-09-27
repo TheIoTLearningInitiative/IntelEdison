@@ -18,7 +18,7 @@
    * [Camera](documentation/Camera.md)
    * [Power](documentation/Power.md)
 * [Libraries](documentation/Libraries.md)
-   * [MRAA](documentation/Mraa.md)
+   * [Mraa](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
    * [OpenCv](documentation/OpenCv.md)
 * [Debug](documentation/Debug.md)
