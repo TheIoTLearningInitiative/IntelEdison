@@ -28,6 +28,9 @@ BlueTooth
 
     root@edison:~# apt-get install bluetooth
     root@edison:~# /etc/init.d/bluetooth start
+    
+# Pairing
+    
     root@edison:~# bluetooth-agent 4835
 
 
