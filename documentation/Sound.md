@@ -1,10 +1,10 @@
 Sound
 ==
 
-# Yocto Default Image
+    root@edison:~# opkg install alsa-utils
+
 
     root@edison:~# lsusb
-    root@edison:~# opkg install alsa-utils
     root@edison:~# aplay -Ll
     root@edison:~# vi ~/.asoundrc
     root@edison:~# vi /etc/asound.conf
