@@ -42,7 +42,6 @@ BlueTooth
 
 ## BlueTooth @ Intel® Edison
 
-
     root@galileo:~# rfkill unblock bluetooth
     root@galileo:~# bluetoothctl
     [bluetooth]# scan on
