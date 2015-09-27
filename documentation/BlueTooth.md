@@ -6,7 +6,7 @@ BlueTooth
     root@edison:~# apt-get install bluetooth
     root@edison:~# /etc/init.d/bluetooth start
 
-# Opmg Bluetooth
+# OpKg Bluetooth
 
     root@edison:~# dmesg | grep -i blue
     [    0.235619] Bluetooth: Core ver 2.16
