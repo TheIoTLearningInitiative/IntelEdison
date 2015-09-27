@@ -16,7 +16,7 @@
    * [Sound](documentation/Sound.md)
    * [BlueTooth](documentation/BlueTooth.md)
    * [Camera](documentation/Camera.md)
-   * Power
+   * [Power](documentation/Power.md)
 * [Libraries](documentation/Libraries.md)
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
