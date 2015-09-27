@@ -3,7 +3,7 @@ BlueTooth
 
 - [Intel® Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
 
-# Kernel Integration
+## Kernel Integration
 
     root@edison:~# dmesg | grep -i blue
     [    0.235619] Bluetooth: Core ver 2.16
@@ -22,18 +22,18 @@ BlueTooth
     [    1.588175] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
     [    1.588202] Bluetooth: HIDP socket layer initialized
 
-# Setup Apt-Get
+## Setup Apt-Get
 
     root@edison:~# apt-get install bluetooth
     root@edison:~# /etc/init.d/bluetooth start
 
-# Setup Opkg
+## Setup Opkg
 
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
     root@edison:~# systemctl start bluetooth
     
-# Pairing
+## Pairing
     
     root@edison:~# bluetooth-agent 4835
 
