@@ -12,6 +12,7 @@
 * [Subsystems](documentation/Subsystems.md)
    * [Sound](documentation/Sound.md)
    * [BlueTooth](documentation/BlueTooth.md)
+   * Camera
 * [Libraries](documentation/Libraries.md)
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
