@@ -5,7 +5,7 @@
 * [Summary](SUMMARY.md)
 * [Hardware](documentation/Hardware.md)
    * [Muxing](documentation/Muxing,md)
-   * Power
+   * [Power](documentation/Power.md)
 * [Operating Systems](documentation/OperatingSystems.md)
    * [Yocto](documentation/Yocto.md)
    * [Ubilinux](documentation/Ubilinux.md)
