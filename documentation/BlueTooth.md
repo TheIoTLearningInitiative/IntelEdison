@@ -34,7 +34,12 @@ BlueTooth
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
     root@edison:~# systemctl start bluetooth
-    
+
+## BlueTooth Agents
+
+- bluetooth-agent
+- bluetoothctl
+
 ## Pairing
     
     root@edison:~# bluetooth-agent 4835
