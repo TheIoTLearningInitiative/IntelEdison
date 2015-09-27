@@ -1,4 +1,4 @@
-Open Package Managememnt
+Open Package Management
 ==
 
 ## Yocto Default Image
