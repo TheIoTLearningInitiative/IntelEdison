@@ -27,7 +27,7 @@ BlueTooth
     root@edison:~# apt-get install bluetooth
     root@edison:~# /etc/init.d/bluetooth start
 
-# Opkg Bluetooth Setup
+# Setup Opkg
 
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
