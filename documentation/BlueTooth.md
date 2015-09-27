@@ -1,4 +1,4 @@
-Sound
+BlueTooth
 ==
 
 # Yocto Default Image
