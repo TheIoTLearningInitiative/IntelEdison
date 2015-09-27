@@ -39,7 +39,6 @@ BlueTooth
     
     root@edison:~# bluetooth-agent 4835
 
-
 ## BlueTooth @ Intel® Edison
 
 
