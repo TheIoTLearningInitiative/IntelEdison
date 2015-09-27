@@ -1,8 +1,6 @@
 Open Package Management
 ==
 
-## Yocto Default Image
-
     root@edison:~# vi /etc/opkg/base-feeds.conf
      src all     http://iotdk.intel.com/repos/1.1/iotdk/all
      src x86 http://iotdk.intel.com/repos/1.1/iotdk/x86
