@@ -1,6 +1,7 @@
 BlueTooth
 ==
 
+#  install bluetooth
 # Yocto Default Image
 
     root@edison:~# dmesg | grep -i blue
