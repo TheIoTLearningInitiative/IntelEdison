@@ -22,12 +22,14 @@ BlueTooth
     [    1.588175] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
     [    1.588202] Bluetooth: HIDP socket layer initialized
 
-## Setup Apt-Get
+## Setup
+
+### Apt-Get
 
     root@edison:~# apt-get install bluetooth
     root@edison:~# /etc/init.d/bluetooth start
 
-## Setup Opkg
+### Opkg
 
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
