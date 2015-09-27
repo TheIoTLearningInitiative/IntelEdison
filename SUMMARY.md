@@ -11,7 +11,7 @@
    * [Ubilinux](documentation/Ubilinux.md)
 * [Subsystems](documentation/Subsystems.md)
    * [Sound](documentation/Sound.md)
-   * BlueTooth
+   * [BlueTooth](documentation/BlueTooth.md)
 * [Libraries](documentation/Libraries.md)
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
