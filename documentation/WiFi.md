@@ -1,6 +1,8 @@
 WiFi
 ==
 
+https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
+
 ## Yocto Default Image
 
     root@Edison:~# configure_edison --wifi
