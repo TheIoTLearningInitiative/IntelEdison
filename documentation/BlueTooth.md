@@ -42,7 +42,7 @@ BlueTooth
 - bluetoothctl
 - 
 
-## HCI device configuration utility
+## HCI Device Configuration Utility
 
 root@edison:~# hciconfig hci0 down
 root@edison:~# hciconfig hci0 up
