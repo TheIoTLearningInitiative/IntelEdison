@@ -1,8 +1,9 @@
 BlueTooth
 ==
 
-#  install bluetooth
-# Yocto Default Image
+# Apt-Get Bluetooth
+
+# Opmg Bluetooth
 
     root@edison:~# dmesg | grep -i blue
     [    0.235619] Bluetooth: Core ver 2.16
