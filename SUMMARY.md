@@ -1,5 +1,5 @@
 # Summary
 
 * Introduction
-* Cover
+* [Cover](README.md)
 
