@@ -40,7 +40,7 @@ BlueTooth
 
 - bluetooth-agent
 - bluetoothctl
-- 
+- hcitool- 
 
 ## HCI Device Configuration Utility
 
