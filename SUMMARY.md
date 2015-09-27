@@ -10,7 +10,7 @@
    * [Yocto](documentation/Yocto.md)
    * [Ubilinux](documentation/Ubilinux.md)
 * [Package Management Systems](documentation/PackageManagementSystems.md)
-   * [Open Package Management](documentation/Opkg.md)
+   * [Open Package Management](documentation/OpenPackageManagement.md)
    * [Advanced Package Tool](documentation/AdvancedPackageTool.md)
 * [Subsystems](documentation/Subsystems.md)
    * [Sound](documentation/Sound.md)
