@@ -1,11 +1,6 @@
 BlueTooth
 ==
 
-# Apt-Get Bluetooth
-
-    root@edison:~# apt-get install bluetooth
-    root@edison:~# /etc/init.d/bluetooth start
-
 # Kernel Integration
 
     root@edison:~# dmesg | grep -i blue
@@ -30,6 +25,10 @@ BlueTooth
 
 
 bluetooth-agent 4835
+# Apt-Get Bluetooth
+
+    root@edison:~# apt-get install bluetooth
+    root@edison:~# /etc/init.d/bluetooth start
 
 ## BlueTooth @ Intel® Edison
 
