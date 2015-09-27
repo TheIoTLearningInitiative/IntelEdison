@@ -3,8 +3,8 @@ BlueTooth
 
 # Apt-Get Bluetooth
 
-root@edison:~# apt-get install bluetooth
-root@edison:~# /etc/init.d/bluetooth start
+    root@edison:~# apt-get install bluetooth
+    root@edison:~# /etc/init.d/bluetooth start
 
 # Opmg Bluetooth
 
