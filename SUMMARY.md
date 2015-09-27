@@ -10,6 +10,7 @@
    * [Yocto](documentation/Yocto.md)
    * [Ubilinux](documentation/Ubilinux.md)
 * [Subsystems](documentation/Subsystems.md)
+   * Sound
 * [Libraries](documentation/Libraries.md)
    * [MRAA](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
