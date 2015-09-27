@@ -40,6 +40,11 @@ BlueTooth
 
 - bluetooth-agent
 - bluetoothctl
+- 
+
+root@edison:~# hciconfig hci0 down
+root@edison:~# hciconfig hci0 up
+root@edison:~# hciconfig hci0 status
 
 ## BlueTooth @ Intel® Edison
 
