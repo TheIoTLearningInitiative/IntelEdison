@@ -28,7 +28,7 @@ BlueTooth
 
     root@edison:~# apt-get install bluetooth
     root@edison:~# /etc/init.d/bluetooth start
-    bluetooth-agent 4835
+    root@edison:~# bluetooth-agent 4835
 
 
 ## BlueTooth @ Intel® Edison
