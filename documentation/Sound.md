@@ -2,6 +2,7 @@ Sound
 ==
 
     root@edison:~# opkg install alsa-utils
+    root@edison:~# apt-get install alsa-utils
 
 
     root@edison:~# lsusb
