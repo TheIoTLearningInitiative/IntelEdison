@@ -1,6 +1,10 @@
 Ubilinux, Debian Based Distribution
 ==
 
+
+## Installation
+
+
 https://learn.sparkfun.com/tutorials/loading-debian-ubilinux-on-the-edison
 
     # apt-get install python-pip byacc flex
