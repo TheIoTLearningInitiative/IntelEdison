@@ -1,4 +1,4 @@
-OPKG
+Open Package Managememnt
 ==
 
 ## Yocto Default Image
