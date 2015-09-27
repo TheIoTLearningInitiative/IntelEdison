@@ -49,9 +49,9 @@ BlueTooth
 
 ## HCI Device Configuration Utility
 
-root@edison:~# hciconfig hci0 down
-root@edison:~# hciconfig hci0 up
-root@edison:~# hciconfig hci0 status
+    root@edison:~# hciconfig hci0 down
+    root@edison:~# hciconfig hci0 up
+    root@edison:~# hciconfig hci0 status
 
 ## BlueTooth @ Intel® Edison
 
