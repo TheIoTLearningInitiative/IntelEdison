@@ -74,3 +74,4 @@ BlueTooth
 
 http://alextgalileo.altervista.org/blog/install-kernel-from-repo-onto-edison-official-image/
 https://software.intel.com/en-us/articles/intel-edison-board-getting-started-with-bluetooth
+http://rexstjohn.com/lets-turn-intel-edison-into-an-ibeacon/
