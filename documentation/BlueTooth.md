@@ -45,7 +45,9 @@ BlueTooth
 
 ## hcitool
 
+## Audio
 
+    apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
 
 ## HCI Device Configuration Utility
 
