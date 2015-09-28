@@ -52,5 +52,9 @@ drivers/rtc/
 drivers/spi/
 drivers/thermal/
 drivers/tty/serial/
+drivers/usb/core/
+drivers/usb/dwc3/
+drivers/usb/gadget/
+
 
 arch/x86/configs/i386_edison_defconfig
