@@ -10,6 +10,7 @@ File name: edison-src-weekly-68.tgz
     arduino  broadcom_cws  device-software  mw
     xe1gyq@host:~$ ./device-software/setup.sh
     xe1gyq@host:~$ source poky/oe-init-build-env
+    xe1gyq@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh
 
 https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
 
