@@ -1,7 +1,7 @@
 Customization
 ==
 
-    xe1gyq@host:~$ ls
+    xe1gyq@host:~$ ls edison-src
     arduino  broadcom_cws  device-software  mw
     xe1gyq@host:~$ ./device-software/setup.sh
     xe1gyq@host:~$ source poky/oe-init-build-env
