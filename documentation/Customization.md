@@ -4,6 +4,7 @@ Customization
     xe1gyq@host:~$ ls
     arduino  broadcom_cws  device-software  mw
     xe1gyq@host:~$ ./device-software/setup.sh
+    xe1gyq@host:~$ source poky/oe-init-build-env
 
 - http://www.instructables.com/id/Securing-IoT-applications-built-on-Intel-Galileo-a/
 - https://communities.intel.com/docs/DOC-23391
