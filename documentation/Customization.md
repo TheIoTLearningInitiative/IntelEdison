@@ -8,6 +8,8 @@ https://hayestech.files.wordpress.com/2015/01/intel-edison-bsd.pdf
 https://downloadcenter.intel.com/download/24357
 File name: edison-src-weekly-68.tgz
 
+    xe1gyq@host:~# sudo apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
+
     xe1gyq@host:~$ tar xvf edison-src-weekly-68.tgz
     xe1gyq@host:~$ ls edison-src
     arduino  broadcom_cws  device-software  mw
