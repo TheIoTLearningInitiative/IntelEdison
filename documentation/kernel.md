@@ -43,5 +43,14 @@ drivers/platform/x86/
  drivers/platform/x86/intel_scu_ipcutil.c           | 2587 ++++++++-
  drivers/platform/x86/intel_scu_mip.c               |  776 +++
  drivers/platform/x86/intel_scu_pmic.c              |  477 ++
+drivers/power/
+drivers/pwm/
+drivers/regulator/
+drivers/remoteproc/
+drivers/rpmsg/
+drivers/rtc/
+drivers/spi/
+drivers/thermal/
+drivers/tty/serial/
 
 arch/x86/configs/i386_edison_defconfig
