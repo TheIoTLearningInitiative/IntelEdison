@@ -25,4 +25,5 @@ drivers/misc/stm.h
 drivers/mmc/card/block.c
 drivers/mmc/core/
 drivers/mmc/host/
+drivers/net/wireless/
 arch/x86/configs/i386_edison_defconfig
