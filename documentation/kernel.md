@@ -27,4 +27,5 @@ drivers/mmc/core/
 drivers/mmc/host/
 drivers/net/wireless/
 drivers/pci/pci-atom_soc.c
+drivers/platform/x86/
 arch/x86/configs/i386_edison_defconfig
