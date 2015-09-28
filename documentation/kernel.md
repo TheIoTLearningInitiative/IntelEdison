@@ -1,4 +1,5 @@
 bcm43340
+https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
 arch/x86/
 arch/x86/platform/intel-mid/
@@ -16,6 +17,6 @@ drivers/idle/
 drivers/iio/adc/
 drivers/iio/adc/iio_basincove_gpadc.c
 drivers/iio/adc/ti-ads7955.c
-
+drivers/misc/bcm-lpm/bcm_bt_lpm.c
 
 arch/x86/configs/i386_edison_defconfig
