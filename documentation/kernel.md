@@ -1,8 +1,6 @@
 bcm43340
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
-arch/x86/configs/i386_edison_defconfig
-
 arch/x86/
 arch/x86/platform/intel-mid/
 arch/x86/platform/mrst/
@@ -58,10 +56,6 @@ drivers/usb/core/
 drivers/usb/dwc3/
 drivers/usb/gadget/
 drivers/usb/host/
-drivers/watchdog/
-net/bluetooth/l2cap_core.c
-sound/core/
-sound/soc/
-sound/soc/codecs/sn95031.c
-sound/soc/codecs/wm8994.c
-sound/soc/codecs/wm_hubs.c
+
+
+arch/x86/configs/i386_edison_defconfig
