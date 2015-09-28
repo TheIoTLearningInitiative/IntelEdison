@@ -29,3 +29,4 @@ http://www.embarcados.com.br/intel-edison-yocto-como-construir-sua-propria-distr
 - http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
 - http://drejkim.com/blog/2014/11/22/building-an-edison-image-and-changing-the-root-partition-size/
 - https://hayestech.wordpress.com/2015/01/26/building-custom-intel-edison-images/
+http://www.yoctoproject.org/docs/1.1/yocto-project-qs/yocto-project-qs.html
