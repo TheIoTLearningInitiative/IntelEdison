@@ -1,8 +1,8 @@
-Intel MID is Intel's Low Power Intel Architecture (LPIA) based Mobile Internet Device(MID) platform.
+> Intel Silvermont (Atom)
 
-Unlike standard x86 PCs, Intel MID does not have many legacy devices nor standard legacy replacement devices/features. e.g. It does not contain i8259, i8254, HPET, legacy BIOS, most of the io ports.
+> Intel MID is Intel's Low Power Intel Architecture (LPIA) based Mobile Internet Device(MID) platform.
 
-Intel Silvermont (Atom)
+> Unlike standard x86 PCs, Intel MID does not have many legacy devices nor standard legacy replacement devices/features. e.g. It does not contain i8259, i8254, HPET, legacy BIOS, most of the io ports.
 
 bcm43340
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
