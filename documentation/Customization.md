@@ -23,6 +23,7 @@ https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
 ## Process B
 
 http://www.embarcados.com.br/intel-edison-yocto-como-construir-sua-propria-distribuicao-linux-embarcado/
+http://www.embarcados.com.br/raspberry-pi-qt5-yocto-parte-1/
 
 ## Links 
 
