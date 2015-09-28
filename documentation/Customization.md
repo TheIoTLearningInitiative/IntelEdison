@@ -1,6 +1,7 @@
 Customization
 ==
 
+## Process A
 https://downloadcenter.intel.com/download/24357
 File name: edison-src-weekly-68.tgz
 
@@ -9,6 +10,8 @@ File name: edison-src-weekly-68.tgz
     arduino  broadcom_cws  device-software  mw
     xe1gyq@host:~$ ./device-software/setup.sh
     xe1gyq@host:~$ source poky/oe-init-build-env
+
+## Process B
 
 - http://www.instructables.com/id/Securing-IoT-applications-built-on-Intel-Galileo-a/
 - https://communities.intel.com/docs/DOC-23391
