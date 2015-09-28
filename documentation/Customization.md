@@ -2,6 +2,7 @@ Customization
 ==
 
 http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
+https://hayestech.files.wordpress.com/2015/01/intel-edison-bsd.pdf
 
 ## Process A
 https://downloadcenter.intel.com/download/24357
@@ -27,3 +28,4 @@ http://www.embarcados.com.br/intel-edison-yocto-como-construir-sua-propria-distr
 - https://software.intel.com/en-us/articles/intel-edison-developer-resources
 - http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
 - http://drejkim.com/blog/2014/11/22/building-an-edison-image-and-changing-the-root-partition-size/
+- https://hayestech.wordpress.com/2015/01/26/building-custom-intel-edison-images/
