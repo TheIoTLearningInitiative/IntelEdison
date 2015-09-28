@@ -16,6 +16,7 @@ File name: edison-src-weekly-68.tgz
     xe1gyq@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh
 
 https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
+https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
 
 ## Process B
 
