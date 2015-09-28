@@ -1,7 +1,7 @@
 Customization
 ==
 
-    xe1gyq@jessie:~$ ls
+    xe1gyq@host:~$ ls
     arduino  broadcom_cws  device-software  mw
     ./device-software/setup.sh
 
