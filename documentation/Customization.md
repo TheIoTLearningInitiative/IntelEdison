@@ -13,6 +13,8 @@ File name: edison-src-weekly-68.tgz
 
 ## Process B
 
+
+
 ## Links 
 
 - http://www.instructables.com/id/Securing-IoT-applications-built-on-Intel-Galileo-a/
