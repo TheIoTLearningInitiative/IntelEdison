@@ -1,6 +1,8 @@
 Customization
 ==
 
+http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
+
 ## Process A
 https://downloadcenter.intel.com/download/24357
 File name: edison-src-weekly-68.tgz
