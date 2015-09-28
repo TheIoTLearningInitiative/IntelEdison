@@ -50,7 +50,7 @@ https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
     drivers/platform/x86/intel_scu_ipc.c
     drivers/platform/x86/intel_scu_ipcutil.c
     drivers/platform/x86/intel_scu_mip.c
-    drivers/platform/x86/intel_scu_pmic.c              |  477 ++
+    drivers/platform/x86/intel_scu_pmic.c
     drivers/power/
     drivers/pwm/
     drivers/regulator/
