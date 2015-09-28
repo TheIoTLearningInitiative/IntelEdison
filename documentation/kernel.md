@@ -44,5 +44,4 @@ drivers/platform/x86/
  drivers/platform/x86/intel_scu_mip.c               |  776 +++
  drivers/platform/x86/intel_scu_pmic.c              |  477 ++
 
-
 arch/x86/configs/i386_edison_defconfig
