@@ -8,7 +8,6 @@
 
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
-
     arch/x86/configs/i386_edison_defconfig
     arch/x86/
     arch/x86/platform/intel-mid/
