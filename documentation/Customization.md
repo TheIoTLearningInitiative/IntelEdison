@@ -13,7 +13,7 @@ File name: edison-src-weekly-68.tgz
 
 ## Process B
 
-
+http://www.embarcados.com.br/intel-edison-yocto-como-construir-sua-propria-distribuicao-linux-embarcado/
 
 ## Links 
 
