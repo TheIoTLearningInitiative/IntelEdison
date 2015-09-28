@@ -1,6 +1,8 @@
 Customization
 ==
 
+https://downloadcenter.intel.com/download/24357
+
     xe1gyq@host:~$ ls edison-src
     arduino  broadcom_cws  device-software  mw
     xe1gyq@host:~$ ./device-software/setup.sh
