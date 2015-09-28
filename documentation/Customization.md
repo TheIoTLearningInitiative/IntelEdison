@@ -34,3 +34,4 @@ http://www.embarcados.com.br/raspberry-pi-qt5-yocto-parte-1/
 - http://drejkim.com/blog/2014/11/22/building-an-edison-image-and-changing-the-root-partition-size/
 - https://hayestech.wordpress.com/2015/01/26/building-custom-intel-edison-images/
 http://www.yoctoproject.org/docs/1.1/yocto-project-qs/yocto-project-qs.html
+http://edplay.weebly.com/how-to/building-linux-for-intel-edison
