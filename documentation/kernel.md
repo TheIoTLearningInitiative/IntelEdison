@@ -23,5 +23,5 @@ drivers/misc/pti.c
 drivers/misc/stm.c
 drivers/misc/stm.h
 drivers/mmc/card/block.c
- 
+drivers/mmc/core/
 arch/x86/configs/i386_edison_defconfig
