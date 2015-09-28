@@ -11,6 +11,8 @@ File name: edison-src-weekly-68.tgz
     xe1gyq@host:~$ ./device-software/setup.sh
     xe1gyq@host:~$ source poky/oe-init-build-env
 
+https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
+
 ## Process B
 
 http://www.embarcados.com.br/intel-edison-yocto-como-construir-sua-propria-distribuicao-linux-embarcado/
