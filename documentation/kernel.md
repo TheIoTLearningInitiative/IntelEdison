@@ -8,4 +8,8 @@ drivers/bluetooth/
 drivers/cpufreq/
 drivers/dma/
 drivers/gpio/
+drivers/hwmon/intel_mcu_common.c
+drivers/hwmon/intel_mcu_common.h
+drivers/hwmon/intel_mid_gpadc.c
+
 arch/x86/configs/i386_edison_defconfig
