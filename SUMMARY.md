@@ -6,7 +6,7 @@
 * [Hardware](documentation/Hardware.md)
    * [Power Management](documentation/PowerManagementIc.md)
    * [Muxing](documentation/Muxing.md)
-   * Kernel
+   * [Kernel](documentation/kernel.md)
 * [Operating Systems](documentation/OperatingSystems.md)
    * [Yocto](documentation/Yocto.md)
    * [Ubilinux](documentation/Ubilinux.md)
