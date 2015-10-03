@@ -34,6 +34,9 @@ http://www.embarcados.com.br/raspberry-pi-qt5-yocto-parte-1/
     user@host:~$ bitbake edison-image
 
 xe1gyq@jessie:~/Downloads/edison-src$ ls
+arduino  bbcache  broadcom_cws  device-software  Makefile  meta-arduino  meta-intel-edison  mw  out  pub
+
+xe1gyq@jessie:~/Downloads/edison-src$ ls
 arduino  bbcache  broadcom_cws  device-software  Makefile  meta-intel-edison  mw  out  pub
 xe1gyq@jessie:~/Downloads/edison-src$ make
 Please run "make setup" first
