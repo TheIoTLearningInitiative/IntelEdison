@@ -31,7 +31,7 @@ http://www.embarcados.com.br/raspberry-pi-qt5-yocto-parte-1/
     user@host:~$ make setup
     user@host:~$ cd out/linux64
     user@host:~$ source poky/oe-init-build-env
-    user@host:~$ 
+    user@host:~$ bitbake edison-image
 
 xe1gyq@jessie:~/Downloads/edison-src$ ls
 arduino  bbcache  broadcom_cws  device-software  Makefile  meta-intel-edison  mw  out  pub
