@@ -32,9 +32,8 @@ http://www.embarcados.com.br/raspberry-pi-qt5-yocto-parte-1/
     user@host:~$ cd out/linux64
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake edison-image
-    user@host:~$ cd edison-src/out/linux64/build/tmp/deploy/images/edison
-
-    user@host:~$ cd edison-src/meta-intel-edison/utils/flash
+    user@host:~$ cd out/linux64/build/tmp/deploy/images/edison
+    user@host:~$ cd meta-intel-edison/utils/flash
     
     edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
