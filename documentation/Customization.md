@@ -25,7 +25,13 @@ https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
 http://www.embarcados.com.br/intel-edison-yocto-como-construir-sua-propria-distribuicao-linux-embarcado/
 http://www.embarcados.com.br/raspberry-pi-qt5-yocto-parte-1/
 
-    xe1gyq@host:~$ 
+    user@host:~$ 
+    user@host:~$ tar xvf edison-src-weekly-68b.tgz
+    user@host:~$ cd edison-src
+    user@host:~$ 
+    user@host:~$     
+    user@host:~$     
+    user@host:~$     
 
 ## Links 
 
