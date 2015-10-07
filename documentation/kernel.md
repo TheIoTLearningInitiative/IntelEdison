@@ -1,3 +1,5 @@
+Onwer: Abraham
+
 > Intel Silvermont (Atom)
 
 > Intel MID is Intel's Low Power Intel Architecture (LPIA) based Mobile Internet Device(MID) platform.
