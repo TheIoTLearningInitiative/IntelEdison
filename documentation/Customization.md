@@ -1,6 +1,8 @@
 Customization
 ==
 
+Onwer: Eduardo
+
 http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
 https://hayestech.files.wordpress.com/2015/01/intel-edison-bsd.pdf
 
