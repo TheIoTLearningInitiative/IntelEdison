@@ -11,7 +11,7 @@ Onwer: Abraham
     
     if X86_WANT_INTEL_MID
     config X86_INTEL_MID
-    Intel MID Platform
+    "Intel MID Platform"
        depends on PCI
        depends on PCI_GOANY
        depends on X86_IO_APIC
