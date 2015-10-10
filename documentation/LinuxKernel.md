@@ -132,7 +132,7 @@ Related
     arch/x86/kernel/Makefile | Not Edison Patch 
     arch/x86/kernel/intel_scu_ipc.c | Not Edison Patch
     
-    arch/x86/include/asm/intel_scu_flis.h
+    arch/x86/include/asm/intel_scu_flis.h | SCU FLIS Interfaces
 
 ### Virtual Real Time Clock (VRTC)
 
