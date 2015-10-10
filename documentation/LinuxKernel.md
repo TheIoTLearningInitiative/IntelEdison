@@ -114,6 +114,10 @@ It includes enums from:
 - hsu_port0
 - hsu_port1
 - hsu_port2
+- bt_port
+- modem_port
+- gps_port
+- debug_port
 
 - https://communities.intel.com/thread/75472
 
