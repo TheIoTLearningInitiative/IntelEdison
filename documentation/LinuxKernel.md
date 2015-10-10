@@ -11,11 +11,6 @@ Onwer: Abraham
     Medfield MID Platform
     Intel MID Platform
     
-    PCI
-    X86_MDFLD
-    X86_PLATFORM_DEVICES
-    X86_PLATFORM_DEVICES
-    
     Intel MID platform
        depends on PCI
        depends on PCI_GOANY
