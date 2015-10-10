@@ -107,6 +107,7 @@ Related
     arch/x86/include/asm/intel_mid_hsu.h
     arch/x86/include/asm/intel_mid_pcihelpers.h
     arch/x86/include/asm/intel_mid_powerbtn.h
+    arch/x86/include/asm/intel_mid_pwm.h
 
 ### HSU
 
