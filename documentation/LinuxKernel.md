@@ -175,6 +175,8 @@ https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 ## Kernel Interfaces
 
 ### SFI Simple Firmware Interface
+https://en.wikipedia.org/wiki/Simple_Firmware_Interface
 https://simplefirmware.org/
 https://www.kernel.org/doc/ols/2009/ols2009-pages-55-60.pdf
 https://lwn.net/Articles/406228/
+
