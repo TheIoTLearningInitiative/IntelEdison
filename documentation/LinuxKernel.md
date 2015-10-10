@@ -127,6 +127,9 @@ Upstream patch
 - arch/x86/kernel/early_printk_mrst.c
 - include/linux/platform_data/dma-hsu.h | Changes for High Speed UART DMA
 
+
+arch/x86/include/asm/intel_mid_hsu.h
+
 It includes enums from:
 
 - hsu_port0
