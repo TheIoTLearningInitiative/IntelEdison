@@ -120,7 +120,7 @@ It includes enums from:
 - debug_port
 - hsu_intel
 - hsu_dw
-- hsu_intel,
+- hsu_intel
 
 - https://communities.intel.com/thread/75472
 
