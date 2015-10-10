@@ -109,9 +109,13 @@ Related
 
 ### HSU
 
+It includes enums from:
+
+- hsu_port0
+- hsu_port1
+- hsu_port2
 
 - https://communities.intel.com/thread/75472
-
 
 ### Basin Cove GPADC
 
