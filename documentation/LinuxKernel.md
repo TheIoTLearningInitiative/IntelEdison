@@ -297,7 +297,8 @@ arch/x86/include/asm/intel_basincove_ocd.h
 ### BlueTooth
 
 Broadcom Bluetooth Low Power Mode
-bcm_bt_lpm
+    
+    bcm_bt_lpm
 
 
     arch/x86/include/asm/bcm_bt_lpm.h
