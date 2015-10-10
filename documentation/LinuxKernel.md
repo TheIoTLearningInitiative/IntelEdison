@@ -126,6 +126,7 @@ Related
     arch/x86/kernel/cpu/intel.c
       case 0x4A:      /* Merrifield */
     arch/x86/kernel/cpu/mcheck/therm_throt.c
+    arch/x86/kernel/early_printk.c
 
 ### APIC
 
