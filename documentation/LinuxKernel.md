@@ -147,6 +147,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_ads7955.h
     arch/x86/platform/intel-mid/device_libs/platform_bq24261.c | Platform data for bq24261 charger driver
     arch/x86/platform/intel-mid/device_libs/platform_bq24261.h
+    arch/x86/platform/intel-mid/device_libs/platform_emc1403.c
 
 ### APIC
 
@@ -314,7 +315,7 @@ arch/x86/include/asm/gpio.h
 ### I2C
 
 arch/x86/platform/intel-mid/device_libs/platform_dw_i2c.c | I2C platform data initilization file
-arch/x86/platform/intel-mid/device_libs/platform_emc1403.c
+
 
 ### SFI
 
