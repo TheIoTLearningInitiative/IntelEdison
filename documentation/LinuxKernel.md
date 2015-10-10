@@ -101,6 +101,8 @@ It include code from:
            DECLARE_INTEL_MID_OPS_INIT(cloverview, INTEL_MID_CPU_CHIP_CLOVERVIEW) \
            DECLARE_INTEL_MID_OPS_INIT(tangier, INTEL_MID_CPU_CHIP_TANGIER) \
 
+intel_basincove_gpadc.h
+
 ### BlueTooth
 Broadcom Bluetooth Low Power Mode
 bcm_bt_lpm
