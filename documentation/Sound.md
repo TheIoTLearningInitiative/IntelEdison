@@ -13,3 +13,12 @@ Sound
     root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
     root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
     root@edison:~# mpg123
+    
+    sudo modprobe -v snd_usb_audio
+    sudo modprobe --force-vermagic snd-usb-audio.ko
+    sudo depmod -a
+    sudo alsactl init
+    sudo alsa-utils stop/start
+    sudo dpkg-reconfigure alsa-base
+    cat /dev/sndstat
+    cat /proc/asound/cards
