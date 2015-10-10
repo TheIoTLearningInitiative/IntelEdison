@@ -120,7 +120,8 @@ Related
     arch/x86/include/asm/setup.h
       extern void x86_intel_mid_early_setup(void);
       static inline void x86_intel_mid_early_setup(void) { }
-     
+    arch/x86/include/uapi/asm/bootparam.h
+    arch/x86/include/uapi/asm/msr-index.h
 
 ### Power
 
