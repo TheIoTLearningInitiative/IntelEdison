@@ -106,6 +106,11 @@ Related
     arch/x86/include/asm/intel_mid_gpadc.h
     arch/x86/include/asm/intel_mid_hsu.h
 
+### HSU
+
+
+https://communities.intel.com/thread/75472
+
 
 ### Basin Cove GPADC
 
