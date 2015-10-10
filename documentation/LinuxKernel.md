@@ -126,6 +126,7 @@ Upstream patch
 - arch/x86/kernel/early_printk.c
 - arch/x86/kernel/early_printk_mrst.c
 - include/linux/platform_data/dma-hsu.h | Changes for High Speed UART DMA
+- drivers/dma/hsu/pci.c
 
     arch/x86/include/asm/intel_mid_hsu.h
 
