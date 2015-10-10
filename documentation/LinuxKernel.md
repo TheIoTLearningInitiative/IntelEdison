@@ -241,7 +241,6 @@ There will be another general vrtc driver for rtc subsystem
 
 Upstream patch
 
-- arch/x86/platform/intel-mid/device_libs/platform_hsu.c
 - arch/x86/include/asm/intel_mid_hsu.h
 - arch/x86/include/asm/mrst.h
 - arch/x86/kernel/early_printk.c
@@ -250,7 +249,6 @@ Upstream patch
 - drivers/dma/hsu/hsu.c
 - drivers/dma/hsu/pci.c
 - drivers/external_drivers/drivers/hsu/mfd_pci.c
-
 
 It includes enums from:
 
@@ -263,6 +261,8 @@ It includes enums from:
 - debug_port
 - hsu_intel
 - hsu_dw
+
+- arch/x86/platform/intel-mid/device_libs/platform_hsu.c
 
 - https://communities.intel.com/thread/75472
 - https://lkml.org/lkml/2010/9/13/33
