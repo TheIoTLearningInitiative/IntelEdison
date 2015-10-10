@@ -76,7 +76,6 @@ arch/x86/Makefile_32.cpu
             cflags-$(CONFIG_MSLM) += $(call cc-option,-march=slm) \
                 $(call cc-option,-mtune=slm,$(call cc-option,-mtune=generic))
 
-
 ### Platform
 
 Intel MID Specific Setup Code
