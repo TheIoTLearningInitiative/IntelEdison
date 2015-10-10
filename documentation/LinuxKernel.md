@@ -80,6 +80,7 @@ arch/x86/Makefile_32.cpu
 Broadcom Bluetooth low Power Mode
 bcm_bt_lpm
 arch/x86/include/asm/bcm_bt_lpm.h
+drivers/misc/bcm-bt-lpm.c
 
 ## Modules
 
