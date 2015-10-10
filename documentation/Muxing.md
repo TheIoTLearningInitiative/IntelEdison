@@ -1,7 +1,7 @@
 Muxing
 ==
 
-Onwer: Lynette
+Owner: Lynette
 
 http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide
 
