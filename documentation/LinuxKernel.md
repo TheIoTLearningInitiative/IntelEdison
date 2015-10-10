@@ -103,6 +103,8 @@ It include code from:
 
 ### Basin Cove GPADC
 
+> GPADC(General Purpose ADC)
+
 config BASINCOVE_GPADC
 depends on INTEL_SCU_IPC
 
