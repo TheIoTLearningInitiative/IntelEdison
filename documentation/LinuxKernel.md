@@ -20,9 +20,8 @@ Owner: Abraham
        select INTEL_SCU_IPC
        select X86_PLATFORM_DEVICES
        select ARCH_HAVE_CUSTOM_GPIO_H
-
-
-+config X86_MDFLD
+    
+    config X86_MDFLD
     bool "Medfield MID platform"
        depends on X86_INTEL_MID
        select DW_APB_TIMER
@@ -33,6 +32,9 @@ Owner: Abraham
        select X86_PLATFORM_DEVICES
        select MFD_INTEL_MSIC
 
++config ATOM_SOC_POWER
++       bool "Select Atom SOC Power"
++       
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
     Documentation/kernel-parameters.txt
