@@ -113,8 +113,10 @@ Related
     arch/x86/include/asm/intel_mid_thermal.h
       SoC level power limits for thermal throttling
       intel mid thermal driver
-     arch/x86/include/asm/module.h
+    arch/x86/include/asm/module.h
       elif (defined CONFIG_MATOM) || (defined CONFIG_MSLM)
+    arch/x86/include/asm/required-features.h
+      if defined(CONFIG_MATOM) || defined(CONFIG_MSLM)
 
 ### Power
 
@@ -126,6 +128,7 @@ Related
       +#endif
     arch/x86/include/asm/pmic_pdata.h
       pmic_platform_data
+      #ifdef CONFIG_PMIC_CCSM
 
 
 ### Debug
