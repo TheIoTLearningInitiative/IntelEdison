@@ -140,6 +140,7 @@ Related
     arch/x86/platform/intel-mid/board.c | Intel Medfield based board (Blackbay)
       Very Important!
     arch/x86/platform/intel-mid/device_libs/Makefile
+    arch/x86/platform/intel-mid/device_libs/pci/platform_sdhci_pci.c
 
 ### APIC
 
