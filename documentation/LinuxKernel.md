@@ -263,6 +263,7 @@ It includes enums from:
 - hsu_dw
 
 - arch/x86/platform/intel-mid/device_libs/platform_hsu.c
+- arch/x86/platform/intel-mid/device_libs/platform_hsu.h
 
 - https://communities.intel.com/thread/75472
 - https://lkml.org/lkml/2010/9/13/33
