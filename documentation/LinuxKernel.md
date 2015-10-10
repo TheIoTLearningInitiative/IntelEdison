@@ -107,6 +107,7 @@ config BASINCOVE_GPADC
 
 Platform data for Merrifield Basincove GPADC driver
 Intel Merrifield Basin Cove GPADC Driver
+BASINCOVE GPADC driver for Intel Merrifield platform
 
 arch/x86/include/asm/intel_basincove_gpadc.h
 arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.c
