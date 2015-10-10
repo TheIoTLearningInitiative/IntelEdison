@@ -54,6 +54,9 @@ arch/x86/Kconfig
        default 0
         Maximum number of GPIOs in the system.
 
+arch/x86/Kconfig.cpu
+
+
 
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
