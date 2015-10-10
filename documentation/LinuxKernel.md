@@ -315,6 +315,8 @@ arch/x86/include/asm/gpio.h
 
 arch/x86/platform/intel-mid/device_libs/platform_dw_i2c.c
 
+platform_dw_i2c.c: I2C platform data initilization file
+
 ### SFI
 
 config CONFIG_SFI
