@@ -103,6 +103,8 @@ It include code from:
 
 ### Basin Cove GPADC
 
+BASINCOVE_GPADC
+
 Platform data for Merrifield Basincove GPADC driver
 Intel Merrifield Basin Cove GPADC Driver
 
