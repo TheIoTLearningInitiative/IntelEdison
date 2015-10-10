@@ -95,6 +95,10 @@ It include code from:
 - Device Creation (Board Information)
 - x86_init, x86_platform_init
 
+    #define INTEL_MID_OPS_INIT {\
+           DECLARE_INTEL_MID_OPS_INIT(penwell, INTEL_MID_CPU_CHIP_PENWELL) \
+           DECLARE_INTEL_MID_OPS_INIT(cloverview, INTEL_MID_CPU_CHIP_CLOVERVIEW) \
+           DECLARE_INTEL_MID_OPS_INIT(tangier, INTEL_MID_CPU_CHIP_TANGIER) \
 
 ### BlueTooth
 Broadcom Bluetooth Low Power Mode
