@@ -56,6 +56,14 @@ arch/x86/Kconfig
 
 arch/x86/Kconfig.cpu
 
+    config MSLM
+           bool "Intel Silvermont (Atom)"
+           ---help---
+    
+             Select this for the Intel Silvermont (Atom) platform. Intel Atom
+             CPUs have an in-order pipelining architecture and thus can benefit
+             from accordingly optimized code. Use a recent GCC with specific
+             Atom support in order to fully benefit from selecting this option.
 
 
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
