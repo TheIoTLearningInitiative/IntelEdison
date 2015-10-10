@@ -122,6 +122,7 @@ Related
       static inline void x86_intel_mid_early_setup(void) { }
     arch/x86/include/uapi/asm/bootparam.h
     arch/x86/include/uapi/asm/msr-index.h
+    arch/x86/kernel/cpu/common.c
 
 ### APIC
 
