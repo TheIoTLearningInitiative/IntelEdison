@@ -267,4 +267,5 @@ http://www.h-online.com/open/news/item/Intel-develops-simpler-alternative-to-ACP
 
 
 http://geektimes.ru/post/255136/
+https://edison.internet-share.com/w/index.php?title=Using_a_stock_Linux_kernel_with_Intel_Edison&redirect=no
 
