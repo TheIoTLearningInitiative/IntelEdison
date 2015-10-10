@@ -65,7 +65,8 @@ arch/x86/Kconfig.cpu
              from accordingly optimized code. Use a recent GCC with specific
              Atom support in order to fully benefit from selecting this option.
     
-    
+    X86_L1_CACHE_SHIFT
+    X86_USE_PPRO_CHECKSUM
     
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
