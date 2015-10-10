@@ -146,6 +146,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_ads7955.c | ads7955 platform data initialization file
     arch/x86/platform/intel-mid/device_libs/platform_ads7955.h
     arch/x86/platform/intel-mid/device_libs/platform_bq24261.c | Platform data for bq24261 charger driver
+    arch/x86/platform/intel-mid/device_libs/platform_bq24261.h
 
 ### APIC
 
