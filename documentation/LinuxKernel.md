@@ -118,6 +118,8 @@ Related
 
 ### HSU
 
+> Intel Medfield platform has a high speed UART device, which could act as a early console. To enable early printk of HSU console, simply add "earlyprintk=hsu" in kernel command line. Currently we put the code in the early_printk_mrst.c as it is also for Intel MID platforms like the mrst early console 
+
 It includes enums from:
 
 - hsu_port0
