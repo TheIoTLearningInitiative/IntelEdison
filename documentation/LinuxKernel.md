@@ -87,6 +87,7 @@ It include code from:
 - SFI
 - PCI
 - Platform Device
+- GPIO
 
 
 ### BlueTooth
