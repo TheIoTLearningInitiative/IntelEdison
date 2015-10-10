@@ -120,7 +120,7 @@ Related
 
 ### SCU
 
-### SPI
+### IPC
 
 > The IPC is used to bridge the communications between kernel and SCU on some embedded Intel x86 platforms.
 
