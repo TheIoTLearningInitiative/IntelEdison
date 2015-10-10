@@ -133,6 +133,10 @@ Related
     arch/x86/kernel/rtc.c
     arch/x86/kernel/smpboot.c
     arch/x86/pci/mrst.c
+    arch/x86/platform/Makefile
+      obj-y  += intel-mid/
+    arch/x86/platform/intel-mid/Makefile
+      Very Important!
 
 ### APIC
 
