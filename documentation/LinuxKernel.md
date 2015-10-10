@@ -132,6 +132,7 @@ Related
     arch/x86/kernel/irq.c
     arch/x86/kernel/rtc.c
     arch/x86/kernel/smpboot.c
+    arch/x86/pci/mrst.c
 
 ### APIC
 
