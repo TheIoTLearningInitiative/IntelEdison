@@ -23,23 +23,15 @@ Onwer: Abraham
 
 
 +config X86_MDFLD
-+       bool "Medfield MID platform"
-+       depends on X86_INTEL_MID
-        select DW_APB_TIMER
-        select APB_TIMER
-        select I2C
-        select SPI
--       select INTEL_SCU_IPC
--       select X86_PLATFORM_DEVICES
-        select MFD_INTEL_MSIC
-        ---help---
-          Medfield is Intel's Low Power Intel Architecture (LPIA) based Moblin
--         Internet Device(MID) platform. 
-+         Internet Device(MID) platform.
-          Unlike standard x86 PCs, Medfield does not have many legacy devices
-          nor standard legacy replacement devices/features. e.g. Medfield does
-          not contain i8259, i8254, HPET, legacy BIOS, most of the io ports.
-
+       bool "Medfield MID platform"
+       depends on X86_INTEL_MID
+    select DW_APB_TIMER
+    select APB_TIMER
+    select I2C
+    select SPI
+    select INTEL_SCU_IPC
+    select X86_PLATFORM_DEVICES
+    select MFD_INTEL_MSIC
 
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
