@@ -67,6 +67,13 @@ arch/x86/Kconfig.cpu
     
     X86_L1_CACHE_SHIFT
     X86_USE_PPRO_CHECKSUM
+    X86_TSC
+    X86_CMPXCHG64
+    X86_CMOV
+    
+            cflags-$(CONFIG_MSLM) += $(call cc-option,-march=slm) \
+                $(call cc-option,-mtune=slm,$(call cc-option,-mtune=generic))
+
     
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
