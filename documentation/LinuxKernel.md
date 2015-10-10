@@ -79,6 +79,7 @@ arch/x86/Makefile_32.cpu
 
 ### Platform
 
+arch/x86/include/asm/intel-mid.h
 
 ### BlueTooth
 Broadcom Bluetooth Low Power Mode
