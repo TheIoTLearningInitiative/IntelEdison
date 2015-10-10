@@ -84,7 +84,7 @@ arch/x86/Makefile_32.cpu
 
     arch/x86/include/asm/intel-mid.h
 
-It include code from:
+It includes code from:
 
 - SFI
 - PCI
