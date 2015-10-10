@@ -317,6 +317,7 @@ arch/x86/include/asm/gpio.h
 
     arch/x86/platform/intel-mid/device_libs/platform_gpio_keys.c
       late_initcall(pb_keys_init);
+    arch/x86/platform/intel-mid/device_libs/platform_gpio_keys.h
 
 ### I2C
 
