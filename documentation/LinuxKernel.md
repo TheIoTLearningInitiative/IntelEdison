@@ -35,6 +35,15 @@ Owner: Abraham
     config ATOM_SOC_POWER
     bool "Select Atom SOC Power"
     
+    config INTEL_DEBUG_FEATURE
+    bool "Debug feature interface on Intel MID platform"
+       depends on X86_INTEL_MID
+       Provides an interface to list the debug features
+        that are enabled on an Intel MID platform. The
+        enabling of the debug features depends on the mode
+        the device is in (e.g. manufacturing, production,
+        end user, etc...).
+
     
 
 
