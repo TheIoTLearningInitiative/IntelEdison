@@ -106,6 +106,7 @@ Related
     arch/x86/include/asm/intel_mid_gpadc.h
     arch/x86/include/asm/intel_mid_hsu.h
     arch/x86/include/asm/intel_mid_pcihelpers.h
+    arch/x86/include/asm/intel_mid_powerbtn.h
 
 ### HSU
 
@@ -120,7 +121,6 @@ It includes enums from:
 - debug_port
 - hsu_intel
 - hsu_dw
-- hsu_intel
 
 - https://communities.intel.com/thread/75472
 
