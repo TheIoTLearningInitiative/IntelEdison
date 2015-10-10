@@ -66,6 +66,7 @@ arch/x86/Kconfig.cpu
              Atom support in order to fully benefit from selecting this option.
     
     
+    
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
     Documentation/kernel-parameters.txt
