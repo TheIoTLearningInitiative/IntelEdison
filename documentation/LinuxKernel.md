@@ -101,6 +101,8 @@ It include code from:
            DECLARE_INTEL_MID_OPS_INIT(cloverview, INTEL_MID_CPU_CHIP_CLOVERVIEW) \
            DECLARE_INTEL_MID_OPS_INIT(tangier, INTEL_MID_CPU_CHIP_TANGIER) \
 
+Platform data for Merrifield Basincove GPADC driver
+
 arch/x86/include/asm/intel_basincove_gpadc.h
 arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.c
 
