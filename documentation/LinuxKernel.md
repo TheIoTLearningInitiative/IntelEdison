@@ -157,6 +157,7 @@ Related
     arch/x86/include/asm/intel_scu_ipc.h
     arch/x86/include/asm/intel_scu_ipcutil.h
     arch/x86/include/asm/intel_scu_pmic.h
+    arch/x86/include/asm/scu_ipc_rpmsg.h
     
     OSHOB-OS Handoff Buffer
     OSNIB interface
