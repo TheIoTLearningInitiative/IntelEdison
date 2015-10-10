@@ -88,6 +88,7 @@ It include code from:
 - PCI
 - Platform Device
 - GPIO
+- OEMB Table
 
 
 ### BlueTooth
