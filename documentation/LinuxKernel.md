@@ -142,6 +142,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/Makefile
     arch/x86/platform/intel-mid/device_libs/pci/platform_sdhci_pci.c | mmc sdhci pci platform data initilization file
     arch/x86/platform/intel-mid/device_libs/pci/platform_sdhci_pci.h
+    arch/x86/platform/intel-mid/device_libs/pci/platform_usb_otg.c
 
 ### APIC
 
