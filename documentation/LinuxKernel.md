@@ -103,10 +103,8 @@ It include code from:
 
 Related
 
-### 
-
-arch/x86/include/asm/intel_mid_gpadc.h
-arch/x86/include/asm/intel_mid_hsu.h
+    arch/x86/include/asm/intel_mid_gpadc.h
+    arch/x86/include/asm/intel_mid_hsu.h
 
 
 ### Basin Cove GPADC
