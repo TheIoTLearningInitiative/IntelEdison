@@ -169,3 +169,8 @@ https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
     sound/soc/codecs/wm8994.c
     sound/soc/codecs/wm_hubs.c
     sound/soc/intel/
+
+## Kernel Interfaces
+
+### SFI Simple Firmware Interface
+https://lwn.net/Articles/406228/
