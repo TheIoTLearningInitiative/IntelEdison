@@ -111,6 +111,7 @@ Related
     arch/x86/include/asm/intel_mid_remoteproc.h
     arch/x86/include/asm/intel_mid_rpmsg.h
     arch/x86/include/asm/intel_mid_thermal.h
+    arch/x86/include/asm/intel_mid_vrtc.h
 
 ### HSU
 
