@@ -118,8 +118,21 @@ Related
 
 ### Virtual Real Time Clock (VRTC)
 
-arch/x86/platform/mrst/vrtc.c
+> VRTC is emulated by system controller firmware, the real HW RTC is located in the PMIC device. SCU FW shadows PMIC RTC in a memory mapped IO space that is visible to the host IA processor. This driver is based on RTC CMOS driver.
 
+> Moorestown platform doesn't have a m146818 RTC device like traditional x86 PC, but a firmware emulated virtual RTC device(vrtc), which provides some basic RTC functions like get/set time. vrtc serves as the only wall clock device on Moorestown platform.
+
+> Currently, vrtc init func will be called as arch_initcall() before xtime's init. Also move the sfi vrtc table parsing from mrst.c to vrtc.c
+
+There will be another general vrtc driver for rtc subsystem
+
+    obj-$(CONFIG_X86_MRST)		+= mrst.o vrtc.o
+    arch/x86/include/asm/fixmap.h
+    arch/x86/include/asm/vrtc.h
+    arch/x86/kernel/mrst.c
+    arch/x86/kernel/vrtc.c
+    arch/x86/platform/mrst/vrtc.c | Driver for virtual RTC device on Intel MID platform
+    
 
 ### HSU
 
@@ -127,14 +140,15 @@ arch/x86/platform/mrst/vrtc.c
 
 Upstream patch
 
+- arch/x86/include/asm/intel_mid_hsu.h
 - arch/x86/include/asm/mrst.h
 - arch/x86/kernel/early_printk.c
 - arch/x86/kernel/early_printk_mrst.c
 - include/linux/platform_data/dma-hsu.h | Changes for High Speed UART DMA
 - drivers/dma/hsu/hsu.c
 - drivers/dma/hsu/pci.c
+- drivers/external_drivers/drivers/hsu/mfd_pci.c
 
-    arch/x86/include/asm/intel_mid_hsu.h
 
 It includes enums from:
 
