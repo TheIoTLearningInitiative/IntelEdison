@@ -241,6 +241,7 @@ There will be another general vrtc driver for rtc subsystem
 
 Upstream patch
 
+- arch/x86/platform/intel-mid/device_libs/platform_hsu.c
 - arch/x86/include/asm/intel_mid_hsu.h
 - arch/x86/include/asm/mrst.h
 - arch/x86/kernel/early_printk.c
