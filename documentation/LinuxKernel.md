@@ -103,7 +103,7 @@ It include code from:
 
 ### Basin Cove GPADC
 
-BASINCOVE_GPADC
+config BASINCOVE_GPADC
 
 Platform data for Merrifield Basincove GPADC driver
 Intel Merrifield Basin Cove GPADC Driver
@@ -123,7 +123,7 @@ arch/x86/include/asm/gpio.h
 
 ### SFI
 
-CONFIG_SFI
+config CONFIG_SFI
 
 ## Modules
 
