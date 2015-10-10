@@ -114,7 +114,7 @@ arch/x86/include/asm/intel_basincove_gpadc.h
 arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.c
 drivers/iio/adc/iio_basincove_gpadc.c
 
-Related! 
+Related!
 - ACPI / PMIC: support PMIC operation region for CrystalCove
 
 ### BlueTooth
