@@ -128,6 +128,7 @@ Related
 
 
     arch/x86/kernel/apic/apic.c
+    arch/x86/kernel/apic/io_apic.c
 
 ### APB Timer
 
