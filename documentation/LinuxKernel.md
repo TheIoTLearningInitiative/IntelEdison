@@ -8,6 +8,9 @@ Onwer: Abraham
 
     x86 Intel MID Platform
     bcm43340
+    Medfield MID Platform
+    Intel MID Platform
+
 
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
