@@ -124,10 +124,10 @@ Related
 
 > The IPC is used to bridge the communications between kernel and SCU on some embedded Intel x86 platforms.
 
- arch/x86/Kconfig
- arch/x86/include/asm/intel_scu_ipc.h
- arch/x86/kernel/Makefile
- arch/x86/kernel/intel_scu_ipc.c
+ arch/x86/Kconfig | Not Edison Patch 
+ arch/x86/include/asm/intel_scu_ipc.h | Not Edison Patch 
+ arch/x86/kernel/Makefile | Not Edison Patch 
+ arch/x86/kernel/intel_scu_ipc.c | Not Edison Patch 
 
 ### Virtual Real Time Clock (VRTC)
 
