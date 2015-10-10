@@ -138,6 +138,7 @@ Related
     arch/x86/platform/intel-mid/Makefile
       Very Important!
     arch/x86/platform/intel-mid/board.c | Intel Medfield based board (Blackbay)
+      Very Important!
 
 ### APIC
 
