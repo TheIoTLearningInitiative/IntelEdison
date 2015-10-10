@@ -116,6 +116,17 @@ Related
      arch/x86/include/asm/module.h
       elif (defined CONFIG_MATOM) || (defined CONFIG_MSLM)
 
+### Power
+
+    arch/x86/include/asm/mwait.h
+      +#ifdef CONFIG_ATOM_SOC_POWER
+      +#define MWAIT_MAX_NUM_CSTATES          10
+      +#else
+      +#define MWAIT_MAX_NUM_CSTATES          8
+      +#endif
+    
+
+
 ### Debug
 
     arch/x86/include/asm/intel_soc_debug.h
