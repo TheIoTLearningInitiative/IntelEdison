@@ -105,8 +105,8 @@ It include code from:
 
 > GPADC(General Purpose Analog Digital Converter)
 
-config BASINCOVE_GPADC
-depends on INTEL_SCU_IPC
+    config BASINCOVE_GPADC
+    depends on INTEL_SCU_IPC
 
 Platform data for Merrifield Basincove GPADC driver
 Intel Merrifield Basin Cove GPADC Driver
