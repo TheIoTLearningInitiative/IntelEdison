@@ -118,16 +118,13 @@ Related
 
 ### MIP
 
-### SCU
-
-### IPC
+### SCU IPC
 
 > The IPC is used to bridge the communications between kernel and SCU on some embedded Intel x86 platforms.
 
 > Driver for the Intel SCU IPC mechanism
 
 > SCU runing in ARC processor communicates with other entity running in IA core through IPC mechanism which in turn messaging between IA core ad SCU. SCU has two IPC mechanism IPC-1 and IPC-2. IPC-1 is used between IA32 and SCU where IPC-2 is used between P-Unit and SCU. This driver delas with IPC-1 Driver provides an API for power control unit registers (e.g. MSIC) along with other APIs.
-
 
     obj-$(CONFIG_INTEL_SCU_IPC)	+= intel_scu_ipc.o
     arch/x86/Kconfig | Not Edison Patch 
