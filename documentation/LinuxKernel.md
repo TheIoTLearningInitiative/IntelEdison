@@ -124,6 +124,7 @@ Related
     arch/x86/include/uapi/asm/msr-index.h
     arch/x86/kernel/cpu/common.c
     arch/x86/kernel/cpu/intel.c
+      case 0x4A:      /* Merrifield */
 
 ### APIC
 
