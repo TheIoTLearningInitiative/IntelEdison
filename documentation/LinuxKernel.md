@@ -125,7 +125,7 @@ Upstream patch
 - arch/x86/include/asm/mrst.h
 - arch/x86/kernel/early_printk.c
 - arch/x86/kernel/early_printk_mrst.c
-- include/linux/platform_data/dma-hsu.h Changes for High Speed UART DMA
+- include/linux/platform_data/dma-hsu.h | Changes for High Speed UART DMA
 
 It includes enums from:
 
