@@ -145,6 +145,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/pci/platform_usb_otg.c | USB OTG platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_ads7955.c | ads7955 platform data initialization file
     arch/x86/platform/intel-mid/device_libs/platform_ads7955.h
+    arch/x86/platform/intel-mid/device_libs/platform_bq24261.c
 
 ### APIC
 
@@ -279,6 +280,7 @@ It includes enums from:
     arch/x86/include/asm/intel_basincove_gpadc.h
     arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.c
     arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.h
+    
     drivers/iio/adc/iio_basincove_gpadc.c
 
 
