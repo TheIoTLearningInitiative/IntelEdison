@@ -109,7 +109,7 @@ Related
 ### HSU
 
 
-https://communities.intel.com/thread/75472
+- https://communities.intel.com/thread/75472
 
 
 ### Basin Cove GPADC
