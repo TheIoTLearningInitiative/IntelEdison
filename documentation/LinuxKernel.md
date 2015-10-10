@@ -179,4 +179,5 @@ https://en.wikipedia.org/wiki/Simple_Firmware_Interface
 https://simplefirmware.org/
 https://www.kernel.org/doc/ols/2009/ols2009-pages-55-60.pdf
 https://lwn.net/Articles/406228/
+https://simplefirmware.org/faq
 
