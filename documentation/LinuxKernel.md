@@ -77,6 +77,10 @@ arch/x86/Makefile_32.cpu
                 $(call cc-option,-mtune=slm,$(call cc-option,-mtune=generic))
 
     
+Broadcom Bluetooth low Power Mode
+
+
+    
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
     Documentation/kernel-parameters.txt
