@@ -2,6 +2,8 @@ Owner: Abraham
 
 > Intel Silvermont (Atom)
 
+> Moblin Internet Device(MID)
+
 > Intel MID is Intel's Low Power Intel Architecture (LPIA) based Mobile Internet Device(MID) platform. Unlike standard x86 PCs, Intel MID does not have many legacy devices nor standard legacy replacement devices/features. e.g. It does not contain i8259, i8254, HPET, legacy BIOS, most of the io ports.
 
 
