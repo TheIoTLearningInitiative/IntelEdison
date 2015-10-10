@@ -108,10 +108,13 @@ Related
     arch/x86/include/asm/intel_mid_pcihelpers.h
     arch/x86/include/asm/intel_mid_powerbtn.h
     arch/x86/include/asm/intel_mid_pwm.h
-    arch/x86/include/asm/intel_mid_remoteproc.h INTEL MID Remote Processor
+    arch/x86/include/asm/intel_mid_remoteproc.h INTEL MID Remote Processor 
     arch/x86/include/asm/intel_mid_rpmsg.h
     arch/x86/include/asm/intel_mid_thermal.h
+     SoC level power limits for thermal throttling
+     intel mid thermal driver
     arch/x86/include/asm/intel_mid_vrtc.h
+    arch/x86/include/asm/intel_mip.h
 
 ### HSU
 
