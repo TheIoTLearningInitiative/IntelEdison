@@ -120,6 +120,9 @@ It include code from:
 
 Related!
 - ACPI / PMIC: support PMIC operation region for CrystalCove
+- +#define DRIVER_NAME "bcove_bcu"
+- +#define DEVICE_NAME "mrfl_pmic_bcu"
+
 
 ### BlueTooth
 Broadcom Bluetooth Low Power Mode
