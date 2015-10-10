@@ -113,7 +113,6 @@ Related
     arch/x86/include/asm/intel_mid_thermal.h
      SoC level power limits for thermal throttling
      intel mid thermal driver
-    arch/x86/include/asm/intel_mid_vrtc.h
     arch/x86/include/asm/intel_mip.h
     arch/x86/include/asm/intel_soc_debug.h
 
@@ -154,6 +153,7 @@ Related
 There will be another general vrtc driver for rtc subsystem
 
     obj-$(CONFIG_X86_MRST)		+= mrst.o vrtc.o
+    arch/x86/include/asm/intel_mid_vrtc.h
     arch/x86/include/asm/fixmap.h
     arch/x86/include/asm/vrtc.h
     arch/x86/kernel/mrst.c
