@@ -93,6 +93,7 @@ It include code from:
 - OEMB Table
 - IAFW
 - Device Creation (Board Information)
+- x86_init, x86_platform_init
 
 
 ### BlueTooth
