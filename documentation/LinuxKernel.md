@@ -118,6 +118,8 @@ It includes enums from:
 - modem_port
 - gps_port
 - debug_port
+- hsu_intel
+- hsu_dw
 
 - https://communities.intel.com/thread/75472
 
