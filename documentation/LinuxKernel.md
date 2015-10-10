@@ -101,6 +101,14 @@ It include code from:
            DECLARE_INTEL_MID_OPS_INIT(cloverview, INTEL_MID_CPU_CHIP_CLOVERVIEW) \
            DECLARE_INTEL_MID_OPS_INIT(tangier, INTEL_MID_CPU_CHIP_TANGIER) \
 
+Related
+
+### 
+
+arch/x86/include/asm/intel_mid_gpadc.h
+arch/x86/include/asm/intel_mid_hsu.h
+
+
 ### Basin Cove GPADC
 
 > GPADC(General Purpose Analog Digital Converter)
