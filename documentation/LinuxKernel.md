@@ -81,6 +81,7 @@ arch/x86/Makefile_32.cpu
 Intel MID Specific Setup Code
 arch/x86/include/asm/intel-mid.h
 
+
 ### BlueTooth
 Broadcom Bluetooth Low Power Mode
 bcm_bt_lpm
