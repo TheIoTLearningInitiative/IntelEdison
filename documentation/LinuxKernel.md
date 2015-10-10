@@ -115,6 +115,8 @@ Related
      intel mid thermal driver
     arch/x86/include/asm/intel_mid_vrtc.h
     arch/x86/include/asm/intel_mip.h
+    arch/x86/include/asm/intel_soc_debug.h
+
 
 ### MIP
 
