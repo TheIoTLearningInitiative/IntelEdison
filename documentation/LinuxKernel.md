@@ -147,9 +147,6 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_ads7955.h
     arch/x86/platform/intel-mid/device_libs/platform_bq24261.c | Platform data for bq24261 charger driver
     arch/x86/platform/intel-mid/device_libs/platform_bq24261.h
-    arch/x86/platform/intel-mid/device_libs/platform_btlpm.c | btlpm platform data initialization file
-      Bluetooth is using UART port number 0
-      .name = "bcm_bt_lpm",
 
 ### APIC
 
@@ -298,10 +295,16 @@ arch/x86/include/asm/intel_basincove_gpadc.h
 arch/x86/include/asm/intel_basincove_ocd.h
 
 ### BlueTooth
+
 Broadcom Bluetooth Low Power Mode
 bcm_bt_lpm
-arch/x86/include/asm/bcm_bt_lpm.h
-drivers/misc/bcm-bt-lpm.c
+
+
+    arch/x86/include/asm/bcm_bt_lpm.h
+    drivers/misc/bcm-bt-lpm.c
+    arch/x86/platform/intel-mid/device_libs/platform_btlpm.c | btlpm platform data initialization file
+      Bluetooth is using UART port number 0
+      .name = "bcm_bt_lpm",
 
 ### GPIO
 arch/x86/include/asm/gpio.h
