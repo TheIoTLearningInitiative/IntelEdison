@@ -316,7 +316,7 @@ arch/x86/include/asm/gpio.h
 > We will search these buttons in SFI GPIO table (by name) and register them dynamically. Please add all possible buttons here, we will shrink them if no GPIO found.
 
     arch/x86/platform/intel-mid/device_libs/platform_gpio_keys.c
-   late_initcall(pb_keys_init);
+      late_initcall(pb_keys_init);
 
 ### I2C
 
