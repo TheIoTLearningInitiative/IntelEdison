@@ -125,6 +125,7 @@ Related
       +#define MWAIT_MAX_NUM_CSTATES          8
       +#endif
     arch/x86/include/asm/pmic_pdata.h
+      pmic_platform_data
 
 
 ### Debug
