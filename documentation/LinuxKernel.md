@@ -306,6 +306,7 @@ Broadcom Bluetooth Low Power Mode
     arch/x86/platform/intel-mid/device_libs/platform_btlpm.c | btlpm platform data initialization file
       Bluetooth is using UART port number 0
       .name = "bcm_bt_lpm",
+      device_initcall(bluetooth_init);
 
 ### GPIO
 arch/x86/include/asm/gpio.h
