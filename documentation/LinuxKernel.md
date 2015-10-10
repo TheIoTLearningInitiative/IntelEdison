@@ -79,6 +79,7 @@ arch/x86/Makefile_32.cpu
 ### Platform
 
 #### Intel MID Specific Setup Code
+
     arch/x86/include/asm/intel-mid.h
 
 - SFI
