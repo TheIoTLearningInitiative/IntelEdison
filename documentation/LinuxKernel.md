@@ -118,10 +118,11 @@ It include code from:
     drivers/iio/adc/iio_basincove_gpadc.c
 
 
-Related!
-- ACPI / PMIC: support PMIC operation region for CrystalCove
-- +#define DRIVER_NAME "bcove_bcu"
-- +#define DEVICE_NAME "mrfl_pmic_bcu"
+Related
+
+    ACPI / PMIC: support PMIC operation region for CrystalCove
+    #define DRIVER_NAME "bcove_bcu"
+    #define DEVICE_NAME "mrfl_pmic_bcu"
 
 
 ### BlueTooth
