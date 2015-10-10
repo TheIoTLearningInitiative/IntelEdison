@@ -278,8 +278,8 @@ It includes enums from:
 
     arch/x86/include/asm/intel_basincove_gpadc.h
     arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.c
+    arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.h
     drivers/iio/adc/iio_basincove_gpadc.c
-    arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.c
 
 
 Related
