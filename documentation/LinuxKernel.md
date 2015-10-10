@@ -108,13 +108,13 @@ It include code from:
     config BASINCOVE_GPADC
     depends on INTEL_SCU_IPC
 
-Platform data for Merrifield Basincove GPADC driver
-Intel Merrifield Basin Cove GPADC Driver
-BASINCOVE GPADC driver for Intel Merrifield platform
+- Platform data for Merrifield Basincove GPADC driver
+- Intel Merrifield Basin Cove GPADC Driver
+- BASINCOVE GPADC driver for Intel Merrifield platform
 
-arch/x86/include/asm/intel_basincove_gpadc.h
-arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.c
-drivers/iio/adc/iio_basincove_gpadc.c
+    arch/x86/include/asm/intel_basincove_gpadc.h
+    arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.c
+    drivers/iio/adc/iio_basincove_gpadc.c
 
 Related!
 - ACPI / PMIC: support PMIC operation region for CrystalCove
