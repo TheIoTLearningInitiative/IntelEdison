@@ -80,6 +80,16 @@ arch/x86/Makefile_32.cpu
 Broadcom Bluetooth low Power Mode
 arch/x86/include/asm/bcm_bt_lpm.h
 
+## Modules
+
+root@edison:~/InternetOfThings101# lsmod
+Module                  Size  Used by
+usb_f_acm              14335  1 
+u_serial               18582  6 usb_f_acm
+g_multi                70924  0 
+libcomposite           39245  2 usb_f_acm,g_multi
+bcm_bt_lpm             13708  0 
+bcm4334x              587105  0 
 
     
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
