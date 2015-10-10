@@ -92,7 +92,7 @@ It include code from:
 - GPIO
 - OEMB Table
 - IAFW
-- DEvice Creation (Board Information)
+- Device Creation (Board Information)
 
 
 ### BlueTooth
