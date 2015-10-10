@@ -92,6 +92,10 @@ drivers/misc/bcm-bt-lpm.c
 ### GPIO
 arch/x86/include/asm/gpio.h
 
+### SFI
+
+CONFIG_SFI
+
 ## Modules
 
 root@edison:~/InternetOfThings101# lsmod
