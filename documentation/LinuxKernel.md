@@ -137,7 +137,7 @@ Related
       obj-y  += intel-mid/
     arch/x86/platform/intel-mid/Makefile
       Very Important!
-    arch/x86/platform/intel-mid/board.c
+    arch/x86/platform/intel-mid/board.c | Intel Medfield based board (Blackbay)
 
 ### APIC
 
