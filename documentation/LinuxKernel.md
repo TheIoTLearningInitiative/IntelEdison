@@ -94,8 +94,6 @@ arch/x86/include/asm/gpio.h
 
 CONFIG_SFI
 
-
-
 ## Modules
 
 root@edison:~/InternetOfThings101# lsmod
