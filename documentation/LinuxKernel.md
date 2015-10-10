@@ -104,6 +104,7 @@ It include code from:
 ### Basin Cove GPADC
 
 config BASINCOVE_GPADC
+depends on INTEL_SCU_IPC
 
 Platform data for Merrifield Basincove GPADC driver
 Intel Merrifield Basin Cove GPADC Driver
