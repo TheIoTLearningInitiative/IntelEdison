@@ -76,13 +76,15 @@ arch/x86/Makefile_32.cpu
             cflags-$(CONFIG_MSLM) += $(call cc-option,-march=slm) \
                 $(call cc-option,-mtune=slm,$(call cc-option,-mtune=generic))
 
-    
+
+### BlueTooth
 Broadcom Bluetooth Low Power Mode
 bcm_bt_lpm
 arch/x86/include/asm/bcm_bt_lpm.h
 drivers/misc/bcm-bt-lpm.c
 
-
+### GPIO
+arch/x86/include/asm/gpio.h
 
 ## Modules
 
