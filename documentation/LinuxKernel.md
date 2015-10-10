@@ -120,8 +120,9 @@ Related
 
 ### SCU
 
-> The IPC is used to bridge the communications between kernel and SCU on
-some embedded Intel x86 platforms.
+### SPI
+
+> The IPC is used to bridge the communications between kernel and SCU on some embedded Intel x86 platforms.
 
 ### Virtual Real Time Clock (VRTC)
 
