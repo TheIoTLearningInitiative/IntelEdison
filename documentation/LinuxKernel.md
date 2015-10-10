@@ -311,6 +311,10 @@ Broadcom Bluetooth Low Power Mode
 ### GPIO
 arch/x86/include/asm/gpio.h
 
+### I2C
+
+arch/x86/platform/intel-mid/device_libs/platform_dw_i2c.c
+
 ### SFI
 
 config CONFIG_SFI
