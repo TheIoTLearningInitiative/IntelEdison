@@ -125,6 +125,7 @@ Upstream patch
 - arch/x86/include/asm/mrst.h
 - arch/x86/kernel/early_printk.c
 - arch/x86/kernel/early_printk_mrst.c
+- High Speed UART DMA
 
 It includes enums from:
 
