@@ -135,6 +135,7 @@ Related
     arch/x86/include/asm/intel_scu_flis.h | SCU FLIS Interfaces
     arch/x86/include/asm/intel_scu_ipc.h
     arch/x86/include/asm/intel_scu_ipcutil.h
+    arch/x86/include/asm/intel_scu_pmic.h
     
     OSHOB-OS Handoff Buffer
     OSNIB interface
