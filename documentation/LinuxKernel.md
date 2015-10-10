@@ -127,6 +127,7 @@ Related
 arch/x86/include/asm/intel_basincove_gpadc.h
 arch/x86/include/asm/intel_basincove_ocd.h
 arch/x86/include/asm/intel_mid_gpadc.h
+arch/x86/include/asm/intel_mid_hsu.h
 
 ### BlueTooth
 Broadcom Bluetooth Low Power Mode
