@@ -8,7 +8,7 @@
    * [Muxing](documentation/Muxing.md)
    * [MCU](documentation/Mcu.md)
 * [Operating Systems](documentation/OperatingSystems.md)
-   * [Kernel](documentation/kernel.md)
+   * [Linux Kernel](documentation/LinuxKernel.md)
    * [Yocto](documentation/Yocto.md)
    * [Ubilinux](documentation/Ubilinux.md)
 * [Package Management Systems](documentation/PackageManagementSystems.md)
