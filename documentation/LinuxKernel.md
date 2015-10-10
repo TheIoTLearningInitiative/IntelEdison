@@ -10,6 +10,22 @@ Onwer: Abraham
     bcm43340
     Medfield MID Platform
     Intel MID Platform
+    
+    PCI
+    X86_MDFLD
+    X86_PLATFORM_DEVICES
+    X86_PLATFORM_DEVICES
+    
+    Intel MID platform
+       depends on PCI
+       depends on PCI_GOANY
+       depends on X86_IO_APIC
+       select X86_INTEL_MID
+       select SFI
+       select INTEL_SCU_IPC
+       select X86_PLATFORM_DEVICES
+       select ARCH_HAVE_CUSTOM_GPIO_H
+
 
 
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
