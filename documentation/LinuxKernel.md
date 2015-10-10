@@ -175,9 +175,12 @@ https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 ## Kernel Interfaces
 
 ### SFI Simple Firmware Interface
-https://en.wikipedia.org/wiki/Simple_Firmware_Interface
-https://simplefirmware.org/
-https://www.kernel.org/doc/ols/2009/ols2009-pages-55-60.pdf
-https://lwn.net/Articles/406228/
-https://simplefirmware.org/faq
+
+> How does SFI relate to ACPI? While some modern platforms can used SFI instead of using ACPI, SFI is not intended to replace ACPI on general purpose systems. If a platform were to export both SFI and ACPI booted an OS that also supports both, the OS should use the platform's ACPI support and ignore SFI.
+    
+- https://en.wikipedia.org/wiki/Simple_Firmware_Interface
+- https://simplefirmware.org/
+- https://www.kernel.org/doc/ols/2009/ols2009-pages-55-60.pdf
+- https://lwn.net/Articles/406228/
+- https://simplefirmware.org/faq
 
