@@ -124,6 +124,17 @@ Related
     arch/x86/include/uapi/asm/msr-index.h
     arch/x86/kernel/apb_timer.c
 
+### APB Timer
+
+Langwell is the south complex of Intel Moorestown MID platform. There are eight external timers in total that can be used by the operating system. The timer information, such as frequency and addresses, is provided to the OS via SFI tables.
+Timer interrupts are routed via FW/HW emulated IOAPIC independently via individual redirection table entries (RTE).
+
+Unlike HPET, there is no master counter, therefore one of the timers are used as clocksource. The overall allocation looks like:
+- timer 0 - NR_CPUs for per cpu timer
+- one timer for clocksource
+- one timer for watchdog driver.
+It is also worth notice that APB timer does not support true one-shot mode, free-running mode will be used here to emulate one-shot mode. APB timer can also be used as broadcast timer along with per cpu local APIC timer, but by default APB timer has higher rating than local APIC timers.
+ 
 ### Power
 
     arch/x86/include/asm/mwait.h
