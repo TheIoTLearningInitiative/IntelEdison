@@ -176,6 +176,8 @@ https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
 ### SFI Simple Firmware Interface
 
+http://www.h-online.com/open/news/item/Intel-develops-simpler-alternative-to-ACPI-for-Linux-742161.html
+
 > How does SFI relate to ACPI? While some modern platforms can used SFI instead of using ACPI, SFI is not intended to replace ACPI on general purpose systems. If a platform were to export both SFI and ACPI booted an OS that also supports both, the OS should use the platform's ACPI support and ignore SFI.
     
 - https://en.wikipedia.org/wiki/Simple_Firmware_Interface
