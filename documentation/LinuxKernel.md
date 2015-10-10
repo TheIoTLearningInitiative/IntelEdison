@@ -11,7 +11,7 @@ Onwer: Abraham
     Medfield MID Platform
     Intel MID Platform
     
-    Intel MID platform
+    Intel MID Platform
        depends on PCI
        depends on PCI_GOANY
        depends on X86_IO_APIC
