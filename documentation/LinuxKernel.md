@@ -131,6 +131,7 @@ Related
       case X86_SUBARCH_INTEL_MID:
     arch/x86/kernel/irq.c
     arch/x86/kernel/rtc.c
+    arch/x86/kernel/smpboot.c
 
 ### APIC
 
