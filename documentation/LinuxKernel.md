@@ -26,12 +26,12 @@ Owner: Abraham
     bool "Medfield MID platform"
        depends on X86_INTEL_MID
        select DW_APB_TIMER
-    select APB_TIMER
-    select I2C
-    select SPI
-    select INTEL_SCU_IPC
-    select X86_PLATFORM_DEVICES
-    select MFD_INTEL_MSIC
+       select APB_TIMER
+       select I2C
+       select SPI
+       select INTEL_SCU_IPC
+       select X86_PLATFORM_DEVICES
+       select MFD_INTEL_MSIC
 
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
