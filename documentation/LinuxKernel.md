@@ -9,6 +9,8 @@ Onwer: Abraham
     Medfield MID Platform
     Intel MID Platform
     
+    if X86_WANT_INTEL_MID
+    config X86_INTEL_MID
     Intel MID Platform
        depends on PCI
        depends on PCI_GOANY
