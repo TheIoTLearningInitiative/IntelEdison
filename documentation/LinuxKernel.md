@@ -117,6 +117,10 @@ Related
       elif (defined CONFIG_MATOM) || (defined CONFIG_MSLM)
     arch/x86/include/asm/required-features.h
       if defined(CONFIG_MATOM) || defined(CONFIG_MSLM)
+    arch/x86/include/asm/setup.h
+      extern void x86_intel_mid_early_setup(void);
+      static inline void x86_intel_mid_early_setup(void) { }
+     
 
 ### Power
 
