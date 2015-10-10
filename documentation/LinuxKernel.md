@@ -77,10 +77,12 @@ arch/x86/Makefile_32.cpu
                 $(call cc-option,-mtune=slm,$(call cc-option,-mtune=generic))
 
     
-Broadcom Bluetooth low Power Mode
+Broadcom Bluetooth Low Power Mode
 bcm_bt_lpm
 arch/x86/include/asm/bcm_bt_lpm.h
 drivers/misc/bcm-bt-lpm.c
+
+
 
 ## Modules
 
