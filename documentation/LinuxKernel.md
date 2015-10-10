@@ -113,11 +113,15 @@ Related
     arch/x86/include/asm/intel_mid_thermal.h
      SoC level power limits for thermal throttling
      intel mid thermal driver
-    arch/x86/include/asm/intel_mip.h
+     
+
+### Debug
+
     arch/x86/include/asm/intel_soc_debug.h
 
-
 ### MIP
+
+    arch/x86/include/asm/intel_mip.h
 
 ### SCU IPC
 
