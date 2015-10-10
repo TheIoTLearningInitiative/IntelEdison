@@ -44,7 +44,11 @@ Owner: Abraham
         the device is in (e.g. manufacturing, production,
         end user, etc...).
 
-    
+    config ARCH_NR_GPIO
+       depends on ARCH_HAVE_CUSTOM_GPIO_H
+       default 512 if X86_INTEL_MID
+       default 0
+         Maximum number of GPIOs in the system.
 
 
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
