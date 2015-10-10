@@ -245,3 +245,6 @@ http://www.h-online.com/open/news/item/Intel-develops-simpler-alternative-to-ACP
 - https://lwn.net/Articles/406228/
 - https://simplefirmware.org/faq
 
+
+http://geektimes.ru/post/255136/
+
