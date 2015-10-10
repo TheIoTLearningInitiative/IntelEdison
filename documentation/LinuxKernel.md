@@ -111,9 +111,10 @@ Related
     arch/x86/include/asm/intel_mid_remoteproc.h INTEL MID Remote Processor 
     arch/x86/include/asm/intel_mid_rpmsg.h
     arch/x86/include/asm/intel_mid_thermal.h
-     SoC level power limits for thermal throttling
-     intel mid thermal driver
+      SoC level power limits for thermal throttling
+      intel mid thermal driver
      arch/x86/include/asm/module.h
+      elif (defined CONFIG_MATOM) || (defined CONFIG_MSLM)
 
 ### Debug
 
