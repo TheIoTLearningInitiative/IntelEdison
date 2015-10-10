@@ -23,8 +23,8 @@ Onwer: Abraham
 
 
 +config X86_MDFLD
-       bool "Medfield MID platform"
-       depends on X86_INTEL_MID
+    bool "Medfield MID platform"
+    depends on X86_INTEL_MID
     select DW_APB_TIMER
     select APB_TIMER
     select I2C
