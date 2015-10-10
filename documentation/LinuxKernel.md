@@ -147,7 +147,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_ads7955.h
     arch/x86/platform/intel-mid/device_libs/platform_bq24261.c | Platform data for bq24261 charger driver
     arch/x86/platform/intel-mid/device_libs/platform_bq24261.h
-    arch/x86/platform/intel-mid/device_libs/platform_btlpm.c
+    arch/x86/platform/intel-mid/device_libs/platform_btlpm.c | btlpm platform data initialization file
 
 ### APIC
 
