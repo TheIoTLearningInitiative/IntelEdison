@@ -44,4 +44,7 @@ Open Package Management
     root@edison:~# opkg install libsdl-1.2-dev libv4l-dev
     root@edison:~# opkg install fswebcam
 
-root@edison:~# opkg install cmake espeak nano 
+root@edison:~# opkg install cmake espeak nano
+
+    root@edison:~# wget http://repo.opkg.net/edison/repo/core2-32/less_458-r0_core2-32.ipk
+    root@edison:~# opkg install bash_4.3-r0_core2-32.ipk
