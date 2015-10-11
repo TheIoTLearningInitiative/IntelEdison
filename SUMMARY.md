@@ -27,4 +27,5 @@
 * [Debug](documentation/Debug.md)
 * [Customization](documentation/Customization.md)
 * [SandBox](documentation/Sandbox.md)
+* Applications
 
