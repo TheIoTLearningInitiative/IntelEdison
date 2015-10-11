@@ -63,4 +63,4 @@ Power
 - https://www.kernel.org/doc/Documentation/power/states.txt
 - https://www.kernel.org/doc/Documentation/power/basic-pm-debugging.txt
 - https://communities.intel.com/thread/61067
-- performance states (P-states) or power saving states (C-states).
+- performance states (P-states) or power saving states (C-states)
