@@ -1,5 +1,5 @@
 Applications
 ==
 
-journalctl
+    root@edison:~# journalctl
 
