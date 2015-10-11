@@ -22,7 +22,7 @@ Services
     WantedBy=multi-user.target
     
     root@edison:~# systemctl daemon-reload
-    root@edison:~# systemctl --system enable python-butterfly
+    root@edison:~# systemctl --system enable python-main
     root@edison:~# systemctl start python-butterfly
     root@edison:~# systemctl status python-butterfly.service -l
 
