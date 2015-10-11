@@ -4,7 +4,7 @@
 * [Introduction](documentation/Introduction.md)
 * [Summary](SUMMARY.md)
 * [Hardware](documentation/Hardware.md)
-   * [Power Management](documentation/PowerManagementIc.md)
+   * [Power Management IC](documentation/PowerManagementIc.md)
    * [Muxing](documentation/Muxing.md)
    * [MCU](documentation/Mcu.md)
 * [Operating Systems](documentation/OperatingSystems.md)
