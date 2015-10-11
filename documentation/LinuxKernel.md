@@ -170,7 +170,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_ocd.h
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_thermal.c | Intel Merrifield Platform thermal driver
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_thermal.h
-    arch/x86/platform/intel-mid/device_libs/platform_msic.c
+    arch/x86/platform/intel-mid/device_libs/platform_msic.c \ MSIC platform data initilization file
     
     
 
