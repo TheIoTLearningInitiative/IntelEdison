@@ -5,10 +5,16 @@ Power
 
     
     root@edison:~# rfkill block Bluetooth # BlueTooth
+    
     root@edison:~# modprobe -r bcm4334x # WiFi
     root@edison:~# modprobe bcm4334x # WiFi
+    
     root@edison:~# /sbin/iwconfig wlan0 power off
     root@edison:~# /sbin/iwconfig wlan0 power on 
+    
+    root@edison:~# cat /sys/power/state 
+    freeze mem
+
     root@edison:~# ls /sys/power/
     pm_async           pm_print_times     state              wake_unlock
     pm_freeze_timeout  pm_test            wake_lock          wakeup_count
