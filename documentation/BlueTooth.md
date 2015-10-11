@@ -26,6 +26,13 @@ BlueTooth
 
 ### Userspace Utilities 
 
+### BlueTooth Agents
+
+- bluetooth-agent
+- bluetoothctl
+- hciconfig
+- hcitool
+
 #### Apt-Get
 
     root@edison:~# apt-get install bluetooth
@@ -37,13 +44,6 @@ BlueTooth
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
     root@edison:~# systemctl start bluetooth
-
-## BlueTooth Agents
-
-- bluetooth-agent
-- bluetoothctl
-- hciconfig
-- hcitool
 
 ## hcitool
 
