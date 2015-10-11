@@ -7,7 +7,7 @@
    * [Power Management IC](documentation/PowerManagementIc.md)
    * [Muxing](documentation/Muxing.md)
    * [MCU](documentation/Mcu.md)
-   * CPU
+   * Processor
 * [Operating Systems](documentation/OperatingSystems.md)
    * [Linux Kernel](documentation/LinuxKernel.md)
    * [Yocto](documentation/Yocto.md)
