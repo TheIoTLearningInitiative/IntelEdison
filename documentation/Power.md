@@ -2,6 +2,11 @@ Power
 ==
 
 ## Kernel Integration
+
+    root@edison:~# ls /sys/power/
+    pm_async           pm_print_times     state              wake_unlock
+    pm_freeze_timeout  pm_test            wake_lock          wakeup_count
+
 ## Userspace Applications
 ## Setup
 ### Apt-Get
