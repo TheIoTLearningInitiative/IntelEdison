@@ -1,7 +1,16 @@
 WiFi
 ==
 
-https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
+## Kernel Integration
+## Userspace Applications
+## Setup
+### Apt-Get
+### Opkg
+## Device Configuration
+## Usage Models
+## Links
+
+- https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
 
 ## Yocto Default Image
 
