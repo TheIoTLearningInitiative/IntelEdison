@@ -53,6 +53,10 @@ BlueTooth
 
 ## Usage Models
 
+### Serial Port Profile (SPP)
+
+- 
+
 
 ### Pairing
 
