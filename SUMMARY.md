@@ -24,7 +24,7 @@
    * [Power](documentation/Power.md)
    * [Sound](documentation/Sound.md)
    * [WiFi](documentation/WiFi.md)
-   * Serial
+   * [Serial](documentation/Serial.md)
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
