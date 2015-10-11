@@ -18,6 +18,6 @@ Services
     RestartSec=10 
 
     [Install]
-    Alias=pybflysvc
+    Alias=pythonmain
     WantedBy=multi-user.target
 
