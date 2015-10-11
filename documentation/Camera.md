@@ -7,4 +7,5 @@ Camera
 ### Apt-Get
 ### Opkg
 ## Device Configuration
+## Usage Models
 ## Links
