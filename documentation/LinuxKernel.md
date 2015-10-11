@@ -186,7 +186,8 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_msic_power_btn.h
     arch/x86/platform/intel-mid/device_libs/platform_msic_thermal.c | msic_thermal platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_msic_thermal.h
-    arch/x86/platform/intel-mid/device_libs/platform_pcal9555a.c
+    arch/x86/platform/intel-mid/device_libs/platform_pcal9555a.c | pcal9555a platform data initilization file
+    
     
     
 
