@@ -1,6 +1,9 @@
 Power
 ==
 
+> The Intel® Edison board has a known error on all UARTs. When Edison goes into low power sleep, the UART internal FIFO and interface is powered down. Therefore, a two-wire UART (Rx/Tx) will lose the first received character whenever Edison is in sleep mode. In order to avoid this condition, when sleep mode is enabled, a four-wire UART (Rx, Tx, CTS, and RTS) is required.
+
+
 ## Kernel Integration
 
     
