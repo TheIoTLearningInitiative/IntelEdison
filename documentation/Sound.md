@@ -3,6 +3,9 @@ Sound
 
 ## Kernel Integration
 ## Userspace Applications
+
+    root@edison:~# lsusb
+
 ## Setup
 ### Apt-Get
 ### Opkg
@@ -18,7 +21,6 @@ Sound
 
 ## Usage Models
 
-    root@edison:~# lsusb
     root@edison:~# aplay -Ll
     root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
     root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
