@@ -46,6 +46,7 @@ Power
     root@edison:~# systemctl poweroff
     root@edison:~# cat /sys/module/pcie_aspm/parameters/policy
     default [performance] powersave 
+    root@edison:~# cpufreq-info
 
 ## Setup
 ### Apt-Get
