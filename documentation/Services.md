@@ -8,7 +8,7 @@ Services
     root@edison:~# cd /lib/systemd/system
     root@edison:~# nano python-main.service
     [Unit]
-    Description=Python Butterfly Server
+    Description=Python Main
     After=sys-subsystem-net-devices-%i.device 
 
     [Service]
