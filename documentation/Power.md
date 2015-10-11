@@ -22,3 +22,4 @@ Power
 
 - [ACPI Wikipedia](https://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface)
 - http://www.helios.de/heliosapp/edison/index.html
+- https://www.kernel.org/doc/Documentation/cpu-freq/governors.txt
