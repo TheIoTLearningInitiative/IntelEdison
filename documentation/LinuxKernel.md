@@ -187,6 +187,19 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_msic_thermal.c | msic_thermal platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_msic_thermal.h
     arch/x86/platform/intel-mid/device_libs/platform_pcal9555a.c | pcal9555a platform data initilization file
+    arch/x86/platform/intel-mid/device_libs/platform_pcal9555a.h
+    arch/x86/platform/intel-mid/device_libs/platform_pmic_gpio.c | PMIC GPIO platform data initilization file
+    arch/x86/platform/intel-mid/device_libs/platform_pmic_gpio.h
+    arch/x86/platform/intel-mid/device_libs/platform_scu_flis.c | scu_flis platform data initilization file
+    arch/x86/platform/intel-mid/device_libs/platform_scu_flis.h
+    arch/x86/platform/intel-mid/device_libs/platform_sdio_regulator.c | sdio regulator platform device initilization file
+    arch/x86/platform/intel-mid/device_libs/platform_soc_thermal.c | Platform data for SoC DTS driver
+    arch/x86/platform/intel-mid/device_libs/platform_soc_thermal.h
+    arch/x86/platform/intel-mid/device_libs/platform_spidev.c | spidev platform data initilization file
+    arch/x86/platform/intel-mid/device_libs/platform_spidev.h
+    arch/x86/platform/intel-mid/device_libs/platform_tc35876x.c | tc35876x platform data initilization file
+    
+    
     
     
     
