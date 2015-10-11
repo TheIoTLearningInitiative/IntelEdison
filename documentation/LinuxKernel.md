@@ -198,6 +198,8 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_spidev.c | spidev platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_spidev.h
     arch/x86/platform/intel-mid/device_libs/platform_tc35876x.c | tc35876x platform data initilization file
+    arch/x86/platform/intel-mid/device_libs/platform_tc35876x.h
+    arch/x86/platform/intel-mid/device_libs/platform_tca6416.c | tca6416 platform data initilization file
     
     
     
