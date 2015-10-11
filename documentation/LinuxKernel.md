@@ -178,6 +178,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_msic_audio.h
     arch/x86/platform/intel-mid/device_libs/platform_msic_battery.c | MSIC battery platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_msic_battery.h
+    arch/x86/platform/intel-mid/device_libs/platform_msic_gpio.c | MSIC GPIO platform data initilization file
     
     
 
