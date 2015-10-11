@@ -6,6 +6,11 @@ Power
     root@edison:~# ls /sys/power/
     pm_async           pm_print_times     state              wake_unlock
     pm_freeze_timeout  pm_test            wake_lock          wakeup_count
+    root@edison:~# cat /sys/devices/system/cpu/     
+    cpu0/       cpuidle/    offline     power/      release     
+    cpu1/       kernel_max  online      present     uevent      
+    cpufreq/    modalias    possible    probe       
+
 
 ## Userspace Applications
 
