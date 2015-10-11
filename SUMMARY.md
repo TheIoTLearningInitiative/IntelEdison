@@ -8,6 +8,7 @@
    * [Power Management IC](documentation/PowerManagementIc.md)
    * [Muxing](documentation/Muxing.md)
    * [MCU](documentation/Mcu.md)
+   * Wireless
 * [Operating Systems](documentation/OperatingSystems.md)
    * [Linux Kernel](documentation/LinuxKernel.md)
    * [Yocto](documentation/Yocto.md)
