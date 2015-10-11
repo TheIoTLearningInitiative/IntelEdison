@@ -8,6 +8,9 @@ Power
     pm_freeze_timeout  pm_test            wake_lock          wakeup_count
 
 ## Userspace Applications
+
+    # systemctl poweroff
+
 ## Setup
 ### Apt-Get
 ### Opkg
