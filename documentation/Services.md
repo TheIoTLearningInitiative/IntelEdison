@@ -9,7 +9,7 @@ Services
     root@edison:~# nano python-main.service
     [Unit]
     Description=Python Main
-    After=sys-subsystem-net-devices-%i.device 
+    After=sys-subsystem-net-devices-%i.device
 
     [Service]
     ExecStart=/bin/bash /home/root/python-butterfly.sh
