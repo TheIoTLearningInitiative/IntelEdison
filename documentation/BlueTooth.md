@@ -73,7 +73,8 @@ BlueTooth
 
 ## Links
 
-http://alextgalileo.altervista.org/blog/install-kernel-from-repo-onto-edison-official-image/
-https://software.intel.com/en-us/articles/intel-edison-board-getting-started-with-bluetooth
-http://rexstjohn.com/lets-turn-intel-edison-into-an-ibeacon/
-http://unix.stackexchange.com/questions/53546/debian-squeeze-connect-to-a2dp-bluetooth-through-command-line
+- http://alextgalileo.altervista.org/blog/install-kernel-from-repo-onto-edison-official-image/
+- https://software.intel.com/en-us/articles/intel-edison-board-getting-started-with-bluetooth
+- http://rexstjohn.com/lets-turn-intel-edison-into-an-ibeacon/
+- http://unix.stackexchange.com/questions/53546/debian-squeeze-connect-to-a2dp-bluetooth-through-command-line
+- https://software.intel.com/en-us/articles/using-the-generic-attribute-profile-gatt-in-bluetooth-low-energy-with-your-intel-edison
