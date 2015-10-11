@@ -22,7 +22,7 @@ BlueTooth
     [    1.588175] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
     [    1.588202] Bluetooth: HIDP socket layer initialized
 
-## BlueTooth Agents
+## Userspace Application
 
 - bluetooth-agent
 - bluetoothctl
