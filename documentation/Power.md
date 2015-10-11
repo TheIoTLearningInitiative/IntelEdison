@@ -9,7 +9,18 @@ Power
     root@edison:~# cat /sys/devices/system/cpu/     
     cpu0/       cpuidle/    offline     power/      release     
     cpu1/       kernel_max  online      present     uevent      
-    cpufreq/    modalias    possible    probe       
+    cpufreq/    modalias    possible    probe
+    root@edison:~# ls /sys/devices/system/cpu/cpu0/cpufreq/                         
+    affected_cpus                  scaling_cur_freq
+    cpuinfo_cur_freq               scaling_driver
+    cpuinfo_max_freq               scaling_governor
+    cpuinfo_min_freq               scaling_max_freq
+    cpuinfo_transition_latency     scaling_min_freq
+    related_cpus                   scaling_setspeed
+    scaling_available_frequencies  stats
+    scaling_available_governors
+    
+
 
 
 ## Userspace Applications
