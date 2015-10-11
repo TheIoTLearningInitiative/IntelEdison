@@ -174,7 +174,8 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic.h | platform data for pmic driver
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic_i2c.c | Platform data for Merrifield PMIC I2C
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic_i2c.h
-    
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_regulator.c
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_thermal.c
     
 
     
