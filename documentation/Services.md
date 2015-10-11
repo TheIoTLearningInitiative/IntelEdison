@@ -6,7 +6,7 @@ Services
     cd /home/root/python/script/location
     python main.py
     root@edison:~# cd /lib/systemd/system
-    root@edison:~# nano python-butterfly.service
+    root@edison:~# nano python-main.service
     [Unit]
     Description=Python Butterfly Server
     After=sys-subsystem-net-devices-%i.device 
