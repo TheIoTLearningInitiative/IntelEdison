@@ -69,7 +69,7 @@ BlueTooth
 
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
 
-= Links =
+## Links
 
 http://alextgalileo.altervista.org/blog/install-kernel-from-repo-onto-edison-official-image/
 https://software.intel.com/en-us/articles/intel-edison-board-getting-started-with-bluetooth
