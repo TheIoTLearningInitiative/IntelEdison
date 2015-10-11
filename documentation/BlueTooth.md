@@ -45,8 +45,6 @@ BlueTooth
     root@edison:~# systemctl stop bluetooth
     root@edison:~# systemctl start bluetooth
 
-## hcitool
-
 ## Audio
 
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
