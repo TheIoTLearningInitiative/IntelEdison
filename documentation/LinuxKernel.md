@@ -162,6 +162,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_mid_pwm.h
     arch/x86/platform/intel-mid/device_libs/platform_mpu3050.c | mpu3050 platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_mpu3050.h
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_ocd.c | Platform data for Merrifield Platform OCD  Driver
     
     
      
