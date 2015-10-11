@@ -53,17 +53,17 @@ Power
     -sh: echo: write error: Device or resource busy
     
     [23495.740274] PM: Syncing filesystems ... done.
-[23495.743025] PM: Preparing system for mem sleep
-[23495.752571] Freezing user space processes ... (elapsed 0.06 seconds) done.
-[23495.820232] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
-[23495.840185] PM: Entering mem sleep
-[23495.840463] Suspending console(s) (use no_console_suspend to debug)
-[23495.980087] snd_intel_sst: runtime_resume called
-[23496.001158] CFG80211-ERROR) wl_cfg80211_disconnect : Reason 3
-[23496.005525] CFG80211-ERROR) wl_is_linkdown : Link down Reason : WLC_E_LINK
-[23496.005543] link down if wlan0 may call cfg80211_disconnected. event : 16, reason=2 from f8:01:13:a8:2b:40
-[23496.007379] CFG80211-ERROR) wl_is_linkdown : Link down Reason : WLC_E_DEAUTH
-[23496.007392] CFG80211-ERROR) wl_is_linkdown : Link down Reason : WLC_E_DEAUTH
+    [23495.743025] PM: Preparing system for mem sleep
+    [23495.752571] Freezing user space processes ... (elapsed 0.06 seconds) done.
+    [23495.820232] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+    [23495.840185] PM: Entering mem sleep
+    [23495.840463] Suspending console(s) (use no_console_suspend to debug)
+    [23495.980087] snd_intel_sst: runtime_resume called
+    [23496.001158] CFG80211-ERROR) wl_cfg80211_disconnect : Reason 3
+    [23496.005525] CFG80211-ERROR) wl_is_linkdown : Link down Reason : WLC_E_LINK
+    [23496.005543] link down if wlan0 may call cfg80211_disconnected. event : 16, reason=2 from     f8:01:13:a8:2b:40
+    [23496.007379] CFG80211-ERROR) wl_is_linkdown : Link down Reason : WLC_E_DEAUTH
+    [23496.007392] CFG80211-ERROR) wl_is_linkdown : Link down Reason : WLC_E_DEAUTH
 [23496.011506] snd_intel_sst: runtime_suspend called
 [23496.011626] bcove_thrm bcove_thrm: suspend called.
 [23496.011798] cfg80211: Calling CRDA for country: MX
