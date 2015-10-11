@@ -149,6 +149,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_bq24261.h
     arch/x86/platform/intel-mid/device_libs/platform_emc1403.c | emc1403 platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_emc1403.h
+    arch/x86/platform/intel-mid/device_libs/platform_lis331.c
 
 ### APIC
 
@@ -212,6 +213,8 @@ Related
     arch/x86/include/asm/scu_ipc_rpmsg.h
     
     arch/x86/platform/intel-mid/device_libs/platform_ipc.c | IPC platform library file
+    arch/x86/platform/intel-mid/device_libs/platform_ipc.h
+    
     
     OSHOB-OS Handoff Buffer
     OSNIB interface
