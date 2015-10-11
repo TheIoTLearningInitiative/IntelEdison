@@ -153,7 +153,8 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_lis331.h
     arch/x86/platform/intel-mid/device_libs/platform_max3111.c | max3111 platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_max3111.h
-    arch/x86/platform/intel-mid/device_libs/platform_max7315.c
+    arch/x86/platform/intel-mid/device_libs/platform_max7315.c | max7315 platform data initilization file
+    max7315 platform data initilization file
 
 ### APIC
 
