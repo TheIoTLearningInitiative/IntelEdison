@@ -9,8 +9,8 @@ Debug
 
 Kernel hacking
     [*] Kernel debugging
-    [*] Magic SysRq key
-    [*] Debug filesystem
+    [*]   Magic SysRq key
+    [*]   Debug filesystem
     [*]   Detect Soft Lockups
     [ ]   Collect scheduler statistics
     [*]   Debug slab memory allocations
