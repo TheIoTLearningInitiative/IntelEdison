@@ -211,7 +211,7 @@ Related
     arch/x86/include/asm/intel_scu_pmic.h
     arch/x86/include/asm/scu_ipc_rpmsg.h
     
-    arch/x86/platform/intel-mid/device_libs/platform_ipc.c
+    arch/x86/platform/intel-mid/device_libs/platform_ipc.c | IPC platform library file
     
     OSHOB-OS Handoff Buffer
     OSNIB interface
