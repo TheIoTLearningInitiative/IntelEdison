@@ -6,7 +6,6 @@ Debug
 
     root@edison:~# mount -t debugfs none /sys/kernel/debug
 
-
     Kernel hacking
         [*] Kernel debugging
         [*]   Magic SysRq key
