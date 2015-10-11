@@ -4,28 +4,6 @@ WiFi
 ## Kernel Integration
 ## Userspace Applications
 ## Setup
-### Apt-Get
-### Opkg
-## Device Configuration
-## Usage Models
-## Links
-
-- https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
-
-## Yocto Default Image
-
-    root@Edison:~# configure_edison --wifi
-     Configure Edison: WiFi Connection
-    root@edison:~# ifconfig
-     lo        Link encap:Local Loopback
-               inet addr:127.0.0.1  Mask:255.0.0.0
-     ...
-     usb0      Link encap:Ethernet  HWaddr 5a:2a:15:c5:5f:7b
-               inet addr:192.168.2.15  Bcast:192.168.2.255  Mask:255.255.255.0
-     ...
-     wlan0     Link encap:Ethernet  HWaddr 78:4b:87:a6:cf:5e
-               inet addr:192.168.1.68  Bcast:0.0.0.0  Mask:255.255.255.0
-    root@edison:~# ping google.com
 
 Make sure there are no soft blocks
     ~# rfkill list
@@ -64,3 +42,28 @@ Remove soft block on wlan0
     ~# rfkill unblock wlan
 Enable wifi on boot once config is confirmed correct
     ~# systemctl enable wa_supplicant
+    
+### Apt-Get
+### Opkg
+## Device Configuration
+## Usage Models
+## Links
+
+- https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
+
+## Yocto Default Image
+
+    root@Edison:~# configure_edison --wifi
+     Configure Edison: WiFi Connection
+    root@edison:~# ifconfig
+     lo        Link encap:Local Loopback
+               inet addr:127.0.0.1  Mask:255.0.0.0
+     ...
+     usb0      Link encap:Ethernet  HWaddr 5a:2a:15:c5:5f:7b
+               inet addr:192.168.2.15  Bcast:192.168.2.255  Mask:255.255.255.0
+     ...
+     wlan0     Link encap:Ethernet  HWaddr 78:4b:87:a6:cf:5e
+               inet addr:192.168.1.68  Bcast:0.0.0.0  Mask:255.255.255.0
+    root@edison:~# ping google.com
+
+
