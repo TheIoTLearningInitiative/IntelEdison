@@ -9,7 +9,7 @@ Power
 
 ## Userspace Applications
 
-    # systemctl poweroff
+    root@edison:~# systemctl poweroff
 
 ## Setup
 ### Apt-Get
