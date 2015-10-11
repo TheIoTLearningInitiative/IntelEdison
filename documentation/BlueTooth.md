@@ -50,7 +50,9 @@ BlueTooth
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
     
 
-## Device Configuration HCI
+## Device Configuration
+
+### HCI
 
     root@edison:~# hciconfig hci0 down
     root@edison:~# hciconfig hci0 up
