@@ -43,6 +43,14 @@ Power
     root@edison:~# cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
     500000
     
+    
+    root@edison:~# echo "mem" > /sys/power/state
+    [23496.070128] pci_pm_suspend(): sdhci_pci_suspend+0x0/0xd0 returns -16
+    [23496.070144] dpm_run_callback(): pci_pm_suspend+0x0/0x1d0 returns -16
+    [23496.070158] PM: Device 0000:00:01.3 failed to suspend async: error -16
+    [23496.091362] PM: Some devices failed to suspend
+    -sh: echo: write error: Device or resource busy
+
 
 
 
