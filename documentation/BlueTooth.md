@@ -51,7 +51,9 @@ BlueTooth
     root@edison:~# hciconfig hci0 up
     root@edison:~# hciconfig hci0 status
 
-## Pairing
+## Usage Models
+
+### Pairing
 
     root@galileo:~# rfkill unblock bluetooth
     root@galileo:~# bluetoothctl
@@ -65,7 +67,7 @@ BlueTooth
     root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
     root@edison:~# ls /dev/rfcomm0
 
-## Audio
+### Audio
 
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
 
