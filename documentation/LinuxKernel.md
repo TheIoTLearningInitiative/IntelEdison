@@ -161,6 +161,7 @@ Related
       PWM_LCD_BACKLIGHT
     arch/x86/platform/intel-mid/device_libs/platform_mid_pwm.h
     arch/x86/platform/intel-mid/device_libs/platform_mpu3050.c | mpu3050 platform data initilization file
+    arch/x86/platform/intel-mid/device_libs/platform_mpu3050.h
     
     
      
