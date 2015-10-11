@@ -211,6 +211,8 @@ Related
     arch/x86/include/asm/intel_scu_pmic.h
     arch/x86/include/asm/scu_ipc_rpmsg.h
     
+    arch/x86/platform/intel-mid/device_libs/platform_ipc.c
+    
     OSHOB-OS Handoff Buffer
     OSNIB interface
     scu_ipc_pmdb_buffer
