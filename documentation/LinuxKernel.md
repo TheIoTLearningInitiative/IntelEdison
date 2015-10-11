@@ -181,6 +181,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_msic_gpio.c | MSIC GPIO platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_msic_gpio.h
     arch/x86/platform/intel-mid/device_libs/platform_msic_ocd.c
+    arch/x86/platform/intel-mid/device_libs/platform_msic_ocd.h
     
 
     
