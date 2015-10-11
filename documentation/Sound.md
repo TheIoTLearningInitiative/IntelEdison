@@ -28,6 +28,11 @@ Sound
 
 ## Links
 
+- http://repo.opkg.net/edison/repo/edison/kernel-module-snd-usb-audio_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+
+
+## Tbd
+
     sudo modprobe -v snd_usb_audio
     sudo modprobe --force-vermagic snd-usb-audio.ko
     sudo depmod -a
@@ -36,5 +41,3 @@ Sound
     sudo dpkg-reconfigure alsa-base
     cat /dev/sndstat
     cat /proc/asound/cards
-    
-- http://repo.opkg.net/edison/repo/edison/kernel-module-snd-usb-audio_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
