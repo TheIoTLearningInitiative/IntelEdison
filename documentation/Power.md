@@ -43,13 +43,91 @@ Power
     root@edison:~# cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
     500000
     
-    
+### Suspend to Ram
+
     root@edison:~# echo "mem" > /sys/power/state
     [23496.070128] pci_pm_suspend(): sdhci_pci_suspend+0x0/0xd0 returns -16
     [23496.070144] dpm_run_callback(): pci_pm_suspend+0x0/0x1d0 returns -16
     [23496.070158] PM: Device 0000:00:01.3 failed to suspend async: error -16
     [23496.091362] PM: Some devices failed to suspend
     -sh: echo: write error: Device or resource busy
+    
+    [23495.740274] PM: Syncing filesystems ... done.
+[23495.743025] PM: Preparing system for mem sleep
+[23495.752571] Freezing user space processes ... (elapsed 0.06 seconds) done.
+[23495.820232] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+[23495.840185] PM: Entering mem sleep
+[23495.840463] Suspending console(s) (use no_console_suspend to debug)
+[23495.980087] snd_intel_sst: runtime_resume called
+[23496.001158] CFG80211-ERROR) wl_cfg80211_disconnect : Reason 3
+[23496.005525] CFG80211-ERROR) wl_is_linkdown : Link down Reason : WLC_E_LINK
+[23496.005543] link down if wlan0 may call cfg80211_disconnected. event : 16, reason=2 from f8:01:13:a8:2b:40
+[23496.007379] CFG80211-ERROR) wl_is_linkdown : Link down Reason : WLC_E_DEAUTH
+[23496.007392] CFG80211-ERROR) wl_is_linkdown : Link down Reason : WLC_E_DEAUTH
+[23496.011506] snd_intel_sst: runtime_suspend called
+[23496.011626] bcove_thrm bcove_thrm: suspend called.
+[23496.011798] cfg80211: Calling CRDA for country: MX
+[23496.020168] bcmsdh_sdmmc_suspend Enter
+[23496.020174] bcmsdh_sdmmc_suspend Enter
+[23496.070092] bcmsdh_sdmmc_resume Enter
+[23496.070128] pci_pm_suspend(): sdhci_pci_suspend+0x0/0xd0 returns -16
+[23496.070144] dpm_run_callback(): pci_pm_suspend+0x0/0x1d0 returns -16
+[23496.070158] PM: Device 0000:00:01.3 failed to suspend async: error -16
+[23496.091362] PM: Some devices failed to suspend
+[23496.091661] bcove_thrm bcove_thrm: resume called.
+[23496.092335] snd_intel_sst: runtime_resume called
+[23496.200343] PM: resume of devices complete after 108.965 msecs
+[23496.202457] PM: Finishing wakeup.
+[23496.202472] Restarting tasks ... done.
+[23496.239956] snd_intel_sst: runtime_idle called
+[23496.239982] snd_intel_sst: runtime_suspend called
+[23496.249816] ------------[ cut here ]------------
+[23496.249861] WARNING: at /data/jenkins_worker/workspace/edison-weekly/linux-kernel/drivers/usb/dwc3/gadget.c:1248 __dwc)
+[23496.249875] Modules linked in: bcm4334x(O) usb_f_acm u_serial g_multi libcomposite bcm_bt_lpm [last unloaded: bcm4334x]
+[23496.249941] CPU: 0 PID: 142 Comm: systemd-udevd Tainted: G           O 3.10.17-poky-edison+ #1
+[23496.249956] Hardware name: Intel Corporation Merrifield/BODEGA BAY, BIOS 542 2015.01.21:18.19.48
+[23496.249969]  c1b4326c 00000000 f6c0bd00 c18d9eea f6c0bd28 c12408be c1ae1657 c1b4326c
+[23496.250020]  000004e0 c15fa14e c15fa14e f6c49020 f675f180 f6c0bd88 f6c0bd38 c1240982
+[23496.250068]  00000009 00000000 f6c0bd94 c15fa14e f6c0bd7c 00000000 00000036 35dac802
+[23496.250116] Call Trace:
+[23496.250150]  [<c18d9eea>] dump_stack+0x16/0x18
+[23496.250179]  [<c12408be>] warn_slowpath_common+0x5e/0x80
+[23496.250204]  [<c15fa14e>] ? __dwc3_gadget_kick_transfer+0x3de/0x430
+[23496.250227]  [<c15fa14e>] ? __dwc3_gadget_kick_transfer+0x3de/0x430
+[23496.250253]  [<c1240982>] warn_slowpath_null+0x22/0x30
+[23496.250277]  [<c15fa14e>] __dwc3_gadget_kick_transfer+0x3de/0x430
+[23496.250305]  [<c15fa47e>] dwc3_gadget_ep_queue+0x2de/0x3a0
+[23496.250353]  [<f8906824>] eth_start_xmit+0x1a4/0x330 [g_multi]
+[23496.250382]  [<c17411e3>] dev_hard_start_xmit+0x343/0x570
+[23496.250407]  [<c18df22f>] ? _raw_spin_unlock_bh+0x1f/0x30
+[23496.250432]  [<c176506a>] ? __nf_conntrack_confirm+0x21a/0x340
+[23496.250459]  [<c175ad1c>] sch_direct_xmit+0x7c/0x1c0
+[23496.250484]  [<c1741572>] dev_queue_xmit+0x162/0x400
+[23496.250512]  [<c177a2e0>] ip_finish_output+0x210/0x3a0
+[23496.250536]  [<c177a0d0>] ? ip_fragment+0x970/0x970
+[23496.250562]  [<c177bb17>] ip_output+0xb7/0xc0
+[23496.250586]  [<c177a0d0>] ? ip_fragment+0x970/0x970
+[23496.250611]  [<c177b230>] ip_local_out+0x20/0x30
+[23496.250637]  [<c17ac771>] igmpv3_sendpack+0x51/0x60
+[23496.250663]  [<c17ad2c3>] igmp_ifc_timer_expire+0x173/0x290
+[23496.250689]  [<c1250c02>] call_timer_fn+0x32/0x140
+[23496.250715]  [<c17ad150>] ? igmp_gq_timer_expire+0x30/0x30
+[23496.250739]  [<c1250e52>] run_timer_softirq+0x142/0x230
+[23496.250766]  [<c1270ddb>] ? get_parent_ip+0xb/0x40
+[23496.250791]  [<c17ad150>] ? igmp_gq_timer_expire+0x30/0x30
+[23496.250817]  [<c1249251>] __do_softirq+0xe1/0x260
+[23496.250843]  [<c1249170>] ? tasklet_action+0x120/0x120
+[23496.250856]  <IRQ>  [<c1249555>] ? irq_exit+0xa5/0xb0
+[23496.250899]  [<c18e535b>] ? smp_apic_timer_interrupt+0x5b/0x8b
+[23496.250928]  [<c14d9ee4>] ? trace_hardirqs_off_thunk+0xc/0x18
+[23496.250953]  [<c18dfc2a>] ? apic_timer_interrupt+0x32/0x38
+[23496.250978]  [<c18d0000>] ? init_intel_cacheinfo+0x1b3/0x37e
+[23496.250994] ---[ end trace ab9c379ac6289fd6 ]---
+[23500.707829] CFG80211-ERROR) wl_cfg80211_connect : Connectting withf8:01:13:a8:2b:40 channel (1) ssid "INFINITUMfjph", )
+[23500.707829] 
+[23500.763280] wl_bss_connect_done succeeded with f8:01:13:a8:2b:40
+[23500.769798] wl_bss_connect_done succeeded with f8:01:13:a8:2b:40
+
 
 
 
