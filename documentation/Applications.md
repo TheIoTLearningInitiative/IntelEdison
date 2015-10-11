@@ -1,2 +1,5 @@
-# Applications
+Applications
+==
+
+journalctl
 
