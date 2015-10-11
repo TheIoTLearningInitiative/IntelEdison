@@ -19,6 +19,10 @@ Power
     related_cpus                   scaling_setspeed
     scaling_available_frequencies  stats
     scaling_available_governors
+    root@edison:~# cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors
+    ondemand userspace performance
+    root@edison:~# cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
+    500000
     
 
 
