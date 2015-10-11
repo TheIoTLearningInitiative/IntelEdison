@@ -168,13 +168,6 @@ Related
       +#include <asm/intel_scu_ipc.h>
       +#include <asm/intel_basincove_ocd.h>
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_ocd.h
-    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic.c | latform data for Merrifield PMIC driver
-      #include <linux/sfi.h>
-      #include <linux/power/bq24261_charger.h>
-    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic.h | platform data for pmic driver
-    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic_i2c.c | Platform data for Merrifield PMIC I2C
-    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic_i2c.h
-    arch/x86/platform/intel-mid/device_libs/platform_mrfl_regulator.c
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_thermal.c
     
 
@@ -212,6 +205,14 @@ Related
     arch/x86/include/asm/pmic_pdata.h
       pmic_platform_data
       #ifdef CONFIG_PMIC_CCSM
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic.c | latform data for Merrifield PMIC driver
+      #include <linux/sfi.h>
+      #include <linux/power/bq24261_charger.h>
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic.h | platform data for pmic driver
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic_i2c.c | Platform data for Merrifield PMIC I2C
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic_i2c.h
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_regulator.c
+
 
 
 ### Debug
