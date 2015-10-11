@@ -14,6 +14,7 @@
 * [Package Management Systems](documentation/PackageManagementSystems.md)
    * [Open Package Management](documentation/OpenPackageManagement.md)
    * [Advanced Package Tool](documentation/AdvancedPackageTool.md)
+* Applications
 * [Subsystems](documentation/Subsystems.md)
    * [BlueTooth](documentation/BlueTooth.md)
    * [Camera](documentation/Camera.md)
@@ -27,5 +28,4 @@
 * [Debug](documentation/Debug.md)
 * [Customization](documentation/Customization.md)
 * [SandBox](documentation/Sandbox.md)
-* Applications
 
