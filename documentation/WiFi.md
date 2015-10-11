@@ -42,7 +42,7 @@ Remove soft block on wlan0
     ~# rfkill unblock wlan
 Enable wifi on boot once config is confirmed correct
     ~# systemctl enable wa_supplicant
-    
+
 ### Apt-Get
 ### Opkg
 ## Device Configuration
