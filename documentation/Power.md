@@ -61,3 +61,5 @@ Power
 - http://www.helios.de/heliosapp/edison/index.html
 - https://www.kernel.org/doc/Documentation/cpu-freq/governors.txt
 - https://www.kernel.org/doc/Documentation/power/states.txt
+- https://www.kernel.org/doc/Documentation/power/basic-pm-debugging.txt
+- https://communities.intel.com/thread/61067
