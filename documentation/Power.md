@@ -67,3 +67,4 @@ Power
 - https://www.kernel.org/doc/Documentation/power/basic-pm-debugging.txt
 - https://communities.intel.com/thread/61067
 - performance states (P-states) or power saving states (C-states)
+- Dongle Host Driver, version 1.141.59 (r)
