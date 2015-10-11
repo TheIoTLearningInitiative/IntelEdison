@@ -1,7 +1,7 @@
 MCU
 ==
 
-Onwer: Charles
+Owner: Charles
 
 100MHz Quark MCU
 
