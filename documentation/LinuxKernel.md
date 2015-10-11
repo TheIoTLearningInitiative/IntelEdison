@@ -172,6 +172,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_thermal.h
     arch/x86/platform/intel-mid/device_libs/platform_msic.c | MSIC platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_msic.h
+    arch/x86/platform/intel-mid/device_libs/platform_msic_adc.c
     
     
 
