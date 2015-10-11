@@ -167,7 +167,8 @@ Related
       +#include <asm/intel_mid_remoteproc.h>
       +#include <asm/intel_scu_ipc.h>
       +#include <asm/intel_basincove_ocd.h>
-    
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_ocd.h
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic.c | latform data for Merrifield PMIC driver
 
     
      
