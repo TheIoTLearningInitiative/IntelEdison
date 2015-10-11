@@ -18,4 +18,5 @@ Power
 ## Usage Models
 ## Links
 
-[ACPI Wikipedia](https://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface)
+- [ACPI Wikipedia](https://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface)
+- http://www.helios.de/heliosapp/edison/index.html
