@@ -6,12 +6,13 @@ Sound
 ## Setup
 ### Apt-Get
 ### Opkg
-## Device Configuration
-## Usage Models
-## Links
 
     root@edison:~# opkg install alsa-utils
     root@edison:~# apt-get install alsa-utils
+
+## Device Configuration
+## Usage Models
+## Links
 
 
     root@edison:~# lsusb
