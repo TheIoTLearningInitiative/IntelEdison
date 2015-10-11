@@ -175,6 +175,8 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_msic_adc.c | MSIC ADC platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_msic_adc.h
     arch/x86/platform/intel-mid/device_libs/platform_msic_audio.c | MSIC audio platform data initilization file
+    arch/x86/platform/intel-mid/device_libs/platform_msic_audio.h
+    arch/x86/platform/intel-mid/device_libs/platform_msic_battery.c | MSIC battery platform data initilization file
     
     
 
