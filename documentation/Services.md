@@ -5,5 +5,18 @@ Services
     root@edison:~# nano python-main.sh
     cd /home/root/python/script/location
     python main.py
-    root@edison:~# 
+    root@edison:~# cd /lib/systemd/system
+    root@edison:~# nano python-butterfly.service
+    [Unit]
+    Description=Python Butterfly Server
+    After=sys-subsystem-net-devices-%i.device 
+
+    [Service]
+    ExecStart=/bin/bash /home/root/python-butterfly.sh
+    Restart=always
+    RestartSec=10 
+
+    [Install]
+    Alias=pybflysvc
+    WantedBy=multi-user.target
 
