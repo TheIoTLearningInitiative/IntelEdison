@@ -201,14 +201,6 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_tc35876x.h
     arch/x86/platform/intel-mid/device_libs/platform_tca6416.c | tca6416 platform data initilization file
     Here
-    
-    
-    
-    
-    
-
-    
-     
 
 ### APIC
 
