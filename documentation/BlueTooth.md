@@ -24,12 +24,14 @@ BlueTooth
 
 ## Setup
 
-### Apt-Get
+### Userspace Utilities 
+
+#### Apt-Get
 
     root@edison:~# apt-get install bluetooth
     root@edison:~# /etc/init.d/bluetooth start
 
-### Opkg
+#### Opkg
 
     root@edison:~# opkg install bluez5-dev
     root@edison:~# systemctl status bluetooth.service
