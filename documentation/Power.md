@@ -17,7 +17,6 @@ Power
     root@edison:~# cat /sys/power/pm_test
     [none] core processors platform devices freezer
 
-
     root@edison:~# echo 1 > /sys/devices/system/cpu/offline 
 
     root@edison:~# ls /sys/power/
