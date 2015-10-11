@@ -169,6 +169,13 @@ Related
       +#include <asm/intel_basincove_ocd.h>
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_ocd.h
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic.c | latform data for Merrifield PMIC driver
+      #include <linux/sfi.h>
+      #include <linux/power/bq24261_charger.h>
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic.h | platform data for pmic driver
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic_i2c.c | Platform data for Merrifield PMIC I2C
+    arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic_i2c.h
+    
+    
 
     
      
