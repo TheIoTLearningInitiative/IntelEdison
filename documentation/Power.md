@@ -14,3 +14,5 @@ Power
 ## Device Configuration
 ## Usage Models
 ## Links
+
+[ACPI Wikipedia](https://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface)
