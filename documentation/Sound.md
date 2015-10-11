@@ -1,6 +1,15 @@
 Sound
 ==
 
+## Kernel Integration
+## Userspace Applications
+## Setup
+### Apt-Get
+### Opkg
+## Device Configuration
+## Usage Models
+## Links
+
     root@edison:~# opkg install alsa-utils
     root@edison:~# apt-get install alsa-utils
 
