@@ -184,6 +184,8 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_msic_ocd.h
     arch/x86/platform/intel-mid/device_libs/platform_msic_power_btn.c | MSIC power btn platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_msic_power_btn.h
+    arch/x86/platform/intel-mid/device_libs/platform_msic_thermal.c | msic_thermal platform data initilization file
+    
     
 
     
