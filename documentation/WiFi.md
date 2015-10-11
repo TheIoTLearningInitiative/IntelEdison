@@ -50,6 +50,7 @@ Enable wifi on boot once config is confirmed correct
 ## Links
 
 - https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
+- http://download.intel.com/support/edison/sb/edison_wifi_331438001.pdf
 
 ## Yocto Default Image
 
