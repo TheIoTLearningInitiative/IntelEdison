@@ -56,7 +56,7 @@ BlueTooth
     root@edison:~# hciconfig hci0 up
     root@edison:~# hciconfig hci0 status
 
-## BlueTooth @ Intel® Edison
+## Pairing
 
     root@galileo:~# rfkill unblock bluetooth
     root@galileo:~# bluetoothctl
