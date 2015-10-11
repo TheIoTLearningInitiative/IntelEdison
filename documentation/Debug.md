@@ -7,21 +7,20 @@ Debug
     root@edison:~# mount -t debugfs none /sys/kernel/debug
 
 
-Kernel hacking
-    [*] Kernel debugging
-    [*]   Magic SysRq key
-    [*]   Debug filesystem
-    [*]   Detect Soft Lockups
-    [ ]   Collect scheduler statistics
-    [*]   Debug slab memory allocations
-    [*]     Memory leak debugging
-    [*]   Mutex debugging, deadlock detection
-    [*]   Spinlock debugging
-    [*]   Sleep-inside-spinlock checking
-    [ ]   kobject debugging
-    [ ]   Highmem debugging
-    [ ]   Compile the kernel with debug info
-    
+    Kernel hacking
+        [*] Kernel debugging
+        [*]   Magic SysRq key
+        [*]   Debug filesystem
+        [*]   Detect Soft Lockups
+        [ ]   Collect scheduler statistics
+        [*]   Debug slab memory allocations
+        [*]     Memory leak debugging
+        [*]   Mutex debugging, deadlock detection
+        [*]   Spinlock debugging
+        [*]   Sleep-inside-spinlock checking
+        [ ]   kobject debugging
+        [ ]   Highmem debugging
+        [ ]   Compile the kernel with debug info
     
 # Links
 
