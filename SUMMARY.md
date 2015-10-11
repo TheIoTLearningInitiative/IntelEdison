@@ -14,7 +14,7 @@
 * [Package Management Systems](documentation/PackageManagementSystems.md)
    * [Open Package Management](documentation/OpenPackageManagement.md)
    * [Advanced Package Tool](documentation/AdvancedPackageTool.md)
-* Applications
+* [Applications](documentation/Applications.md)
 * [Subsystems](documentation/Subsystems.md)
    * [BlueTooth](documentation/BlueTooth.md)
    * [Camera](documentation/Camera.md)
