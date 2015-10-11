@@ -10,6 +10,8 @@ Power
 ## Userspace Applications
 
     root@edison:~# systemctl poweroff
+    root@edison:~# cat /sys/module/pcie_aspm/parameters/policy
+    default [performance] powersave 
 
 ## Setup
 ### Apt-Get
