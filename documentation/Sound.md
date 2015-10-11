@@ -12,8 +12,6 @@ Sound
 
 ## Device Configuration
 ## Usage Models
-## Links
-
 
     root@edison:~# lsusb
     root@edison:~# aplay -Ll
@@ -23,7 +21,10 @@ Sound
     root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
     root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
     root@edison:~# mpg123
-    
+
+## Links
+
+
     sudo modprobe -v snd_usb_audio
     sudo modprobe --force-vermagic snd-usb-audio.ko
     sudo depmod -a
