@@ -150,6 +150,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_emc1403.c | emc1403 platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_emc1403.h
     arch/x86/platform/intel-mid/device_libs/platform_lis331.c | lis331 platform data initilization file
+    arch/x86/platform/intel-mid/device_libs/platform_lis331.h
 
 ### APIC
 
