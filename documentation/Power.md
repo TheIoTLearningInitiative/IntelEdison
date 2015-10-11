@@ -14,6 +14,9 @@ Power
     
     root@edison:~# cat /sys/power/state 
     freeze mem
+    root@edison:~# cat /sys/power/pm_test
+    [none] core processors platform devices freezer
+
 
     root@edison:~# echo 1 > /sys/devices/system/cpu/offline 
 
