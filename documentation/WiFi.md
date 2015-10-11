@@ -43,6 +43,11 @@ Remove soft block on wlan0
 Enable wifi on boot once config is confirmed correct
     ~# systemctl enable wa_supplicant
 
+to get the wifi to connect any time you power it up:
+
+    systemctl enable wpa_supplicant
+    systemctl start wpa_supplicant
+
 ### Apt-Get
 ### Opkg
 ## Device Configuration
