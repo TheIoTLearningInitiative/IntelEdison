@@ -53,6 +53,7 @@ BlueTooth
 
 ## Usage Models
 
+
 ### Pairing
 
     root@galileo:~# rfkill unblock bluetooth
