@@ -9,3 +9,4 @@ Debug
 # Links
 
 - https://www.kernel.org/doc/Documentation/filesystems/debugfs.txt
+- https://www.kernel.org/doc/Documentation/sysrq.txt
