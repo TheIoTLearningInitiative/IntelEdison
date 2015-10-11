@@ -22,7 +22,7 @@ BlueTooth
     [    1.588175] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
     [    1.588202] Bluetooth: HIDP socket layer initialized
 
-## Userspace Application
+## Userspace Applications
 
 - bluetooth-agent
 - bluetoothctl
@@ -31,25 +31,17 @@ BlueTooth
 
 ## Setup
 
-### Userspace Utilities 
-
-
-#### Apt-Get
+### Apt-Get
 
     root@edison:~# apt-get install bluetooth
     root@edison:~# /etc/init.d/bluetooth start
 
-#### Opkg
+### Opkg
 
     root@edison:~# opkg install bluez5-dev
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
     root@edison:~# systemctl start bluetooth
-
-## Audio
-
-    root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
-    
 
 ## Device Configuration
 
@@ -72,6 +64,10 @@ BlueTooth
     [bluetooth]# exit
     root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
     root@edison:~# ls /dev/rfcomm0
+
+## Audio
+
+    root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
 
 = Links =
 
