@@ -7,3 +7,6 @@ Serial
     for i in range(10):
     print(lines[i].strip())
 
+## Links
+
+- https://communities.intel.com/thread/54236
