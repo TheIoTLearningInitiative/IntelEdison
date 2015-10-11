@@ -28,7 +28,6 @@ Sound
 
 ## Links
 
-
     sudo modprobe -v snd_usb_audio
     sudo modprobe --force-vermagic snd-usb-audio.ko
     sudo depmod -a
