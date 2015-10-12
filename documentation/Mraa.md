@@ -23,6 +23,7 @@
 # Ubilinux
 
     root@Edison:~# apt-get update
+    root@Edison:~# 
 Follow
  https://learn.sparkfun.com/tutorials/installing-libmraa-on-ubilinux-for-edison
 
