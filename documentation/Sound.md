@@ -7,11 +7,12 @@ Sound
     root@edison:~# lsusb
 
 ## Setup
-### Apt-Get
 ### Opkg
 
     root@edison:~# opkg install alsa-utils
     root@edison:~# apt-get install alsa-utils
+
+### Apt-Get
 
 ## Device Configuration
 
