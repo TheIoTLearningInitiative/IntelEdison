@@ -5,11 +5,14 @@ Camera
 ## Userspace Applications
 ## Setup
 
-    find /lib/modules/* -name 'uvc'
-    opkg install kernel-module-uvcvideo
+    root@edison:~# find /lib/modules/* -name 'uvc'
+
+### Opkg
+
+    root@edison:~# opkg install kernel-module-uvcvideo
 
 ### Apt-Get
-### Opkg
+
 ## Device Configuration
 ## Usage Models
 ## Links
