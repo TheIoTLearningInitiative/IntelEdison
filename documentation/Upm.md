@@ -14,6 +14,11 @@
     root@Edison:~# make
     root@Edison:~# make install
 
+## Testing
+
+
+## Hands-On
+
 ## Links
 
 - [UPM Documentation](http://iotdk.intel.com/docs/master/upm/index.html)
