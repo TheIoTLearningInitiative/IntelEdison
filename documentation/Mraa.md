@@ -47,7 +47,7 @@ MRAA
 
 Based on [Installing libmraa on Ubilinux for Edison](https://learn.sparkfun.com/tutorials/installing-libmraa-on-ubilinux-for-edison)
  
-## Mraa Testing
+## Testing
 
     root@edison:~# cd mraa/examples
     root@edison:~# gcc -lmraa hellomraa.c -o hellomraa
