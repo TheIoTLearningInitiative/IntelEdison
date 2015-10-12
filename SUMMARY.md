@@ -29,7 +29,7 @@
    * [Networking](documentation/Networking.md)
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
-   * [UPM](documentation/Upm.md)
+   * [Upm](documentation/Upm.md)
    * [OpenCv](documentation/OpenCv.md)
 * [MicroController Unit](documentation/MicroControllerUnit.md)
 * [Customization](documentation/Customization.md)
