@@ -239,3 +239,4 @@ build  poky
 - https://hayestech.wordpress.com/2015/01/26/building-custom-intel-edison-images/
 http://www.yoctoproject.org/docs/1.1/yocto-project-qs/yocto-project-qs.html
 http://edplay.weebly.com/how-to/building-linux-for-intel-edison
+- https://wiki.debian.org/EmDebian/CrossDebootstrap
