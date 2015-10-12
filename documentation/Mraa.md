@@ -7,7 +7,7 @@ MRAA
 
 ## Setup
 
-## Yocto Compilation
+### Yocto Compilation
 
     root@Edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
     root@edison:~# mkdir mraa/build && cd $_
@@ -22,7 +22,7 @@ MRAA
     root@edison:~# nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
 
-## Ubilinux Compilation
+### Ubilinux Compilation
 
     root@Edison:~# apt-get update
     root@Edison:~# apt-cache search pcre
