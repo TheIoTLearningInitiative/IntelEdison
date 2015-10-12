@@ -1,4 +1,4 @@
-OpenCV
+Open Source Computrt Vision
 ==
 
 ## OPKG
