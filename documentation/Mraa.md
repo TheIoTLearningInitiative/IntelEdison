@@ -1,6 +1,8 @@
 MRAA
 ==
 
+> Low Level Skeleton Library for IO Communication on GNU/Linux platforms
+
 ## Yocto Setup
 
     root@Edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
