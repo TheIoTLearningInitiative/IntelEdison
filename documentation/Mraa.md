@@ -3,6 +3,8 @@ MRAA
 
 > Low Level Skeleton Library for IO Communication on GNU/Linux platforms
 
+> C/C++ library with bindings to JavaScript and Python to interface with the I/O on the Intel® Galileo board, Intel® Edison board, and other platforms. With board detection done at runtime, you can create portable code that works across multiple platforms.
+
 ## Yocto Setup
 
     root@Edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
