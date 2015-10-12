@@ -26,7 +26,7 @@
    * [Video](documentation/Video.md)
    * [Power](documentation/Power.md)
    * [Networking](documentation/Networking.md)
-   * Pin Muxing
+   * [Pin Muxing](documentation/PinMuxing.md)
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
