@@ -23,14 +23,25 @@
 # Ubilinux
 
     root@Edison:~# apt-get update
-    root@Edison:~# 
-    root@Edison:~# 
-    root@Edison:~# 
-    root@Edison:~# 
-    root@Edison:~# 
-    root@Edison:~# 
-    root@Edison:~# 
-    root@Edison:~# 
+    root@Edison:~# apt-cache search pcre
+    root@Edison:~# apt-get install libpcre3-dev
+    root@Edison:~# apt-get install git
+    root@Edison:~# apt-get install cmake
+    root@Edison:~# apt-get install python-dev
+    root@Edison:~# apt-get install swig
+    root@Edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
+    root@Edison:~# mkdir mraa/build && cd $_
+    root@Edison:~# cmake .. -DBUILDSWIGNODE=OFF
+    root@Edison:~# make
+    root@Edison:~# make install
+    root@Edison:~# cd
+    root@edison:~# nano /etc/ld.so.conf
+    /usr/local/lib/i386-linux-gnu/
+    root@edison:~# ldconfig
+    root@edison:~# ldconfig -p | grep mraa
+    root@edison:~# export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
+    root@edison:~# nano ~/.bashrc
+    export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
 Follow
  https://learn.sparkfun.com/tutorials/installing-libmraa-on-ubilinux-for-edison
 
