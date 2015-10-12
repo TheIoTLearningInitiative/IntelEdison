@@ -38,8 +38,8 @@ MRAA
     root@edison:~# export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
     root@edison:~# nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
-Follow
- https://learn.sparkfun.com/tutorials/installing-libmraa-on-ubilinux-for-edison
+
+Based on [Installing libmraa on Ubilinux for Edison](https://learn.sparkfun.com/tutorials/installing-libmraa-on-ubilinux-for-edison)
  
 ## Mraa Testing
 
