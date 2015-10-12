@@ -12,5 +12,4 @@ Open Source Computer Vision
 
 ## Links
 
-apt-get udpate
-apt-get install opencv-dev
+- [OpenCv Homepage](http://opencv.org/)
