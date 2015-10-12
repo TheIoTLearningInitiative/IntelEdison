@@ -14,6 +14,7 @@
 
 ## Links
 
+[UPM Documentation](http://iotdk.intel.com/docs/master/upm/index.html)
 - [UPM Github](https://github.com/intel-iot-devkit/upm)
 - [UPM Sensor Categories](http://iotdk.intel.com/docs/master/upm/modules.html)
 - [UPM Python Exampes](https://github.com/intel-iot-devkit/upm/tree/master/examples/python)
