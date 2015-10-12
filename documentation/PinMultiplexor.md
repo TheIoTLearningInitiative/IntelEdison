@@ -1,4 +1,4 @@
-Muxing
+Pin Mutiplexor
 ==
 
 Owner: Lynette
