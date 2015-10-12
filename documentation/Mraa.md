@@ -20,7 +20,7 @@ MRAA
     root@edison:~# nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
 
-## Ubilinux Setup
+## Ubilinux Compialtion
 
     root@Edison:~# apt-get update
     root@Edison:~# apt-cache search pcre
