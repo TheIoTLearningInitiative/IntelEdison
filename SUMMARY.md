@@ -23,7 +23,7 @@
    * [BlueTooth](documentation/BlueTooth.md)
    * [WiFi](documentation/WiFi.md)
    * [Sound](documentation/Sound.md)
-   * [Camera](documentation/Camera.md)
+   * [Video](documentation/Video.md)
    * [Power](documentation/Power.md)
    * [Networking](documentation/Networking.md)
 * [Libraries](documentation/Libraries.md)
