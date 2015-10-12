@@ -43,7 +43,11 @@ Follow
  
 ## Mraa Testing
 
+    root@edison:~# cd mraa/examples
+    root@edison:~# gcc -lmraa hellomraa.c -o hellomraa
+    root@edison:~# ./hellomraa
+     hello mraa
+      Version: v0.6.2
+      Running on Intel Edison
 
-
-# End of File
 
