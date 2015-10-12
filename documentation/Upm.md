@@ -14,6 +14,6 @@
 
 ## Links
 
-https://github.com/intel-iot-devkit/upm/tree/master/examples/python
+- https://github.com/intel-iot-devkit/upm/tree/master/examples/python
 
 # End of File
