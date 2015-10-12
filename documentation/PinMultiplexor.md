@@ -1,4 +1,4 @@
-Pin Mutiplexor
+Pin Multiplexor
 ==
 
 Owner: Lynette
