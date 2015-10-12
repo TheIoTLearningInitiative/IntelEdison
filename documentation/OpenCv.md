@@ -6,4 +6,4 @@ Open Source Computer Vision
 ## OPKG
     opkg install python-numpy opencv python-opencv nano
 
-## 
+## Apt Installation
