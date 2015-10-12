@@ -12,7 +12,9 @@ Open Source Computer Vision
     root@Edison:~# apt-get update
     root@Edison:~# apt-get install opencv-dev    
 
+## Testing
 
+## Hands-On
 
 ## Links
 
