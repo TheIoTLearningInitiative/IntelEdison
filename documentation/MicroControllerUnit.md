@@ -14,5 +14,7 @@ Microcontroller Unit
 
 ## Links
 
+- - [Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
 - https://software.intel.com/en-us/node/557537
 - http://download.intel.com/support/edison/sb/edison_rn_332032008.pdf
+- 
