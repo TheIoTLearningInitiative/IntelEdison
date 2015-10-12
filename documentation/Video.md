@@ -4,7 +4,7 @@ Camera
 ## Kernel Integration
 ## Userspace Applications
 
-    root@edison:~# lsmod | grep =uvc
+    root@edison:~# ffmpeg
 
 ## Setup
 
