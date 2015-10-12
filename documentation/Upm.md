@@ -20,7 +20,7 @@
 
 ## Hands-On
 
-    tbd
+    Tbd
 
 ## Links
 
