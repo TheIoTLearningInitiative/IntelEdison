@@ -140,8 +140,8 @@ Power
     root@edison:~# cpufreq-info
 
 ## Setup
-### Apt-Get
 ### Opkg
+### Apt-Get
 ## Device Configuration
 ## Usage Models
 ## Links
