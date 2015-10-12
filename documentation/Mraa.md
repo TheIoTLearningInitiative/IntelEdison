@@ -1,4 +1,7 @@
-# Yocto Default Image
+MRAA
+==
+
+# Yocto Installation
 
     root@Edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
     root@edison:~# mkdir mraa/build && cd $_
@@ -12,13 +15,6 @@
     root@edison:~# export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
     root@edison:~# nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
-
-    root@edison:~# cd mraa/examples
-    root@edison:~# gcc -lmraa hellomraa.c -o hellomraa
-    root@edison:~# ./hellomraa
-     hello mraa
-      Version: v0.6.2
-      Running on Intel Edison
 
 # Ubilinux
 
@@ -44,6 +40,8 @@
     export PYTHONPATH=$PYTHONPATH:$(dirname $(find /usr/local -name mraa.py))
 Follow
  https://learn.sparkfun.com/tutorials/installing-libmraa-on-ubilinux-for-edison
+ 
+## Mraa Testing
 
 # End of File
 
