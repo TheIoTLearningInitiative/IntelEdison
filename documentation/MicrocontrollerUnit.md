@@ -1,5 +1,5 @@
 Microcontroller Unit
 ==
 
-## MCU SDK
+## Microcontroller Unit SDK
 
