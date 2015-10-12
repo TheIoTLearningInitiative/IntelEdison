@@ -6,7 +6,7 @@
 * [Hardware](documentation/Hardware.md)
    * [Processor](documentation/Processor.md)
    * [Power Management IC](documentation/PowerManagementIc.md)
-   * [Muxing](documentation/Muxing.md)
+   * [Pin Multiplexor](documentation/PinMultiplexor.md)
    * [MCU](documentation/Mcu.md)
    * [Wireless](documentation/Wireless.md)
 * [Operating Systems](documentation/OperatingSystems.md)
