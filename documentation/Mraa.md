@@ -1,7 +1,7 @@
 MRAA
 ==
 
-# Yocto Installation
+# Yocto Setup
 
     root@Edison:~# git clone https://github.com/intel-iot-devkit/mraa.git
     root@edison:~# mkdir mraa/build && cd $_
