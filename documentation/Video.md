@@ -10,6 +10,7 @@ Camera
 ### Opkg
 
     root@edison:~# opkg install kernel-module-uvcvideo
+    root@myedison:~# lsmod | grep uvc
 
 ### Apt-Get
 
