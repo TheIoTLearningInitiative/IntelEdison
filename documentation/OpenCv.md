@@ -6,7 +6,7 @@ Open Source Computer Vision
 ## Opkg Installation
     root@Edison:~# opkg install python-numpy opencv python-opencv nano
 
-## Apt Installation
+## Apt-Get Installation
     root@Edison:~# apt-get update
     root@Edison:~# apt-get install opencv-dev    
 
