@@ -509,8 +509,8 @@ User Linux Next
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
 v4.1-rc6 tag, mrproper'd and rebuilt, 
 
-root@edison:~# dmesg
-[    0.000000] Initializing cgroup subsys cpuset
+    root@edison:~# dmesg
+    [    0.000000] Initializing cgroup subsys cpuset
 [    0.000000] Initializing cgroup subsys cpu
 [    0.000000] Initializing cgroup subsys cpuacct
 [    0.000000] Linux version 3.10.17-poky-edison+ (sys_dswci@tlsndgbuild004) (gcc version 4.9.1 (GCC) ) #1 SMP PREEMPT Fr5
