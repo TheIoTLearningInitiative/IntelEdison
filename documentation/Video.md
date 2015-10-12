@@ -4,8 +4,7 @@ Camera
 ## Kernel Integration
 ## Userspace Applications
 
-    root@edison:~# lsmod | grep uvc
-        root@edison:~# lsmod | grep uvc
+    root@edison:~# lsmod | grep =uvc
 
 ## Setup
 
@@ -19,5 +18,9 @@ Camera
 ### Apt-Get
 
 ## Device Configuration
+
+    root@edison:~# lsmod | grep uvc
+
+
 ## Usage Models
 ## Links
