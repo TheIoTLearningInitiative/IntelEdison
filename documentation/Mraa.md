@@ -56,7 +56,7 @@ Based on [Installing libmraa on Ubilinux for Edison](https://learn.sparkfun.com/
       Version: v0.6.2
       Running on Intel Edison
 
-## Code
+## Hands-On
 
 
 
