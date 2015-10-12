@@ -24,3 +24,4 @@ Open Source Computer Vision
 ## Links
 
 - [OpenCv Homepage](http://opencv.org/)
+- https://software.intel.com/en-us/articles/opencv-300-beta-ipp-tbb-enabled-on-yocto-with-intel-edison
