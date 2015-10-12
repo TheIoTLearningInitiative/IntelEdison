@@ -26,7 +26,7 @@
    * [Sound](documentation/Sound.md)
    * [Camera](documentation/Camera.md)
    * [Power](documentation/Power.md)
-   * Networking
+   * [Networking](documentation/Networking.md)
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [UPM](documentation/Upm.md)
