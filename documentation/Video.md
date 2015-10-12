@@ -20,6 +20,7 @@ Camera
 ## Device Configuration
 
     root@edison:~# lsmod | grep uvc
+    root@edison:~# ls -al /dev/video0
 
 
 ## Usage Models
