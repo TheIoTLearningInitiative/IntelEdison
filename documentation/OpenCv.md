@@ -14,7 +14,11 @@ Open Source Computer Vision
 
 ## Testing
 
+    Tbd
+
 ## Hands-On
+
+    Tbd
 
 ## Links
 
