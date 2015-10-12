@@ -397,6 +397,11 @@ arch/x86/platform/intel-mid/device_libs/platform_dw_i2c.c | I2C platform data in
 
 config CONFIG_SFI
 
+
+### Multi-Function Device (MFD) for Low power subsystem and 
+
+### System Management Bus (SMBus).
+
 ## Modules
 
 root@edison:~/InternetOfThings101# lsmod
