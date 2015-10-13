@@ -7,6 +7,7 @@
    * [Processor](documentation/Processor.md)
    * [Power Management IC](documentation/PowerManagementIc.md)
    * [Pin Multiplexor](documentation/PinMultiplexor.md)
+       * Watching it change
    * [MCU](documentation/Mcu.md)
    * [Wireless](documentation/Wireless.md)
 * [Operating Systems](documentation/OperatingSystems.md)
