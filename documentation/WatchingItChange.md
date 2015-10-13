@@ -42,7 +42,75 @@ GPIOs 232-247, i2c/1-0022, pcal9555a, can sleep:
 GPIOs 248-263, i2c/1-0023, pcal9555a, can sleep:
 
 ```
-The gpio's displayed above, are the ones exposed by default in a newly flashed  yocto image **Poky (Yocto Project Reference Distro) 1.7.2 edison**,  kernel  **3.10.17-poky-edison+**
+The gpio's displayed above, are the ones reserved (AKA exported) by default in a newly flashed  yocto image **Poky (Yocto Project Reference Distro) 1.7.2 edison**,  kernel  **3.10.17-poky-edison+**
+
+To reserve and use a GPIO, let's say 48 lets type the following:
+
+```
+root@edison:/# echo 48 > /sys/class/gpio/export
+```
+
+by this mechanism, a new directory is created in **/sys/class/gpio**, which should be **gpio48**:
+
+```
+root@edison:/# ls sys/class/gpio/
+export       gpio127      gpio131      gpio207      gpiochip200  unexport
+gpio124      gpio128      gpio132      gpio215      gpiochip216
+gpio125      gpio129      gpio133      gpio48       gpiochip232
+gpio126      gpio130      gpio134      gpiochip0    gpiochip248
+
+```
+this directory, is a control interface used to get userspace control over GPIO48, therefore can have the following read/write attributes:
+
+
+	"direction" ... reads as either "in" or "out". This value may
+		normally be written. Writing as "out" defaults to
+		initializing the value as low. To ensure glitch free
+		operation, values "low" and "high" may be written to
+		configure the GPIO as an output with that initial value.
+
+		Note that this attribute *will not exist* if the kernel
+		doesn't support changing the direction of a GPIO, or
+		it was exported by kernel code that didn't explicitly
+		allow userspace to reconfigure this GPIO's direction.
+
+	"value" ... reads as either 0 (low) or 1 (high). If the GPIO
+		is configured as an output, this value may be written;
+		any nonzero value is treated as high.
+
+		If the pin can be configured as interrupt-generating interrupt
+		and if it has been configured to generate interrupts (see the
+		description of "edge"), you can poll(2) on that file and
+		poll(2) will return whenever the interrupt was triggered. If
+		you use poll(2), set the events POLLPRI and POLLERR. If you
+		use select(2), set the file descriptor in exceptfds. After
+		poll(2) returns, either lseek(2) to the beginning of the sysfs
+		file and read the new value or close the file and re-open it
+		to read the value.
+
+	"edge" ... reads as either "none", "rising", "falling", or
+		"both". Write these strings to select the signal edge(s)
+		that will make poll(2) on the "value" file return.
+
+		This file exists only if the pin can be configured as an
+		interrupt generating input pin.
+
+	"active_low" ... reads as either 0 (false) or 1 (true). Write
+		any nonzero value to invert the value attribute both
+		for reading and writing. Existing and subsequent
+		poll(2) support configuration via the edge attribute
+		for "rising" and "falling" edges will follow this
+		setting.
+
+
+
+#Exercise1: Change GPIO direction
+As explained before the GPIO control interface has some read/write attributes, so lets go ahead and change the default direction of the **GPIO48** 
+
+
+| GPIO48  Previous Direction | GPIO48  New Direction |
+| -- | -- |
+| gpio-48  (sysfs               ) **in**  lo| gpio-48  (sysfs               ) **out**  lo |
 
 
 
@@ -50,5 +118,5 @@ The gpio's displayed above, are the ones exposed by default in a newly flashed  
 
 
 
-==links
+##links
 * https://www.kernel.org/doc/Documentation/gpio/sysfs.txt
