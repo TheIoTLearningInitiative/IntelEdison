@@ -7,8 +7,14 @@ Owner: Lynette
 Suggested outline:
 
 * What is pin multiplexing?
+
 * How to create a map of Edison pins/conf (for Edison-Arduino breakout, Edison mini-breakout board. Being the goal to not fully rely on community pin tables or data sheet)
+
+    *  Watching it change (commands used to debug/see GPIO changes and are configured)
+    
+
 * D-J play that "mux-ic" (how to actually change the pin configuration, through an example and watch it come alive through examples)
+
 * Try to apply the knowledge acquired to a small part of a bigger problem, probably ask the participant to plan the pin configuration he is going to need for the  training project.
 
 
