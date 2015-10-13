@@ -10,7 +10,7 @@ Suggested outline:
 
 * How to create a map of Edison pins/conf (for Edison-Arduino breakout, Edison mini-breakout board. Being the goal to not fully rely on community pin tables or data sheet)
 
-    *  Watching it change (commands used to debug/see GPIO changes and are configured)
+    *  Watching it change (commands used to debug/see GPIO changes and configurations)
     
 
 * D-J play that "mux-ic" (how to actually change the pin configuration, through an example and watch it come alive through examples)
