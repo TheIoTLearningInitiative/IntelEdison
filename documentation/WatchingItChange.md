@@ -1,6 +1,6 @@
 # Watching it change
 
-To see the status of our exported pins in the Edison, type this your terminal:
+To see the status of our exported pins in the Edison, type this your Edison's terminal:
 
 ```
 root@edison:/# watch -n 1 cat /sys/kernel/debug/gpio
@@ -42,4 +42,6 @@ GPIOs 232-247, i2c/1-0022, pcal9555a, can sleep:
 GPIOs 248-263, i2c/1-0023, pcal9555a, can sleep:
 
 ```
+The gpio's displayed above, are the ones exposed by default in a newly flashed  yocto image **Poky (Yocto Project Reference Distro) 1.7.2 edison**,  kernel  **3.10.17-poky-edison+**
+
 
