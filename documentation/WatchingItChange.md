@@ -45,3 +45,10 @@ GPIOs 248-263, i2c/1-0023, pcal9555a, can sleep:
 The gpio's displayed above, are the ones exposed by default in a newly flashed  yocto image **Poky (Yocto Project Reference Distro) 1.7.2 edison**,  kernel  **3.10.17-poky-edison+**
 
 
+
+
+
+
+
+==links
+* https://www.kernel.org/doc/Documentation/gpio/sysfs.txt
