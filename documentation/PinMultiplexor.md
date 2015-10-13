@@ -22,4 +22,4 @@ Suggested outline:
 - [Edison connector Pinout](http://akizukidenshi.com/download/ds/intel/edison-module_HG_331189-002.pdf)
 - [Physical pins map to MRAA pin numbers](http://iotdk.intel.com/docs/mraa/v0.6.0/edison.html)
 - [Github Taipei Hacker Space User Edison](https://github.com/taipeihackerspace/mredison/blob/33f6a61e474fae87c7c2770282ecca7d5fe9f0c4/gpio_setup.sh)
-- https://github.com/edouardrosset/Edison/blob/master/Intel_Edison_postFlash.sh
+- [Github User edouardrosset  / Edison](https://github.com/edouardrosset/Edison/blob/master/Intel_Edison_postFlash.sh)
