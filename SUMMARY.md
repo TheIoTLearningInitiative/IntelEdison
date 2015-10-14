@@ -20,6 +20,7 @@
    * [Advanced Package Tool](documentation/AdvancedPackageTool.md)
 * [Debug](documentation/Debug.md)
 * [Subsystems](documentation/Subsystems.md)
+   * GPIO
    * [Pin Muxing](documentation/PinMuxing.md)
    * [Serial](documentation/Serial.md)
    * [BlueTooth](documentation/BlueTooth.md)
@@ -28,7 +29,6 @@
    * [Video](documentation/Video.md)
    * [Power](documentation/Power.md)
    * [Networking](documentation/Networking.md)
-   * GPIO
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
