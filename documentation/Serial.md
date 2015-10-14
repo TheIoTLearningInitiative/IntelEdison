@@ -9,6 +9,7 @@ Serial
 
 ## Userspace Applications
 
+    root@edison:~# minicom
 
 ## Setup
 ### Apt-Get
