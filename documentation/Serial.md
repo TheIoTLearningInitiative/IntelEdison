@@ -35,6 +35,7 @@ Serial
 
     ```python
     import serial
+    
     ser = serial.Serial("/dev/ttyACM0", timeout=10)
     lines = ser.readlines()
         for i in range(10):
