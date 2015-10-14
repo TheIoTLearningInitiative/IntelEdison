@@ -14,7 +14,7 @@ Serial
 
     root@edison:~# minicom /dev/ttyUSB0
     root@edison:~# cu /dev/ttyS0 115200
-
+    root@edison:~# setserial -g /dev/ttyS[0123]
 ## Setup
 
 ### Apt-Get
