@@ -19,7 +19,7 @@ Serial
     root@edison:~# lspci
     root@edison:~# ls /dev/tty*
     root@edison:~# setserial -g /dev/ttyS[0123]
-    root@edison:~# setserial -g /dev/ttyUSBS[0123]
+    root@edison:~# setserial -g /dev/ttyUSB[0123]
 
 ## Userspace Applications
 
