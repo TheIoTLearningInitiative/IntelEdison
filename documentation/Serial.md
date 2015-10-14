@@ -2,11 +2,13 @@ Serial
 ==
 
 ## Kernel Integration
-## Userspace Applications
 
     root@edison:~# find /sys/ -name 'tty:ttyS*'
     root@edison:~# lspci
     root@edison:~# ls /dev/tty*
+
+## Userspace Applications
+
 
 ## Setup
 ### Apt-Get
