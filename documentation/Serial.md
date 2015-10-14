@@ -33,7 +33,6 @@ Serial
 
 ## Usage Models
 
-
 ```python
 import serial
 ser = serial.Serial("/dev/ttyACM0", timeout=10)
