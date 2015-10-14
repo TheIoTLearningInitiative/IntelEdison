@@ -4,7 +4,7 @@ Serial
 ## Kernel Integration
 ## Userspace Applications
 
-    
+    root@edison:~# ls /dev/tty*
 
 ## Setup
 ### Apt-Get
