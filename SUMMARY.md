@@ -20,7 +20,7 @@
    * [Advanced Package Tool](documentation/AdvancedPackageTool.md)
 * [Debug](documentation/Debug.md)
 * [Subsystems](documentation/Subsystems.md)
-   * GPIO
+   * [GPIO](documentation/Gpio.md)
    * [Pin Muxing](documentation/PinMuxing.md)
    * [Serial](documentation/Serial.md)
    * [BlueTooth](documentation/BlueTooth.md)
