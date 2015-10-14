@@ -8,12 +8,7 @@ Suggested outline:
 
 * What is pin multiplexing?
 
-* How to create a map of Edison pins/conf (for Edison-Arduino breakout, Edison mini-breakout board. Being the goal to not fully rely on community pin tables or data sheet)
-
-    *  Watching it change (commands used to debug/see GPIO changes and configurations)
-    
-
-* D-J play that "mux-ic" (how to actually change the pin configuration, through an example and watch it come alive through examples)
+* How to configure the muxing
 
 * Try to apply the knowledge acquired to a small part of a bigger problem, probably ask the participant to plan the pin configuration he is going to need for the  training project.
 
@@ -26,7 +21,7 @@ Suggested outline:
 ------------------------------------------------------------------------------------------------------
 
 
-# Watching it change
+# Watching it change (a primer on GPIO and GPIO configuration this content is moving to GPIO Subsystem)
 
 To see the status of our exported pins in the Edison, type this your Edison's terminal:
 
@@ -148,7 +143,6 @@ Then checking again the GPIO status we can see, that direction has changed. Here
 | GPIO48  Previous Direction | GPIO48  New Direction |
 | -- | -- |
 | gpio-48  (sysfs               ) **in**  lo| gpio-48  (sysfs               ) **out**  lo |
-
 
 
 
