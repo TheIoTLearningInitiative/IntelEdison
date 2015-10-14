@@ -28,7 +28,7 @@ Serial
 
 ## Device Configuration
 
-    root@edison:~# apt-get install minicom cu
+    root@edison:~# setserial /dev/ttyS0 spd_hi
 
 ## Usage Models
 
