@@ -5,7 +5,7 @@ Serial
 
 ### Apt-Get
 
-    root@edison:~# apt-get install minicom cu setserial
+    root@edison:~# apt-get install minicom cu setserial stty
 
 ### Opkg
 
