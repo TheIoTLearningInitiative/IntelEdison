@@ -30,5 +30,5 @@ Serial
 ## Links
 
 - https://communities.intel.com/thread/54236
-- [Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
-- [tldpSerial HOWTO](http://www.tldp.org/HOWTO/Serial-HOWTO.html)
+- [Sparkfun Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
+- [TLDP Serial HOWTO](http://www.tldp.org/HOWTO/Serial-HOWTO.html)
