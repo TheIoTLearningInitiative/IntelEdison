@@ -18,7 +18,7 @@ Serial
 ## Setup
 ### Apt-Get
 
-    root@edison:~# apt-get install minicom 
+    root@edison:~# apt-get install minicom
 
 ### Opkg
 ## Device Configuration
