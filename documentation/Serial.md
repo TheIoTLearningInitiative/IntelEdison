@@ -31,3 +31,4 @@ Serial
 
 - https://communities.intel.com/thread/54236
 - [Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
+- [Serial How-To](http://www.tldp.org/HOWTO/Serial-HOWTO.html)
