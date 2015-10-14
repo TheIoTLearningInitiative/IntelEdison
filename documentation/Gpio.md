@@ -1,4 +1,4 @@
-# General Purpose Input Output (GPIO)
+# General Purpose Input Output (GPIO) Subsystem
 
 
 
