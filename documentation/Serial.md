@@ -28,7 +28,7 @@ Serial
 
 ## Device Configuration
 
-    root@edison:~# setserial /dev/ttyS0 spd_hi
+    root@edison:~# setserial /dev/ttyS0 115200
 
 ## Usage Models
 
