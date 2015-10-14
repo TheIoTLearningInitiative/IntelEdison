@@ -30,4 +30,4 @@ Serial
 ## Links
 
 - https://communities.intel.com/thread/54236
-- [Sparkfun Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
+- [Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
