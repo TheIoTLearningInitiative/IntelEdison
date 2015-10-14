@@ -5,6 +5,7 @@ Serial
 ## Userspace Applications
 
     root@edison:~# ls /dev/tty*
+    root@edison:~# find /sys/ -name 'tty:ttyS*'
 
 ## Setup
 ### Apt-Get
