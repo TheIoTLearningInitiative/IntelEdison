@@ -23,9 +23,10 @@ Serial
 
 ## Userspace Applications
 
-    root@edison:~# minicom /dev/ttyUSB0
-    root@edison:~# cu /dev/ttyS0 115200
+    root@edison:~# minicom /dev/ttyS0
+    root@edison:~# cu /dev/ttyUSB0 115200
     root@edison:~# setserial -g /dev/ttyS[0123]
+    root@edison:~# setserial -g /dev/ttyUSBS[0123]
 
 ## Device Configuration
 
