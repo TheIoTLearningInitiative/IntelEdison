@@ -30,6 +30,7 @@ Serial
 ## Device Configuration
 
     root@edison:~# setserial /dev/ttyS0 115200
+    root@edison:~# stty -F /dev/ttyUSB0 115200 
 
 ## Usage Models
 
