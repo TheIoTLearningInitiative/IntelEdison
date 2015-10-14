@@ -156,7 +156,7 @@ Then checking again the GPIO status we can see, that direction has changed. Here
 
 
 ##links
-* https://www.kernel.org/doc/Documentation/gpio/sysfs.txt
+* [Kernel GPIO documentation](https://www.kernel.org/doc/Documentation/gpio/sysfs.txt)
 * [Edison-Arduino GPIO mapping](http://www.intel.com/support/edison/sb/CS-035275.htm)
 
 
