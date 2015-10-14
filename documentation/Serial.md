@@ -12,7 +12,6 @@ Serial
 
 ## Userspace Applications
 
-    root@edison:~# minicom /dev/ttyS0
     root@edison:~# minicom /dev/ttyUSB0
     root@edison:~# cu /dev/ttyS0 115200
 
