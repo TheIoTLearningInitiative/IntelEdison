@@ -1,4 +1,4 @@
-Serial Subsystem
+Serial
 ==
 
 ## Setup
