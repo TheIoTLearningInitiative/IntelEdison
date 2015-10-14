@@ -6,6 +6,7 @@ Serial
 
     root@edison:~# ls /dev/tty*
     root@edison:~# find /sys/ -name 'tty:ttyS*'
+    root@edison:~# lspci
 
 ## Setup
 ### Apt-Get
