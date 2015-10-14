@@ -30,7 +30,6 @@ Serial
 
     root@edison:~# apt-get install minicom cu
 
-
 ## Usage Models
 
     import serial
