@@ -10,6 +10,7 @@ Serial
 ## Userspace Applications
 
     root@edison:~# minicom /dev/ttyUSB0
+    root@edison:~# minicom /dev/ttyUSB0
 
 ## Setup
 ### Apt-Get
