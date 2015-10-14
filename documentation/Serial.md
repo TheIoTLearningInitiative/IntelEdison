@@ -9,7 +9,6 @@ Serial
 
 ### Opkg
 
-
 ## Kernel Integration
 
     root@edison:~# dmesg | grep -i serial
