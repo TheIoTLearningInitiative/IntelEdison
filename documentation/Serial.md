@@ -16,12 +16,18 @@ Serial
     root@edison:~# cu /dev/ttyS0 115200
 
 ## Setup
+
 ### Apt-Get
 
     root@edison:~# apt-get install minicom cu
 
 ### Opkg
+
 ## Device Configuration
+
+    root@edison:~# apt-get install minicom cu
+
+
 ## Usage Models
 
     import serial
