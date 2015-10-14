@@ -154,7 +154,22 @@ Then checking again the GPIO status we can see, that direction has changed. Here
 * [Edison-Arduino GPIO mapping](http://www.intel.com/support/edison/sb/CS-035275.htm)
 
 
+#How to Mux this thing!
 
+All GPIO pins on the Arduino* header require some internal GPIOs to be set up before the pin is usable. This is
+usually as simple as setting an output enable, pullup enable, and mode. However, some pins have extra
+functionality such as SPI, PWM, or I2C, so these pins need extra multiplexing (muxing) in order to be usable.
+Table 1 shows this such that a programmer can easily see all the muxing pins affected for a given Arduino* header
+pin. The color codes in the table show related boxes. For example, the blue boxes are meant to show the
+relationship between the pin mux pins and the pin modes. This table is a synopsis of the more detailed tables
+below, which contain extra information, such as schematic pin numbers. For most needs, this synopsized table
+should suffice.
+
+
+
+
+######Table1 Arduino* pin mux and pin mode settings 
+![](Arduino_pin_mux_and_pin_mode_settings.png)
 
 
 
