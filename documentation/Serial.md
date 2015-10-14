@@ -1,6 +1,15 @@
 Serial
 ==
 
+## Setup
+
+### Apt-Get
+
+    root@edison:~# apt-get install minicom cu
+
+### Opkg
+
+
 ## Kernel Integration
 
     root@edison:~# dmesg | grep -i serial
@@ -15,13 +24,6 @@ Serial
     root@edison:~# minicom /dev/ttyUSB0
     root@edison:~# cu /dev/ttyS0 115200
     root@edison:~# setserial -g /dev/ttyS[0123]
-## Setup
-
-### Apt-Get
-
-    root@edison:~# apt-get install minicom cu
-
-### Opkg
 
 ## Device Configuration
 
