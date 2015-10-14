@@ -1,4 +1,4 @@
-# General Purpose Input Output
+# General Purpose Input Output (GPIO)
 
 
 
