@@ -67,14 +67,23 @@ GPIOs 248-263, i2c/1-0023, pcal9555a, can sleep:
 ```
 The gpio's displayed above, are the ones reserved (AKA exported) by default in a newly flashed  yocto image **Poky (Yocto Project Reference Distro) 1.7.2 edison**,  kernel  **3.10.17-poky-edison+**
 
-To reserve and use a GPIO, let's say 48 lets type the following:
+To reserve and use a GPIO, 
+Before:
+```
+root@edison:~# ls /sys/class/gpio
+export       gpio127      gpio131      gpio207        gpiochip216
+gpio124      gpio128      gpio132      gpio215        gpiochip232
+gpio125      gpio129      gpio133      gpiochip0      gpiochip248
+gpio126      gpio130      gpio134      gpiochip200    unexport
+```
 
+let's say 48 lets type the following:
 ```
 root@edison:/# echo 48 > /sys/class/gpio/export
 ```
 
 by this mechanism, a new directory is created in **/sys/class/gpio**, which should be **gpio48**:
-
+After:
 ```
 root@edison:/# ls sys/class/gpio/
 export       gpio127      gpio131      gpio207      gpiochip200  unexport
