@@ -3,6 +3,7 @@ Serial
 
 ## Kernel Integration
 
+    root@edison:~# dmesg | grep -i serial
     root@edison:~# find /sys/ -name 'tty:ttyS*'
     root@edison:~# lspci
     root@edison:~# ls /dev/tty*
