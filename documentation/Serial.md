@@ -9,6 +9,8 @@ Serial
 
 ### Opkg
 
+    root@edison:~# echo "tbd"
+
 ## Kernel Integration
 
     root@edison:~# dmesg | grep -i serial
