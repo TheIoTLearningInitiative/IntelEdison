@@ -9,6 +9,9 @@ Suggested outline:
 * What is pin multiplexing?
 
 * How to configure the muxing
+    * How to Mux?
+    * Lets MUX-it!
+    * Exercise: use a pin for PWM, configure it, and measureit is send the correct voltage according to the PWM configuration. Using a multimeter or a DC motor.
 
 * Try to apply the knowledge acquired to a small part of a bigger problem, probably ask the participant to plan the pin configuration he is going to need for the  training project.
 
@@ -155,12 +158,7 @@ Then checking again the GPIO status we can see, that direction has changed. Here
 
 
 
-
-
-
-
-
-#How to Mux this thing!
+#How to MUX?
 
 All GPIO pins on the Arduino* header require some internal GPIOs to be set up before the pin is usable. This is
 usually as simple as setting an output enable, pullup enable, and mode. However, some pins have extra
@@ -179,16 +177,7 @@ should suffice.
 
 
 
-
-
-
-
-
-
-
-
-
-
+#Lets MUX-it!
 
 
 
