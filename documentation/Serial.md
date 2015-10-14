@@ -8,6 +8,7 @@ Serial
     root@edison:~# find /sys/ -name 'tty:ttyS*'
     root@edison:~# lspci
     root@edison:~# ls /dev/tty*
+    root@edison:~# setserial -g /dev/ttyS[0123]
 
 ## Userspace Applications
 
