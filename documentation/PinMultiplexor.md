@@ -170,9 +170,9 @@ usually as simple as setting an output enable, pullup enable, and mode. However,
 functionality such as SPI, PWM, or I2C, so these pins need extra multiplexing (muxing) in order to be usable.
 Table 1 shows this such that a programmer can easily see all the muxing pins affected for a given Arduino* header
 pin. The color codes in the table show related boxes. For example, the blue boxes are meant to show the
-relationship between the pin mux pins and the pin modes. ~~This table is a synopsis of the more detailed tables
-below, which contain extra information, such as schematic pin numbers. For most needs, this synopsized table
-should suffice.~~
+relationship between the pin mux pins and the pin modes. This table is a synopsis of the more detailed tables
+below, which contain extra information, such as schematic pin numbers, pins used for muxing, etc. For most needs, this synopsized table
+should suffice.
 
 
 
@@ -181,6 +181,17 @@ should suffice.~~
 ![](Arduino_pin_mux_and_pin_mode_settings.png)
 
 
+
+
+##Muxing Control
+Table 2 lists the GPIO outputs dedicated to pin multiplexing control. Different functions may be selected for
+specific shield I/O pins by setting these GPIO outputs to 0/1 (low/high). Additionally, some of the SoC GPIO pins
+also feature internal mux options. These are listed as “SoC Pin Modes”.
+Currently, these are configured by setting the required pin mode for the corresponding SoC GPIO pin N, via
+/sys/kernel/debug/gpio_debug/gpioN/current_pinmux, to “mode[0/1/2/...]”
+
+######Table2 Pin Function Miltiplexing Control
+![](PinFunctionMiltiplexingControl.png)
 
 #Lets MUX-it!
 
