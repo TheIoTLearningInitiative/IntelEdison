@@ -197,7 +197,7 @@ Currently, these are configured by setting the required pin mode for the corresp
 
 For most shield pins on the Intel® Edison kit for Arduino*, there is a buffer/level-shifter which needs to be
 configured for input or output direction, and an external 47 kohm pullup/pulldown resistor, which may be
-optionally enabled. Both are driven by dedicated GPIO outputs, listed in Table 7. When configuring a shield pin as
+optionally enabled. Both are driven by dedicated GPIO outputs, listed in Table 3. When configuring a shield pin as
 an output, we advise configuring the buffer for output before setting the SoC GPIO pin direction to output. To
 disconnect the external pullup/pulldown resistors, it is necessary to configure as high-impedance inputs the GPIOs
 that drive them.
