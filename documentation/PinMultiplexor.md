@@ -22,7 +22,12 @@ Suggested outline:
 
 
 ------------------------------------------------------------------------------------------------------
+# What is pin multiplexing?
+Some pins on the Intel® Edison may be configured with one well-defined purpose, others  are able to support  variety of functions including general-purpose I/O(GPIO), I2C, PWM, SPI , ADC among others.
 
+**Pin multiplexing** is the process of  selecting  a  specific function  for a particular multi-function shield pin. 
+
+However in some cases it can do more that just select the function. Other options for the pin include connecting  to pull-up or pull-down resistors to bias a line to a specific value. Some pins can be configured to detect input signal changes and generate an interrupt or a wakeup event.
 
 # Watching it change (a primer on GPIO and GPIO configuration this content is moving to GPIO Subsystem)
 
