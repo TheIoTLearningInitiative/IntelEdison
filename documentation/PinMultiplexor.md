@@ -193,6 +193,21 @@ Currently, these are configured by setting the required pin mode for the corresp
 ######Table2 Pin Function Miltiplexing Control
 ![](PinFunctionMiltiplexingControl.png)
 
+##Pin Direction & Pull-Up Control
+
+For most shield pins on the Intel® Edison kit for Arduino*, there is a buffer/level-shifter which needs to be
+configured for input or output direction, and an external 47 kohm pullup/pulldown resistor, which may be
+optionally enabled. Both are driven by dedicated GPIO outputs, listed in Table 7. When configuring a shield pin as
+an output, we advise configuring the buffer for output before setting the SoC GPIO pin direction to output. To
+disconnect the external pullup/pulldown resistors, it is necessary to configure as high-impedance inputs the GPIOs
+that drive them.
+Note also that the GPIO signals from the PCAL9555A GPIO expanders have internal 100 kohm pullup resistors,
+which are connected to the GPIO pins by default. These need to be disabled in many cases, by configuring those
+pins as high-impedance inputs. 
+
+######Table3 Pin Direction and pull-up control
+![](PinDirection_PullUpControl.png)
+
 #Lets MUX-it!
 
 
