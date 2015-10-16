@@ -203,10 +203,16 @@ pins as high-impedance inputs.
 ![](PinDirection_PullUpControl.png)
 
 #Lets MUX-it!
-So how all this comes together?, how can we use the aforementioned tables, to configure the GPIO pins for certain functionality required by our project?. Well if these are the kind of questions you have, you are in the right plac.
+So how all this comes together?, how can we use the aforementioned tables, to configure the GPIO pins for certain functionality required by our project?. Well if these are the kind of questions you have, you are in the right place.
 
-Trying to figure out how all this
+Trying to figure out how all this at first sight  may look a little bit overwhelming and it is just in appearance, in a nutshell the steps to configure a given pin, bases in the use of Table1 & Table2 with the following steps:
 
+
+1. **Before** setting up any muxing, set GPIO 214 (TRI_STATE_ALL) to HIGH
+2. Make a list of the GPIO's involved in the setup you want to do
+3. 
+3. **After** making all of your changes, then set
+GPIO 214 (TRI_STATE_ALL)  to LOW.
 
 
 
