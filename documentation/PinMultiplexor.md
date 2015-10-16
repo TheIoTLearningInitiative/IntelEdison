@@ -203,8 +203,9 @@ pins as high-impedance inputs.
 ![](PinDirection_PullUpControl.png)
 
 #Lets MUX-it!
+So how all this comes together?, how can we use the aforementioned tables, to configure the GPIO pins for certain functionality required by our project?. Well if these are the kind of questions you have, you are in the right plac.
 
-
+Trying to figure out how all this
 
 
 
