@@ -13,7 +13,7 @@
     root@ubilinux:~$ cd cmake-3.2.2
     root@ubilinux:~$ ./bootstrap
     root@ubilinux:~$ make
-    root@ubilinux:~$ make install
+    root@ubilinux:~# make install
 
 ### Upm
 
