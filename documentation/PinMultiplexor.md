@@ -1,9 +1,3 @@
-Pin Multiplexor
-==
-
-Owner: Lynette
-
-
 Suggested outline:
 
 * What is pin multiplexing?
