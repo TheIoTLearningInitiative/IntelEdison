@@ -30,6 +30,8 @@ http://www.embarcados.com.br/raspberry-pi-qt5-yocto-parte-1/
     user@host:~$ 
     user@host:~$ tar xvf edison-src-weekly-68b.tgz
     user@host:~$ cd edison-src
+    user@host:~$ ls
+    Makefile  meta-intel-edison
     user@host:~$ make setup
     user@host:~$ cd out/linux64
     user@host:~$ source poky/oe-init-build-env
