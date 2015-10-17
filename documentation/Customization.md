@@ -32,7 +32,7 @@ Owner: Eduardo
 
 - Repository Structure
   - bbcache/downloads
-  - 
+  - --dl_dir = 
 - Repositories Cloning
   - poky-mirror.git
   - meta-mingw-mirror.git
