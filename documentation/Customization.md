@@ -44,6 +44,8 @@ Owner: Eduardo
   - poky
 - Yocto Build Environment
   - build/conf/local.conf
+  - source poky/oe-init-build-env
+  - bitbake edison-image
 
 ## Script
 
