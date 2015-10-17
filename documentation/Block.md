@@ -59,6 +59,8 @@ Block Subsystem
 
 ## Userspace Applications
 
+## Device Configuration
+
 ### Format SD Card
     root@ubilinux:~# mount
     /dev/mmcblk0p7 on /boot type vfat (rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,err)
@@ -78,9 +80,6 @@ Block Subsystem
 
     root@edison:~# vi /etc/fstab
     /dev/mmcblk1  /path/to/localdirectory
-    
-## Device Configuration
-
 
 ## Usage Models
 
