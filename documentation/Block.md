@@ -9,7 +9,7 @@ Block Subsystem
 
 ### Opkg
 
-    apt-get install xfsprogs dosfstools
+    apt-get install e2fsprogs dosfstools xfsprogs
 
 ## Kernel Integration
 
