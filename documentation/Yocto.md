@@ -11,6 +11,7 @@
 
 ## Yocto Minnowboard MAX
 
+    user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~$ mkdir source
     user@host:~$ cd source
     user@host:~$ git clone -b fido git://git.yoctoproject.org/poky
