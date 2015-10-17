@@ -5,6 +5,7 @@ Linux Kernel
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/upstream_to_edison.patch
     user@host:~$ bitbake virtual/kernel -c menuconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
+    user@host:~$ bitbake edison-image
 
 ## Links
 
