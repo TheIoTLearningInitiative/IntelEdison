@@ -7,20 +7,6 @@ Owner: Eduardo
 
     user@host:~# sudo apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
-## Script
-
-    user@host:~$ tar xvf edison-src-weekly-68.tgz
-    user@host:~$ ls edison-src
-    arduino  broadcom_cws  device-software  mw
-    user@host:~$ ./device-software/setup.sh
-    user@host:~$ source poky/oe-init-build-env
-    user@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh
-
-
-- File name: edison-src-weekly-68.tgz @ https://downloadcenter.intel.com/download/24357
-- https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
-- https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
-
 ## Make
 
     user@host:~$ 
@@ -43,6 +29,21 @@ Owner: Eduardo
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
 ### Make Building Workflow
+
+
+## Script
+
+    user@host:~$ tar xvf edison-src-weekly-68.tgz
+    user@host:~$ ls edison-src
+    arduino  broadcom_cws  device-software  mw
+    user@host:~$ ./device-software/setup.sh
+    user@host:~$ source poky/oe-init-build-env
+    user@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh
+
+
+- File name: edison-src-weekly-68.tgz @ https://downloadcenter.intel.com/download/24357
+- https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
+- https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
 
 ### Under investigation?
     
