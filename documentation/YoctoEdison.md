@@ -25,7 +25,7 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ make image
     user@host:~$ make flash
 
-### Native SDK
+### Native SDK via Make
 
     user@host:~$ make sdk
     user@host:~$ ls out/current/build/tmp/deploy/sdk/
