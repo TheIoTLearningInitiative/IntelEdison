@@ -40,7 +40,7 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ make setup
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
-    user@host:~$ cd out/linux64
+    user@host:~$ cd out/linux64 || cd out/current
     user@host:~$ ls
     build  poky
     user@host:~$ source poky/oe-init-build-env
