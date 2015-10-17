@@ -30,7 +30,7 @@ Owner: Eduardo
 
 ### Make Building Workflow
 
-- setup.sh
+- meta-intel-edison/setup.sh
   - --dl_dir = bbcache/downloads
   - --sstate_dir = bbcache/sstate-cache
   - --build_dir = out/linux64 
