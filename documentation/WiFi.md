@@ -1,6 +1,8 @@
 WiFi
 ==
 
+Wi-Fi Peer-to-Peer connectivity with Wi-Fi Direct
+
 ## Kernel Integration
 ## Userspace Applications
 ## Setup
