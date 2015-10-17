@@ -13,6 +13,17 @@ The Intel® Edison Board Support Package offers these features:
 
     user@host:~# apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
+## Yocto Building via Make + Make Image
+
+    user@host:~$ tar xvf edison-src-ww25.5-15.tgz
+    user@host:~$ cd edison-src
+    user@host:~$ ls
+    Makefile  meta-intel-edison
+    user@host:~$ make setup
+    user@host:~$ ls
+    bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
+    user@host:~$ make image
+
 ## Yocto Building via Make + Bitbake
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
@@ -32,17 +43,6 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ cd out/linux64/build/tmp/deploy/images/edison
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
-
-## Yocto Building via Make + Make Image
-
-    user@host:~$ tar xvf edison-src-ww25.5-15.tgz
-    user@host:~$ cd edison-src
-    user@host:~$ ls
-    Makefile  meta-intel-edison
-    user@host:~$ make setup
-    user@host:~$ ls
-    bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
-    user@host:~$ make image
 
 ### Make Building Workflow
 
