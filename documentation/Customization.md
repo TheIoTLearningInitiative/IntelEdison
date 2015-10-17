@@ -196,34 +196,7 @@ build  poky
     NOTE: Preparing runqueue
     NOTE: Executing SetScene Tasks
     NOTE: Executing RunQueue Tasks
-    WARNING: Failed to fetch URL http://zlib.net/pigz/pigz-2.3.1.tar.gz, attempting MIRRORS if available
-    WARNING: Failed to fetch URL ftp://ftp.debian.org/debian/pool/main/b/base-passwd/base-passwd_3.5.29.tar.gz, attempting MIRRORS if available
-    WARNING: Failed to fetch URL http://downloads.sourceforge.net/project/libpng/libpng16/1.6.13/libpng-1.6.13.tar.xz, attempting MIRRORS if available
-    NOTE: validating kernel config, see log.do_kernel_configcheck for details
-    WARNING: Failed to fetch URL http://www.apache.org/dist/apr/apr-1.5.1.tar.bz2, attempting MIRRORS if available
-    WARNING: Failed to fetch URL http://www.apache.org/dist/apr/apr-util-1.5.3.tar.gz, attempting MIRRORS if available
-    WARNING: QA Issue: bluez5: configure was passed unrecognised options: --with-systemdunitdir [unknown-configure-option]
-    WARNING: Failed to fetch URL http://www.apache.org/dist/subversion/subversion-1.8.9.tar.bz2, attempting MIRRORS if available
-    WARNING: Failed to fetch URL ftp://ftp.debian.org/debian/pool/main/n/netbase/netbase_5.2.tar.gz, attempting MIRRORS if available
-    WARNING: Failed to fetch URL ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools/dosfstools-2.11.src.tar.gz, attempting MIRRORS if available
-    WARNING: busybox: alternative target (/etc/syslog.conf or /etc/syslog.conf.busybox) does not exist, skipping...
-    WARNING: busybox: NOT adding alternative provide /etc/syslog.conf: /etc/syslog.conf.busybox does not exist
-    WARNING: alt_link == alt_target: /etc/syslog.conf == /etc/syslog.conf
-    WARNING: Failed to fetch URL ftp://ftp.debian.org/debian/pool/main/n/net-tools/net-tools_1.60-25.diff.gz;apply=no;name=patch, attempting MIRRORS if available
-    WARNING: Failed to fetch URL http://dl.lm-sensors.org/i2c-tools/releases/i2c-tools-3.1.1.tar.bz2, attempting MIRRORS if available
-    WARNING: Failed to fetch URL ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/lsof_4.87.tar.bz2, attempting MIRRORS if available
-    WARNING: Failed to fetch URL ftp://ftp.debian.org/debian/pool/main/d/dpkg/dpkg_1.17.4.tar.xz, attempting MIRRORS if available
-    WARNING: Failed to fetch URL http://ftp.de.debian.org/debian/pool/main/m/mklibs/mklibs_0.1.39.tar.xz, attempting MIRRORS if available
-    WARNING: Failed to fetch URL ftp://ftp.berlios.de/pub/cdrecord/alpha/cdrtools-3.01a20.tar.bz2, attempting MIRRORS if available
-    WARNING: QA Issue: battery-voltage rdepends on libsystemd, but it isn't a build dependency? [build-deps]
-    WARNING: QA Issue: xdk-daemon requires libdns_sd.so, but no providers in its RDEPENDS [file-rdeps]
-    WARNING: QA Issue: iotkit-agent requires /bin/bash, but no providers in its RDEPENDS [file-rdeps]
-    WARNING: QA Issue: pulseaudio-module-console-kit rdepends on consolekit, but it isn't a build dependency? [build-deps]
-    WARNING: QA Issue: post-install requires /bin/bash, but no providers in its RDEPENDS [file-rdeps]
-        WARNING: QA Issue: systemd-kernel-install requires /bin/bash, but no providers in its RDEPENDS [file-rdeps]
-    WARNING: QA Issue: wpa-supplicant-passphrase rdepends on libcrypto, but it isn't a build dependency? [build-deps]
-    WARNING: QA Issue: wpa-supplicant rdepends on libcrypto, but it isn't a build dependency? [build-deps]
-    WARNING: QA Issue: wpa-supplicant rdepends on libssl, but it isn't a build dependency? [build-deps]
+    ...
     NOTE: Tasks Summary: Attempted 3757 tasks of which 13 didn't need to be rerun and all succeeded.
 
     Summary: There were 28 WARNING messages shown.
