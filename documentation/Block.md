@@ -79,6 +79,11 @@ Block Subsystem
     root@edison:~# mount | grep mmcblk1
     /dev/mmcblk1 on /root/tempext4 type ext4 (rw,relatime,data=ordered)
 
+### UmountSD Card
+
+    root@edison:~# umount localdirectory
+    root@edison:~# umount /dev/mmcblk1
+
 ### Mount Automatically SD Card
 
     root@edison:~# vi /etc/fstab
