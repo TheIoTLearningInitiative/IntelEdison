@@ -3,7 +3,7 @@ WiFi
 
 - Wi-Fi peer-to-peer connectivity with Wi-Fi Direct
 - Wi-Fi multirole
-- Wi-Fi IBSS role
+- Wi-Fi IBSS mode
 
 ## Kernel Integration
 ## Userspace Applications
