@@ -47,7 +47,7 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
-## Native SDK via Make
+## Native SDK
 
     user@host:~$ make sdk
     user@host:~$ ls out/current/build/tmp/deploy/sdk/
