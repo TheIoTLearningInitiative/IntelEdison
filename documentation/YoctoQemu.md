@@ -1,18 +1,19 @@
 # Yocto Qemu
 
-    $ sudo apt-get install gawk wget git-core diffstat unzip texinfo build-essential
-    $ sudo apt-get install qemu
-    $ git clone git://git.yoctoproject.org/poky --branch daisy
-    $ source poky/oe-init-build-env yocto-x86-minimal
-    $ bitbake core-image-minimal
-    $ bitbake core-image-full-cmdline-x86
-    $ runqemu qemux86
-    $ mkdir source
-    $ cd source
-    $ git clone -b daisy git://git.yoctoproject.org/poky
-    $ git clone -b daisy git://git.yoctoproject.org/meta-intel
-    $ source poky/oe-init-build-env yocto-x86-minnowmax
-    $ bitbake core-image-sato-sdk
+    user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential
+    user@host:~# apt-get install qemu
+    user@host:~$ git clone git://git.yoctoproject.org/poky --branch daisy
+    user@host:~$ source poky/oe-init-build-env yocto-x86-minimal
+    user@host:~$ bitbake core-image-minimal
+    user@host:~$ bitbake core-image-full-cmdline-x86
+    user@host:~$ runqemu qemux86
+    
+    user@host:~$ mkdir source
+    user@host:~$ cd source
+    user@host:~$ git clone -b daisy git://git.yoctoproject.org/poky
+    user@host:~$ git clone -b daisy git://git.yoctoproject.org/meta-intel
+    user@host:~$ source poky/oe-init-build-env yocto-x86-minnowmax
+    user@host:~$ bitbake core-image-sato-sdk
     $ sudo apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     Reading package lists... Done
     Building dependency tree     
