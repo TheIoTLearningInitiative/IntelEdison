@@ -2,7 +2,7 @@ WiFi
 ==
 
 - Wi-Fi peer-to-peer connectivity with Wi-Fi Direct
-- 
+- Wi-Fi multirole
 
 ## Kernel Integration
 ## Userspace Applications
