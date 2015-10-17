@@ -47,7 +47,7 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
-## Yocto Building via Script
+### Building via Script
 
     user@host:~$ tar xvf edison-src-weekly-68.tgz
     user@host:~$ ls edison-src
