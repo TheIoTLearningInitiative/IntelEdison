@@ -57,7 +57,7 @@ The Intel® Edison Board Support Package offers these features:
 
 ## Packages
 
-    user@host:~$ neno edison-src/meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
+    user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
     IMAGE_INSTALL+=“libpng”
     PACKAGE_EXCLUDE = "libpng"
 
