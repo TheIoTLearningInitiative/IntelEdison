@@ -33,6 +33,7 @@ Owner: Eduardo
 - Repository Structure
   - --dl_dir = bbcache/downloads
   - --sstate_dir = bbcache/sstate-cache
+  - --build_dir = out/linux64 
 - Repositories Cloning
   - poky-mirror.git
   - meta-mingw-mirror.git
