@@ -51,6 +51,11 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
+## Packages
+
+    user@host:~$ IMAGE_INSTALL+=“libpng”
+    
+
 ### Make Building Workflow
 
 - meta-intel-edison/setup.sh
