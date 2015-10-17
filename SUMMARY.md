@@ -39,7 +39,7 @@
    * [Yocto](documentation/Yocto.md)
    * [Board Support Package](documentation/BoardSupportPackage.md)
    * [Linux Kernel](documentation/LinuxKernelCustom.md)
-   * File System
+   * [File System](documentation/FileSystem.md)
 * [SandBox](documentation/Sandbox.md)
 * [Customization Log Placeholder](CustomizationLogPlaceholder.md)
 
