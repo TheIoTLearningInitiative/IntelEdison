@@ -6,5 +6,5 @@ Yocto
 - [Yocto Project](http://www.yoctoproject.org/)
 - [Yocto Project Quick Start Guide]()
 - [Yocto Developer Manual]()
-- []()
+- [Yocto Kernel Developer Manual]()
 - []()
