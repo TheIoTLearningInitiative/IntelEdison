@@ -12,7 +12,7 @@
    * [Wireless](documentation/Wireless.md)
 * [Operating Systems](documentation/OperatingSystems.md)
    * [Linux Kernel](documentation/LinuxKernel.md)
-   * [Yocto](documentation/Yocto.md)
+   * [Yocto Project](documentation/YoctoProject.md)
    * [Ubilinux](documentation/Ubilinux.md)
    * [Services](documentation/Services.md)
 * [Package Management Systems](documentation/PackageManagementSystems.md)
