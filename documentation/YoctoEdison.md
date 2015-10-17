@@ -15,7 +15,7 @@ The Intel® Edison Board Support Package offers these features:
 
 ## Board Support Package
 
-### Make
+### Building vi Make
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
