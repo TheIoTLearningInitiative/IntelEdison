@@ -37,7 +37,7 @@
 * [MicroController Unit](documentation/MicroControllerUnit.md)
 * [Customization](documentation/Customization.md)
    * [Yocto](documentation/Yocto.md)
-   * [Board Support Package](documentation/YoctoEdison.md)
+   * [Board Support Package](documentation/BoardSupportPackage.md)
    * [Linux Kernel](documentation/LinuxKernelCustom.md)
 * [SandBox](documentation/Sandbox.md)
 * [Customization Log Placeholder](CustomizationLogPlaceholder.md)
