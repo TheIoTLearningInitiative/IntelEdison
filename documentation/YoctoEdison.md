@@ -122,7 +122,11 @@ Tbd
 - https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
 - https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
 
-### Under investigation?
+## Links
+
+http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
+
+## Under investigation?
     
     - What is it create-debian-image.sh
     user@host:~$ edison-src/meta-intel-edison/utils
