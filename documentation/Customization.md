@@ -38,10 +38,6 @@ https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
     
     edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
-
-- http://www.embarcados.com.br/intel-edison-yocto-como-construir-sua-propria-distribuicao-linux-embarcado/
-- http://www.embarcados.com.br/raspberry-pi-qt5-yocto-parte-1/
-
 ### What is it create-debian-image.sh
     user@host:~$ edison-src/meta-intel-edison/utils
 
@@ -237,6 +233,8 @@ build  poky
 - http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
 - https://hayestech.files.wordpress.com/2015/01/intel-edison-bsd.pdf
 - http://www.instructables.com/id/Securing-IoT-applications-built-on-Intel-Galileo-a/
+- http://www.embarcados.com.br/intel-edison-yocto-como-construir-sua-propria-distribuicao-linux-embarcado/
+- http://www.embarcados.com.br/raspberry-pi-qt5-yocto-parte-1/
 - https://communities.intel.com/docs/DOC-23391
 - https://software.intel.com/en-us/articles/intel-edison-developer-resources
 - http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
