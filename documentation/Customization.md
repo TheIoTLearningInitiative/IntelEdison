@@ -48,7 +48,6 @@ Owner: Eduardo
 xe1gyq@jessie:~/Downloads/edison-src/out/linux64$ ls
 build  poky
 
-
 ## Links 
 
 - http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
