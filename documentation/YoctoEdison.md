@@ -124,7 +124,7 @@ Tbd
 
 ## Links
 
-- [Intel Edison Board support Package](http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf)
+- [Intel® Edison Board Support Package](http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf)
 
 ## Under investigation?
     
