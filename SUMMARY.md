@@ -29,7 +29,7 @@
    * [Video](documentation/Video.md)
    * [Power](documentation/Power.md)
    * [Networking](documentation/Networking.md)
-   * Block
+   * [Block](documentation/Block.md)
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
