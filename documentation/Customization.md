@@ -32,6 +32,9 @@ Owner: Eduardo
 
 - Repositories Cloning
   - poky-mirror.git
+  - meta-mingw-mirror.git
+  - meta-darwin-mirror.git
+  - meta-intel-iot-middleware-mirror.git
   - 
 
 ## Script
