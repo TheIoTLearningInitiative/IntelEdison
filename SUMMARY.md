@@ -25,7 +25,7 @@
    * [Serial](documentation/Serial.md)
    * [BlueTooth](documentation/BlueTooth.md)
    * [WiFi](documentation/WiFi.md)
-   * [Sound](documentation/Sound.md)
+   * [Audio](documentation/Audio.md)
    * [Video](documentation/Video.md)
    * [Power](documentation/Power.md)
    * [Networking](documentation/Networking.md)
