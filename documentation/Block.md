@@ -9,6 +9,7 @@ Block Subsystem
 
 ### Opkg
 
+    apt-get install xfsprogs dosfstools
 
 ## Kernel Integration
 
