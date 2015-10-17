@@ -8,7 +8,9 @@
     user@host:~$ bitbake core-image-full-cmdline-x86
     user@host:~$ bitbake core-image-sato-sdk
     user@host:~$ runqemu qemux86
-    
+
+## Yocto Minnowboard MAX
+
     user@host:~$ mkdir source
     user@host:~$ cd source
     user@host:~$ git clone -b fido git://git.yoctoproject.org/poky
