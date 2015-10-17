@@ -48,6 +48,7 @@ Owner: Eduardo
   - bitbake edison-image
 
 
+
     Build Configuration:
     BB_VERSION        = "1.24.0"
     BUILD_SYS         = "i686-linux"
