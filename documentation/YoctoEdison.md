@@ -59,6 +59,7 @@ The Intel® Edison Board Support Package offers these features:
 
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
     IMAGE_INSTALL += “libpng”
+    IMAGE_INSTALL += "opencv"
     PACKAGE_EXCLUDE = "libpng"
 
 ## Third Party Packages
