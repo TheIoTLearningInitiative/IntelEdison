@@ -3,7 +3,7 @@ WiFi
 
 - Wi-Fi peer-to-peer connectivity with Wi-Fi Direct
 - Wi-Fi multirole
-- Wi-Fi IBSS mode
+- Wi-Fi IBSS mode, Allows creation of multinode ad hoc networks that contain no access point.
 
 ## Kernel Integration
 ## Userspace Applications
