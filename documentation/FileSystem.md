@@ -7,4 +7,9 @@ File System
     Rootfs’ size from 512MB to 1312MB
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
     rootfs
+    user@host:~$ /device-software/utils/flash/postBuild.sh
+    user@host:~$ apt-get install dfu-util
+    user@host:~$ /build/toFlash/flashall.sh --recovery
+    user@host:~$ /build/toFlash/flashall.sh
+    user@host:~$ sudo screen /dev/ttyUSBX 115200
 
