@@ -38,7 +38,7 @@
 * [Customization](documentation/Customization.md)
    * [Yocto](documentation/Yocto.md)
    * [Yocto Edison](documentation/YoctoEdison.md)
-   * Linux Kernel
+   * [Linux Kernel](documentation/LinuxKernelCustom.md)
 * [SandBox](documentation/Sandbox.md)
 * [Customization Log Placeholder](CustomizationLogPlaceholder.md)
 
