@@ -91,6 +91,14 @@ Block Subsystem
 
 ## Usage Models
 
+    root@ubilinux:~# mkdir temptmp
+    root@ubilinux:~# mount -o size=16G -t tmpfs none temptmp/
+    root@ubilinux:~# cd temptmp/
+    root@ubilinux:~/temptmp# ls
+    root@ubilinux:~/temptmp# cd ..
+    root@ubilinux:~# mount
+    none on /root/temptmp type tmpfs (rw,relatime,size=16777216k)
+
 ## Links
 
 - [Differences between flash devices and block drives](http://www.linux-mtd.infradead.org/faq/general.html#L_mtd_vs_hdd)
