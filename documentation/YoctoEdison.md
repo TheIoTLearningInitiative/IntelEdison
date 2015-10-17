@@ -39,6 +39,7 @@ The Intel® Edison Board Support Package offers these features:
     Makefile  meta-intel-edison
     user@host:~$ mkdir bitbake_download_dir
     user@host:~$ mkdir bitbake_sstate_dir
+    ./meta-intel-edison/setup.sh --dl_dir=/path/to/bitbake_download_dir –-sstate_dir=/path/to/bitbake_sstate_dir
     user@host:~$ make setup
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
