@@ -1,9 +1,5 @@
 # Customization Log Placeholder
 
-    xe1gyq@jessie:~/Downloads/edison-src$ make
-    Please run "make setup" first
-    Makefile:106: recipe for target '_check_setup_was_done' failed
-    make: *** [_check_setup_was_done] Error 1
     xe1gyq@jessie:~/Downloads/edison-src$ make setup
     Setup buildenv for SDK host linux64
     ./meta-intel-edison/setup.sh  --dl_dir=/home/xe1gyq/Downloads/edison-src/bbcache/downloads --sstate_dir=/home/xe1gyq/Downloads/edison-src/bbcache/sstate-cache --build_dir=/home/xe1gyq/Downloads/edison-src/out/linux64 --build_name=custom_build_xe1gyq@20151001233406 --sdk_host=linux64
