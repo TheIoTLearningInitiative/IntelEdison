@@ -9,7 +9,7 @@ Applications
     
 ## Links
 
-- [](http://www.intel.com/support/edison/sb/CS-035382.htm)
+- [Intel® Edison Native Application Guide](http://www.intel.com/support/edison/sb/CS-035382.htm)
 - http://dev.ardupilot.com/wiki/edison-for-drones/
 - https://github.com/catmaker/chippy
 - https://github.com/MakersTeam/Edison
