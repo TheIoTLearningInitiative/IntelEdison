@@ -59,16 +59,23 @@ Block Subsystem
 
 ## Userspace Applications
 
+### Format SD Card
     root@ubilinux:~# mount
     /dev/mmcblk0p7 on /boot type vfat (rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,err)
     /dev/mmcblk0p10 on /home type ext4 (rw,relatime,data=ordered)
     /dev/mmcblk1p1 on /media/sdcard type vfat (rw,relatime,uid=65534,fmask=0000,dmask=0000,allow_utime=0022,codepage=437,ioch)
     root@edison:~# mkfs.ext4 /dev/mmcblk1
     root@edison:~# mkfs.ext4 -t ext4 /dev/mmcblk1
+
+### Mount Manually SD Card
+
     root@edison:~# mkdir localdirectory
     root@edison:~# mount -t ext4 /dev/mmcblk1 localdirectory
     root@edison:~# mount | grep mmcblk1
     /dev/mmcblk1 on /root/tempext4 type ext4 (rw,relatime,data=ordered)
+
+### Mount Automatically SD Card
+
     root@edison:~# vi /etc/fstab
     /dev/mmcblk1  /path/to/localdirectory
     
