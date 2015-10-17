@@ -13,7 +13,9 @@ The Intel® Edison Board Support Package offers these features:
 
     user@host:~# apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
-## Building via Make
+## Building 
+
+### Make
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
