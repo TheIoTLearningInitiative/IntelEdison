@@ -7,7 +7,7 @@ Owner: Eduardo
 
     user@host:~# sudo apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
-## Make + Bitbake
+## Yocto Bulding via Make + Bitbake
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
