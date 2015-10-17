@@ -30,7 +30,7 @@ Owner: Eduardo
 
 ### Make Building Workflow
 
-- setup.sh
+- Script setup.sh
   - --dl_dir = bbcache/downloads
   - --sstate_dir = bbcache/sstate-cache
 - Repositories Cloning
