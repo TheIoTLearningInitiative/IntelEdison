@@ -3,7 +3,7 @@ Yocto Edison
 
 ## Dependencies
 
-    user@host:~# sudo apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
+    user@host:~# apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
 ## Yocto Building via Make + Bitbake
 
