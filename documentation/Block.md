@@ -98,6 +98,7 @@ Block Subsystem
     root@ubilinux:~/temptmp# cd ..
     root@ubilinux:~# mount
     none on /root/temptmp type tmpfs (rw,relatime,size=16777216k)
+    root@ubilinux:~# umount /root/temptmp
 
 ## Links
 
