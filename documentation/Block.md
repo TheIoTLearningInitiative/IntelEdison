@@ -69,7 +69,8 @@ Block Subsystem
     root@edison:~# mount -t ext4 /dev/mmcblk1 localdirectory
     root@edison:~# mount | grep mmcblk1
     /dev/mmcblk1 on /root/tempext4 type ext4 (rw,relatime,data=ordered)
-    
+    root@edison:~# vi /etc/fstab
+    /dev/mmcblk1  /home/localdirectory
     
 ## Device Configuration
 
