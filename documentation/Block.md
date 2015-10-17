@@ -14,7 +14,7 @@ Block Subsystem
 
 ## Userspace Applications
 
-mkfs.ext4 block_device
+    root@edison:~# mkfs.ext4 block_device
 
 ## Device Configuration
 
