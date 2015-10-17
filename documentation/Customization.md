@@ -30,7 +30,9 @@ Owner: Eduardo
 
 ### Make Building Workflow
 
-1. 
+- Repositories Cloning
+  - poky-mirror.git
+  - 
 
 ## Script
 
