@@ -36,7 +36,6 @@ Owner: Eduardo
     user@host:~$ bitbake edison-image
     xe1gyq@jessie:~/Downloads/edison-src$ ls
     arduino  bbcache  broadcom_cws  device-software  Makefile  meta-arduino meta-intel-edison  mw  out  pub
-
     user@host:~$ cd out/linux64/build/tmp/deploy/images/edison
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
