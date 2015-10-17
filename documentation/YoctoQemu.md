@@ -1,6 +1,6 @@
 # Yocto Qemu
 
-    user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential
+    user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~# apt-get install qemu
     user@host:~$ git clone git://git.yoctoproject.org/poky --branch daisy
     user@host:~$ source poky/oe-init-build-env yocto-x86-minimal
@@ -21,8 +21,9 @@
     ... ...
     0 upgraded, 0 newly installed, 0 to remove and 535 not upgraded.
     xe1gyq@sayulita:~$ git clone git://git.yoctoproject.org/poky --branch daisy
+    
     user@host:~$ sudo apt-get install qemu
-    git clone git://git.yoctoproject.org/poky --branch daisy
+    user@host:~$ git clone git://git.yoctoproject.org/poky --branch daisy
     Cloning into 'poky'...
     remote: Counting objects: 240747, done.
     remote: Compressing objects: 100% (59908/59908), done.
