@@ -66,13 +66,6 @@ Owner: Eduardo
     meta-intel-iot-middleware = "(detachedfromc6d6814):c6d681475e76107e6c04c5f7a06034dc9e772d1e"
     meta-intel-arduino = "<unknown>:<unknown>"
     meta-arduino      = "1.6.x:541b127163acb243109f07141bf249da2ecdcd9a"
-
-    NOTE: Preparing runqueue
-    NOTE: Executing SetScene Tasks
-    NOTE: Executing RunQueue Tasks
-    ...
-    NOTE: Tasks Summary: Attempted 3757 tasks of which 13 didn't need to be rerun and all succeeded.
-
     
 
 ## Script
