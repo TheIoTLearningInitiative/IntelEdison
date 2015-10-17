@@ -22,7 +22,7 @@ File name: edison-src-weekly-68.tgz
 https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
 https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
 
-## Process B
+## Process Make
 
 http://www.embarcados.com.br/intel-edison-yocto-como-construir-sua-propria-distribuicao-linux-embarcado/
 http://www.embarcados.com.br/raspberry-pi-qt5-yocto-parte-1/
