@@ -65,6 +65,8 @@ Block Subsystem
     /dev/mmcblk1p1 on /media/sdcard type vfat (rw,relatime,uid=65534,fmask=0000,dmask=0000,allow_utime=0022,codepage=437,ioch)
     root@edison:~# mkfs.ext4 /dev/mmcblk1
     root@edison:~# mkfs.ext4 -t ext4 /dev/mmcblk1
+    root@edison:~# mkdir localdirectory
+    root@edison:~# mount -t ext4 /dev/mmcblk1 localdirectory
     
 ## Device Configuration
 
