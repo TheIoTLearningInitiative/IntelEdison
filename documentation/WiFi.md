@@ -58,8 +58,7 @@ WiFi to connect at power up:
 ## Usage Models
 ## Links
 
-- [Intel® Edison Boards
-Wi-Fi User Guide](http://www.intel.com/support/edison/sb/CS-035380.htm)
+- [Intel® Edison Boards Wi-Fi User Guide](http://www.intel.com/support/edison/sb/CS-035380.htm)
 - https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
 
 ## Yocto Default Image
