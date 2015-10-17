@@ -13,7 +13,7 @@ The Intel® Edison Board Support Package offers these features:
 
     user@host:~# apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
-## Yocto Building via Make
+## Building via Make
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
@@ -25,7 +25,11 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ make image
     user@host:~$ make flash
 
-## Yocto Building via Native SDK
+### Native SDK
+
+    user@host:~$ make sdk
+    user@host:~$ ls out/current/build/tmp/deploy/sdk/
+    user@host:~$ poky-edison-eglibc-x86_64-edison-image-core2-32-toolchain-1.6.1.sh
 
 ## Yocto Building via Make + Bitbake
 
