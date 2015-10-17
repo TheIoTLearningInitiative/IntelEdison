@@ -30,10 +30,11 @@ Owner: Eduardo
 
 ### Make Building Workflow
 
-- Repository Structure
+- setup.sh
   - --dl_dir = bbcache/downloads
   - --sstate_dir = bbcache/sstate-cache
   - --build_dir = out/linux64 
+- Repository Structure
 - Repositories Cloning
   - poky-mirror.git
   - meta-mingw-mirror.git
