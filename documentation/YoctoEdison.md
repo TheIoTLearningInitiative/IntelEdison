@@ -53,8 +53,9 @@ The Intel® Edison Board Support Package offers these features:
 
 ## Packages
 
-    user@host:~$ IMAGE_INSTALL+=“libpng”
-    
+    user@host:~$ 
+    IMAGE_INSTALL+=“libpng”
+    PACKAGE_EXCLUDE = "libpng"
 
 ### Make Building Workflow
 
