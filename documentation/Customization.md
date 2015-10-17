@@ -21,7 +21,7 @@ Owner: Eduardo
 - https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
 - https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
 
-## Process Make
+## Make
 
     user@host:~$ 
     user@host:~$ tar xvf edison-src-weekly-68b.tgz
