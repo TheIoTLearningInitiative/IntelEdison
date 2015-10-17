@@ -30,12 +30,15 @@ Owner: Eduardo
 
 ### Make Building Workflow
 
+- Repository Structure
+  - bbcache/downloads
+  - 
 - Repositories Cloning
   - poky-mirror.git
   - meta-mingw-mirror.git
   - meta-darwin-mirror.git
   - meta-intel-iot-middleware-mirror.git
-  - 
+  - poky
 
 ## Script
 
