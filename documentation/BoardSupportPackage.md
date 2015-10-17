@@ -75,7 +75,8 @@ The Intel® Edison Board Support Package offers these features:
 ### Building via BitBake
 
     user@host:~$ bitbake edison-image-c populate_sdk
-    
+    user@host:~$ ls tmp/deploy/sdk
+    user@host:~$ poky-edison-eglibc-x86_64-edison-image-core2-32-toolchain-1.6.1.sh
 
 ## Packages
 
