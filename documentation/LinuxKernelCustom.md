@@ -1,7 +1,7 @@
 Linux Kernel
 ==
 
-edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
+    edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
 
 ## Links
 
