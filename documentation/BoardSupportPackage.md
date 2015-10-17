@@ -74,7 +74,7 @@ The Intel® Edison Board Support Package offers these features:
 
 ### Building via BitBake
 
-
+    user@host:~$ 
 
 ## Packages
 
