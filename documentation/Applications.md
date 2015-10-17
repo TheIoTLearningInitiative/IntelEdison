@@ -14,4 +14,5 @@ Applications
 - https://github.com/catmaker/chippy
 - https://github.com/MakersTeam/Edison
 - https://github.com/tokoro10g/galileo-makefile
+- https://software.intel.com/en-us/articles/opencv-300-ipp-tbb-enabled-on-yocto-with-intel-edison
 
