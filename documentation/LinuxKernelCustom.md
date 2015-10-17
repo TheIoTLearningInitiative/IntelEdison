@@ -2,6 +2,7 @@ Linux Kernel
 ==
 
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
+    user@host:~$ meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/
 
 ## Links
 
