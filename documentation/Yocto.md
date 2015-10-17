@@ -6,6 +6,7 @@
     user@host:~$ source poky/oe-init-build-env yocto-x86-minimal
     user@host:~$ bitbake core-image-minimal
     user@host:~$ bitbake core-image-full-cmdline-x86
+    user@host:~$ bitbake core-image-sato-sdk
     user@host:~$ runqemu qemux86
     
     user@host:~$ mkdir source
@@ -15,4 +16,4 @@
     user@host:~$ source poky/oe-init-build-env yocto-x86-minnowmax
     user@host:~$ bitbake-layers add-layer "$HOME/source/poky/meta-intel"
     user@host:~$ echo 'MACHINE = "intel-corei7-64"' >> conf/local.conf
-    user@host:~$ bitbake core-image-sato-sdk
+    user@host:~$ bitbake core-image-minimal
