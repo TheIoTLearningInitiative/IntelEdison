@@ -8,8 +8,6 @@ Owner: Eduardo
     user@host:~# sudo apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
 ## Process Script
-https://downloadcenter.intel.com/download/24357
-File name: edison-src-weekly-68.tgz
 
     user@host:~$ tar xvf edison-src-weekly-68.tgz
     user@host:~$ ls edison-src
@@ -17,6 +15,9 @@ File name: edison-src-weekly-68.tgz
     user@host:~$ ./device-software/setup.sh
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh
+
+
+- https://downloadcenter.intel.com/download/24357 @ File name: edison-src-weekly-68.tgz
 
 https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
 https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
