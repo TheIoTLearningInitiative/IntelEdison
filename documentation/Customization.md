@@ -7,7 +7,7 @@ Owner: Eduardo
 
     user@host:~# sudo apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
-## Yocto Bulding via Make + Bitbake
+## Yocto Building via Make + Bitbake
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
@@ -27,7 +27,7 @@ Owner: Eduardo
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
-## Make + Make Image
+## Yocto Building via Make + Make Image
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
@@ -78,7 +78,7 @@ Owner: Eduardo
     meta-arduino      = "1.6.x:541b127163acb243109f07141bf249da2ecdcd9a"
     
 
-## Script
+## Yocto Building via Script
 
     user@host:~$ tar xvf edison-src-weekly-68.tgz
     user@host:~$ ls edison-src
