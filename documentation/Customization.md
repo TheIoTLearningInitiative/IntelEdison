@@ -42,6 +42,8 @@ Owner: Eduardo
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
+### Make Building Workflow
+
 ### Under investigation?
     
     - What is it create-debian-image.sh
