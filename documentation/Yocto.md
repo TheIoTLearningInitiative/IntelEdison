@@ -26,4 +26,4 @@
 
 ## Links
 
-- [Minnowboard MAX @ Yocto Project](http://wiki.minnowboard.org/Yocto_Project)
+- [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
