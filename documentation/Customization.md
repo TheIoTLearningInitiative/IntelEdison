@@ -17,7 +17,7 @@ Owner: Eduardo
     user@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh
 
 
-- https://downloadcenter.intel.com/download/24357 @ File name: edison-src-weekly-68.tgz
+- File name: edison-src-weekly-68.tgz @ https://downloadcenter.intel.com/download/24357
 
 https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
 https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
