@@ -25,6 +25,8 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ make image
     user@host:~$ make flash
 
+## Yocto Building via Native SDK
+
 ## Yocto Building via Make + Bitbake
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
