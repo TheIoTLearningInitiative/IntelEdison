@@ -36,7 +36,7 @@ Owner: Eduardo
     user@host:~$ bitbake edison-image
     user@host:~$ cd out/linux64/build/tmp/deploy/images/edison
     user@host:~$ cd meta-intel-edison/utils/flash
-    user@host:~$ ls     edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
+    user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
 ### What is it create-debian-image.sh
     user@host:~$ edison-src/meta-intel-edison/utils
