@@ -131,8 +131,6 @@ http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
     - What is it create-debian-image.sh
     user@host:~$ edison-src/meta-intel-edison/utils
 
-## Links 
-
 - https://software.intel.com/en-us/articles/opencv-300-beta-ipp-tbb-enabled-on-yocto-with-intel-edison
 - http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
 - https://hayestech.files.wordpress.com/2015/01/intel-edison-bsd.pdf
