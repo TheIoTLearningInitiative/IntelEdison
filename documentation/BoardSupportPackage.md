@@ -47,6 +47,23 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
+## Yocto Building via Script
+
+    user@host:~$ tar xvf edison-src-weekly-68.tgz
+    user@host:~$ ls edison-src
+    arduino  broadcom_cws  device-software  mw
+    user@host:~$ mkdir bitbake_download_dir
+    user@host:~$ mkdir bitbake_sstate_dir
+    user@host:~$ ./meta-intel-edison/setup.sh --dl_dir=/path/to/bitbake_download_dir –-sstate_dir=/path/to/bitbake_sstate_dir
+    user@host:~$ source poky/oe-init-build-env
+    user@host:~$ bitbake edison-image
+    user@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh
+
+- user@host:~$ ./device-software/setup.sh
+- File name: edison-src-weekly-68.tgz @ https://downloadcenter.intel.com/download/24357
+- https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
+- https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
+
 ## Native SDK
 
 ### Building via Make
