@@ -34,16 +34,15 @@ Owner: Eduardo
     user@host:~$ cd out/linux64
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake edison-image
+    xe1gyq@jessie:~/Downloads/edison-src$ ls
+    arduino  bbcache  broadcom_cws  device-software  Makefile  meta-arduino meta-intel-edison  mw  out  pub
+
     user@host:~$ cd out/linux64/build/tmp/deploy/images/edison
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
 ### What is it create-debian-image.sh
     user@host:~$ edison-src/meta-intel-edison/utils
-
-
-xe1gyq@jessie:~/Downloads/edison-src$ ls
-arduino  bbcache  broadcom_cws  device-software  Makefile  meta-arduino  meta-intel-edison  mw  out  pub
 
 xe1gyq@jessie:~/Downloads/edison-src/out/linux64$ ls
 build  poky
