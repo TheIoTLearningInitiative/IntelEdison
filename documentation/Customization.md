@@ -42,11 +42,10 @@ Owner: Eduardo
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
-### What is it create-debian-image.sh
+### Under investigation?
+    
+    - What is it create-debian-image.sh
     user@host:~$ edison-src/meta-intel-edison/utils
-
-xe1gyq@jessie:~/Downloads/edison-src/out/linux64$ ls
-build  poky
 
 ## Links 
 
