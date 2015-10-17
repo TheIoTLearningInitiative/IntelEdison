@@ -47,6 +47,9 @@ Owner: Eduardo
   - source poky/oe-init-build-env
   - bitbake edison-image
 
+
+    
+
 ## Script
 
     user@host:~$ tar xvf edison-src-weekly-68.tgz
