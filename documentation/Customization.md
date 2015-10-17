@@ -43,9 +43,6 @@ Owner: Eduardo
 ### What is it create-debian-image.sh
     user@host:~$ edison-src/meta-intel-edison/utils
 
-xe1gyq@jessie:~/Downloads/edison-src/out/linux64$ ls
-build  poky
-
     xe1gyq@jessie:~/Downloads/edison-src$ ls
     arduino  bbcache  broadcom_cws  device-software  Makefile  meta-intel-edison  mw  out  pub
 
