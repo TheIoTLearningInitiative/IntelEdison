@@ -5,7 +5,6 @@ Owner: Eduardo
 
     user@host:~# sudo apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
-
 ## Process A
 https://downloadcenter.intel.com/download/24357
 File name: edison-src-weekly-68.tgz
