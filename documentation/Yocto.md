@@ -19,3 +19,4 @@
     user@host:~$ bitbake core-image-minimal
     
     user@host:~$ ls tmp/deploy/images/intel-corei7-64/core-image-minimal-intel-corei7-64.hddimg
+    $ sudo $HOME/source/poky/scripts/contrib/mkefidisk.sh HOST_DEVICE tmp/deploy/images/intel-corei7-64/core-image-minimal-intel-corei7-64.hddimg TARGET_DEVICE
