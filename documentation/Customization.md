@@ -7,10 +7,9 @@ Owner: Eduardo
 
     user@host:~# sudo apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
-## Make 
+## Make + Bitbake
 
-    user@host:~$ 
-    user@host:~$ tar xvf edison-src-weekly-68b.tgz
+    user@host:~$ tar xvf edison-src-weekly-68.tgz
     user@host:~$ cd edison-src
     user@host:~$ ls
     Makefile  meta-intel-edison
@@ -27,6 +26,17 @@ Owner: Eduardo
     user@host:~$ cd out/linux64/build/tmp/deploy/images/edison
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
+
+## Make + Make Image
+
+    user@host:~$ tar xvf edison-src-weekly-68.tgz
+    user@host:~$ cd edison-src
+    user@host:~$ ls
+    Makefile  meta-intel-edison
+    user@host:~$ make setup
+    user@host:~$ ls
+    bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
+    user@host:~$ make image
 
 ### Make Building Workflow
 
