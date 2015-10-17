@@ -60,6 +60,7 @@ WiFi to connect at power up:
 
 - https://software.intel.com/en-us/connecting-to-a-network-intel-edison-board
 - http://download.intel.com/support/edison/sb/edison_wifi_331438001.pdf
+- http://www.intel.com/support/edison/sb/CS-035380.htm
 
 ## Yocto Default Image
 
