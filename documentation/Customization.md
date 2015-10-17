@@ -3,10 +3,6 @@ Customization
 
 Onwer: Eduardo
 
-http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
-https://hayestech.files.wordpress.com/2015/01/intel-edison-bsd.pdf
-
-
     user@host:~# sudo apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
 
@@ -238,6 +234,8 @@ build  poky
 
 ## Links 
 
+- http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf
+- https://hayestech.files.wordpress.com/2015/01/intel-edison-bsd.pdf
 - http://www.instructables.com/id/Securing-IoT-applications-built-on-Intel-Galileo-a/
 - https://communities.intel.com/docs/DOC-23391
 - https://software.intel.com/en-us/articles/intel-edison-developer-resources
