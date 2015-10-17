@@ -36,7 +36,7 @@
 * [Applications](documentation/Applications.md)
 * [MicroController Unit](documentation/MicroControllerUnit.md)
 * [Customization](documentation/Customization.md)
-   * Yocto Qemu
+   * [Yocto Qemu](documentation/YoctoQemu.md)
 * [SandBox](documentation/Sandbox.md)
 * [Customization Log Placeholder](CustomizationLogPlaceholder.md)
 
