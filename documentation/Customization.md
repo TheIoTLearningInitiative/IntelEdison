@@ -31,8 +31,8 @@ Owner: Eduardo
 ### Make Building Workflow
 
 - Repository Structure
-  - bbcache/downloads
-  - --dl_dir = 
+  - --dl_dir = bbcache/downloads
+  - 
 - Repositories Cloning
   - poky-mirror.git
   - meta-mingw-mirror.git
