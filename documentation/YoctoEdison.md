@@ -1,6 +1,14 @@
 Yocto Edison
 ==
 
+The Intel® Edison Board Support Package offers these features:
+
+- Kernel image based on Linux kernel 3.10.17
+- U-boot second stage bootloader
+- Bluetooth and Wi-Fi connectivity
+- Intel cloud connectivity middleware
+- Many base Linux packages provided by the Yocto project
+
 ## Dependencies
 
     user@host:~# apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
