@@ -43,7 +43,7 @@ Owner: Eduardo
   - meta-intel-iot-middleware-mirror.git
   - poky
 - Yocto build environment
-- 
+  - 
 
 ## Script
 
