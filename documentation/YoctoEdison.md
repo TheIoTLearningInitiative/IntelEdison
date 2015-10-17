@@ -107,7 +107,7 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ ./meta-intel-edison/setup.sh --dl_dir=/path/to/bitbake_download_dir –-sstate_dir=/path/to/bitbake_sstate_dir
     user@host:~$ ./device-software/setup.sh
     user@host:~$ source poky/oe-init-build-env
-    user@host:~$ bitbakle image_edison    
+    user@host:~$ bitbakle image_edison
     user@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh
 
 
