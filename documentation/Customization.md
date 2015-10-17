@@ -7,7 +7,7 @@ Owner: Eduardo
 
     user@host:~# sudo apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
 
-## Make
+## Make 
 
     user@host:~$ 
     user@host:~$ tar xvf edison-src-weekly-68b.tgz
