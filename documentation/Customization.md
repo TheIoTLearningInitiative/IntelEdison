@@ -9,7 +9,7 @@ Owner: Eduardo
 
 ## Make + Bitbake
 
-    user@host:~$ tar xvf edison-src-weekly-68.tgz
+    user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
     user@host:~$ ls
     Makefile  meta-intel-edison
@@ -29,7 +29,7 @@ Owner: Eduardo
 
 ## Make + Make Image
 
-    user@host:~$ tar xvf edison-src-weekly-68.tgz
+    user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
     user@host:~$ ls
     Makefile  meta-intel-edison
