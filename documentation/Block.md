@@ -6,10 +6,12 @@ Block Subsystem
 
 ### Apt-Get
 
+    apt-get install e2fsprogs dosfstools xfsprogs
 
 ### Opkg
 
-    apt-get install e2fsprogs dosfstools xfsprogs
+    opkg update
+    opkg install e2fsprogs dosfstools
 
 ## Kernel Integration
 
