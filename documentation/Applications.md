@@ -12,5 +12,5 @@ Applications
 - http://dev.ardupilot.com/wiki/edison-for-drones/
 - https://github.com/catmaker/chippy
 - https://github.com/MakersTeam/Edison
-
+- https://github.com/tokoro10g/galileo-makefile
 
