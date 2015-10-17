@@ -1,7 +1,7 @@
 WiFi
 ==
 
-- Wi-Fi peer-to-peer connectivity with Wi-Fi Direct, Allows two Intel® Edison devices (or one Intel® Edison device and a smartphone) to create a direct Wi-Fi connection to each other without an access point. 
+- Wi-Fi peer-to-peer connectivity with Wi-Fi Direct, Allows two Intel® Edison devices (or one Intel® Edison device and a smartphone) to create a direct Wi-Fi connection to each other without an access point.
 - Wi-Fi multirole, Allows a connection to an access point simultaneously with Wi-Fi Direct operation. 
 - Wi-Fi IBSS mode, Allows creation of multinode ad hoc networks that contain no access point.
 
