@@ -49,6 +49,8 @@ The Intel® Edison Board Support Package offers these features:
 
 ## Native SDK
 
+### Building via Make
+
     user@host:~$ make sdk
     user@host:~$ ls out/current/build/tmp/deploy/sdk/
     user@host:~$ poky-edison-eglibc-x86_64-edison-image-core2-32-toolchain-1.6.1.sh
