@@ -12,4 +12,5 @@ File System
     user@host:~$ /build/toFlash/flashall.sh --recovery
     user@host:~$ /build/toFlash/flashall.sh
     user@host:~$ sudo screen /dev/ttyUSBX 115200
+    user@host:~$ root@edison:~# df -h
 
