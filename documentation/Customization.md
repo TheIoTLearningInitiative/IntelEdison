@@ -42,7 +42,7 @@ Owner: Eduardo
   - meta-darwin-mirror.git
   - meta-intel-iot-middleware-mirror.git
   - poky
-- Yocto build environment
+- Yocto Build Environment
   - build/conf/local.conf
 
 ## Script
