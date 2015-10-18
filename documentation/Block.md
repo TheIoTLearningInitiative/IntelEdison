@@ -1,18 +1,6 @@
 Block Subsystem
 ==
 
-
-## Setup
-
-### Apt-Get
-
-    root@edison:~# apt-get install e2fsprogs dosfstools xfsprogs
-
-### Opkg
-
-    root@edison:~# opkg update
-    root@edison:~# opkg install e2fsprogs dosfstools
-
 ## Kernel Integration
 
     root@edison:~# dmesg | grep mmc
@@ -59,6 +47,17 @@ Block Subsystem
     [    5.965905]  lun0: LUN: file: /dev/mmcblk0p9
     [    8.512646] FAT-fs (mmcblk0p7): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
     [    8.557697] EXT4-fs (mmcblk0p10): mounted filesystem with ordered data mode. Opts: (null)
+
+## Setup
+
+### Apt-Get
+
+    root@edison:~# apt-get install e2fsprogs dosfstools xfsprogs
+
+### Opkg
+
+    root@edison:~# opkg update
+    root@edison:~# opkg install e2fsprogs dosfstools
 
 ## Userspace Applications
 
