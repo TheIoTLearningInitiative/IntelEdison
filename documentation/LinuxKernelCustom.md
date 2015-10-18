@@ -89,12 +89,20 @@ module_exit(module_exit_function);
 ```
 
     user@host:~$ nano drivers/helloworld/Makefile
+
+```
     obj-$(CONFIG_HELLO_WORLD)               += helloworld.o
+```
+
     user@host:~$ nano drivers/Kconfig
+
+```
     menu "Device Drivers"
     source "drivers/helloworld/Kconfig"
     source "drivers/amba/Kconfig"
     ...
+```
+
     user@host:~$ nano drivers/Makefile
 
 ```
