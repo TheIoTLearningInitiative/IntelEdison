@@ -81,6 +81,7 @@ The Intel® Edison Board Support Package offers these features:
 - File name: edison-src-weekly-68.tgz @ https://downloadcenter.intel.com/download/24357
 - https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
 - https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
+- https://hayestech.wordpress.com/2015/01/26/building-custom-intel-edison-images/
 
 ## Native SDK
 
