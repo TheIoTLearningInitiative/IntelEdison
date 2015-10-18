@@ -1,4 +1,4 @@
-## Yocto Qemu
+## Qemu
 
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~# apt-get install qemu
@@ -11,7 +11,7 @@
     user@host:~$ bitbake core-image-sato-sdk
     user@host:~$ runqemu qemux86
 
-## Yocto Minnowboard MAX
+## Minnowboard MAX
 
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~$ mkdir source
