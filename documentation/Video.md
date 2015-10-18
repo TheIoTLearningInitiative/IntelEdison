@@ -15,7 +15,9 @@ Camera
     g_multi                70813  0 
     libcomposite           39245  2 usb_f_acm,g_multi
     bcm_bt_lpm             13676  0 
-    bcm4334x              578947  0 
+    bcm4334x              578947  0
+    root@edison:~# find /lib/modules/* -name 'uvc'
+    
 
 ## Userspace Applications
 
