@@ -12,4 +12,4 @@ USB
 
 ### Links
 
-http://www.yoctopuce.com/
+- http://www.yoctopuce.com/
