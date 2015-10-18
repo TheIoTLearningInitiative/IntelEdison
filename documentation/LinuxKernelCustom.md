@@ -45,6 +45,7 @@ Kernel Macros
     /home/xe1gyq/Projects/edison-src
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
+    user@host:~$ tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux/
 
 ## Others
 
