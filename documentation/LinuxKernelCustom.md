@@ -84,7 +84,8 @@ module_exit(module_exit_function);
     endmenu
     user@host:~$ nano drivers/helloworld/Makefile
     obj-$(CONFIG_HELLO_WORLD)               += helloworld.o
-    user@host:~$ 
+    user@host:~$ nano drivers/Kconfig
+    
     user@host:~$ 
     user@host:~$ 
     user@host:~$ 
