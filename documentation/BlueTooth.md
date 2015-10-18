@@ -85,6 +85,13 @@ BlueTooth
     [bluetooth]# info 40:78:6A:26:4A:C2
     [bluetooth]# exit
 
+### Text
+
+    root@edison:~# systemctl status bluetooth.service
+    root@edison:~# systemctl start bluetooth
+    root@edison:~# systemctl enable bluetooth
+    
+
 ### Audio
 
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
