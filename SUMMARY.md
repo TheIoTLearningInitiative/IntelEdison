@@ -30,6 +30,7 @@
    * [Power](documentation/Power.md)
    * [Networking](documentation/Networking.md)
    * [Block](documentation/Block.md)
+   * USB
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
