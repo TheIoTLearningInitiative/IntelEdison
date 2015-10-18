@@ -17,10 +17,10 @@ The Intel® Edison Board Support Package offers these features:
 
 ### Building via Make
 
-    user@host:~$ pwd
-    /home/xe1gyq/Projects/edison-src
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
+    user@host:~$ pwd
+    /home/xe1gyq/Projects/edison-src
     user@host:~$ ls
     Makefile  meta-intel-edison
     user@host:~$ make setup
