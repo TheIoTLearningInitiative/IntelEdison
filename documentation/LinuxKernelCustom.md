@@ -49,6 +49,7 @@ Kernel Macros
     user@host:~$ mkdir drivers/helloworld
     user@host:~$ nano drivers/helloworld/helloworld.c
 
+
 ```
 #include <linux/init.h>
 #include <linux/kernel.h>
@@ -72,6 +73,7 @@ MODULE_DESCRIPTION("My First Linux Kernel Module");
 module_init(module_init_function);
 module_exit(module_exit_function);
 ```
+
 
     user@host:~$ 
     user@host:~$ 
