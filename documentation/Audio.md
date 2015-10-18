@@ -41,6 +41,12 @@ Sound
             pcm “hw:1,0”
         }
     }
+    ctl.!default {
+    type plug
+        slave {
+            pcm “hw:2,0”
+        }
+    }
 
     root@edison:~# vi /etc/asound.conf
     pcm.!default sysdefault:Headset
