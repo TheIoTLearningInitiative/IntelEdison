@@ -15,7 +15,9 @@ Linux Kernel
     user@host:~$ cd ../../..
     user@host:~$ make image
     user@host:~$ make flash
-    
+
+Kernel Macros
+
     CONFIG_BMP085=y
     CONFIG_BMP085_I2C=y
     
