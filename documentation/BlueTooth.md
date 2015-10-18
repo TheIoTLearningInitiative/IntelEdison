@@ -61,7 +61,7 @@ BlueTooth
     ...
     root@edison:~# hciconfig hci0 piscan
     ...
-    root@edison:~# hcictool scan
+    root@edison:~# hcitool scan
 
 ## Userspace Applications
 
