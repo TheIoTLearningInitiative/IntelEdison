@@ -47,6 +47,8 @@ Let's understand what it means to work with Yocto Project by building images for
 
 ## Important Topics To Cover
 
+
+
 ## Links
 
 - [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
