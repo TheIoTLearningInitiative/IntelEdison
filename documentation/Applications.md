@@ -3,8 +3,8 @@ Applications
 
 ## Flask
 
-    root@edison:~# apt-get install flask python-flask
     root@edison:~# pip install Flask
+    root@edison:~# apt-get install flask python-flask
 
 ## Others
 
