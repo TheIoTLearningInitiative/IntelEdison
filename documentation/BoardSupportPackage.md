@@ -106,7 +106,23 @@ The Intel® Edison Board Support Package offers these features:
     IMAGE_INSTALL += "opencv"
     PACKAGE_EXCLUDE = "libpng"
 
-## Packages Third Party
+## Packages Third Party, AX25
+
+    user@host:~$ pwd
+    edison-src/out/linux64/build
+    user@host:~$ cd edison-src/out/current/poky
+    user@host:~$ git clone https://github.com/hambedded-linux/meta-hamradio.git
+    user@host:~$ nano edison-src/out/current/build/conf/bblayers.conf
+    /home/xe1gyq/Projects/edison-src/out/linux64/poky/meta-hamradio
+    user@host:~$ rm -rf /home/xe1gyq/Projects/edison-src/out/linux64/poky/meta-hamradio/recipes-kernel
+    user@host:~$ nano meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
+    IMAGE_INSTALL += “ax25-apps”
+    IMAGE_INSTALL += “ax25-tools”
+    IMAGE_INSTALL += “libax25”
+    user@host:~$ make image
+    user@host:~$ make flash
+
+### Tbd
 
     user@host:~$ cd edison-src/meta-intel-edison/
     user@host:~$ git clone https://github.com/openembedded/meta-openembedded.git
@@ -122,21 +138,7 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake edison-image
 
-## Packages Third Party
-    
-    user@host:~$ pwd
-    edison-src/out/linux64/build
-    user@host:~$ cd edison-src/out/current/poky
-    user@host:~$ git clone https://github.com/hambedded-linux/meta-hamradio.git
-    user@host:~$ nano edison-src/out/current/build/conf/bblayers.conf
-    /home/xe1gyq/Projects/edison-src/out/linux64/poky/meta-hamradio
-    user@host:~$ rm -rf /home/xe1gyq/Projects/edison-src/out/linux64/poky/meta-hamradio/recipes-kernel
-    user@host:~$ nano meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
-    IMAGE_INSTALL += “ax25-apps”
-    IMAGE_INSTALL += “ax25-tools”
-    IMAGE_INSTALL += “libax25”
-    user@host:~$ make image
-    user@host:~$ make flash
+
 
 ### Make Building Workflow
 
