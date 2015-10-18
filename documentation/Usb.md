@@ -5,7 +5,6 @@ USB
 
     root@edison:~# lsusb
 
-
 ## Setup
 ### Opkg
 
@@ -15,9 +14,6 @@ USB
 
     root@Edison:~# apt-get install libusb-1.0-dev libudev1-dev
 
-
-    root@Edison:~# lsusb
-    
 ## Links
 
 - http://www.yoctopuce.com/
