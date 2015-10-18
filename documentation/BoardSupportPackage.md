@@ -126,7 +126,7 @@ The Intel® Edison Board Support Package offers these features:
     /home/xe1gyq/Projects/edison-src/out/linux64/build
     cd /home/xe1gyq/Projects/edison-src/out/current/poky
     git clone https://github.com/hambedded-linux/meta-hamradio.git
-    
+    edison-src/out/current/build/conf/bblayers.conf
 
 ### Make Building Workflow
 
