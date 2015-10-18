@@ -4,11 +4,11 @@ USB
 ## Setup
 ### Opkg
 
-    root@Edison:~# opkg install libusb-1.0-dev
+    root@Edison:~# opkg install libusb-1.0-dev libudev1-dev
 
 ### Apt-Get
 
-    root@Edison:~# apt-get install libusb-1.0-dev
+    root@Edison:~# apt-get install libusb-1.0-dev libudev1-dev
 
 ## Links
 
