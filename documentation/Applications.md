@@ -13,7 +13,7 @@ Applications
 
     root@edison:~# nano socketserver.c
 
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -92,7 +92,7 @@ int main( int argc, char *argv[] ) {
 
 ### Socket Implementation, Client
 
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 
