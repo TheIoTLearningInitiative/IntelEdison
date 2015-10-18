@@ -10,9 +10,10 @@ Sound
 ### Opkg
 
     root@edison:~# opkg install alsa-utils
-    root@edison:~# apt-get install alsa-utils
 
 ### Apt-Get
+
+    root@edison:~# apt-get install alsa-utils
 
 ## Device Configuration
 
