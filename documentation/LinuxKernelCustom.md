@@ -12,9 +12,19 @@ Linux Kernel
     edison-src/out/linux64/build/tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/Makefile
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ cd ../../..
-    user@host:~$ bitbake edison-image
+    user@host:~$ make image
 
 ## Building via BitBake
+
+    user@host:~$ pwd
+    /home/xe1gyq/Projects/edison-src
+    user@host:~$ cd out/current
+    user@host:~$ source poky/oe-init-build-env
+    user@host:~$ bitbake virtual/kernel -c menuconfig
+    ...
+    edison-src/out/linux64/build/tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/Makefile
+    user@host:~$ bitbake virtual/kernel -c configure -f -v
+    user@host:~$ bitbake edison-image
 
 ## Others
 
