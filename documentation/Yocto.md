@@ -23,10 +23,10 @@
     user@host:~$ bitbake-layers add-layer "$HOME/source/poky/meta-intel"
     user@host:~$ echo 'MACHINE = "intel-corei7-64"' >> conf/local.conf
     user@host:~$ bitbake core-image-minimal
-    user@host:~$ bitbake virtual/kernel -c menuconfig
-    user@host:~$ ls tmp/deploy/images/intel-corei7-64/
+    user@host:~$ ls tmp/deploy/images/intel-corei7-64/    
     ...
     core-image-minimal-intel-corei7-64.hddimg
+    user@host:~$ bitbake virtual/kernel -c menuconfig
     $ sudo $HOME/source/poky/scripts/contrib/mkefidisk.sh HOST_DEVICE \
     tmp/deploy/images/intel-corei7-64/core-image-minimal-intel-corei7-64.hddimg \
     TARGET_DEVICE
