@@ -3,7 +3,6 @@ USB
 
 ## Userspace Applications
 
-    root@edison:~# lsusb
     root@edison:~# dmesg
     root@edison:~# lsusb
     unable to initialize libusb: -99
