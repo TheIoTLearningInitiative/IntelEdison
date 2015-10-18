@@ -95,6 +95,7 @@ BlueTooth
     root@edison:~# hciconfig hci0 status
     Make Your Device Discoverable
     root@edison:~# hcitool scan
+    root@edison:~# rfcomm bind 0 40:78:6A:26:4A:C2
     
 
 ### Audio
@@ -123,3 +124,4 @@ BlueTooth
 - https://software.intel.com/en-us/articles/using-the-generic-attribute-profile-gatt-in-bluetooth-low-energy-with-your-intel-edison
 - https://software.intel.com/en-us/articles/connecting-the-intel-edison-board-to-your-android-phone-with-serial-port-profile-spp
 - [Profiles](https://downloadmirror.intel.com/24909/eng/edison-bsp_rn_332032-007.pdf)
+- https://learn.sparkfun.com/tutorials/bluetooth-basics
