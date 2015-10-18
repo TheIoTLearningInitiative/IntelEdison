@@ -1,4 +1,4 @@
-## Qemu BSP
+## Qemu
 
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~# apt-get install qemu
