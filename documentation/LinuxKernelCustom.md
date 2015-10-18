@@ -75,7 +75,13 @@ module_exit(module_exit_function);
 ```
 
     user@host:~$ nano drivers/helloworld/Kconfig
-    
+    menu "Hello Module Kernel Support"
+    config HELLO_WORLD
+            tristate "Hello Module Driver"
+            depends on X86
+            help
+              Select this option to run a Hello World Module!
+    endmenu
     user@host:~$ 
     user@host:~$ 
     user@host:~$ 
