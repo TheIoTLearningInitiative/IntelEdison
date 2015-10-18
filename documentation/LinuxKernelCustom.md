@@ -116,8 +116,15 @@ module_exit(module_exit_function);
 
     user@host:~$ cd -
     user@host:~$ bitbake virtual/kernel -c menuconfig
-    user@host:~$ 
-    user@host:~$ 
+    ...
+    edison-src/out/linux64/build/tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/Makefile
+    ...
+    user@host:~$ cp tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/.config tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/defconfig 
+    user@host:~$ cp tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/.config tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux/arch/x86/configs/i386_edison_defconfig
+    user@host:~$ bitbake virtual/kernel -c configure -f -v
+    user@host:~$ cd ../../..
+    user@host:~$ make image
+    user@host:~$ make flash
     
 ## Others
 
