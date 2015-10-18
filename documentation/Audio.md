@@ -20,10 +20,6 @@ Sound
     Bus 001 Device 003: ID 0458:708a KYE Systems Corp. (Mouse Systems) 
     Bus 001 Device 004: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
 
-
-## Userspace Applications
-
-
 ## Setup
 
 ### Opkg
@@ -55,6 +51,7 @@ Sound
     pcm.!default sysdefault:Headset
 
 ## Usage Models
+## Userspace Applications
 
 ### Aplay
 
