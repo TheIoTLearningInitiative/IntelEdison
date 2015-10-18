@@ -26,7 +26,19 @@ BlueTooth
     usb_f_acm              14335  1 
     ...
     bcm_bt_lpm             13708  0 
+
     bcm4334x              587105  0 
+
+## Package Management
+
+### Opkg
+
+    root@edison:~# opkg install bluez5-dev
+
+### Apt-Get
+
+    root@edison:~# apt-get install bluetooth
+    root@edison:~# /etc/init.d/bluetooth start
 
 ## Userspace Applications
 
