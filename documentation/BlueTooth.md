@@ -61,8 +61,7 @@ BlueTooth
 
 ### Serial Port Profile (SPP)
 
-- 
-
+- Tbd
 
 ### Pairing
 
