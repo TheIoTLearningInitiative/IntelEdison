@@ -5,6 +5,8 @@ USB
 
     root@edison:~# lsusb
     root@edison:~# dmesg
+    root@edison:~/libusb# lsusb
+    unable to initialize libusb: -99
 
 ## Setup
 ### Opkg
