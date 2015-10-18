@@ -180,7 +180,9 @@ int main(int argc, char *argv[]) {
 
 ## Native Compilation, G++ Compiler
 
-
+    root@edison:~# g++
+    g++: fatal error: no input files
+    compilation terminated.
 
 ## Links
 
