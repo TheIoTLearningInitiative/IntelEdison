@@ -82,7 +82,8 @@ module_exit(module_exit_function);
             help
               Select this option to run a Hello World Module!
     endmenu
-    user@host:~$ 
+    user@host:~$ nano drivers/helloworld/Makefile
+    obj-$(CONFIG_HELLO_WORLD)               += helloworld.o
     user@host:~$ 
     user@host:~$ 
     user@host:~$ 
