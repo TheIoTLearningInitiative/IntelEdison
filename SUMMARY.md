@@ -18,7 +18,7 @@
 * [Package Management Systems](documentation/PackageManagementSystems.md)
    * [Open Package Management](documentation/OpenPackageManagement.md)
    * [Advanced Package Tool](documentation/AdvancedPackageTool.md)
-   * Python Package Index
+   * [Python Package Index](documentation/PythonPackageIndex.md)
 * [Debug](documentation/Debug.md)
 * [Subsystems](documentation/Subsystems.md)
    * [GPIO](documentation/Gpio.md)
