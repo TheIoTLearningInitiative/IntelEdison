@@ -1,6 +1,8 @@
 USB
 ==
 
+> libusb is a C library that gives applications easy access to USB devices on many different operating systems.
+
 - [libusb homepage](http://www.libusb.org/)
 
 ## Kernel Integration
