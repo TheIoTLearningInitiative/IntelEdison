@@ -31,7 +31,7 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ pwd
     /home/xe1gyq/Projects/edison-src
     user@host:~$ cd out/current
-    
+    user@host:~$ source poky/oe-init-build-env
 
 ### Building via Make + Bitbake
 
