@@ -4,7 +4,7 @@ Applications
 ## Flask
 
     root@edison:~# pip install Flask
-    root@edison:~# apt-get install flask python-flask
+    root@edison:~# apt-get install python-flask
 
 ## Others
 
