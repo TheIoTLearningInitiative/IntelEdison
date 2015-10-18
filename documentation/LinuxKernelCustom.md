@@ -39,7 +39,8 @@ Kernel Macros
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ bitbake edison-image
 
-## Hello World Kernel Module 
+## Hello World Kernel Module
+
 
 ## Others
 
