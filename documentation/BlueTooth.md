@@ -46,6 +46,13 @@ BlueTooth
     root@edison:~# systemctl stop bluetooth
     root@edison:~# systemctl start bluetooth
     root@edison:~# systemctl enable bluetooth
+    root@edison:~# rfkill unblock bluetooth
+    root@edison:~# rfkill list bluetooth
+    2: bcm43xx Bluetooth: bluetooth
+    ...
+    3: hci0: bluetooth
+    ...
+    root@edison:~# 
 
 ## Userspace Applications
 
