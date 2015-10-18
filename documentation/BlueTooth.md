@@ -92,6 +92,9 @@ BlueTooth
     root@edison:~# systemctl enable bluetooth
     root@edison:~# rfkill unblock bluetooth
     root@edison:~# rfkill list bluetooth
+    root@edison:~# hciconfig hci0 status
+    Make Your Device Discoverable
+    root@edison:~# hcitool scan
     
 
 ### Audio
