@@ -117,6 +117,12 @@ module_exit(module_exit_function);
 
 ```
 CONFIG_LOCALVERSION
+Symbol: LOCALVERSION [=-yocto-standard]
+  Type  : string
+  Prompt: Local version - append to kernel release
+  Location:
+    -> General setup                      │  
+  Defined at init/Kconfig:56
 ```
 
 
