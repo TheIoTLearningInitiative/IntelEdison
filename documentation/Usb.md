@@ -1,6 +1,11 @@
 USB
 ==
 
+## Userspace Applications
+
+    root@edison:~# lsusb
+
+
 ## Setup
 ### Opkg
 
