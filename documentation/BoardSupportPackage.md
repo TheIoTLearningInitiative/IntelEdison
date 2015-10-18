@@ -33,6 +33,8 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake virtual/kernel -c menuconfig
+    user@host:~$ bitbake virtual/kernel -c configure -f -v
+    user@host:~$ bitbake edison-image
 
 ### Building via Make + Bitbake
 
