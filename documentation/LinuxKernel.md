@@ -522,7 +522,7 @@ https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
     /lib/modules/3.10.17-yocto-standard/kernel/net
     /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter
     /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_state.ko
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_length.ko
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_length.ko
 /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_NETMAP.ko
 /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack.ko
 /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack_broadcast.ko
