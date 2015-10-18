@@ -167,7 +167,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-    root@edison:~# gcc socketserver.c -o socketserver
+    root@edison:~# gcc socketclient.c -o socketclient
 
 
 ## Links
