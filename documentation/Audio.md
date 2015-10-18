@@ -15,6 +15,12 @@ Sound
     [ 9636.203880] hid-generic 0003:0D8C:013C.0001: input,hidraw0: USB HID v1.00 Device [C-Media Electronics Inc.       USB Pn
     P Sound Device] on usb-dwc3-host.2-1.2/input3
     root@edison:~# lsusb
+    Bus 001 Device 002: ID 05e3:0606 Genesys Logic, Inc. USB 2.0 Hub / D-Link DUB-H4 USB 2.0 Hub
+    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+    Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+    Bus 001 Device 003: ID 0458:708a KYE Systems Corp. (Mouse Systems) 
+    Bus 001 Device 004: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
+
 
 ## Setup
 ### Opkg
