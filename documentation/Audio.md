@@ -61,6 +61,12 @@ Sound
     root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
     root@edison:~# mpg123
 
+    root@edison:~# arecord -Ll
+    card 1: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+
 ## Links
 
 - http://repo.opkg.net/edison/repo/edison/kernel-module-snd-usb-audio_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
