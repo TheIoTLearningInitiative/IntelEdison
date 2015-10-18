@@ -117,7 +117,7 @@ module_exit(module_exit_function);
 
 ```
 CONFIG_LOCALVERSION
-Symbol: LOCALVERSION [=-yocto-standard]
+Symbol: LOCALVERSION [=-yocto-xe1gyq]
   Type  : string
   Prompt: Local version - append to kernel release
   Location:
