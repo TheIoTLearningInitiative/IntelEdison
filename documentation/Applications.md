@@ -184,18 +184,20 @@ int main(int argc, char *argv[]) {
     root@edison:~# apt-get install python-flask
     root@edison:~# nano myflask.py 
 
-    ```Python
-    from flask import Flask
-    app = Flask(__name__)
-    
-    @app.route("/")
-    def hello():
-        return "Hello World!"
 
-    if __name__ == "__main__":
-        app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
-    ```
-    
+```Python
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return "Hello World!"
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
+```
+
+
    root@edison:~# python myflask.py
     * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
     * Restarting with stat
