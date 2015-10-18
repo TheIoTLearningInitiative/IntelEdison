@@ -48,6 +48,31 @@ Kernel Macros
     user@host:~$ cd tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux/
     user@host:~$ mkdir drivers/helloworld
     user@host:~$ nano drivers/helloworld/helloworld.c
+
+```
+#include <linux/init.h>
+#include <linux/kernel.h>
+#include <linux/module.h>
+
+static int module_init_function(void)
+{
+    printk(KERN_INFO "Module? Hello!\n");
+    return 0;
+}
+
+static void module_exit_function(void)
+{
+    printk(KERN_INFO "Module? Bye!\n");
+}
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("xe1gyq");
+MODULE_DESCRIPTION("My First Linux Kernel Module");
+
+module_init(module_init_function);
+module_exit(module_exit_function);
+```
+
     user@host:~$ 
     user@host:~$ 
     user@host:~$ 
