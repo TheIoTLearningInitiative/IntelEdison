@@ -85,6 +85,8 @@ The Intel® Edison Board Support Package offers these features:
 
     user@host:~$ make sdk
     user@host:~$ ls out/current/build/tmp/deploy/sdk/
+    poky-edison-glibc-x86_64-edison-image-core2-32-toolchain-1.7.2.manifest
+    poky-edison-glibc-x86_64-edison-image-core2-32-toolchain-1.7.2.sh
     user@host:~$ poky-edison-eglibc-x86_64-edison-image-core2-32-toolchain-1.6.1.sh
 
 ### Building via BitBake
