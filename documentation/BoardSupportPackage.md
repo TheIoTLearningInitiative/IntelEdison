@@ -17,6 +17,8 @@ The Intel® Edison Board Support Package offers these features:
 
 ### Building via Make
 
+    user@host:~$ pwd
+    /home/xe1gyq/Projects/edison-src
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
     user@host:~$ ls
@@ -32,8 +34,6 @@ The Intel® Edison Board Support Package offers these features:
     Your board needs to reboot to complete the flashing procedure, please do not unplug it for 2 minutes.
     user@host:~$ ls
     bbcache  flash.log  Makefile  meta-arduino  meta-intel-edison  out  pub    
-    user@host:~$ pwd
-    /home/xe1gyq/Projects/edison-src
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake virtual/kernel -c menuconfig
