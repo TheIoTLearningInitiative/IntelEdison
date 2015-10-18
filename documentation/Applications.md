@@ -192,4 +192,5 @@ int main(int argc, char *argv[]) {
 - https://github.com/MakersTeam/Edison
 - https://github.com/tokoro10g/galileo-makefile
 - https://software.intel.com/en-us/articles/opencv-300-ipp-tbb-enabled-on-yocto-with-intel-edison
+- http://flask.pocoo.org/
 
