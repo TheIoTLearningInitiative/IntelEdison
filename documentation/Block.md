@@ -52,6 +52,7 @@ Block Subsystem
 
 ### Apt-Get
 
+    root@edison:~# apt-get update
     root@edison:~# apt-get install e2fsprogs dosfstools xfsprogs
 
 ### Opkg
