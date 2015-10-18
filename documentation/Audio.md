@@ -9,12 +9,12 @@ Sound
 ## Setup
 ### Opkg
 
-    root@edison:~# opkg install alsa-utils
+    root@edison:~# opkg install alsa-utils mpg123
     root@edison:~# ls /usr/share/sounds/alsa/
 
 ### Apt-Get
 
-    root@edison:~# apt-get install alsa-utils
+    root@edison:~# apt-get install alsa-utils mpg123
 
 ## Device Configuration
 
