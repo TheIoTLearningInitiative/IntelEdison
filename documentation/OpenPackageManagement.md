@@ -16,22 +16,6 @@ Open Package Management
     root@edison:~# opkg install git
     root@edison:~# opkg list-installed | grep mraa
     root@edison:~# opkg list-installed | grep upm
-
-    root@edison:~# vi /etc/opkg/base-feeds.conf
-     src/gz all http://repo.opkg.net/edison/repo/all
-     src/gz edison http://repo.opkg.net/edison/repo/edison
-     src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
-    root@edison:~# opkg update
-    root@edison:~# opkg install python-pip
-    root@edison:~# scp user@machine:/home/user/Download/setuptools-15.2.tar.gz /home/root
-    root@edison:~# tar zxf setuptools-15.2.tar.gz
-    root@edison:~# python setuptools-15.2/ez_setup.py
-    root@edison:~# pip install numpy
-
-    root@edison:~# opkg install git
-     Installing git (1.9.0-r0) to root...
-     Downloading http://iotdk.intel.com/repos/1.1/iotdk/i586/git_1.9.0-r0_i586.ipk.
-     Configuring git.
     root@edison:~# git config --global user.name "Name LastName"
     root@edison:~# git config --global user.email email@adress.com
     root@edison:~# opkg install libsdl-1.2-dev libv4l-dev
