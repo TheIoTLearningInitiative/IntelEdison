@@ -60,7 +60,6 @@ BlueTooth
         UP RUNNING PSCAN 
     ...
 
-
 ## Userspace Applications
 
 - bluetooth-agent
