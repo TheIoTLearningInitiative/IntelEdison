@@ -119,6 +119,20 @@ module_exit(module_exit_function);
     ...
     edison-src/out/linux64/build/tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/Makefile
     ...
+
+```
+CONFIG_HELLO_WORLD:
+Select this option to run a Hello World Module!
+Symbol: HELLO_WORLD [=n]
+Type : tristate
+Prompt: Hello Module Driver
+   Location:
+     -> Device Drivers
+       -> Hello Module Kernel Support
+   Defined at drivers/helloworld/Kconfig:3
+   Depends on: X86 [=y]
+```
+
     user@host:~$ cp tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/.config tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/defconfig 
     user@host:~$ cp tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/.config tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux/arch/x86/configs/i386_edison_defconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
