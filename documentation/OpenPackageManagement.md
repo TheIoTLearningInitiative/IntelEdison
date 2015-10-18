@@ -13,8 +13,8 @@ Open Package Management
      Downloading http://iotdk.intel.com/repos/1.1/iotdk/i586/Packages.
      Updated list of available packages in /var/lib/opkg/i586.
     root@edison:~# opkg install git
-    root@galileo:~# opkg list-installed | grep mraa
-    root@galileo:~# opkg list-installed | grep upm
+    root@edison:~# opkg list-installed | grep mraa
+    root@edison:~# opkg list-installed | grep upm
 
     root@edison:~# echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/mraa-upm.conf
     root@edison:~# opkg update
