@@ -18,6 +18,7 @@ USB
     root@Edison:~# libtool
     
     root@Edison:~# git clone https://github.com/libusb/libusb.git
+    root@Edison:~# cd libusb
     root@Edison:~# ./autogen.sh -disable-udev
 
 ## Links
