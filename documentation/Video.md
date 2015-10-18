@@ -12,6 +12,7 @@ Camera
     root@edison:~# find /lib/modules/* -name 'uvc'
     /lib/modules/3.10.17-yocto-standard/kernel/drivers/media/usb/uvc
     /lib/modules/3.10.17-yocto-standard-r2/kernel/drivers/media/usb/uvc
+    root@edison:~# ls -l /dev/video0
 
 ## Userspace Applications
 
