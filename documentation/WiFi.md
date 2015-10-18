@@ -6,6 +6,22 @@ WiFi
 - Wi-Fi IBSS mode, Allows creation of multinode ad hoc networks that contain no access point.
 
 ## Kernel Integration
+
+    root@edison:/tmp# dmesg | grep -i wifi
+    [    0.189658] Using generic wifi platform data
+    [    0.189675] wifi_platform_data: GPIO == 64
+    [    3.850154] found wifi platform device wlan
+    [    4.171606] wifi_platform_set_power = 1
+    [    4.373687] wifi_platform_bus_enumerate device present 1
+    [    4.412928] wifi_platform_get_mac_addr
+    [    4.413069] wifi_get_mac_addr_intel: unable to open /config/wifi/mac.txt
+    [    4.420354] wifi_platform_set_power = 0
+    [    4.421428] wifi_platform_bus_enumerate device present 0
+    [   38.194385] wl_android_wifi_on in
+    [   38.194403] wifi_platform_set_power = 1
+    [   39.117444] wifi_platform_get_mac_addr
+    [   39.117488] wifi_get_mac_addr_intel: unable to open /config/wifi/mac.txt
+
 ## Userspace Applications
 ## Setup
 
