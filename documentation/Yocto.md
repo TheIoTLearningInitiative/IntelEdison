@@ -3,7 +3,7 @@ Yocto Customization
 
 Let's understand what it means to work with Yocto Project by building images for QEMU and Minnowboard MAX.
 
-## Qemu
+## Qemu Image Compilaton
 
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~# apt-get install qemu
@@ -16,7 +16,7 @@ Let's understand what it means to work with Yocto Project by building images for
     user@host:~$ bitbake core-image-sato-sdk
     user@host:~$ runqemu qemux86
 
-## Minnowboard
+## Minnowboard Image Compilaton
 
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~$ mkdir source
@@ -45,7 +45,7 @@ Let's understand what it means to work with Yocto Project by building images for
     tmp/deploy/images/intel-corei7-64/core-image-minimal-intel-corei7-64.hddimg \
     TARGET_DEVICE
 
-##
+## 
 
 ## Links
 
