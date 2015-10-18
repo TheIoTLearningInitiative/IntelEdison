@@ -182,8 +182,7 @@ int main(int argc, char *argv[]) {
 
     root@edison:~# pip install Flask
     root@edison:~# apt-get install python-flask
-    
-    root@edison:~/IntelEdison/examples# python fk.py                                     root@edison:~# cat fk.py 
+    root@edison:~# nano myflask.py 
 
     ```Python
     from flask import Flask
@@ -197,12 +196,12 @@ int main(int argc, char *argv[]) {
         app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
     ```
     
-                                         
- * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
- * Restarting with stat
-192.168.1.73 - - [18/Oct/2015 16:34:56] "GET / HTTP/1.1" 200 -
-192.168.1.73 - - [18/Oct/2015 16:34:56] "GET /favicon.ico HTTP/1.1" 404 -
-192.168.1.73 - - [18/Oct/2015 16:34:56] "GET /favicon.ico HTTP/1.1" 404 -
+   root@edison:~# python myflask.py
+    * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+    * Restarting with stat
+   192.168.1.73 - - [18/Oct/2015 16:34:56] "GET / HTTP/1.1" 200 -
+   192.168.1.73 - - [18/Oct/2015 16:34:56] "GET /favicon.ico HTTP/1.1" 404 -
+   192.168.1.73 - - [18/Oct/2015 16:34:56] "GET /favicon.ico HTTP/1.1" 404 -
 
 ## Others
 
