@@ -88,6 +88,7 @@ module_exit(module_exit_function);
     menu "Device Drivers"
     source "drivers/helloworld/Kconfig"
     source "drivers/amba/Kconfig"
+    ...
     user@host:~$ 
     user@host:~$ 
     user@host:~$ 
