@@ -109,7 +109,8 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ cd ../../
     user@host:~$ nano out/current/build/conf/bblayers.conf
     /home/xe1gyq/Projects/edison-src/meta-intel-edison/meta-openembedded \
-    user@host:~$ 
+    user@host:~$ nano meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
+    
     user@host:~$ 
     user@host:~$ 
 
