@@ -5,7 +5,7 @@ USB
 
     root@edison:~# lsusb
     root@edison:~# dmesg
-    root@edison:~/libusb# lsusb
+    root@edison:~# lsusb
     unable to initialize libusb: -99
 
 ## Setup
