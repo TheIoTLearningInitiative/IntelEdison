@@ -113,7 +113,8 @@ The Intel® Edison Board Support Package offers these features:
     IMAGE_INSTALL += “opencv”
     PACKAGECONFIG_pn-opencv="eigen jpeg libav png tiff v4l”
     user@host:~$ cd out/current
-    user@host:~$ 
+    user@host:~$ source poky/oe-init-build-env
+    user@host:~$ bitbake edison-image
 
 ### Make Building Workflow
 
