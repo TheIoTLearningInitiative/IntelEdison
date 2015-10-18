@@ -12,9 +12,6 @@ Open Package Management
      Updated list of available packages in /var/lib/opkg/x86.
      Downloading http://iotdk.intel.com/repos/1.1/iotdk/i586/Packages.
      Updated list of available packages in /var/lib/opkg/i586.
-    root@edison:~# opkg upgrade
-    ...
-
     root@edison:~# echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/mraa-upm.conf
     root@edison:~# opkg update
     root@edison:~# opkg install libmraa0
