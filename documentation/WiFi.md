@@ -9,7 +9,7 @@ WiFi
 
 ## Kernel Integration
 
-    root@edison:/tmp# dmesg | grep -i wifi
+    root@edison:~# dmesg | grep -i wifi
     [    0.189658] Using generic wifi platform data
     [    0.189675] wifi_platform_data: GPIO == 64
     [    3.850154] found wifi platform device wlan
@@ -23,7 +23,7 @@ WiFi
     [   38.194403] wifi_platform_set_power = 1
     [   39.117444] wifi_platform_get_mac_addr
     [   39.117488] wifi_get_mac_addr_intel: unable to open /config/wifi/mac.txt
-    root@edison:/tmp# lsmod
+    root@edison:~# lsmod
     Module                  Size  Used by
     usb_f_acm              14335  1 
     ...
