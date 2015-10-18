@@ -121,6 +121,8 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake edison-image
+
+## Packages Third Party
     
     user@host:~$ pwd
     edison-src/out/linux64/build
