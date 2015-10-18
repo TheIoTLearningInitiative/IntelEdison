@@ -43,6 +43,7 @@ BlueTooth
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
     root@edison:~# systemctl start bluetooth
+    root@edison:~# systemctl enable bluetooth
 
 ### Apt-Get
 
