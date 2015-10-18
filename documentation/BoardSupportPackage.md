@@ -123,10 +123,11 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ bitbake edison-image
     
     user@host:~$ pwd
-    user@host:~$ /home/xe1gyq/Projects/edison-src/out/linux64/build
-    user@host:~$ cd /home/xe1gyq/Projects/edison-src/out/current/poky
+    edison-src/out/linux64/build
+    user@host:~$ cd edison-src/out/current/poky
     user@host:~$ git clone https://github.com/hambedded-linux/meta-hamradio.git
-    user@host:~$ edison-src/out/current/build/conf/bblayers.conf
+    user@host:~$ nano edison-src/out/current/build/conf/bblayers.conf
+    
     user@host:~$ nano meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
     IMAGE_INSTALL += “ax25-apps”
     IMAGE_INSTALL += “ax25-tools”
