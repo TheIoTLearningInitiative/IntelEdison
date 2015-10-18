@@ -2,7 +2,6 @@ Sound
 ==
 
 ## Kernel Integration
-## Userspace Applications
 
     root@edison:~# dmesg
     [ 9635.624279] usb 1-1.2: new full-speed USB device number 4 using dwc3-host
@@ -22,7 +21,11 @@ Sound
     Bus 001 Device 004: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
 
 
+## Userspace Applications
+
+
 ## Setup
+
 ### Opkg
 
     root@edison:~# opkg install alsa-utils mpg123
