@@ -35,7 +35,7 @@
    * [Upm](documentation/Upm.md)
    * [OpenCv](documentation/OpenCv.md)
 * [Applications](documentation/Applications.md)
-* [MicroController Unit](documentation/MicroControllerUnit.md)
+* [Micro Controller Unit](documentation/MicroControllerUnit.md)
 * [Customization](documentation/Customization.md)
    * [Yocto](documentation/Yocto.md)
    * [Board Support Package](documentation/BoardSupportPackage.md)
