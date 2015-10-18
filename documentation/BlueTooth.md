@@ -52,7 +52,9 @@ BlueTooth
     ...
     3: hci0: bluetooth
     ...
-    root@edison:~# 
+    root@edison:~# hciconfig hci0 down
+    root@edison:~# hciconfig hci0 up
+    root@edison:~# hciconfig hci0 status
 
 ## Userspace Applications
 
@@ -61,14 +63,6 @@ BlueTooth
 - hciconfig
 - hcitool
 
-
-## Device Configuration
-
-### HCI
-
-    root@edison:~# hciconfig hci0 down
-    root@edison:~# hciconfig hci0 up
-    root@edison:~# hciconfig hci0 status
 
 ## Usage Models
 
