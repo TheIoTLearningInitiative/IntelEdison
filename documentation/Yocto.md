@@ -11,7 +11,7 @@
     user@host:~$ bitbake core-image-sato-sdk
     user@host:~$ runqemu qemux86
 
-## Minnowboard MAX
+## Minnowboard MAX BSP
 
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~$ mkdir source
