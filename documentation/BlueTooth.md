@@ -40,13 +40,6 @@ BlueTooth
     root@edison:~# apt-get install bluetooth
     root@edison:~# /etc/init.d/bluetooth start
 
-## Userspace Applications
-
-- bluetooth-agent
-- bluetoothctl
-- hciconfig
-- hcitool
-
 ## Setup
 
     root@edison:~# systemctl status bluetooth.service
@@ -54,14 +47,13 @@ BlueTooth
     root@edison:~# systemctl start bluetooth
     root@edison:~# systemctl enable bluetooth
 
-### Opkg
+## Userspace Applications
 
-    root@edison:~# opkg install bluez5-dev
+- bluetooth-agent
+- bluetoothctl
+- hciconfig
+- hcitool
 
-### Apt-Get
-
-    root@edison:~# apt-get install bluetooth
-    root@edison:~# /etc/init.d/bluetooth start
 
 ## Device Configuration
 
