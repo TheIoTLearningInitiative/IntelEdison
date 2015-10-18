@@ -1,6 +1,7 @@
 Linux Kernel
 ==
 
+## Building via Make
 
     user@host:~$ pwd
     /home/xe1gyq/Projects/edison-src
@@ -12,6 +13,8 @@ Linux Kernel
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ cd ../../..
     user@host:~$ bitbake edison-image
+
+## Building via BitBake
 
 ## Others
 
