@@ -77,6 +77,8 @@ module_exit(module_exit_function);
 ```
 
     user@host:~$ nano drivers/helloworld/Kconfig
+
+```
     menu "Hello Module Kernel Support"
     config HELLO_WORLD
             tristate "Hello Module Driver"
@@ -84,6 +86,8 @@ module_exit(module_exit_function);
             help
               Select this option to run a Hello World Module!
     endmenu
+```
+
     user@host:~$ nano drivers/helloworld/Makefile
     obj-$(CONFIG_HELLO_WORLD)               += helloworld.o
     user@host:~$ nano drivers/Kconfig
