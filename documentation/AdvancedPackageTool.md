@@ -1,9 +1,8 @@
 Advaced Package Tool
 ==
 
-
-    # apt-get install python-pip byacc flex
-    # pip install numpy
-    # pip install psutil
-    # apt-get install i2c-tools libi2c-dev python-smbus
+    root@edison:~# apt-get install python-pip byacc flex
+    root@edison:~# pip install numpy
+    root@edison:~# pip install psutil
+    root@edison:~# apt-get install i2c-tools libi2c-dev python-smbus
 
