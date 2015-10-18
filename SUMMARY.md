@@ -42,5 +42,4 @@
    * [Linux Kernel](documentation/LinuxKernelCustom.md)
    * [File System](documentation/FileSystem.md)
 * [SandBox](documentation/Sandbox.md)
-* [Customization Log Placeholder](CustomizationLogPlaceholder.md)
 
