@@ -210,6 +210,7 @@ if __name__ == "__main__":
     192.168.1.73 - - [18/Oct/2015 16:34:56] "GET /favicon.ico HTTP/1.1" 404 -
     192.168.1.73 - - [18/Oct/2015 16:34:56] "GET /favicon.ico HTTP/1.1" 404 -
 
+
 ## Others
 
     root@edison:~# journalctl
