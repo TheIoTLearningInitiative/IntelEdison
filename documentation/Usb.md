@@ -18,7 +18,7 @@ USB
 ### Apt-Get
 
     root@Edison:~# apt-get install libusb-1.0-dev libudev-dev
-    root@Edison:~# libtool
+    root@Edison:~# apt-get install libtool
     
 ## Device Configuration
 
