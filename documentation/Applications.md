@@ -180,6 +180,8 @@ int main(int argc, char *argv[]) {
 
 ## Native Compilation, G++ Compiler
 
+
+
 ## Links
 
 - [Intel® Edison Native Application Guide](http://www.intel.com/support/edison/sb/CS-035382.htm)
