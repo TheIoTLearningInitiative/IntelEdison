@@ -68,7 +68,9 @@ Sound
     Subdevices: 1/1
     Subdevice #0: subdevice #0
     root@edison:~# record -f cd -D plughw:1,0 -d 20 test.wav
-    ...
+
+### Mpg123
+    
     root@edison:~# mpg123
 
 
