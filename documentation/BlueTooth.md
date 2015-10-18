@@ -60,6 +60,8 @@ BlueTooth
         UP RUNNING PSCAN 
     ...
     root@edison:~# hciconfig hci0 piscan
+    ...
+    root@edison:~# hcictool scan
 
 ## Userspace Applications
 
