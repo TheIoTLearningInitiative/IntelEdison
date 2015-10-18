@@ -13,7 +13,8 @@ Linux Kernel
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ cd ../../..
     user@host:~$ make image
-
+    user@host:~$ make flash
+    
 ## Building via BitBake (Unchecked)
 
     user@host:~$ pwd
