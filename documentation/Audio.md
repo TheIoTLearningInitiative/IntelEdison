@@ -16,7 +16,6 @@ Sound
     P Sound Device] on usb-dwc3-host.2-1.2/input3
     root@edison:~# lsusb
 
-
 ## Setup
 ### Opkg
 
