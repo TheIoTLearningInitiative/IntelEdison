@@ -10,6 +10,7 @@ Sound
 ### Opkg
 
     root@edison:~# opkg install alsa-utils
+    root@edison:~# ls /usr/share/sounds/alsa/
 
 ### Apt-Get
 
@@ -20,6 +21,13 @@ Sound
     root@edison:~# vi ~/.asoundrc
     root@edison:~# vi /etc/asound.conf
     pcm.!default sysdefault:Headset
+    ~/.asoundrc file.
+    pcm.!default {
+        type plug
+        slave {
+            pcm “hw:2,0”
+        }
+    }
 
 ## Usage Models
 
