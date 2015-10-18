@@ -495,33 +495,33 @@ https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
 ## Kernel Modules
 
-root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'uvc'
-/lib/modules/3.10.17-yocto-standard/kernel/drivers/media/usb/uvc
-root@edison:~/IntelEdison/examples# opkg install kernel-module-uvcvideo
-Package kernel-module-uvcvideo (3.10.17-r0) installed in root is up to date.
-root@edison:~/IntelEdison/examples# lsmod | grep uvc
-root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'snd'
-root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'audio'
-root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'alsa'
-root@edison:~/IntelEdison/examples# find /lib/modules/* -name ''
-root@edison:~/IntelEdison/examples# find /lib/modules/* -name '*'
-/lib/modules/3.10.17-yocto-standard
-/lib/modules/3.10.17-yocto-standard/modules.devname
-/lib/modules/3.10.17-yocto-standard/modules.dep
-/lib/modules/3.10.17-yocto-standard/modules.alias.bin
-/lib/modules/3.10.17-yocto-standard/modules.builtin.bin
-/lib/modules/3.10.17-yocto-standard/modules.order
-/lib/modules/3.10.17-yocto-standard/modules.softdep
-/lib/modules/3.10.17-yocto-standard/extra
-/lib/modules/3.10.17-yocto-standard/extra/bcm4334x.ko
-/lib/modules/3.10.17-yocto-standard/modules.symbols
-/lib/modules/3.10.17-yocto-standard/modules.builtin
-/lib/modules/3.10.17-yocto-standard/modules.dep.bin
-/lib/modules/3.10.17-yocto-standard/modules.alias
-/lib/modules/3.10.17-yocto-standard/kernel
-/lib/modules/3.10.17-yocto-standard/kernel/net
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_state.ko
+    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'uvc'
+    /lib/modules/3.10.17-yocto-standard/kernel/drivers/media/usb/uvc
+    root@edison:~/IntelEdison/examples# opkg install kernel-module-uvcvideo
+    Package kernel-module-uvcvideo (3.10.17-r0) installed in root is up to date.
+    root@edison:~/IntelEdison/examples# lsmod | grep uvc
+    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'snd'
+    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'audio'
+    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'alsa'
+    root@edison:~/IntelEdison/examples# find /lib/modules/* -name ''
+    root@edison:~/IntelEdison/examples# find /lib/modules/* -name '*'
+    /lib/modules/3.10.17-yocto-standard
+    /lib/modules/3.10.17-yocto-standard/modules.devname
+    /lib/modules/3.10.17-yocto-standard/modules.dep
+    /lib/modules/3.10.17-yocto-standard/modules.alias.bin
+    /lib/modules/3.10.17-yocto-standard/modules.builtin.bin
+    /lib/modules/3.10.17-yocto-standard/modules.order
+    /lib/modules/3.10.17-yocto-standard/modules.softdep
+    /lib/modules/3.10.17-yocto-standard/extra
+    /lib/modules/3.10.17-yocto-standard/extra/bcm4334x.ko
+    /lib/modules/3.10.17-yocto-standard/modules.symbols
+    /lib/modules/3.10.17-yocto-standard/modules.builtin
+    /lib/modules/3.10.17-yocto-standard/modules.dep.bin
+    /lib/modules/3.10.17-yocto-standard/modules.alias
+    /lib/modules/3.10.17-yocto-standard/kernel
+    /lib/modules/3.10.17-yocto-standard/kernel/net
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_state.ko
 /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_length.ko
 /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_NETMAP.ko
 /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack.ko
