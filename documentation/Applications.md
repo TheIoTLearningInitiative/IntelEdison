@@ -168,6 +168,8 @@ int main(int argc, char *argv[]) {
 ```
 
     root@edison:~# gcc socketclient.c -o socketclient
+    root@edison:~# ./socketserver
+    root@edison:~# ./socketclient 192.168.1.74 5001
 
 
 ## Links
