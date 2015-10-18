@@ -25,6 +25,7 @@ Sound
             pcm “hw:1,0”
         }
     }
+
     root@edison:~# vi /etc/asound.conf
     pcm.!default sysdefault:Headset
 
