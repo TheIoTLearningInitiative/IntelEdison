@@ -60,8 +60,6 @@ Block Subsystem
     root@edison:~# opkg update
     root@edison:~# opkg install e2fsprogs dosfstools
 
-## Userspace Applications
-
 ## Device Configuration
 
 ### Format SD Card
@@ -89,6 +87,7 @@ Block Subsystem
     root@edison:~# vi /etc/fstab
     /dev/mmcblk1  /path/to/localdirectory
 
+## Applications
 ## Usage Models
 
     root@edison:~# cd /tmp
