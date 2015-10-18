@@ -20,6 +20,8 @@ USB
     root@Edison:~# git clone https://github.com/libusb/libusb.git
     root@Edison:~# cd libusb
     root@Edison:~# ./autogen.sh -disable-udev
+    root@Edison:~# make
+    root@Edison:~# cd examples
 
 ## Links
 
