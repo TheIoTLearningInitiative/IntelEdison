@@ -8,6 +8,8 @@ Applications
     options g_multi file=/dev/mmcblk0p9 stall=0 idVendor=0x8087 idProduct=0x0A9E iProduct=Edison iManufacturer=Intel
 
 
+    root@edison:~# nano socketserver.c
+
 ```
 #include <stdio.h>
 #include <stdlib.h>
