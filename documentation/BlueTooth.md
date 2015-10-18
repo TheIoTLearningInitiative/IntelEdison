@@ -66,11 +66,7 @@ BlueTooth
 
 ## Usage Models
 
-### Serial Port Profile (SPP)
-
-- Tbd
-
-### Pairing Edison + CellPhone
+### Device Pairing
 
     root@galileo:~# rfkill unblock bluetooth
     root@galileo:~# bluetoothctl
@@ -87,6 +83,10 @@ BlueTooth
 ### Audio
 
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
+
+### Serial Port Profile (SPP)
+
+- Tbd
 
 ## Links
 
