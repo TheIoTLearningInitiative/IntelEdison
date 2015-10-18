@@ -28,6 +28,7 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ make flash
     U-boot & Kernel System Flash Success...
     Your board needs to reboot to complete the flashing procedure, please do not unplug it for 2 minutes.
+    user@host:~$ out/current
 
 ### Building via Make + Bitbake
 
