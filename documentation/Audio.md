@@ -61,7 +61,7 @@ Sound
      1 [Device         ]: USB-Audio - USB PnP Sound Device
                           C-Media Electronics Inc. USB PnP Sound Device at usb-dwc3-host.2-1.2, full speed
 
-### Aplay
+### Playback Hardware Devices
 
     root@edison:~# aplay -Ll
     card 1: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
@@ -69,7 +69,7 @@ Sound
     Subdevice #0: subdevice #0
     root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
 
-### Arecord
+### Capture Hardware Devices
 
     root@edison:~# arecord -Ll
     card 1: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
