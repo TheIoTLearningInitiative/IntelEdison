@@ -90,7 +90,7 @@ module_exit(module_exit_function);
 
     user@host:~$ nano drivers/helloworld/Makefile
 
-```
+```Shell
     obj-$(CONFIG_HELLO_WORLD)               += helloworld.o
 ```
 
