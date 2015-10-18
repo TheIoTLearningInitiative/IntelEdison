@@ -74,7 +74,8 @@ module_init(module_init_function);
 module_exit(module_exit_function);
 ```
 
-    user@host:~$ 
+    user@host:~$ nano drivers/helloworld/Kconfig
+    
     user@host:~$ 
     user@host:~$ 
     user@host:~$ 
