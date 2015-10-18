@@ -43,3 +43,4 @@
 ## Links
 
 - [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
+- http://www.codeproject.com/Articles/774826/Adding-rd-party-components-to-Yocto-OpenEmbedded-L
