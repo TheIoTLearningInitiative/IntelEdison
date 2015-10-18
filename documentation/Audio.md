@@ -73,7 +73,6 @@ Sound
     
     root@edison:~# mpg123
 
-
 ## Links
 
 - http://repo.opkg.net/edison/repo/edison/kernel-module-snd-usb-audio_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
