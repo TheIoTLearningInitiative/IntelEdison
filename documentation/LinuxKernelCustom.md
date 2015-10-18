@@ -105,6 +105,7 @@ module_exit(module_exit_function);
     obj-y += irqchip/
     ...
 ```
+
     user@host:~$ bitbake virtual/kernel -c menuconfig
     user@host:~$ 
     user@host:~$ 
