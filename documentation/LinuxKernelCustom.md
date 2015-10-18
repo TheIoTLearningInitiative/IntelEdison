@@ -114,8 +114,8 @@ module_exit(module_exit_function);
     ...
 ```
 
+    user@host:~$ cd -
     user@host:~$ bitbake virtual/kernel -c menuconfig
-    user@host:~$ 
     user@host:~$ 
     user@host:~$ 
     
