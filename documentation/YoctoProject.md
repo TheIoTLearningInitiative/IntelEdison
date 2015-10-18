@@ -7,4 +7,4 @@ Yocto
 - [Yocto Project Quick Start Guide]()
 - [Yocto Developer Manual]()
 - [Yocto Kernel Developer Manual]()
-- []()
+- [](http://www.jumpnowtek.com/yocto/Managing-a-private-opkg-repository.html)
