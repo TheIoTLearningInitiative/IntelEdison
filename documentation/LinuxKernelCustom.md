@@ -16,6 +16,9 @@ Linux Kernel
     user@host:~$ make image
     user@host:~$ make flash
     
+    CONFIG_BMP085=y
+    CONFIG_BMP085_I2C=y
+    
 ## Building via BitBake (Unchecked)
 
     user@host:~$ pwd
