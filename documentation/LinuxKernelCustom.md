@@ -1,6 +1,7 @@
 Linux Kernel
 ==
 
+
     user@host:~$ pwd
     /home/xe1gyq/Projects/edison-src
     user@host:~$ cd out/current
