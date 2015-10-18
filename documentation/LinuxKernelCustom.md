@@ -47,7 +47,16 @@ Kernel Macros
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ cd tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux/
     user@host:~$ mkdir drivers/helloworld
-
+    user@host:~$ 
+    user@host:~$ 
+    user@host:~$ 
+    user@host:~$ 
+    user@host:~$ 
+    user@host:~$ 
+    user@host:~$ 
+    user@host:~$ 
+    user@host:~$ 
+    
 ## Others
 
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-kernel/linux/files/defconfig
