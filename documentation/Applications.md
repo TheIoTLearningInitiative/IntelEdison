@@ -1,6 +1,12 @@
 Applications
 ==
 
+## Flask
+
+    root@edison:~# 
+
+## Others
+
     root@edison:~# journalctl
     root@edison:~# cat /etc/modprobe.d/bcm4334x.conf 
     options bcm4334x firmware_path=/etc/firmware/fw_bcmdhd.bin nvram_path=/etc/firmware/bcmdhd.cal op_mode=4
