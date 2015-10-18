@@ -20,8 +20,6 @@ Open Package Management
     root@edison:~# opkg install git
     root@edison:~# git config --global user.name "Name LastName"
     root@edison:~# git config --global user.email email@adress.com
-    root@edison:~# opkg install libsdl-1.2-dev libv4l-dev
-    root@edison:~# opkg install fswebcam
 
 ## Installation via local file
 
