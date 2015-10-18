@@ -90,6 +90,8 @@ BlueTooth
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl start bluetooth
     root@edison:~# systemctl enable bluetooth
+    root@edison:~# rfkill unblock bluetooth
+    root@edison:~# rfkill list bluetooth
     
 
 ### Audio
