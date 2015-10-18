@@ -102,7 +102,8 @@ The Intel® Edison Board Support Package offers these features:
 
 ## Packages Third Party
 
-Tbd
+    user@host:~$ cd edison-src/meta-intel-edison/
+    user@host:~$ git clone https://github.com/openembedded/meta-openembedded.git
 
 ### Make Building Workflow
 
