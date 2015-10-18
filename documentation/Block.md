@@ -95,8 +95,8 @@ Block Subsystem
     root@edison:~# mkdir temptmpfs
     root@edison:~# mount -o size=16G -t tmpfs none temptmpfs/
     root@edison:~# cd temptmpfs/
-    root@edison:~/temptmpfs# ls
-    root@edison:~/temptmpfs# cd ..
+    root@edison:~# ls
+    root@edison:~# cd ..
     root@edison:~# mount
     none on /root/temptmpfs type tmpfs (rw,relatime,size=16777216k)
     root@edison:~# umount /root/temptmpfs
