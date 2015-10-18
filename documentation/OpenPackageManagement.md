@@ -12,10 +12,10 @@ Open Package Management
      Updated list of available packages in /var/lib/opkg/x86.
      Downloading http://iotdk.intel.com/repos/1.1/iotdk/i586/Packages.
      Updated list of available packages in /var/lib/opkg/i586.
-    root@edison:~# opkg install nano
-    root@edison:~# opkg install git
     root@edison:~# opkg list-installed | grep mraa
     root@edison:~# opkg list-installed | grep upm
+    root@edison:~# opkg install nano
+    root@edison:~# opkg install git
     root@edison:~# git config --global user.name "Name LastName"
     root@edison:~# git config --global user.email email@adress.com
     root@edison:~# opkg install libsdl-1.2-dev libv4l-dev
