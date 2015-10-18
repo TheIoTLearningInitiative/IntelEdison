@@ -17,7 +17,8 @@ Camera
     bcm_bt_lpm             13676  0 
     bcm4334x              578947  0
     root@edison:~# find /lib/modules/* -name 'uvc'
-    
+    /lib/modules/3.10.17-yocto-standard/kernel/drivers/media/usb/uvc
+    /lib/modules/3.10.17-yocto-standard-r2/kernel/drivers/media/usb/uvc
 
 ## Userspace Applications
 
