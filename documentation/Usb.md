@@ -1,6 +1,8 @@
 USB
 ==
 
+- [libusb homepage](http://www.libusb.org/)
+
 ## Kernel Integration
 
 
