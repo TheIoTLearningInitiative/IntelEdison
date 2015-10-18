@@ -90,6 +90,12 @@ module_exit(module_exit_function);
     source "drivers/amba/Kconfig"
     ...
     user@host:~$ nano drivers/Makefile
+    ...
+    # Rewritten to use lists instead of if-statements.
+    #
+    obj-$(CONFIG_HELLO_WORLD) += helloworld/
+    obj-y += irqchip/
+    ...
     user@host:~$ 
     user@host:~$ 
     user@host:~$ 
