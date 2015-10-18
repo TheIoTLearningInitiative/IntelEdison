@@ -47,7 +47,9 @@ Let's understand what it means to work with Yocto Project by building images for
 
 ## Important Topics To Cover
 
-- 
+- Example Project
+- Adding Recipes to the Build System
+- Adding New Recipes to the Build System
 
 ## Links
 
