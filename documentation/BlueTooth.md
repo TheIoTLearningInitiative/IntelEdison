@@ -55,6 +55,11 @@ BlueTooth
     root@edison:~# hciconfig hci0 down
     root@edison:~# hciconfig hci0 up
     root@edison:~# hciconfig hci0 status
+    hci0:   Type: BR/EDR  Bus: UART
+        BD Address: 98:4F:EE:03:39:02  ACL MTU: 1021:8  SCO MTU: 64:1
+        UP RUNNING PSCAN 
+    ...
+
 
 ## Userspace Applications
 
