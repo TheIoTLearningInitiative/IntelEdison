@@ -41,6 +41,10 @@ Kernel Macros
 
 ## Hello World Kernel Module
 
+    user@host:~$ pwd
+    /home/xe1gyq/Projects/edison-src
+    user@host:~$ cd out/current
+    user@host:~$ source poky/oe-init-build-env
 
 ## Others
 
