@@ -210,13 +210,14 @@ Trying to figure out how all this fits together at first sight  may look a littl
 
 2. Make a list of the GPIO's involved in the setup you want to configure.
     3. The GPIO you want to use needs GPIO pin mux configuration?
-    4. A pin mode needs to be setted?
-3. Find each GPIO from the  you want to use in the Table1, depending in what GPIO you selected will be some differences:
-    4.  GPIO's 130,131,128,12,129,13,182,48,49,183
-        5.  These GPIO's only have
-    5.  GPIO's mapped from IO10-->IO19:
-3.  **Before** setting up any muxing, set GPIO 214 (TRI_STATE_ALL) to HIGH
-3. 
+        4. Write down every GPIO needed and the value to which the "direction" attribute should be set (possible values: in, out, high, low)
+    4. A pin mode needs to be set?
+        5. Write down every GPIO needed and the value to which the "direction" attribute should be set (possible values: in, out, high, low)
+        6. Write down the GPIO in charge of setting the pin mode, and the value which the "current_pinmux" attribute should be set (possible values: mode0,mode1,etc) 
+
+4. Export all the pins in your list (link to GPIO primer)
+5. **Before** setting up any muxing, set GPIO 214 (TRI_STATE_ALL) to HIGH
+5.  Set the value of each exported GPIO according to the desired configuration.
 3. **After** making all of your changes, then set
 GPIO 214 (TRI_STATE_ALL)  to LOW.
 
