@@ -14,10 +14,8 @@
 ## Minnowboard
 
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
-    user@host:~$ mkdir -p Projects/Yocto/
-    user@host:~$ cd Projects/Yocto/
-    user@host:~$ pwd
-    /home/xe1gyq/Projects/Yocto/poky/yocto-x86-minnowmax
+    user@host:~$ mkdir source
+    user@host:~$ cd source
     user@host:~$ git clone -b fido git://git.yoctoproject.org/poky
     user@host:~$ cd poky
     user@host:~$ git clone -b fido git://git.yoctoproject.org/meta-intel
