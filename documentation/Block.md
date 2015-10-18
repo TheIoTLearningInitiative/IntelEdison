@@ -92,14 +92,14 @@ Block Subsystem
 ## Usage Models
 
     root@edison:~# cd /tmp
-    root@edison:~# mkdir temptmp
-    root@edison:~# mount -o size=16G -t tmpfs none temptmp/
-    root@edison:~# cd temptmp/
-    root@edison:~/temptmp# ls
-    root@edison:~/temptmp# cd ..
+    root@edison:~# mkdir temptmpfs
+    root@edison:~# mount -o size=16G -t tmpfs none temptmpfs/
+    root@edison:~# cd temptmpfs/
+    root@edison:~/temptmpfs# ls
+    root@edison:~/temptmpfs# cd ..
     root@edison:~# mount
-    none on /root/temptmp type tmpfs (rw,relatime,size=16777216k)
-    root@edison:~# umount /root/temptmp
+    none on /root/temptmpfs type tmpfs (rw,relatime,size=16777216k)
+    root@edison:~# umount /root/temptmpfs
 
 - http://unix.stackexchange.com/questions/66329/creating-a-ram-disk-on-linux
 
