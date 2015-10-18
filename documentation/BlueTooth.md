@@ -93,7 +93,7 @@ BlueTooth
 
 ### Others
 
-- Intel Edison to a Bluetooth Network
+- Intel® Edison to a Bluetooth Network
 
     root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
     root@edison:~# ls /dev/rfcomm0
