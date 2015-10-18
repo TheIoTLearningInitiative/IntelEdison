@@ -35,7 +35,7 @@ The Intel® Edison Board Support Package offers these features:
     Your board needs to reboot to complete the flashing procedure, please do not unplug it for 2 minutes.
     ...
     user@host:~$ ls
-    bbcache  flash.log  Makefile  meta-arduino  meta-intel-edison  out  pub    
+    bbcache  flash.log  Makefile  meta-arduino  meta-intel-edison  out  pub
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake virtual/kernel -c menuconfig
