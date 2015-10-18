@@ -63,7 +63,7 @@ BlueTooth
 
 - Tbd
 
-### Pairing
+### Pairing Edison + CellPhone
 
     root@galileo:~# rfkill unblock bluetooth
     root@galileo:~# bluetoothctl
