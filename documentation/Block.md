@@ -91,7 +91,7 @@ Block Subsystem
 
 ## Usage Models
 
-    root@edison:~# mkdir temptmp
+    root@edison:~# cd /tmp
     root@edison:~# mkdir temptmp
     root@edison:~# mount -o size=16G -t tmpfs none temptmp/
     root@edison:~# cd temptmp/
