@@ -19,11 +19,6 @@ Linux Kernel
     user@host:~$ make flash
     edison-src/out/linux64/build/tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/Makefile
 
-Kernel Macros
-
-    CONFIG_BMP085=y
-    CONFIG_BMP085_I2C=y
-    
 ## Building via BitBake (Unchecked)
 
     user@host:~$ pwd
