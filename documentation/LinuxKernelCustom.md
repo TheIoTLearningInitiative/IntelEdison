@@ -38,7 +38,6 @@ Kernel Macros
     user@host:~$ cp tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/.config tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux/arch/x86/configs/i386_edison_defconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ bitbake edison-image
-    ...
 
 ## Others
 
