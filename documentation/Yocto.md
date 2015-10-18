@@ -29,7 +29,7 @@
     ...
     core-image-minimal-intel-corei7-64.hddimg
 
-### Kernel Compilation
+### Minnowboard MAX Kernel Compilation
 
     user@host:~$ bitbake virtual/kernel -c menuconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
