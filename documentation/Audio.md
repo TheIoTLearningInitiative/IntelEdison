@@ -25,7 +25,7 @@ Sound
     pcm.!default {
         type plug
         slave {
-            pcm “hw:2,0”
+            pcm “hw:1,0”
         }
     }
 
