@@ -26,7 +26,9 @@
     user@host:~$ ls tmp/deploy/images/intel-corei7-64/    
     ...
     core-image-minimal-intel-corei7-64.hddimg
-    [Kernel Compilation]
+
+### Kernel Compilation
+
     user@host:~$ bitbake virtual/kernel -c menuconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     $ sudo $HOME/source/poky/scripts/contrib/mkefidisk.sh HOST_DEVICE \
