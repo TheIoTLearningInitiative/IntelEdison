@@ -2,9 +2,9 @@ Open Package Management
 ==
 
     root@edison:~# vi /etc/opkg/base-feeds.conf
-     src all     http://iotdk.intel.com/repos/1.1/iotdk/all
-     src x86 http://iotdk.intel.com/repos/1.1/iotdk/x86
-     src i586    http://iotdk.intel.com/repos/1.1/iotdk/i586
+    src/gz all http://repo.opkg.net/edison/repo/all
+    src/gz edison http://repo.opkg.net/edison/repo/edison
+    src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
     root@edison:~# opkg update
      Downloading http://iotdk.intel.com/repos/1.1/iotdk/all/Packages.
      Updated list of available packages in /var/lib/opkg/all.
@@ -15,15 +15,6 @@ Open Package Management
     root@edison:~# opkg install git
     root@edison:~# opkg list-installed | grep mraa
     root@edison:~# opkg list-installed | grep upm
-
-    root@edison:~# echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/mraa-upm.conf
-    root@edison:~# opkg update
-    root@edison:~# opkg install libmraa0
-    root@edison:~# opkg install upm
-
-    root@edison:~# echo "src intel-iotdk http://iotdk.intel.com/repo/1.1/intelgalactic" > /etc/opkg/intel-iotdk.conf
-    root@edison:~# opkg update
-    root@edison:~# opkg upgrade
 
     root@edison:~# vi /etc/opkg/base-feeds.conf
      src/gz all http://repo.opkg.net/edison/repo/all
