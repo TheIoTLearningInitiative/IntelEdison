@@ -20,6 +20,8 @@ USB
     root@Edison:~# apt-get install libusb-1.0-dev libudev-dev
     root@Edison:~# libtool
     
+## Device Configuration
+
     root@Edison:~# git clone https://github.com/libusb/libusb.git
     root@Edison:~# cd libusb
     root@Edison:~# ./autogen.sh -disable-udev
@@ -30,11 +32,6 @@ USB
     0458:708a (bus 1, device 3) path: 1.1
     05e3:0606 (bus 1, device 2) path: 1
     1d6b:0002 (bus 1, device 1)
-
-## Device Configuration
-
-    root@edison:~# lsmod | grep uvc
-    root@edison:~# ls -al /dev/video0
 
 ## Usage Models
 
