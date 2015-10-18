@@ -8,7 +8,7 @@ Open Source Computer Vision
 ### Opkg Installation
     root@Edison:~# opkg update
     root@Edison:~# opkg install opencv opencv-samples opencv-apps
-    root@Edison:~# opkg install opencv-devs opencv-samples-dev
+    root@Edison:~# opkg install opencv-dev opencv-samples-dev
     root@Edison:~# opkg install python-numpy python-opencv
 
 ### Apt-Get Installation
