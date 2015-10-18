@@ -138,8 +138,6 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake edison-image
 
-
-
 ### Make Building Workflow
 
 - meta-intel-edison/setup.sh
