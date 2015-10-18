@@ -21,7 +21,7 @@ Sound
     root@edison:~# vi ~/.asoundrc
     root@edison:~# vi /etc/asound.conf
     pcm.!default sysdefault:Headset
-    ~/.asoundrc file.
+    root@edison:~# ~/.asoundrc file.
     pcm.!default {
         type plug
         slave {
