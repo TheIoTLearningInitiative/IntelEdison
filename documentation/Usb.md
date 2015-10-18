@@ -31,6 +31,14 @@ USB
     05e3:0606 (bus 1, device 2) path: 1
     1d6b:0002 (bus 1, device 1)
 
+## Device Configuration
+
+    root@edison:~# lsmod | grep uvc
+    root@edison:~# ls -al /dev/video0
+
+## Usage Models
+
+
 ## Links
 
 - http://www.yoctopuce.com/
