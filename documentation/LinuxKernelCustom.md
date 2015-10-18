@@ -14,7 +14,7 @@ Linux Kernel
     user@host:~$ cd ../../..
     user@host:~$ make image
 
-## Building via BitBake
+## Building via BitBake (Unchecked)
 
     user@host:~$ pwd
     /home/xe1gyq/Projects/edison-src
