@@ -21,6 +21,12 @@ WiFi
     [   38.194403] wifi_platform_set_power = 1
     [   39.117444] wifi_platform_get_mac_addr
     [   39.117488] wifi_get_mac_addr_intel: unable to open /config/wifi/mac.txt
+    root@edison:/tmp# lsmod
+    Module                  Size  Used by
+    usb_f_acm              14335  1 
+    ...
+    bcm_bt_lpm             13708  0 
+    bcm4334x              587105  0 
 
 ## Userspace Applications
 ## Setup
