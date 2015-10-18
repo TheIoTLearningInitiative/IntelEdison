@@ -1,4 +1,4 @@
-Microcontroller Unit
+Micro Controller Unit
 ==
 
 ## Microcontroller Unit SDK
