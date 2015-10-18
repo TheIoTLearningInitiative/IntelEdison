@@ -21,6 +21,12 @@ BlueTooth
     [    1.588160] Bluetooth: BNEP socket layer initialized
     [    1.588175] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
     [    1.588202] Bluetooth: HIDP socket layer initialized
+    root@edison:/tmp# lsmod
+    Module                  Size  Used by
+    usb_f_acm              14335  1 
+    ...
+    bcm_bt_lpm             13708  0 
+    bcm4334x              587105  0 
 
 ## Userspace Applications
 
