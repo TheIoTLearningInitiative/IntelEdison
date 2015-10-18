@@ -96,7 +96,7 @@ module_exit(module_exit_function);
     obj-$(CONFIG_HELLO_WORLD) += helloworld/
     obj-y += irqchip/
     ...
-    user@host:~$ 
+    user@host:~$ bitbake virtual/kernel -c menuconfig
     user@host:~$ 
     user@host:~$ 
     user@host:~$ 
