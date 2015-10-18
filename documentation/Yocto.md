@@ -52,6 +52,7 @@ Let's understand what it means to work with Yocto Project by building images for
 - Adding New Recipes to the Build System
 - Build an Example Package based on a Git Repository Commit
 - Build an example package based on a Remote Source Archive
+- Build an example package based on a Local Source Archive
 
 ## Links
 
