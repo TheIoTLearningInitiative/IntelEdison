@@ -127,7 +127,7 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ cd edison-src/out/current/poky
     user@host:~$ git clone https://github.com/hambedded-linux/meta-hamradio.git
     user@host:~$ nano edison-src/out/current/build/conf/bblayers.conf
-    
+    /home/xe1gyq/Projects/edison-src/out/linux64/poky/meta-hamradio
     user@host:~$ nano meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
     IMAGE_INSTALL += “ax25-apps”
     IMAGE_INSTALL += “ax25-tools”
