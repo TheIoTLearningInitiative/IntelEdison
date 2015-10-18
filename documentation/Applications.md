@@ -178,6 +178,8 @@ int main(int argc, char *argv[]) {
     root@edison:~# ./socketserver
     root@edison:~# ./socketclient 192.168.1.74 5001
 
+## Native Compilation, G++ Compiler
+
 ## Links
 
 - [Intel® Edison Native Application Guide](http://www.intel.com/support/edison/sb/CS-035382.htm)
