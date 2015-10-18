@@ -11,6 +11,7 @@ Linux Kernel
     ...
     edison-src/out/linux64/build/tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/Makefile
     user@host:~$ bitbake virtual/kernel -c configure -f -v
+    user@host:~$ cp tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/.config tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/defconfig 
     user@host:~$ cd ../../..
     user@host:~$ make image
     user@host:~$ make flash
