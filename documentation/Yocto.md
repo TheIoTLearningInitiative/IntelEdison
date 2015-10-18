@@ -45,6 +45,8 @@ Let's understand what it means to work with Yocto Project by building images for
     tmp/deploy/images/intel-corei7-64/core-image-minimal-intel-corei7-64.hddimg \
     TARGET_DEVICE
 
+##
+
 ## Links
 
 - [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
