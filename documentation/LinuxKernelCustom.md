@@ -46,6 +46,7 @@ Kernel Macros
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ cd tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux/
+    user@host:~$ mkdir drivers/helloworld
 
 ## Others
 
