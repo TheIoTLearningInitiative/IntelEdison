@@ -4,6 +4,7 @@ USB
 ## Userspace Applications
 
     root@edison:~# lsusb
+    root@edison:~# dmesg
 
 ## Setup
 ### Opkg
