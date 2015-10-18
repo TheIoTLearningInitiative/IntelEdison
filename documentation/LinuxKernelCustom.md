@@ -118,7 +118,7 @@ module_exit(module_exit_function);
 ```
 CONFIG_HELLO_WORLD:
 Select this option to run a Hello World Module!
-Symbol: HELLO_WORLD [=n]
+Symbol: HELLO_WORLD [=y]
 Type : tristate
 Prompt: Hello Module Driver
    Location:
