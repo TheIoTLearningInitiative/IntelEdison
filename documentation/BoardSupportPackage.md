@@ -110,7 +110,8 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ nano out/current/build/conf/bblayers.conf
     /home/xe1gyq/Projects/edison-src/meta-intel-edison/meta-openembedded \
     user@host:~$ nano meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
-    
+    IMAGE_INSTALL += “opencv”
+    PACKAGECONFIG_pn-opencv="eigen jpeg libav png tiff v4l”
     user@host:~$ 
     user@host:~$ 
 
