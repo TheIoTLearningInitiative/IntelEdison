@@ -89,7 +89,7 @@ module_exit(module_exit_function);
     source "drivers/helloworld/Kconfig"
     source "drivers/amba/Kconfig"
     ...
-    user@host:~$ 
+    user@host:~$ nano drivers/Makefile
     user@host:~$ 
     user@host:~$ 
     user@host:~$ 
