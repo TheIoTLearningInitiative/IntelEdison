@@ -19,15 +19,14 @@ Sound
 ## Device Configuration
 
     root@edison:~# vi ~/.asoundrc
-    root@edison:~# vi /etc/asound.conf
-    pcm.!default sysdefault:Headset
-    root@edison:~# ~/.asoundrc file.
     pcm.!default {
         type plug
         slave {
             pcm “hw:1,0”
         }
     }
+    root@edison:~# vi /etc/asound.conf
+    pcm.!default sysdefault:Headset
 
 ## Usage Models
 
