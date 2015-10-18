@@ -48,4 +48,4 @@ Let's understand what it means to work with Yocto Project by building images for
 ## Links
 
 - [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
-- [Adding 3rd Party Components to Yocto/OpenEmbedded Linux](http://www.codeproject.com/Articles/774826/Adding-rd-party-components-to-Yocto-OpenEmbedded-L)
+- [Code Project Adding 3rd Party Components to Yocto/OpenEmbedded Linux](http://www.codeproject.com/Articles/774826/Adding-rd-party-components-to-Yocto-OpenEmbedded-L)
