@@ -1,7 +1,7 @@
 Yocto Customization
 ==
 
-Let's understand what it means to work with Yocto Project udner QEMU and Minnowboard MAX
+Let's understand what it means to work with Yocto Project udner QEMU and Minnowboard MAX.
 
 ## Qemu
 
