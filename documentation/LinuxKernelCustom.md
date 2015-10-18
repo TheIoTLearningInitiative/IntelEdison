@@ -29,7 +29,7 @@ Linux Kernel
     ...
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
-    tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/
+    user@host:~$ tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/
 
 ## Others
 
