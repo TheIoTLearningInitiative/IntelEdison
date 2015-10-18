@@ -39,9 +39,6 @@ Kernel Macros
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ bitbake edison-image
     ...
-    user@host:~$ cd out/current
-    user@host:~$ source poky/oe-init-build-env
-    user@host:~$ cd tmp/work/edison-poky-linux/linux-yocto/3.10.17-r0/linux-edison-standard-build/
 
 ## Others
 
