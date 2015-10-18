@@ -59,12 +59,13 @@ Sound
     Subdevice #0: subdevice #0
     root@edison:~# aplay /usr/share/sounds/alsa/Front_Center.wav
     root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
-    root@edison:~# mpg123
-
+    ...
     root@edison:~# arecord -Ll
     card 1: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
-  Subdevices: 1/1
-  Subdevice #0: subdevice #0
+    Subdevices: 1/1
+    Subdevice #0: subdevice #0
+    ...
+    root@edison:~# mpg123
 
 
 ## Links
