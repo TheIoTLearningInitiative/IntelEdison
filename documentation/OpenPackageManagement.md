@@ -1,7 +1,7 @@
 Open Package Management
 ==
 
-## Installation via Remote Repositories
+## Installation via remote repositories
 
     root@edison:~# vi /etc/opkg/base-feeds.conf
     src/gz all http://repo.opkg.net/edison/repo/all
@@ -23,7 +23,7 @@ Open Package Management
     root@edison:~# opkg install libsdl-1.2-dev libv4l-dev
     root@edison:~# opkg install fswebcam
 
-
+## Installation via local file
 
     root@edison:~# wget http://repo.opkg.net/edison/repo/core2-32/less_458-r0_core2-32.ipk
     root@edison:~# opkg install bash_4.3-r0_core2-32.ipk
