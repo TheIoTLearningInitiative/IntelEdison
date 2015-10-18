@@ -133,6 +133,7 @@ The Intel® Edison Board Support Package offers these features:
     IMAGE_INSTALL += “ax25-apps”
     IMAGE_INSTALL += “ax25-tools”
     IMAGE_INSTALL += “libax25”
+    user@host:~$ make image
 
 ### Make Building Workflow
 
