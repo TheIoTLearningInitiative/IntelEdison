@@ -122,7 +122,11 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake edison-image
     
+    pwd
     /home/xe1gyq/Projects/edison-src/out/linux64/build
+    cd /home/xe1gyq/Projects/edison-src/out/current/poky
+    git clone https://github.com/hambedded-linux/meta-hamradio.git
+    
 
 ### Make Building Workflow
 
