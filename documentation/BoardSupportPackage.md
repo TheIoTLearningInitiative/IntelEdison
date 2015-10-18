@@ -42,7 +42,7 @@ The Intel® Edison Board Support Package offers these features:
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ bitbake edison-image
 
-### Building via Make + Bitbake
+### Building via Make + Bitbake (Unchecked)
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
