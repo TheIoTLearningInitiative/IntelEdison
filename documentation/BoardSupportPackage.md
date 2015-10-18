@@ -104,6 +104,12 @@ The Intel® Edison Board Support Package offers these features:
 
     user@host:~$ cd edison-src/meta-intel-edison/
     user@host:~$ git clone https://github.com/openembedded/meta-openembedded.git
+    user@host:~$ cd meta-openembedded/
+    user@host:~$ git checkout fido
+    user@host:~$ 
+    user@host:~$ 
+    user@host:~$ 
+    user@host:~$ 
 
 ### Make Building Workflow
 
