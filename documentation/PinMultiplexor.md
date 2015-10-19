@@ -233,17 +233,20 @@ alright!, for this first example i would like to take you step by step:
 2. Make a list of the GPIO's involved in the setup you want to configure.
     3. The GPIO you want to use needs GPIO pin mux configuration? **NO**, according to Table1 the IO's 0-->9 does not require any pin-mux configuration
 
-    4. A pin mode needs to be set? **YES, According to Table1, IO5 corresponds to GPIO13, which has two mode, one as GPIO and other as PWM. For our example we need it configured as GPIO.**
-    4. What GPIO controls its input direction? **According to table1, GPIO253**
+    4. A pin mode needs to be set? 
+    ```**YES, According to Table1, IO5 corresponds to GPIO13, which has two mode, one as GPIO and other as PWM. For our example we need it configured as GPIO.**```
+    4. What GPIO controls its input direction?
+    ```**According to table1, GPIO253**```
     
-    5. What GPIO enables/disables the pullup-resistor? **According to table1, GPIO221**
+    5. What GPIO enables/disables the pullup-resistor?
+    ``` **According to table1, GPIO221**```
     
     So basically our GPIO list is as follows:
 ```
-13 <-- the GPIO that maps to IO5
+13  <-- the GPIO that maps to IO5
 253 <-- GPIO that controls direction, by setting "direction" to "low" will configure GPIO13 as input
 221 <--GPIO that enables/dables pull-up resistor, by setting "direction" attribute to "in" wil disable GPIO13 pull-up resistor
-214 <--we always need to export this GPIO, if it is not already exported. 
+214 <--We always need to export this GPIO, if it is not already exported. 
 ```
 
  
@@ -255,9 +258,11 @@ alright!, for this first example i would like to take you step by step:
 # echo 221 > /sys/class/gpio/export
 # echo 214 > /sys/class/gpio/export
 ```
-NOTE: before trying to export GPIO 214, you can verify if it already appears as a GPIO (take a look to GPIO primer), if you try to export it a message like this could appear: *-sh: echo: write error: Device or resource busy*
+NOTE: before trying to export GPIO 214, you can verify if it already appears as a GPIO (take a look to GPIO primer), if you try to export it a message like this could appear: **-sh: echo: write error: Device or resource busy**
+
+
 5. **Before** setting up any muxing, set GPIO 214 (TRI_STATE_ALL) to HIGH
-5.  Set the value of each exported GPIO according to the desired configuration.
+6. Set the value of each exported GPIO according to the desired configuration.
 3. **After** making all of your changes, then set
 GPIO 214 (TRI_STATE_ALL)  to LOW.
 
