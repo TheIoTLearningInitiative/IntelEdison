@@ -138,6 +138,7 @@ Power
     root@edison:~# cat /sys/module/pcie_aspm/parameters/policy
     default [performance] powersave 
     root@edison:~# cpufreq-info
+    root@edison:~# head /sys/class/regulator/*/name
 
 ## Setup
 ### Opkg
