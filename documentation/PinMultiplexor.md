@@ -4,7 +4,7 @@ Suggested outline:
 
 * How to configure the muxing
     * How to Mux?
-    * Lets MUX-it!
+    * Let's MUX-it!
     * Exercise: use a pin for PWM, configure it, and measureit is send the correct voltage according to the PWM configuration. Using a multimeter or a DC motor.
 
 * Try to apply the knowledge acquired to a small part of a bigger problem, probably ask the participant to plan the pin configuration he is going to need for the  training project.
@@ -202,7 +202,7 @@ pins as high-impedance inputs.
 ######Table3 Pin Direction and pull-up control
 ![](PinDirection_PullUpControl.png)
 
-#Lets MUX-it!
+#Let's MUX-it!
 So how all this comes together?, how can we use the aforementioned tables, to configure the GPIO pins for certain functionality required by our project?. Well if these are the kind of questions you have, you are in the right place.
 
 Trying to figure out how all this fits together at first sight  may look a little bit overwhelming and it is just in appearance, in a nutshell the steps to configure a given GPIO, bases in the use of Table1 & Table2 with the following steps:
