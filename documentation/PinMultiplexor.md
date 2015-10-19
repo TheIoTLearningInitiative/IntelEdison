@@ -292,6 +292,75 @@ Now, it should be possible to use IO5 as a GPIO input!!
 ---
 
 
+###Example2: Configure IO10 for SPI connectivity
+---
+
+
+1. Make a list of the GPIO's involved in the setup you want to configure.
+    3. The GPIO you want to use needs GPIO pin mux configuration?
+    
+    ```YES, according to Table1 the IO's 10-->19 does requires pin-mux configuration. The IO10 is related to GPIO41, that in turn has the GPIO263 that selects between PWM and "Other", that "Other" refers to GPIO240, when we took a look to GPIO240 we see it can be configured to select between I2S and SPI. We need SPI.```
+
+    So wrapping up, the GPIO's needed for pin Mux are:
+    
+    ```
+    263
+    240
+    ```
+
+    * A pin mode needs to be set? 
+    
+    ```YES, According to Table1, IO5 corresponds to GPIO13, which has two modes, one as GPIO and other as PWM. For our example we need it configured as GPIO.```
+    
+    * What GPIO controls its input direction? 
+    
+    ```According to Table1/Table3, GPIO253. Since high = output and low = input, the value for the "direction" attribute should be "low" to fullfill the example's requirement```
+    
+    * What GPIO enables/disables the pullup-resistor? 
+    
+    ```According to Table1/Table3, GPIO221. Since in = disable and out = enable, the value for the "direction" attribute should be "in" to fullfill the example's requirement```
+    
+    So basically the GPIO list that we need, is as follows:
+    
+    ```
+13  <-- the GPIO that maps to IO5
+253 <-- GPIO that controls direction, by setting "direction" to "low" will configure GPIO13 as input
+221 <--GPIO that enables/dables pull-up resistor, by setting "direction" attribute to "in" wil disable GPIO13 pull-up resistor
+214 <--We always need to export this GPIO, if it is not already exported. 
+```
+
+2. Export all the pins in your list (how to export?-->link to GPIO primer)
+
+    ``` 
+# echo 13 > /sys/class/gpio/export
+# echo 253 > /sys/class/gpio/export
+# echo 221 > /sys/class/gpio/export
+# echo 214 > /sys/class/gpio/export
+```
+
+3. **Before** setting up any muxing, set GPIO 214 (TRI_STATE_ALL) to HIGH
+
+ ```# echo high > /sys/class/gpio/gpio214/direction```
+ 
+ **NOTE**: *before trying to export GPIO 214, you can verify if it already appears as a GPIO (take a look to GPIO primer), if you try to export it a message like this could appear: **-sh: echo: write error: Device or resource busy***
+
+4. Set the value of each exported GPIO according to the desired configuration.
+
+    ```
+# echo low > /sys/class/gpio/gpio253/direction
+# echo in > /sys/class/gpio/gpio221/direction
+# echo mode0 > /sys/kernel/debug/gpio_debug/gpio13/current_pinmux
+# echo in > /sys/class/gpio/gpio13/direction
+``` 
+
+5. **After** making all of your changes, then set GPIO 214 (TRI_STATE_ALL)  to LOW.
+
+    ```# echo low > /sys/class/gpio/gpio214/direction```
+
+
+
+
+
 
 ##links
 * [Kernel GPIO documentation](https://www.kernel.org/doc/Documentation/gpio/sysfs.txt)
