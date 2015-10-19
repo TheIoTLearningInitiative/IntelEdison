@@ -231,17 +231,28 @@ Now lets take a look to couple examples on how to apply this rules:
 alright!, for this first example i would like to take you step by step:
 
 2. Make a list of the GPIO's involved in the setup you want to configure.
-    3. The GPIO you want to use needs GPIO pin mux configuration? **NO**, according to Table1 the IO's 0-->9 does not require any pin-mux configuration
+    3. The GPIO you want to use needs GPIO pin mux configuration?
+    
+    ```NO, according to Table1 the IO's 0-->9 does not require any pin-mux configuration```
 
-    4. A pin mode needs to be set? 
-    ```**YES, According to Table1, IO5 corresponds to GPIO13, which has two mode, one as GPIO and other as PWM. For our example we need it configured as GPIO.**```
-    4. What GPIO controls its input direction?
+    * A pin mode needs to be set? 
+    
+    ```YES, According to Table1, IO5 corresponds to GPIO13, which has two mode, one as GPIO and other as PWM. For our example we need it configured as GPIO.```
+    
+    * What GPIO controls its input direction? 
+    
     ```According to table1, GPIO253```
     
-    5. What GPIO enables/disables the pullup-resistor?
-    ``` **According to table1, GPIO221**```
+    * What GPIO enables/disables the pullup-resistor? 
+    
+    ```According to table1, GPIO221```
+    
+    * A pin mode needs to be set? 
+    
+    ```dd```
     
     So basically our GPIO list is as follows:
+    
 ```
 13  <-- the GPIO that maps to IO5
 253 <-- GPIO that controls direction, by setting "direction" to "low" will configure GPIO13 as input
