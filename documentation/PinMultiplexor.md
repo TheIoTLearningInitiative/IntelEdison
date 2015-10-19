@@ -92,20 +92,20 @@ GPIO 214 (TRI_STATE_ALL)  to LOW.
 
 
 
-Now lets take a look to couple examples on how to apply this rules:
+Now let's take a look at a couple examples on how to apply these rules:
 
 
 ###Example1:Configure IO5 as a GPIO input, with pull-up resistor disabled
 ---
 
-Alright!, for this first example i would like to take you step by step:
+Alright!, for this first example I would like to take you step by step:
 
 1. Make a list of the GPIO's involved in the setup you want to configure.
-    3. The GPIO you want to use needs GPIO pin mux configuration?
+    3. Does the GPIO you want to use need a GPIO pin mux configuration?
     
     ```NO, according to Table1 the IO's 0-->9 does not require any pin-mux configuration```
 
-    * A pin mode needs to be set? 
+    * Does the pin mode need to be set? 
     
     ```YES, According to Table1, IO5 corresponds to GPIO13, which has two modes, one as GPIO and other as PWM. For our example we need it configured as GPIO.```
     
@@ -150,7 +150,7 @@ Alright!, for this first example i would like to take you step by step:
 # echo in > /sys/class/gpio/gpio13/direction
 ``` 
 
-5. **After** making all of your changes, then set GPIO 214 (TRI_STATE_ALL)  to LOW.
+5. **After** making all of your changes, set GPIO 214 (TRI_STATE_ALL)  to LOW.
 
     ```# echo low > /sys/class/gpio/gpio214/direction```
 
@@ -165,9 +165,9 @@ Now, it should be possible to use IO5 as a GPIO input!!
 
 
 1. Make a list of the GPIO's involved in the setup you want to configure.
-    3. The GPIO you want to use needs GPIO pin mux configuration?
+    3. Does the GPIO you want to use need a GPIO pin mux configuration?
     
-    ```YES, according to Table1 the IO's 10-->19 does requires pin-mux configuration. The IO10 is related to GPIO41, that in turn has the GPIO263 that selects between PWM and "240", that "240" refers to GPIO240, when we took a look to GPIO240 we see it can be configured to select between I2S and SPI. We need SPI.```
+    ```YES, according to Table1 the IO's 10-->19 does requires pin-mux configuration. The IO10 is related to GPIO41, that in turn has the GPIO263 that selects between PWM and "240", that "240" refers to GPIO240, when we take a look at GPIO240 we see it can be configured to select between I2S and SPI. We need SPI.```
 
     So wrapping up, the GPIO's needed for pin Mux are:
     
@@ -176,7 +176,7 @@ Now, it should be possible to use IO5 as a GPIO input!!
     240 <--selects between "I2S" and "SPI", we want SPI, so we set the "direction" attribute to "high"
     ```
 
-    * A pin mode needs to be set? 
+    * Does a pin mode need to be set? 
     
     ```YES, According to Table1, we need to select between I2S and SPI, the requirement for this exmaple is SPI, but for IO's 10-->19 we need to take a look to table2 because on depending what GPIO from the  pinMux configuration we selected is the GPIO we're going to use to select the pin mode. in this example we are using the GPIO 240 to select SPI, therefore in Table2 we can see that the related GPIO for pin mode when using  GPIO 240 is GPIO 111```
     
@@ -226,7 +226,7 @@ Now, it should be possible to use IO5 as a GPIO input!!
 # echo mode1 > /sys/kernel/debug/gpio_debug/gpio111/current_pinmux 
 ``` 
 
-5. **After** making all of your changes, then set GPIO 214 (TRI_STATE_ALL)  to LOW.
+5. **After** making all of your changes, set GPIO 214 (TRI_STATE_ALL)  to LOW.
 
     ```# echo low > /sys/class/gpio/gpio214/direction```
 
