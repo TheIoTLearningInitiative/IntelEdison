@@ -310,7 +310,7 @@ Now, it should be possible to use IO5 as a GPIO input!!
 
     * A pin mode needs to be set? 
     
-    ```YES, According to Table1, we need to select between I2S and SPI, the requirement for this exmaple is SPI, but for IO's 10-->19 we need to take a look to table2 because on depending what GPIO from the  pinMux configuration we selected is the GPIO we're going to use to select the pin mode. in this example we are using the GPIO 240 to select SPI, therefore in in Table2 we can see that the related GPIO for pin mode when using  GPIO 240 is GPIO 111```
+    ```YES, According to Table1, we need to select between I2S and SPI, the requirement for this exmaple is SPI, but for IO's 10-->19 we need to take a look to table2 because on depending what GPIO from the  pinMux configuration we selected is the GPIO we're going to use to select the pin mode. in this example we are using the GPIO 240 to select SPI, therefore in Table2 we can see that the related GPIO for pin mode when using  GPIO 240 is GPIO 111```
     
     * What GPIO controls its direction (input/output)? 
     
