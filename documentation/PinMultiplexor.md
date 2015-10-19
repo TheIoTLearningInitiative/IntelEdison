@@ -228,7 +228,7 @@ Now lets take a look to couple examples on how to apply this rules:
 
 ###Example1:Configure IO5 as a GPIO input, with pull-up resistor disabled
 
-alright!, for this first example i would like to take you step by step:
+alright!, for this first example I would like to take you step by step:
 
 2. Make a list of the GPIO's involved in the setup you want to configure.
     3. The GPIO you want to use needs GPIO pin mux configuration?
