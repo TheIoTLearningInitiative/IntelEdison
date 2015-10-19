@@ -289,13 +289,9 @@ Alright!, for this first example i would like to take you step by step:
 
 Now, it should be possible to use IO5 as a GPIO input!!
 
-
-
-
-
-
-
 ---
+
+
 
 ##links
 * [Kernel GPIO documentation](https://www.kernel.org/doc/Documentation/gpio/sysfs.txt)
