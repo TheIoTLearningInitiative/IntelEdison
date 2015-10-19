@@ -299,18 +299,18 @@ Now, it should be possible to use IO5 as a GPIO input!!
 1. Make a list of the GPIO's involved in the setup you want to configure.
     3. The GPIO you want to use needs GPIO pin mux configuration?
     
-    ```YES, according to Table1 the IO's 10-->19 does requires pin-mux configuration. The IO10 is related to GPIO41, that in turn has the GPIO263 that selects between PWM and "Other", that "Other" refers to GPIO240, when we took a look to GPIO240 we see it can be configured to select between I2S and SPI. We need SPI.```
+    ```YES, according to Table1 the IO's 10-->19 does requires pin-mux configuration. The IO10 is related to GPIO41, that in turn has the GPIO263 that selects between PWM and "240", that "240" refers to GPIO240, when we took a look to GPIO240 we see it can be configured to select between I2S and SPI. We need SPI.```
 
     So wrapping up, the GPIO's needed for pin Mux are:
     
     ```
-    263
-    240
+    263 <--selects between "PWM" and "240", we need to select "240" by setting the "direction" attribute to "high".
+    240 <--selects between "I2S" and "SPI", we want SPI, so we set the "direction" attribute to "high"
     ```
 
     * A pin mode needs to be set? 
     
-    ```YES, According to Table1, IO5 corresponds to GPIO13, which has two modes, one as GPIO and other as PWM. For our example we need it configured as GPIO.```
+    ```YES, but for IO's```
     
     * What GPIO controls its input direction? 
     
