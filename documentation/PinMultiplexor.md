@@ -236,7 +236,7 @@ alright!, for this first example i would like to take you step by step:
     4. A pin mode needs to be set? 
     ```**YES, According to Table1, IO5 corresponds to GPIO13, which has two mode, one as GPIO and other as PWM. For our example we need it configured as GPIO.**```
     4. What GPIO controls its input direction?
-    ```**According to table1, GPIO253**```
+    ```According to table1, GPIO253```
     
     5. What GPIO enables/disables the pullup-resistor?
     ``` **According to table1, GPIO221**```
