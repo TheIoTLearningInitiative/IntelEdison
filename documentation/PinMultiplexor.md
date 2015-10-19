@@ -212,7 +212,7 @@ Trying to figure out how all this fits together at first sight  may look a littl
     3. The GPIO you want to use needs GPIO pin mux configuration?
         4. Write down every GPIO needed and the value to which the "direction" attribute should be set (possible values: in, out, high, low) (how to set GPIO attributes?-->link to GPIO primer)
     4. A pin mode needs to be set?
-        6. Write down the GPIO in charge of setting the pin mode, and the value which the "current_pinmux" attribute should be set (possible values: mode0,mode1,etc) (how to set GPIO attributes?-->link to GPIO primer)
+        6. Write down the GPIO in charge of setting the pin mode, and the value which the "current_pinmux" attribute should be set (possible values: mode[0/1/2/...]”) (how to set GPIO attributes?-->link to GPIO primer)
     4. What GPIO controls its input direction?
     5. What GPIO enables/disables the pullup-resistor? 
 
@@ -226,11 +226,13 @@ GPIO 214 (TRI_STATE_ALL)  to LOW.
 
 Now lets take a look to couple examples on how to apply this rules:
 
+
 ###Example1:Configure IO5 as a GPIO input, with pull-up resistor disabled
+---
 
-alright!, for this first example i would like to take you step by step:
+Alright!, for this first example i would like to take you step by step:
 
-2. Make a list of the GPIO's involved in the setup you want to configure.
+1. Make a list of the GPIO's involved in the setup you want to configure.
     3. The GPIO you want to use needs GPIO pin mux configuration?
     
     ```NO, according to Table1 the IO's 0-->9 does not require any pin-mux configuration```
@@ -241,11 +243,11 @@ alright!, for this first example i would like to take you step by step:
     
     * What GPIO controls its input direction? 
     
-    ```According to table1, GPIO253```
+    ```According to Table1/Table3, GPIO253. Since high = output and low = input, the value for the "direction" attribute should be "low" to fullfill the example's requirement```
     
     * What GPIO enables/disables the pullup-resistor? 
     
-    ```According to table1, GPIO221```
+    ```According to Table1/Table3, GPIO221. Since in = disable and out = enable, the value for the "direction" attribute should be "in" to fullfill the example's requirement```
     
     So basically the GPIO list that we need, is as follows:
     
@@ -256,30 +258,36 @@ alright!, for this first example i would like to take you step by step:
 214 <--We always need to export this GPIO, if it is not already exported. 
 ```
 
-4. Export all the pins in your list (how to export?-->link to GPIO primer)
-    
-    ```
+2. Export all the pins in your list (how to export?-->link to GPIO primer)
+
+    ``` 
 # echo 13 > /sys/class/gpio/export
 # echo 253 > /sys/class/gpio/export
 # echo 221 > /sys/class/gpio/export
 # echo 214 > /sys/class/gpio/export
 ```
-**NOTE**: *before trying to export GPIO 214, you can verify if it already appears as a GPIO (take a look to GPIO primer), if you try to export it a message like this could appear: **-sh: echo: write error: Device or resource busy***
 
+3. **Before** setting up any muxing, set GPIO 214 (TRI_STATE_ALL) to HIGH
 
-5. **Before** setting up any muxing, set GPIO 214 (TRI_STATE_ALL) to HIGH
+ ```# echo high > /sys/class/gpio/gpio214/direction```
+ 
+ **NOTE**: *before trying to export GPIO 214, you can verify if it already appears as a GPIO (take a look to GPIO primer), if you try to export it a message like this could appear: **-sh: echo: write error: Device or resource busy***
 
-    ```# echo high > /sys/class/gpio/gpio214/direction```
-6. Set the value of each exported GPIO according to the desired configuration.
+4. Set the value of each exported GPIO according to the desired configuration.
 
     ```
-# echo low > /sys/class/gpio/gpio253/direction   <--OK
-# echo in > /sys/class/gpio/gpio221/direction  <--OK..
-# echo mode0 > /sys/kernel/debug/gpio_debug/gpio13/current_pinmux  <--OK
-# echo in > /sys/class/gpio/gpio13/direction  <--OK
-```
-3. **After** making all of your changes, then set
-GPIO 214 (TRI_STATE_ALL)  to LOW.
+# echo low > /sys/class/gpio/gpio253/direction
+# echo in > /sys/class/gpio/gpio221/direction
+# echo mode0 > /sys/kernel/debug/gpio_debug/gpio13/current_pinmux
+# echo in > /sys/class/gpio/gpio13/direction
+``` 
+
+5. **After** making all of your changes, then set GPIO 214 (TRI_STATE_ALL)  to LOW.
+
+    ```# echo low > /sys/class/gpio/gpio214/direction```
+
+
+Now, it should be possible to use IO5 as a GPIO input!!
 
 
 
@@ -287,8 +295,7 @@ GPIO 214 (TRI_STATE_ALL)  to LOW.
 
 
 
-
-
+---
 
 ##links
 * [Kernel GPIO documentation](https://www.kernel.org/doc/Documentation/gpio/sysfs.txt)
