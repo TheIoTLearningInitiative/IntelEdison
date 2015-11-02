@@ -15,7 +15,7 @@
    * [Yocto Project](documentation/YoctoProject.md)
    * [Ubilinux](documentation/Ubilinux.md)
    * [Services](documentation/Services.md)
-   * Recovery
+   * [Recovery](documentation/Recovery.md)
 * [Package Management Systems](documentation/PackageManagementSystems.md)
    * [Open Package Management](documentation/OpenPackageManagement.md)
    * [Advanced Package Tool](documentation/AdvancedPackageTool.md)
