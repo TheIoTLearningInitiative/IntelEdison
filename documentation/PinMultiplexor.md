@@ -17,8 +17,6 @@ Some pins on the Intel® Edison may be configured with one well-defined purpose,
 
 However in some cases it can do more that just select the function. Other options for the pin include connecting  to pull-up or pull-down resistors to bias a line to a specific value. Some pins can be configured to detect input signal changes and generate an interrupt or a wakeup event.
 
-
-
 #How to MUX?
 
 All GPIO pins on the Arduino* header require some internal GPIOs to be set up before the pin is usable. This is
