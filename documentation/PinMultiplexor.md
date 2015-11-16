@@ -202,11 +202,8 @@ Now, it should be possible to use IO5 as a GPIO input!!
     ```# echo low > /sys/class/gpio/gpio214/direction```
 
 ## Links
-* [Kernel GPIO documentation](https://www.kernel.org/doc/Documentation/gpio/sysfs.txt)
-* [Edison-Arduino GPIO mapping](http://www.intel.com/support/edison/sb/CS-035275.htm)
-
-## Links
-
+- [Kernel GPIO documentation](https://www.kernel.org/doc/Documentation/gpio/sysfs.txt)
+- [Edison-Arduino GPIO mapping](http://www.intel.com/support/edison/sb/CS-035275.htm)
 - [Intel® Edison GPIO Pin Multiplexing Guide](http://www.emutexlabs.com/project/215-intel-edison-gpio-pin-multiplexing-guide)
 - [Intel® Edison Connector Pinout](http://akizukidenshi.com/download/ds/intel/edison-module_HG_331189-002.pdf)
 - Link Not Available [Arduino Board Schematic](http://www.intel.com/support/edison/sb/CS-035272.htm)
