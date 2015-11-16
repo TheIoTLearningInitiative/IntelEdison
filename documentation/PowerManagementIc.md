@@ -7,5 +7,3 @@ Power Management Multi-Channel IC (PMIC)
 
 > Thank you for contacting TI Semiconductor Support. Unfortunately, since this is a non-distributor item, there is no documentation available for the SNB9024 device (datasheets, user guides, etc.).
 
-## Links
-
