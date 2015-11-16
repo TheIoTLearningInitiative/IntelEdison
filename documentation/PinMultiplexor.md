@@ -9,12 +9,6 @@ Suggested outline:
 
 * Try to apply the knowledge acquired to a small part of a bigger problem, probably ask the participant to plan the pin configuration he is going to need for the  training project.
 
-
-
-
-
-
-
 ------------------------------------------------------------------------------------------------------
 # What is pin multiplexing?
 Some pins on the Intel® Edison may be configured with one well-defined purpose, others  are able to support  variety of functions including general-purpose I/O(GPIO), I2C, PWM, SPI , ADC among others.
