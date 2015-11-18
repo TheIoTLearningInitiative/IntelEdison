@@ -15,7 +15,7 @@ Pin Muxing
 # Before setting up any muxing, set pin 214 (TRI_STATE_ALL) to HIGH, 
 # make all of your changes, then set pin 214 to LOW.
 
-# all GPIO must be set to 'mode1' to select PWM
+# all GPIO pin-mux must be set to 'mode1' to select PWM
 
 # Shield_Pin  |  Linux_GPIO | Output=High | Pullup_enable
 #       IO3         12          251             219
