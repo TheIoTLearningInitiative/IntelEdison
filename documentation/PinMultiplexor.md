@@ -34,6 +34,12 @@ Currently, these are configured by setting the required pin mode for the corresp
 ######Table2 Pin Function Miltiplexing Control
 ![](PinFunctionMiltiplexingControl.png)
 
+**Note**:Sheild Pins IO10 and IO11 as PWM:
+  Depends on PWM swizzler. The SoC offers only four PWM pins. A jumper pin matrix labeled “PWM swizzler” on the baseboard
+allows these four pins to be connected to any subset of the six shield-header pins normally used for PWM. From the factory,
+IO3, IO5, IO6, and IO9 will be connected to the four available SoC PWM pins as described above. You can manually alter
+these to connect IO10 or IO11. 
+
 ##Pin Direction & Pull-Up Control
 
 For most shield pins on the Intel® Edison kit for Arduino*, there is a buffer/level-shifter which needs to be configured for input or output direction, and an external 47 kohm pullup/pulldown resistor, which may be optionally enabled. Both are driven by dedicated GPIO outputs, listed in Table 3. When configuring a shield pin as an output, we advise configuring the buffer for output before setting the SoC GPIO pin direction to output. To disconnect the external pullup/pulldown resistors, it is necessary to configure as high-impedance inputs the GPIOs that drive them.
