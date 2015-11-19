@@ -125,5 +125,5 @@ BlueTooth
 - https://software.intel.com/en-us/articles/connecting-the-intel-edison-board-to-your-android-phone-with-serial-port-profile-spp
 - [Profiles](https://downloadmirror.intel.com/24909/eng/edison-bsp_rn_332032-007.pdf)
 - https://learn.sparkfun.com/tutorials/bluetooth-basics
--[PyBluez API Ddoc](http://pybluez.googlecode.com/svn/www/docs-0.7/index.html) 
+- [PyBluez API Ddoc](http://pybluez.googlecode.com/svn/www/docs-0.7/index.html) 
 
