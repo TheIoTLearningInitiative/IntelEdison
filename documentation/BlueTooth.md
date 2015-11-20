@@ -109,9 +109,15 @@ for c bluetooth development:
 
     sudo apt-get install libbluetooth-dev
 
-for python bluetooth development
+for python bluetooth development:
 
     sudo apt-get install python-bluez
+    
+for python bluetooth in Edison (using pip, if for some reason you don't have it, learn [How-To install pip](https://pip.pypa.io/en/stable/installing/#pip-included-with-python)):
+
+    pip install pybluez
+    
+
     
     
     
@@ -162,6 +168,7 @@ also what is going to be added is  how to  programmatically do the device discov
 - https://software.intel.com/en-us/articles/connecting-the-intel-edison-board-to-your-android-phone-with-serial-port-profile-spp
 - [Profiles](https://downloadmirror.intel.com/24909/eng/edison-bsp_rn_332032-007.pdf)
 - https://learn.sparkfun.com/tutorials/bluetooth-basics
-- [PyBluez API Ddoc](http://pybluez.googlecode.com/svn/www/docs-0.7/index.html) 
+- [PyBluez API Ddoc](http://pybluez.googlecode.com/svn/www/docs-0.7/index.html)
+- [PIP package manager](https://pip.pypa.io/en/stable/)
 
 
