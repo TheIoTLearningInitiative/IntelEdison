@@ -103,6 +103,43 @@ BlueTooth
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
 
 ### Serial Port Profile (SPP)
+Libraries,
+
+for c bluetooth development:
+
+    sudo apt-get install libbluetooth-dev
+
+for python bluetooth development
+
+    sudo apt-get install python-bluez
+    
+    
+    
+There are two common ways to test SPP, one is by using D-BUS, the other is by using RFCOMM transport protocol.
+
+To test using D-Bus we can use [this python script](http://downloadmirror.intel.com/24909/eng/SPP-loopback.py), copy it to Edison, enable the bluetooth device and run it:
+
+    root@edison:~# rfkill unblock bluetooth
+    root@edison:~# python SPP-loopback.py &
+
+then in an android device install a [Bluetooth SPP Manager](https://play.google.com/store/apps/details?id=at.rtcmanager).
+
+At this point you need to pair the Edison with your android device (see example above on how to use **bluetoothctl**, **hcicontrol** or any other user level application in your Edison).
+
+Once paired, open the Bluetooth SPP Manager app, hit seach, and when the edison appears  tap on in to connect.  now you can send text messages to Edison which can be seen on the terminal window of the Edison.
+
+
+
+--
+
+i know this need a lil' bit further explanation. just dropped here so i won't forget
+
+also what is going to be added is  how to  programmatically do the device discovering, pairing  and SPP using c and python
+
+--
+
+
+
 
 - Tbd
 
