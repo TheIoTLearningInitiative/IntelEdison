@@ -1,7 +1,7 @@
 Linux Kernel
 ==
 
-ToDo Explain Linux Kernel Version
+ToDo Explain Linux Kernel Version,
 
 ## Building via Make
 
