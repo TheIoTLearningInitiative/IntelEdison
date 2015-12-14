@@ -136,6 +136,7 @@ Links
     [23500.769798] wl_bss_connect_done succeeded with f8:01:13:a8:2b:40
 
 
+https://communities.intel.com/thread/61067?tstart=0
 
 
 
