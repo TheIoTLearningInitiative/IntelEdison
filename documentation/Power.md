@@ -6,6 +6,7 @@ Power
 Links
 
 - https://scivision.co/measured-power-consumption-of-intel-edison/
+- https://communities.intel.com/thread/61067?tstart=0
 
 
 ## Kernel Integration
