@@ -136,9 +136,8 @@ Links
     [23500.769798] wl_bss_connect_done succeeded with f8:01:13:a8:2b:40
 
 
-https://communities.intel.com/thread/61067?tstart=0
-
-
+- https://communities.intel.com/thread/61067?tstart=0
+- https://github.com/01org/edison-linux/commit/149de7abd8829bcc009641e215b53fe89fcf29b2
 
 ## Userspace Applications
 
