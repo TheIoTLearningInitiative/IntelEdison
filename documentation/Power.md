@@ -8,6 +8,7 @@ Links
 - https://scivision.co/measured-power-consumption-of-intel-edison/
 - https://communities.intel.com/thread/61067?tstart=0
 - cat scaling_available_frequencies
+- https://communities.intel.com/message/338257#338257
 
 
 ## Kernel Integration
