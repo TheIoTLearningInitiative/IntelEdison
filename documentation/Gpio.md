@@ -116,6 +116,7 @@ this directory, is a control interface used to get userspace control over GPIO48
 
 
 #Exercise1: Change GPIO direction
+
 As explained before the GPIO control interface has some read/write attributes, so lets go ahead and change the default direction of the **GPIO48**.
 
 1. Review the current GPIO direction using the command  to debug GPIO statuses; If the direction is **"out"** let's change it to **"in"**, if it is **"in"**, change it to **"out"**
