@@ -139,4 +139,5 @@ Then checking again the GPIO status we can see, that direction has changed. Here
 
 ## GPIO Python
 
-mraa
+    mraa
+    apt-get install python-smbus
