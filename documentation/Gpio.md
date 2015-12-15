@@ -64,6 +64,7 @@ root@edison:/# echo 48 > /sys/class/gpio/export
 
 by this mechanism, a new directory is created in **/sys/class/gpio**, which should be **gpio48**:
 After:
+
 ```
 root@edison:/# ls sys/class/gpio/
 export       gpio127      gpio131      gpio207      gpiochip200  unexport
@@ -72,6 +73,7 @@ gpio125      gpio129      gpio133      gpio48       gpiochip232
 gpio126      gpio130      gpio134      gpiochip0    gpiochip248
 
 ```
+
 this directory, is a control interface used to get userspace control over GPIO48, therefore can have the following read/write attributes:
 
 
