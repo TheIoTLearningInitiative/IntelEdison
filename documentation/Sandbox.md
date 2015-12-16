@@ -5,7 +5,7 @@ how we structure this training?
 -  Hardware
 -  OS Specific
    - Linux
-   - 
+   - Other
 https://0xax.gitbooks.io/linux-insides/content/Concepts/cpumask.html
 
 
