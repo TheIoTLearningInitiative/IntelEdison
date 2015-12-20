@@ -4,6 +4,8 @@ Serial
 ## Required Applications
 
     root@edison:~# opkg install screen
+    root@edison:~# pip install pyserial
+
 
 ## Kernel Display Message
 
