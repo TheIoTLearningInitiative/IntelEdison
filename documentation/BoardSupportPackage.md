@@ -110,7 +110,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     *************
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
-    
+
 #### Make Image
 
     user@host:~$ make image
@@ -225,6 +225,9 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
+
+#### Make Flash
+
     user@host:~$ make flash
 
 
