@@ -13,6 +13,4 @@ Peripherals
 
 > Broadcom BCM43341 ... Single Chip, Dual-Band (2.4 GHz / 5 GHz) 802.11 g/n MAC/Baseband/Radio with Integrated Bluetooth 4.0, NFC + FM Receiver
 
-Broadcom BCM43340 Wi-Fi/BT Device
-
 - [Broadcom BCM43341](https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341)
