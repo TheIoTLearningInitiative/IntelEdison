@@ -44,7 +44,11 @@ Python Package Index
     
     root@edison:~# export PYTHONPATH=$PYTHONPATH:/root
     root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/root" >> /etc/profile
-    
+    root@edison:~# python
+    Python 2.7.3 (default, Dec 19 2015, 23:06:02) 
+    [GCC 4.9.1] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> import psutil
 
 ## Python Library Default Installation Path
 
