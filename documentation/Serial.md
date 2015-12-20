@@ -8,7 +8,7 @@ Serial
     root@edison:~# opkg install screen
     root@edison:~# pip install pyserial
 
-### AptGet
+### Apt-Get
 
     root@edison:~# apt-get install screen minicom cu setserial stty
     root@edison:~# pip install pyserial
