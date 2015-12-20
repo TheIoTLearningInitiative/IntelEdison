@@ -34,6 +34,11 @@ USB Audio
     Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
     Bus 001 Device 003: ID 0458:708a KYE Systems Corp. (Mouse Systems) 
     Bus 001 Device 004: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
+    root@edison:~# cat /proc/asound/cards
+     0 [Loopback       ]: Loopback - Loopback
+                          Loopback 1
+     1 [Device         ]: USB-Audio - USB PnP Sound Device
+                          C-Media Electronics Inc. USB PnP Sound Device at usb-dwc3-host.2-1.2, full speed
 
 ## Device Configuration
 
@@ -55,14 +60,6 @@ USB Audio
     pcm.!default sysdefault:Headset
 
 ## Userspace Applications
-
-### Configuration
-
-    root@edison:~# cat /proc/asound/cards
-     0 [Loopback       ]: Loopback - Loopback
-                          Loopback 1
-     1 [Device         ]: USB-Audio - USB PnP Sound Device
-                          C-Media Electronics Inc. USB PnP Sound Device at usb-dwc3-host.2-1.2, full speed
 
 ### Playback Hardware Devices
 
