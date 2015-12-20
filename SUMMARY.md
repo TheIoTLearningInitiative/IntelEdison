@@ -21,6 +21,7 @@
    * [Open Package Management](documentation/OpenPackageManagement.md)
    * [Python Package Index](documentation/PythonPackageIndex.md)
 * [Subsystems](documentation/Subsystems.md)
+   * PCI
    * [GPIO](documentation/Gpio.md)
    * [Pin Muxing](documentation/PinMuxing.md)
    * [Serial](documentation/Serial.md)
@@ -32,7 +33,6 @@
    * [Networking](documentation/Networking.md)
    * [Block](documentation/Block.md)
    * [USB](documentation/Usb.md)
-   * PCI
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
