@@ -150,7 +150,7 @@ Configure your WiFi
     Enter 0 to rescan for networks.
     Enter 1 to exit.
     Enter 2 to input a hidden network SSID.
-    Enter 3 to choose INFINITUM914E: 3
+    Enter 3 to choose INFINITUM9###: 3
     Is INFINITUM9### correct? [Y or N]: Y
     Password must be between 8 and 63 characters.
     What is the network password?: 
