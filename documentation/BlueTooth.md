@@ -129,7 +129,7 @@ To test using D-Bus we can use [this python script](http://downloadmirror.intel.
 
 then in an android device install a [Bluetooth SPP Manager](https://play.google.com/store/apps/details?id=at.rtcmanager).
 
-At this point you need to pair the Edison with your android device (see example above on how to use **bluetoothctl**, **hcicontrol** or any other user level application in your Edison).
+At this point you need to pair the Intel Edison with your android device (see example above on how to use **bluetoothctl**, **hcicontrol** or any other user level application in your Edison).
 
 Once paired, open the Bluetooth SPP Manager app, hit search, and when the Intel Edison appears  tap on in to connect.  now you can send text messages to Edison which can be seen on the terminal window of the Edison.
 
