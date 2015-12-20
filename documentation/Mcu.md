@@ -12,6 +12,6 @@ MCU
 - [Intel® Quark™ SoC X1000 ](http://ark.intel.com/es/products/79084/Intel-Quark-SoC-X1000-16K-Cache-400-MHz)
 - [Intel® Quark™ SoC Support](http://www.intel.com/content/www/us/en/support/processors/embedded-processors/intel-quark-soc.html)
 
-## Links
+## MCU SDK
 
 - [Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
