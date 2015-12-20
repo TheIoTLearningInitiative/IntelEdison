@@ -38,7 +38,7 @@ Python Package Index
     
         warning: no previously-included files matching '*' found under directory 'docs/_build'
         warning: manifest_maker: MANIFEST.in, line 18: 'recursive-include' expects <dir> <pattern1> <pattern2> ...
-        
+        0
     Installing collected packages: psutil
       Running setup.py install for psutil
         
@@ -83,7 +83,3 @@ Python Package Index
     
     Successfully installed psutil
     Cleaning up...
-
-## Python Library Required Applications
-
-    root@edison:~# pip install pyserial
