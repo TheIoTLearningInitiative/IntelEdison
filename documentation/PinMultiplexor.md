@@ -16,22 +16,28 @@ Table 1 shows this such that a programmer can easily see all the muxing pins aff
 should suffice.
 
 ###### Table1 Arduino* pin mux and pin mode settings 
+
 ![](Arduino_pin_mux_and_pin_mode_settings.png)
 
-##Muxing Control
+### Muxing Control
+
 Table 2 lists the GPIO outputs dedicated to pin multiplexing control. Different functions may be selected for specific shield I/O pins by setting these GPIO outputs to 0/1 (low/high). Additionally, some of the SoC GPIO pins also feature internal mux options. These are listed as “SoC Pin Modes”.
+
 Currently, these are configured by setting the required pin mode for the corresponding SoC GPIO pin N, via /sys/kernel/debug/gpio_debug/gpioN/current_pinmux, to “mode[0/1/2/...]”
 
-######Table2 Pin Function Miltiplexing Control
+###### Table2 Pin Function Miltiplexing Control
+
 ![](PinFunctionMiltiplexingControl.png)
 
-**Note**:Sheild Pins IO10 and IO11 as PWM:
-  Depends on PWM swizzler. The SoC offers only four PWM pins. A jumper pin matrix labeled “PWM swizzler” on the baseboard
+**Note**: Sheild Pins IO10 and IO11 as PWM:
+    
+    Depends on PWM swizzler. The SoC offers only four PWM pins. A jumper pin matrix labeled “PWM swizzler” on the baseboard
+
 allows these four pins to be connected to any subset of the six shield-header pins normally used for PWM. From the factory,
 IO3, IO5, IO6, and IO9 will be connected to the four available SoC PWM pins as described above. You can manually alter
 these to connect IO10 or IO11. 
 
-##Pin Direction & Pull-Up Control
+### Pin Direction & Pull-Up Control
 
 For most shield pins on the Intel® Edison kit for Arduino*, there is a buffer/level-shifter which needs to be configured for input or output direction, and an external 47 kohm pullup/pulldown resistor, which may be optionally enabled. Both are driven by dedicated GPIO outputs, listed in Table 3. When configuring a shield pin as an output, we advise configuring the buffer for output before setting the SoC GPIO pin direction to output. To disconnect the external pullup/pulldown resistors, it is necessary to configure as high-impedance inputs the GPIOs that drive them.
 Note also that the GPIO signals from the PCAL9555A GPIO expanders have internal 100 kohm pullup resistors, which are connected to the GPIO pins by default. These need to be disabled in many cases, by configuring those pins as high-impedance inputs. 
