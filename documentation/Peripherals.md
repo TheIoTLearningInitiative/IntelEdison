@@ -5,7 +5,7 @@ Peripherals
 
 ## Embedded MultiMediaCard (eMMC)
 
-> The eMMC (embedded MMC) architecture puts the MMC components (flash memory plus controller) into a small ball grid array (BGA) IC package for use in circuit boards as an embedded non-volatile memory system. Wikipedia
+> The eMMC architecture puts the MMC components (flash memory plus controller) into a small ball grid array (BGA) IC package for use in circuit boards as an embedded non-volatile memory system. Wikipedia
 
 [Embedded MMC](https://en.wikipedia.org/wiki/MultiMediaCard#eMMC)
 
