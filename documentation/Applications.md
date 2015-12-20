@@ -169,7 +169,7 @@ int main(int argc, char *argv[]) {
 
 ### Socket Implementation, Test
 
-    root@edison:~# ./socketserver
+    root@edison:~# ./socketserver &
     root@edison:~# ./socketclient 192.168.1.74 5001
 
 ## Native Compilation, G++ Compiler
