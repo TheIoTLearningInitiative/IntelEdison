@@ -32,6 +32,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     /home/xe1gyq/Projects/edison-src
     user@host:~$ ls
     Makefile  meta-intel-edison
+    
     user@host:~$ make setup
     abraham@aarcemor-desk:~/edison-src$ make setup
     Setup buildenv for SDK host linux64
@@ -109,9 +110,8 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
+    
     user@host:~$ make image
-
-    abraham@aarcemor-desk:~/edison-src$ make image
     /bin/bash -c "source out/current/poky/oe-init-build-env /home/abraham/edison-src/out/current/build ; bitbake -c cleansstate edison-image ; bitbake edison-image"
     
     ### Shell environment set up for builds. ###
