@@ -68,7 +68,7 @@ int main( int argc, char *argv[] ) {
       exit(1);
    }
    
-   printf("Here is the message: %s\n",buffer);
+   printf("I am the Server, here is the message: %s\n",buffer);
    
    /* Write a response to the client */
    n = write(newsockfd,"I got your message",18);
