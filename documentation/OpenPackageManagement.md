@@ -45,7 +45,7 @@ Check if RMAA and UPM Libraries are installed
 
 Install extra packages required
 
-    root@edison:~# opkg install ...
+    root@edison:~# opkg install git
 
 ## Local Files
 
