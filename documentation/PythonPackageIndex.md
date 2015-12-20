@@ -41,7 +41,7 @@ Python Package Index
     root@edison:~# pip uninstall
 
 
-## Python Pip Optional 
+## Python Pip Optional
 
     root@edison:~# pip install psutil --target /root
     root@edison:~# ls /root/
