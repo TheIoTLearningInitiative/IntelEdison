@@ -99,3 +99,6 @@ BootUp
     
     edison login: 
 
+
+## Bootup Linux Login
+
