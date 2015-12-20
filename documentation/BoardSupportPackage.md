@@ -15,6 +15,12 @@ The Intel® Edison Board Support Package offers these features:
 
 ## Board Support Package
 
+### Download
+
+Go to [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
+
+    user@host:~$ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
+
 ### Building via Make
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
