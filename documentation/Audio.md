@@ -1,7 +1,9 @@
 Sound
 ==
 
-## 
+## Required Hardware
+
+
 
 ## Kernel Integration
 
