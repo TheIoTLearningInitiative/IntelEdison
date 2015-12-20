@@ -115,7 +115,7 @@ For python bluetooth development:
 
     root@edison:~# sudo apt-get install python-bluez
     
-for python bluetooth in Edison (using pip, if for some reason you don't have it, learn [How-To install pip](https://pip.pypa.io/en/stable/installing/#pip-included-with-python)):
+For python bluetooth in Edison (using pip, if for some reason you don't have it, learn [How-To install pip](https://pip.pypa.io/en/stable/installing/#pip-included-with-python)):
 
     root@edison:~# pip install pybluez
 
