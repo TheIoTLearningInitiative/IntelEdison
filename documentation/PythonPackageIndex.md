@@ -44,6 +44,7 @@ Python Package Index
     
     root@edison:~# export PYTHONPATH=$PYTHONPATH:/root
     root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/root" >> /etc/profile
+    
 
 ## Python Library Default Installation Path
 
