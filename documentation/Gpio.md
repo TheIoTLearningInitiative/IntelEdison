@@ -1,7 +1,7 @@
 General Purpose Input Output (GPIO) Subsystem
 ==
 
-
+## Kernel Message
 
 # Watching it change (a primer on GPIO and GPIO configuration this content is moving to GPIO Subsystem)
 
