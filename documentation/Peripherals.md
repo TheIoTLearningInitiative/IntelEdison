@@ -9,6 +9,6 @@ Peripherals
 
 [Embedded MMC](https://en.wikipedia.org/wiki/MultiMediaCard#eMMC)
 
-## Wireless
+## Wi-Fi/BT
 
 Broadcom BCM43340 Wi-Fi/BT Device
