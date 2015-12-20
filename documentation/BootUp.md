@@ -127,7 +127,7 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
 
 __Homework__ Review the content under dmesg.file, identify which drivers/services are executed/started
 
-## Bootup Configuration
+## Bootup Initial Configuration
 
 Check your kernel version
 
