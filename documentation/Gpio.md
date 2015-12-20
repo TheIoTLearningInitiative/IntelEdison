@@ -1,11 +1,11 @@
 General Purpose Input Output (GPIO) Subsystem
 ==
 
-> 
+> General-purpose input/output (GPIO) is a generic pin on an integrated circuit whose behavior—including whether it is an input or output pin—is controllable by the user at run time. Wikipedia
 
 - [Linux Kernel GPIO Documentation](https://www.kernel.org/doc/Documentation/gpio/)
 - [LWN GPIO In The Kernel: An Introduction](https://lwn.net/Articles/532714/)
-
+- [GPIO Wikipedia](https://en.wikipedia.org/wiki/General-purpose_input/output)
 
 ## Kernel Message
 
