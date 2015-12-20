@@ -160,7 +160,7 @@ int main(int argc, char *argv[]) {
       exit(1);
    }
 	
-   printf("%s\n",buffer);
+   printf("I am the Server, message received: %s\n",buffer);
    return 0;
 }
 ```
@@ -213,7 +213,7 @@ if __name__ == "__main__":
 
 ## Others
 
-    root@edison:~# journalctl
+    root@edison:~# journalctl 
     root@edison:~# cat /etc/modprobe.d/bcm4334x.conf 
     options bcm4334x firmware_path=/etc/firmware/fw_bcmdhd.bin nvram_path=/etc/firmware/bcmdhd.cal op_mode=4
     root@edison:~# cat /etc/modprobe.d/g_multi.conf  
