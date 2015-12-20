@@ -57,8 +57,7 @@ WiFi
     --- google.com ping statistics ---
     3 packets transmitted, 3 packets received, 0% packet loss
     round-trip min/avg/max = 28.487/29.217/29.773 ms
-
-
+    root@edison:~# 
 
 ## Userspace Applications
 
