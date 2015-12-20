@@ -1,7 +1,7 @@
 BootUp
 ==
 
-Finally, connect Intel Edison to your Host Computer using the registered COM / TTY device
+Finally, connect Intel Edison to your Host Computer using the registered COM / TTY device, e.g. Linux
 
     abraham@aarcemor-desk:~$ sudo minicom -D /dev/ttyUSB0 115200
 
