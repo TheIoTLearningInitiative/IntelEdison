@@ -102,3 +102,6 @@ BootUp
 
 ## Bootup Linux Login
 
+    Poky (Yocto Project Reference Distro) 1.7.2 edison ttyMFD2
+    
+    edison login: root
