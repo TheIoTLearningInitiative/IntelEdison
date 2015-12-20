@@ -1,8 +1,6 @@
 MCU
 ==
 
-100MHz Quark MCU
-
 > ... one Intel Quark core at 100 MHz (for executing RTOS ViperOS) ...
 
 - [Intel® Quark™ Wikipedia](https://en.wikipedia.org/wiki/Intel_Quark)
