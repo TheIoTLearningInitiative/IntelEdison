@@ -23,18 +23,17 @@ Go to [Intel® Edison Board Software Downloads](https://software.intel.com/en-us
 and copy the link location for "Sources - Linux Sources Files" then download them
 
     user@host:~$ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
-
-### Building via Make
-
-#### Source Code Decpompression
-
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
     user@host:~$ pwd
     /home/xe1gyq/Projects/edison-src
     user@host:~$ ls
     Makefile  meta-intel-edison
-    
+
+### Building via Make
+
+#### Source Code Decpompression
+
     user@host:~$ make setup
     abraham@aarcemor-desk:~/edison-src$ make setup
     Setup buildenv for SDK host linux64
