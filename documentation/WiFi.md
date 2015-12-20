@@ -49,6 +49,7 @@ WiFi
      wlan0     Link encap:Ethernet  HWaddr 78:4b:87:a6:cf:5e
                inet addr:192.168.1.68  Bcast:0.0.0.0  Mask:255.255.255.0
     root@edison:~# ping google.com
+    
 
 
 ## Userspace Applications
