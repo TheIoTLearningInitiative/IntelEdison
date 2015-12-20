@@ -3,6 +3,8 @@ MCU
 
 > ... one Intel Quark core at 100 MHz (for executing RTOS ViperOS) ...
 
+## Intel Links
+
 - [Intel® Quark™ Wikipedia](https://en.wikipedia.org/wiki/Intel_Quark)
 - [Intel® Quark™ ARK](http://ark.intel.com/products/family/79047/Intel-Quark-SoC)
 - [Intel® Quark™ SoC X1000 ](http://ark.intel.com/es/products/79084/Intel-Quark-SoC-X1000-16K-Cache-400-MHz)
