@@ -17,7 +17,7 @@ The Intel® Edison Board Support Package offers these features:
 
 ## Board Support Package
 
-### Download
+### Download & Decompression
 
 Go to [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 and copy the link location for "Sources - Linux Sources Files" then download them
