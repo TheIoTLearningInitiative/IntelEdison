@@ -38,7 +38,7 @@ Python Package Index
     
     Successfully installed psutil
     Cleaning up...
-    root@edison:~# 
+    root@edison:~# pip uninstall
 
 
 ## Python Pip Optional 
