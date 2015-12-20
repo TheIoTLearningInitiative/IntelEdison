@@ -14,7 +14,6 @@ Peripherals
 > Bluetooth is a wireless technology standard for exchanging data over short distances (using short-wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz[4]) from fixed and mobile devices, and building personal area networks (PANs). Wikipedia
 
 - [Bluetooth Wikipedia](https://en.wikipedia.org/wiki/Bluetooth)
-- [Intel® Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
 
 > Broadcom BCM43341 ... Single Chip, Dual-Band (2.4 GHz / 5 GHz) 802.11 g/n MAC/Baseband/Radio with Integrated Bluetooth 4.0, NFC + FM Receiver
 
