@@ -113,3 +113,12 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
 ## Bootup Kernel Display Message
 
 - [Linux Kernel Dmesg](https://en.wikipedia.org/wiki/Dmesg)
+
+    root@edison:~# dmesg
+
+    [    0.000000] Initializing cgroup subsys cpuset
+    [    0.000000] Initializing cgroup subsys cpu
+    [    0.000000] Initializing cgroup subsys cpuacct
+    [    0.000000] Linux version 3.10.17-yocto-standard (abraham@aarcemor-desk) (gcc
+    ...
+
