@@ -1,7 +1,7 @@
 Linux Kernel
 ==
 
-## Kernel Version
+## Default Kernel Version
 
     VERSION = 3
     PATCHLEVEL = 10
