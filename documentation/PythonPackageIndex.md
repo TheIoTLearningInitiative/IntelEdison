@@ -44,6 +44,15 @@ Python Package Index
 ## Python Pip Optional 
 
     root@edison:~# pip install psutil --target /root
+    root@edison:~# ls /root/
+    psutil                       psutil-3.3.0-py2.7.egg-info
+    root@edison:~# ls /root/psutil
+    __init__.py       _compat.pyc       _psosx.py         _pssunos.pyc
+    __init__.pyc      _psbsd.py         _psosx.pyc        _psutil_linux.so
+    _common.py        _psbsd.pyc        _psposix.py       _psutil_posix.so
+    _common.pyc       _pslinux.py       _psposix.pyc      _pswindows.py
+    _compat.py        _pslinux.pyc      _pssunos.py       _pswindows.pyc
+    
     root@edison:~# export PYTHONPATH=$PYTHONPATH:/other/path
     root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/other/path" >> /etc/profile
 
