@@ -3,7 +3,7 @@ Sound
 
 ## Required Hardware
 
-USB
+USB Audio
 
 ## Kernel Integration
 
