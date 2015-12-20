@@ -43,9 +43,11 @@ Check if RMAA and UPM Libraries are installed
     root@edison:~# opkg list-installed | grep mraa
     root@edison:~# opkg list-installed | grep upm
 
-Install extra packages required
+Install and configure extra packages required
 
     root@edison:~# opkg install git
+    root@edison:~# git config --global user.name "Name LastName"
+    root@edison:~# git config --global user.email email@adress.com
 
 ## Local Files
 
@@ -69,5 +71,3 @@ Install extra packages required
     root@edison:~# opkg list-installed | grep upm
     root@edison:~# opkg install nano
     root@edison:~# opkg install git
-    root@edison:~# git config --global user.name "Name LastName"
-    root@edison:~# git config --global user.email email@adress.com
