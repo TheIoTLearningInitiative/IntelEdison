@@ -1,4 +1,4 @@
-Advanced Package Tool
+Advanced Packaging Tool
 ==
 
 ## Installation via remote repositories
