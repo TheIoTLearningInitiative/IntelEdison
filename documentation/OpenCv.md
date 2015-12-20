@@ -16,6 +16,7 @@ Open Source Computer Vision
     root@Edison:~# opkg install python-numpy python-opencv
 
 ### Apt-Get Installation
+
     root@Edison:~# apt-get update
     root@Edison:~# apt-get install git python-pip python-serial python-pyparsing
     root@Edison:~# apt-get install opencv opencv-samples opencv-apps
