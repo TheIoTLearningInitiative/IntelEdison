@@ -70,7 +70,7 @@ GPIO 214 (TRI_STATE_ALL)  to LOW.
 Now let's take a look at a couple examples on how to apply these rules:
 
 
-###Example1:Configure IO5 as a GPIO input, with pull-up resistor disabled
+#### Example1:Configure IO5 as a GPIO input, with pull-up resistor disabled
 ---
 
 Alright!, for this first example I would like to take you step by step:
