@@ -20,7 +20,7 @@ Python Package Index
     ImportError: No module named psutil
     >>> <CTRL-D>
 
-## Python Pip Optional
+## Python Library Other OptionPath
 
     root@edison:~# pip install psutil --target /root
     root@edison:~# ls /root/
