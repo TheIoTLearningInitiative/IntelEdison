@@ -23,8 +23,7 @@ General Purpose Input Output (GPIO) Subsystem
 
     root@edison:~# ls /sys/class/gpio
 
-## 
-# Watching it change (a primer on GPIO and GPIO configuration this content is moving to GPIO Subsystem)
+### Watching it change (a primer on GPIO and GPIO configuration this content is moving to GPIO Subsystem)
 
 To see the status of our exported pins in the Edison, type this your Edison's terminal:
 
