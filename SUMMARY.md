@@ -6,11 +6,11 @@
 * [Hardware](documentation/Hardware.md)
    * [Processor](documentation/Processor.md)
    * [MCU](documentation/Mcu.md)
+   * Peripherals
    * [Power Management IC](documentation/PowerManagementIc.md)
    * [Pin Multiplexor](documentation/PinMultiplexor.md)
        * [MUX Additional Tables](documentation/MuxAdditionalTables.md)
    * [Wireless](documentation/Wireless.md)
-   * Peripherals
 * [Operating Systems](documentation/OperatingSystems.md)
    * [Linux Kernel](documentation/LinuxKernel.md)
    * [Yocto Project](documentation/YoctoProject.md)
