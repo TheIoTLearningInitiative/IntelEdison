@@ -86,3 +86,4 @@ Python Package Index
 
 ## Python Library Required Applications
 
+    root@edison:~# pip install pyserial
