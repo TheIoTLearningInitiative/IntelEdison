@@ -20,6 +20,14 @@ Python Package Index
     ImportError: No module named psutil
     >>> <CTRL-D>
 
+## Python Library Search
+
+    root@edison:~# pip search psutil
+    psutil                    - psutil is a cross-platform library for retrieving
+                                information onrunning processes and system
+                                utilization (CPU, memory, disks, network)in
+                                Python.
+
 ## Python Library Other Optional Path
 
     root@edison:~# pip install psutil --target /root
@@ -37,11 +45,6 @@ Python Package Index
 
 ## Python Library Other Optional Path
 
-    root@edison:~# pip search psutil
-    psutil                    - psutil is a cross-platform library for retrieving
-                                information onrunning processes and system
-                                utilization (CPU, memory, disks, network)in
-                                Python.
     root@edison:~# pip install psutil
     Downloading/unpacking psutil
       Running setup.py egg_info for package psutil
