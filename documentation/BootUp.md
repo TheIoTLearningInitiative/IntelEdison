@@ -114,5 +114,3 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
 
 - [Linux Kernel Dmesg](https://en.wikipedia.org/wiki/Dmesg)
 
-
-
