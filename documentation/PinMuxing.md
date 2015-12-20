@@ -70,8 +70,8 @@ Pin Muxing
 You should be able to use any of the PWM pins as output. For example pin IO6:
 
 
-    #echo 2 > /sys/class/pwm/pwmchip0/export
-    #echo 2000000 > /sys/class/pwm/pwmchip0/pwm2/duty_cycle
-    #echo 1 > /sys/class/pwm/pwmchip0/pwm2/enable
+    # echo 2 > /sys/class/pwm/pwmchip0/export
+    # echo 2000000 > /sys/class/pwm/pwmchip0/pwm2/duty_cycle
+    # echo 1 > /sys/class/pwm/pwmchip0/pwm2/enable
 
 
