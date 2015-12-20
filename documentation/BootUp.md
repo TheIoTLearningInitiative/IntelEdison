@@ -125,4 +125,4 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
     [    0.000000] Linux version 3.10.17-yocto-standard (abraham@aarcemor-desk) (gcc
     ...
 
-__Homework__ Review the content under dmesg.file, identify which drivers/services are started/executed
+__Homework__ Review the content under dmesg.file, identify which drivers/services are executed started
