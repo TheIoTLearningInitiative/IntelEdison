@@ -5,7 +5,7 @@ Peripheral Component Interconnect
 
 - [Peripheral Component Interconnect](https://es.wikipedia.org/wiki/Peripheral_Component_Interconnect)
 
-
+root@edison:~# lspci
 00:00.0 Host bridge: Intel Corporation Device 1170 (rev 01)             
 00:01.0 SD Host controller: Intel Corporation Device 1190 (rev 01)      
 00:01.2 SD Host controller: Intel Corporation Device 1190 (rev 01)      
