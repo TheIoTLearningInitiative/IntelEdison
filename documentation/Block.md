@@ -7,7 +7,7 @@ Block Subsystem
     [    0.190762] SDIO bus = 1, name = bcm43xx_clk_vmmc, ref_clock = 26000000, addr =0x401
     [    0.741385] emmc_ipanic: init success
     [    1.013752] mmc0: no vqmmc regulator found
-    [    1.108914] mmc0: BKOPS_EN bit is not set
+    [    1.108914] mmc0: BKOPS_EN bit is not set00
     [    1.417542] mmc0: new HS200 MMC card at address 0001
     [    1.418397] mmcblk0: mmc0:0001 H4G1d\x04 3.64 GiB 
     [    1.418943] mmcblk0boot0: mmc0:0001 H4G1d\x04 partition 1 4.00 MiB
