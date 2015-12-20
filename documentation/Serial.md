@@ -96,8 +96,8 @@ Serial
 import serial
 ser = serial.Serial("/dev/ttyMFD0", timeout=10)
 lines = ser.readlines()
-    for i in range(10):
-print(lines[i].strip())
+for i in range(10):
+    print(lines[i].strip())
 ```
 
 ## Links
