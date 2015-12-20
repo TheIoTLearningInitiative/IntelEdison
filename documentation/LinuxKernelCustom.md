@@ -24,7 +24,7 @@ ToDo Explain Linux Kernel Version, do we have this under Operating System?
 ## Building via BitBake (Unchecked)
 
     user@host:~$ pwd
-    /home/xe1gyq/Projects/edison-src
+    /home/xe1gyq/.../edison-src
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake virtual/kernel -c menuconfig
@@ -39,7 +39,7 @@ ToDo Explain Linux Kernel Version, do we have this under Operating System?
 ## Hello World Kernel Module
 
     user@host:~$ pwd
-    /home/xe1gyq/Projects/edison-src
+    /home/xe1gyq/.../edison-src
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ pwd
