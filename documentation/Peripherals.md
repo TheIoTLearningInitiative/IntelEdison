@@ -16,7 +16,6 @@ Peripherals
 - [Bluetooth Wikipedia](https://en.wikipedia.org/wiki/Bluetooth)
 - [Intel® Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
 
-
 > Broadcom BCM43341 ... Single Chip, Dual-Band (2.4 GHz / 5 GHz) 802.11 g/n MAC/Baseband/Radio with Integrated Bluetooth 4.0, NFC + FM Receiver
 
 - [Broadcom BCM43341](https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341)
