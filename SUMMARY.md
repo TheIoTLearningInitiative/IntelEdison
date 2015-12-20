@@ -6,7 +6,7 @@
 * [Hardware](documentation/Hardware.md)
    * [Processor](documentation/Processor.md)
    * [MCU](documentation/Mcu.md)
-   * Peripherals
+   * [Peripherals](documentation/Peripherals.md)
    * [Power Management IC](documentation/PowerManagementIc.md)
    * [Pin Multiplexor](documentation/PinMultiplexor.md)
        * [MUX Additional Tables](documentation/MuxAdditionalTables.md)
