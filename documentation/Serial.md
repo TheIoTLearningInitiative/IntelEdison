@@ -65,7 +65,6 @@ Serial
     /sys/class/tty/ttymcu2                     
     /sys/class/tty/ttyGS0
 
-    root@edison:~# lspci
     root@edison:~# ls /dev/tty*
     root@edison:~# setserial -g /dev/ttyS[0123]
     root@edison:~# setserial -g /dev/ttyUSB[0123]
