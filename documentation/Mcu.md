@@ -7,8 +7,6 @@ MCU
 
 > Intel® Atom™ Processor Z34xx Series is the next generation 22 nm SoC product targeted for the smartphone market segment. The SoC contains dual IA-32 cores operating at 500 MHz. The architecture includes 2-wide instruction decode and Out Of Order Execution with 1 MB cache shared between the two CPU cores. It includes Intel SIMD Extensions 2, 3, 4 (SSE2, SSE3, SSE4.1/4.2).
 
-## Intel® Quark™
-
 - [Intel® Quark™ Wikipedia](https://en.wikipedia.org/wiki/Intel_Quark)
 - [Intel® Quark™ ARK](http://ark.intel.com/products/family/79047/Intel-Quark-SoC)
 - [Intel® Quark™ SoC X1000 ](http://ark.intel.com/es/products/79084/Intel-Quark-SoC-X1000-16K-Cache-400-MHz)
