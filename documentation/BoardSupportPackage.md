@@ -106,7 +106,21 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     source poky/oe-init-build-env
     bitbake edison-image
     *************
+    abraham@aarcemor-desk:~/edison-src$ make image
+    /bin/bash -c "source out/current/poky/oe-init-build-env /home/abraham/edison-src/out/current/build ; bitbake -c cleansstate edison-image ; bitbake edison-image"
     
+    ### Shell environment set up for builds. ###
+    
+    You can now run 'bitbake <target>'
+    
+    Common targets are:
+        core-image-minimal
+        core-image-sato
+        meta-toolchain
+        adt-installer
+        meta-ide-support
+
+
 
 
     user@host:~$ ls
