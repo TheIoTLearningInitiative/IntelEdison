@@ -19,6 +19,8 @@ General Purpose Input Output (GPIO) Subsystem
     [    1.971473] info[ 1]: name = SW1UI4, gpio = 61
     [    2.004409] input: gpio-keys as /devices/platform/gpio-keys/input/input0
 
+## Userspace Interfaces
+
 
 # Watching it change (a primer on GPIO and GPIO configuration this content is moving to GPIO Subsystem)
 
