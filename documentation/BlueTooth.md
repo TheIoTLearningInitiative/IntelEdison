@@ -104,6 +104,7 @@ BlueTooth
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
 
 ### Serial Port Profile (SPP)
+
 Libraries,
 
 for c bluetooth development:
