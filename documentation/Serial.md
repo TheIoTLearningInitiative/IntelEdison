@@ -40,6 +40,6 @@ print(lines[i].strip())
 
 ## Links
 
-- https://communities.intel.com/thread/54236
+- [Intel Edison Types of Serial Ports](https://communities.intel.com/thread/54236)
 - [Sparkfun Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics/all)
 - [TLDP Serial HOWTO](http://www.tldp.org/HOWTO/Serial-HOWTO.html)
