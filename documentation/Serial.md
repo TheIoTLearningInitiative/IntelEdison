@@ -66,7 +66,6 @@ Serial
     /sys/class/tty/ttyGS0
 
     root@edison:~# ls /dev/tty*
-    root@edison:~# ls /dev/tty*
     /dev/tty      /dev/tty2     /dev/tty31    /dev/tty43    /dev/tty55    /dev/ttyGS0
     /dev/tty0     /dev/tty20    /dev/tty32    /dev/tty44    /dev/tty56    /dev/ttyMFD0
     /dev/tty1     /dev/tty21    /dev/tty33    /dev/tty45    /dev/tty57    /dev/ttyMFD1
