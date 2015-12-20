@@ -66,14 +66,12 @@ BlueTooth
     ...
     root@edison:~# hcitool scan
 
-## Userspace Applications
+## Usage Models
 
 - bluetooth-agent
 - bluetoothctl
 - hciconfig
 - hcitool
-
-## Usage Models
 
 ### Device Pairing
 
