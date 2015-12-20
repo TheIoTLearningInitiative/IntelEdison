@@ -32,6 +32,40 @@ Serial
     [    3.883637] systemd[1]: Created slice system-getty.slice.
 
     root@edison:~# find /sys/ -name 'tty:ttyS*'
+    /sys/devices/pci0000:00/0000:00:04.1/tty
+/sys/devices/pci0000:00/0000:00:04.1/tty/ttyMFD0
+/sys/devices/pci0000:00/0000:00:04.2/tty
+/sys/devices/pci0000:00/0000:00:04.2/tty/ttyMFD1
+/sys/devices/pci0000:00/0000:00:04.3/tty
+/sys/devices/pci0000:00/0000:00:04.3/tty/ttyMFD2
+/sys/devices/pci0000:00/0000:00:12.0/tty
+/sys/devices/pci0000:00/0000:00:12.0/tty/ttyPTI0
+/sys/devices/pci0000:00/0000:00:12.0/tty/ttyPTI1
+/sys/devices/virtual/tty
+/sys/devices/virtual/tty/tty
+/sys/devices/virtual/tty/tty0
+/sys/devices/virtual/tty/tty1
+...
+/sys/devices/virtual/tty/ttyXX
+/sys/devices/platform/intel_mcu/tty             
+/sys/devices/platform/intel_mcu/tty/ttymcu0     
+/sys/devices/platform/intel_mcu/tty/ttymcu1     
+/sys/devices/platform/intel_mcu/tty/ttymcu2     
+/sys/class/tty                                  
+/sys/class/tty/tty                         
+/sys/class/tty/tty0                        
+/sys/class/tty/tty63                       
+/sys/class/tty/ttyMFD0                     
+/sys/class/tty/ttyMFD1                     
+/sys/class/tty/ttyMFD2                     
+/sys/class/tty/ttyPTI0                     
+/sys/class/tty/ttyPTI1                     
+/sys/class/tty/ttymcu0                     
+/sys/class/tty/ttymcu1                     
+/sys/class/tty/ttymcu2                     
+/sys/class/tty/ttyGS0                  
+
+
     root@edison:~# lspci
     root@edison:~# ls /dev/tty*
     root@edison:~# setserial -g /dev/ttyS[0123]
