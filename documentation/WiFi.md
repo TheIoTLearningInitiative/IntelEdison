@@ -35,7 +35,6 @@ WiFi
     bcm4334x              587105  0 
 
 ## Userspace Applications
-## Setup
 
 Make sure there are no soft blocks
 
