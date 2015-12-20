@@ -26,6 +26,8 @@ and copy the link location for "Sources - Linux Sources Files" then download the
 
 ### Building via Make
 
+#### Source Code Decpompression
+
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
     user@host:~$ pwd
@@ -36,13 +38,13 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ make setup
     abraham@aarcemor-desk:~/edison-src$ make setup
     Setup buildenv for SDK host linux64
-    ./meta-intel-edison/setup.sh  --dl_dir=/home/abraham/edison-src/bbcache/downloads --sstate_dir=/home/abraham/edison-src/bbcache/sstate-cache --build_dir=/home/abraham/edison-src/out/linux64 --build_name=custom_build_aarcemor@20151220153244 --sdk_host=linux64
+    ./meta-intel-edison/setup.sh  --dl_dir=/home/abraham/Projects/RealTime/v25/edison-src/bbcache/downloads --sstate_dir=/home/abraham/Projects/RealTime/v25/edison-src/bbcache/sstate-cache --build_dir=/home/abraham/Projects/RealTime/v25/edison-src/out/linux64 --build_name=custom_build_aarcemor@20151220153244 --sdk_host=linux64
     We are building in external mode
     Fetching origin
     Fetching origin
     Fetching origin
     Fetching origin
-    Cloning Poky in the /home/abraham/edison-src/out/linux64/poky directory
+    Cloning Poky in the /home/abraham/Projects/RealTime/v25/edison-src/out/linux64/poky directory
     Cloning into 'poky'...
     done.
     Note: checking out 'yocto-1.7.2'.
@@ -56,10 +58,10 @@ and copy the link location for "Sources - Linux Sources Files" then download the
       git checkout -b new_branch_name
 
     HEAD is now at 29812e6... busybox: unbreak tar of uncompressed files
-    Cloning Mingw layer to /home/abraham/edison-src/out/linux64/poky/meta-mingw directory from local cache
+    Cloning Mingw layer to /home/abraham/Projects/RealTime/v25/edison-src/out/linux64/poky/meta-mingw directory from local cache
     Cloning into 'meta-mingw'...
     done.
-    Cloning Darwin layer to /home/abraham/edison-src/out/linux64/poky/meta-darwin directory from local cache
+    Cloning Darwin layer to /home/abraham/Projects/RealTime/v25/edison-src/out/linux64/poky/meta-darwin directory from local cache
     Cloning into 'meta-darwin'...
     done.
     Note: checking out '29b5ff31cee24e796f2eb2d2fd1269e3e92c831c'.
@@ -89,7 +91,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
       git checkout -b new_branch_name
 
     HEAD is now at c6d6814... upm: Update to 0.3.1
-    Cloning meta-arduino layer to /home/abraham/edison-src directory from GitHub.com/01org/meta-arduino
+    Cloning meta-arduino layer to /home/abraham/Projects/RealTime/v25/edison-src directory from GitHub.com/01org/meta-arduino
     Cloning into 'meta-arduino'...
     remote: Counting objects: 72, done.
     remote: Total 72 (delta 0), reused 0 (delta 0), pack-reused 72
@@ -112,7 +114,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
     
     user@host:~$ make image
-    /bin/bash -c "source out/current/poky/oe-init-build-env /home/abraham/edison-src/out/current/build ; bitbake -c cleansstate edison-image ; bitbake edison-image"
+    /bin/bash -c "source out/current/poky/oe-init-build-env /home/abraham/Projects/RealTime/v25/edison-src/out/current/build ; bitbake -c cleansstate edison-image ; bitbake edison-image"
     
     ### Shell environment set up for builds. ###
     
