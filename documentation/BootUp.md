@@ -136,6 +136,13 @@ Check your kernel version
 
 Configure WiFi
 
+    root@edison:~# configure_edison
+    Configure Edison: Device Name
+    Configure Edison: Device Password
+    Configure Edison: WiFi Connection
+
+Configure also password to enable SSH on the wireless interface
+
     root@edison:~# configure_edison --password
     
     Configure Edison: Device Password
