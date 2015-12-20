@@ -350,14 +350,6 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ build/toFlash/flashall.sh --recovery
     user@host:~$ build/toFlash/flashall.sh
 
-- user@host:~$ ./device-software/setup.sh
-- File name: edison-src-weekly-68.tgz @ https://downloadcenter.intel.com/download/24357
-
-
-- https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
-- https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
-- https://hayestech.wordpress.com/2015/01/26/building-custom-intel-edison-images/
-
 ## Native SDK
 
 ### Building via Make
@@ -427,6 +419,14 @@ http://edplay.weebly.com/how-to/building-linux-for-intel-edison
     user@host:~$ tar xvf edison-src-weekly-68.tgz
     user@host:~$ ls edison-src
     arduino  broadcom_cws  device-software  mw
+
+- user@host:~$ ./device-software/setup.sh
+- File name: edison-src-weekly-68.tgz @ https://downloadcenter.intel.com/download/24357
+
+
+- https://scratchbuffer.wordpress.com/2015/09/01/yocto-linux-image-build-for-intel-edison-simple-and-easy/
+- https://wiki.lsr.ei.tum.de/nst/documentation/inteledison
+- https://hayestech.wordpress.com/2015/01/26/building-custom-intel-edison-images/
 
 ### Tbd
 
