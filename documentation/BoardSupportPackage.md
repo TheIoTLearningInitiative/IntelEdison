@@ -251,7 +251,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     Rebooting
     U-boot & Kernel System Flash Success...
     Your board needs to reboot to complete the flashing procedure, please do not unplug it for 2 minutes.
-    abraham@aarcemor-desk:~/Projects/RealTime/v25/edison-src$ 
+
 
     U-boot & Kernel System Flash Success...
     Your board needs to reboot to complete the flashing procedure, please do not unplug it for 2 minutes.
