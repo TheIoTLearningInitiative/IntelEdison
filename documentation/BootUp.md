@@ -134,14 +134,7 @@ Check your kernel version
     root@edison:~# uname -r
     3.10.17-poky-edison+
 
-Configure your Edison
-
-    root@edison:~# configure_edison
-    Configure Edison: Device Name
-    Configure Edison: Device Password
-    Configure Edison: WiFi Connection
-
-In case only WiFi was configure, configure also password to enable SSH on the wireless interface
+Configure WiFi
 
     root@edison:~# configure_edison --password
     
