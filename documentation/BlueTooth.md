@@ -43,7 +43,7 @@ BlueTooth
 
     bcm4334x              587105  0 
 
-## Configuration
+## Userspace Applications
 
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
