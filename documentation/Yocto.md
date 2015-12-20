@@ -3,7 +3,7 @@ Yocto Customization
 
 Let's understand what it means to work with Yocto Project by building images for QEMU and Minnowboard MAX.
 
-## Qemu Image Compilaton
+## Development Workstation, Qemu Image Compilaton
 
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~# apt-get install qemu
