@@ -29,7 +29,7 @@ Python Package Index
     
     Successfully installed psutil
     Cleaning up...
-    
+    root@edison:~# 
 
 
 ## Python Pip Optional 
