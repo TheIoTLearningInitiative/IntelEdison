@@ -9,6 +9,24 @@ Debug
 
 
     root@edison:~# mount -t debugfs none /sys/kernel/debug
+    root@edison:~# ls /sys/kernel/debug/
+    asoc                  gpio_debug            pmu_sync_d0ix
+    bdi                   hid                   pwm
+    bluetooth             hsu                   regmap
+    boot_params           ieee80211             regulator
+    c_states_stat         ignore_add            remoteproc
+    cstate_ignore_add     ignore_remove         s3_ctrl
+    cstate_ignore_remove  iio                   sched_features
+    debug_feature         intel_scu_oshob       soc_thermal
+    disable_emmc_ipanic   kprobes               sst
+    dma_buf               mce                   suspend_stats
+    dri                   mid_pmu_states        tracing
+    dump_cmd              mmc0                  usb
+    dump_output           mmc1                  wakeup_sources
+    dwc3-device.1         mmc2                  watchdog
+    dynamic_debug         pmic_ccsm             x86
+    emmc_ipanic           pmu_force_d0i0
+    gpio                  pmu_force_d0i3
 
     Kernel hacking
         [*] Kernel debugging
