@@ -34,7 +34,6 @@ Python Package Index
 
 ## Python Pip Optional 
 
-    
     root@edison:~# pip install <package name> --target /other/path package
     root@edison:~# export PYTHONPATH=$PYTHONPATH:/other/path
     root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/other/path" >> /etc/profile
