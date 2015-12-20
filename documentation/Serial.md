@@ -90,7 +90,7 @@ Serial
     root@edison:~# setserial /dev/ttyS0 115200
     root@edison:~# stty -F /dev/ttyUSB0 115200 
 
-## Python
+## Python Applications
 
 ```python
 import serial
