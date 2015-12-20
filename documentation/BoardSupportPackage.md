@@ -71,7 +71,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
-### Building via Script (Unchecked)
+### Building via Script
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
