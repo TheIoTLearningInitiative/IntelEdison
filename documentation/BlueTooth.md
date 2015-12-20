@@ -1,9 +1,9 @@
 BlueTooth
 ==
 
-> Bluetooth is a wireless technology standard for exchanging data over short distances (using short-wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz[4]) from fixed and mobile devices, and building personal area networks (PANs). Wikipedia
+> The host processor on the Intel® Edison development board is connected to a Broadcom* BCM43340 combo chip via UART (uart0 mapped to /dev/MFD0) as transport layer and uses additional GPIOs to handle power (on, reset, etc.), OOB (
+out-of-band) signaling for UART to support low power mode. ...
 
-- [Bluetooth Wikipedia](https://en.wikipedia.org/wiki/Bluetooth)
 - [Intel® Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
 
 > rfkill is a small userspace tool to query the state of the rfkill switches, buttons and subsystem interfaces. Some devices come with a hard switch that lets you kill different types of RF radios: 802.11 / Bluetooth / NFC / UWB / WAN / WIMAX / FM. Some times these buttons may kill more than one RF type. The Linux kernel rfkill subsystem exposes these hardware buttons and lets userspace query its status and set its status through a /dev/rfkill. Given that at times some RF devices do not have hardware rfkill buttons rfkill the Linux kernel also exposes software rfkill capabilities that allows userspace to mimic a hardware rfkill event and turn on or off RF. 
