@@ -204,7 +204,7 @@ if __name__ == "__main__":
 
 
    root@edison:~# python myflask.py
-    * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+   * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
     * Restarting with stat
     192.168.1.73 - - [18/Oct/2015 16:34:56] "GET / HTTP/1.1" 200 -
     192.168.1.73 - - [18/Oct/2015 16:34:56] "GET /favicon.ico HTTP/1.1" 404 -
