@@ -32,7 +32,6 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     /home/xe1gyq/Projects/edison-src
     user@host:~$ ls
     Makefile  meta-intel-edison
-    
     user@host:~$ make setup
     abraham@aarcemor-desk:~/edison-src$ make setup
     Setup buildenv for SDK host linux64
