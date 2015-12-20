@@ -15,3 +15,4 @@ Processor
 
 - [Intel® Quark Wikipedia](https://en.wikipedia.org/wiki/Intel_Quark)
 - [Intel® Quark ARK](http://ark.intel.com/products/family/79047/Intel-Quark-SoC)
+- [](http://ark.intel.com/es/products/79084/Intel-Quark-SoC-X1000-16K-Cache-400-MHz)
