@@ -3,6 +3,17 @@ BlueTooth
 
 - [Intel® Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
 
+## Required Applications
+
+### Opkg
+
+    root@edison:~# opkg install bluez5-dev
+
+### Apt-Get
+
+    root@edison:~# apt-get install bluetooth
+    root@edison:~# /etc/init.d/bluetooth start
+
 ## Kernel Integration
 
     root@edison:~# dmesg | grep -i blue
@@ -30,15 +41,6 @@ BlueTooth
     bcm4334x              587105  0 
 
 ## Package Management
-
-### Opkg
-
-    root@edison:~# opkg install bluez5-dev
-
-### Apt-Get
-
-    root@edison:~# apt-get install bluetooth
-    root@edison:~# /etc/init.d/bluetooth start
 
 ## Configuration
 
