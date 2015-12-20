@@ -53,6 +53,6 @@ Python Package Index
     _common.pyc       _pslinux.py       _psposix.pyc      _pswindows.py
     _compat.py        _pslinux.pyc      _pssunos.py       _pswindows.pyc
     
-    root@edison:~# export PYTHONPATH=$PYTHONPATH:/other/path
+    root@edison:~# export PYTHONPATH=$PYTHONPATH:/root
     root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/other/path" >> /etc/profile
 
