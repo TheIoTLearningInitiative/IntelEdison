@@ -3,7 +3,7 @@ BootUp
 
 Finally, connect Intel Edison to your Host Computer using the registered COM / TTY device and launch your serial interface, e.g. Linux
 
-    abraham@aarcemor-desk:~$ sudo minicom -D /dev/ttyUSB0 115200
+    $ sudo minicom -D /dev/ttyUSB0 115200
 
 ## Bootup U-Boot
 
