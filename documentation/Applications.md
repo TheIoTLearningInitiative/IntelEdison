@@ -160,7 +160,7 @@ int main(int argc, char *argv[]) {
       exit(1);
    }
 	
-   printf("I am the Server, message received: %s\n",buffer);
+   printf("I am the Client, message received: %s\n",buffer);
    return 0;
 }
 ```
