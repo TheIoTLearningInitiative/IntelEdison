@@ -127,21 +127,21 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
 
 __Homework__ Review the content under dmesg.file, identify which drivers/services are executed/started
 
-## Internet Setup
+## Internet
 
 Check your kernel version
 
     root@edison:~# uname -r
     3.10.17-poky-edison+
 
-Configure WiFi
+Configure your Edison
 
     root@edison:~# configure_edison
     Configure Edison: Device Name
     Configure Edison: Device Password
     Configure Edison: WiFi Connection
 
-Configure also password to enable SSH on the wireless interface
+In case only WiFi was configure, configure also password to enable SSH on the wireless interface
 
     root@edison:~# configure_edison --password
     
