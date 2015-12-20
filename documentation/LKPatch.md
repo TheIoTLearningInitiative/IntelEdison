@@ -1,4 +1,5 @@
-# Patch
+Patch
+==
 
     x86 Intel MID Platform
     bcm43340
