@@ -22,7 +22,7 @@ General Purpose Input Output (GPIO) Subsystem
 ## Userspace Interfaces
 
 
-
+    root@edison:~# 
 
 # Watching it change (a primer on GPIO and GPIO configuration this content is moving to GPIO Subsystem)
 
