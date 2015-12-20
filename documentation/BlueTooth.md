@@ -105,7 +105,7 @@ BlueTooth
 
 ### Serial Port Profile (SPP)
 
-Libraries,
+Libraries
 
 for c bluetooth development:
 
