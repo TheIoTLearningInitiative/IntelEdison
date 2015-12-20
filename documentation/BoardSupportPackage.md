@@ -9,6 +9,8 @@ The Intel® Edison Board Support Package offers these features:
 - Intel cloud connectivity middleware
 - Many base Linux packages provided by the Yocto project
 
+[Board Support Package (BSP) User Guide for Boards and Kits](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005616.html)
+
 ## Dependencies
 
     user@host:~# apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
