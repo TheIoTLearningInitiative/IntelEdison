@@ -35,6 +35,8 @@ Python Package Index
     root@edison:~# export PYTHONPATH=$PYTHONPATH:/root
     root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/root" >> /etc/profile
 
+## Python Library Other Optional Path
+
     root@edison:~# pip search psutil
     psutil                    - psutil is a cross-platform library for retrieving
                                 information onrunning processes and system
