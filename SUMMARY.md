@@ -21,7 +21,7 @@
    * [Open Package Management](documentation/OpenPackageManagement.md)
    * [Python Package Index](documentation/PythonPackageIndex.md)
 * [Subsystems](documentation/Subsystems.md)
-   * PCI
+   * [PCI](documentation/Pci.md)
    * [GPIO](documentation/Gpio.md)
    * [Pin Muxing](documentation/PinMuxing.md)
    * [Serial](documentation/Serial.md)
