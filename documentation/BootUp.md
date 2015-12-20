@@ -114,11 +114,10 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
 
 - [Linux Kernel Dmesg](https://en.wikipedia.org/wiki/Dmesg)
 
+
     root@edison:~# dmesg
     root@edison:~# dmesg > dmesg.file
     root@edison:~# vi dmesg.file
-
-
     [    0.000000] Initializing cgroup subsys cpuset
     [    0.000000] Initializing cgroup subsys cpu
     [    0.000000] Initializing cgroup subsys cpuacct
