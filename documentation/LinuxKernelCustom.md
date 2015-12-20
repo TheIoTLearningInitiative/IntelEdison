@@ -1,7 +1,7 @@
 Linux Kernel
 ==
 
-## Default Version
+## Intel Edison Default Version
 
     VERSION = 3
     PATCHLEVEL = 10
