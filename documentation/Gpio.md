@@ -120,7 +120,9 @@ As explained before the GPIO control interface has some read/write attributes, s
 
 2. To change it, from **"in"** to  **"out "** we only have to  write "out" to attribute **GPIO48/direction** like this:
 
+
     echo out > /sys/class/gpio/gpio48/direction
+
 
 Then checking again the GPIO status we can see, that direction has changed. Here is a table that shows the direction before and after the change: 
 
