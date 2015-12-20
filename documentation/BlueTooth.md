@@ -10,7 +10,6 @@ BlueTooth
 
 - [Rfkill Homepage](https://wireless.wiki.kernel.org/en/users/documentation/rfkill)
 
-
 ## Required Applications
 
 ### Opkg
