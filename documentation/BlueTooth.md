@@ -134,7 +134,7 @@ Once paired, open the Bluetooth SPP Manager app, hit seach, and when the edison 
 
 --
 
-i know this need a lil' bit further explanation. just dropped here so i won't forget
+I know this need a lil' bit further explanation. just dropped here so i won't forget
 
 also what is going to be added is  how to  programmatically do the device discovering, pairing  and SPP using c and python
 
