@@ -2,7 +2,7 @@ General Purpose Input Output (GPIO) Subsystem
 ==
 
 
-- [GPIO in the kernel: An Introduction](https://lwn.net/Articles/532714/)
+- [LWN GPIO In The Kernel: An Introduction](https://lwn.net/Articles/532714/)
 
 
 ## Kernel Message
