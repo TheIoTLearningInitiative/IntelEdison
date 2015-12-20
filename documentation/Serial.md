@@ -8,6 +8,15 @@ Serial
 ## Kernel Display Message
 
     root@edison:~# dmesg | grep -i serial
+    [    0.000000] Kernel command line: rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4 rootfstype=ext4 console=ttyMFD2 earlyprintk=ttyMFD2,keep loglevel=4 g_multi.ethernet_config=cdc systemd.unit=multi-user.target hardware_id=00 g_multi.iSerialNumber=5e7bb54a65035af180191c2d7bd527b6 g_multi.dev_addr=02:00:86:d5:27:b6 platform_mrfld_audio.audio_codec=dummy
+    [    0.704157] HSU serial 0000:00:04.0: FUNC: 0 driver: 0 addr:ff010000 len:80
+    [    0.704215] HSU serial 0000:00:04.1: FUNC: 1 driver: 0 addr:ff010080 len:80
+    [    0.705663] HSU serial 0000:00:04.2: FUNC: 2 driver: 0 addr:ff010100 len:80
+    [    0.707102] HSU serial 0000:00:04.3: FUNC: 3 driver: 0 addr:ff010180 len:80
+    [    0.744061] usbcore: registered new interface driver usbserial
+    [    0.744199] usbserial: USB Serial support registered for pl2303
+    [    3.758915] systemd[1]: Starting system-serial\x2dgetty.slice.
+    [    3.833730] systemd[1]: Created slice system-serial\x2dgetty.slice.
     root@edison:~# dmesg | grep -i tty
     root@edison:~# find /sys/ -name 'tty:ttyS*'
     root@edison:~# lspci
