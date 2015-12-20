@@ -14,3 +14,9 @@ Peripherals
 > Broadcom BCM43341 ... Single Chip, Dual-Band (2.4 GHz / 5 GHz) 802.11 g/n MAC/Baseband/Radio with Integrated Bluetooth 4.0, NFC + FM Receiver
 
 - [Broadcom BCM43341](https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341)
+
+## DF40 Series
+
+> 0.4 mm pitch, 1.5 mm Stacking Height, Slim FPC to Board Connectors
+
+- [DF40 Series ](http://www.digikey.com/en/product-highlight/h/hirose/df40-series)
