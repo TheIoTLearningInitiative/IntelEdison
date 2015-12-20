@@ -8,7 +8,7 @@ Python Package Index
 - [Python Package Index Homepage](https://pypi.python.org/pypi)
 - [Python Package Index Wikipedia](https://en.wikipedia.org/wiki/Python_Package_Index)
 
-## Python Psutl
+## Python Psutil
 
     root@edison:~# python
     Python 2.7.3 (default, Dec 19 2015, 23:06:02)
