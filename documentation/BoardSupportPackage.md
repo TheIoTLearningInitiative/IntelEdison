@@ -108,10 +108,11 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     source poky/oe-init-build-env
     bitbake edison-image
     *************
-    
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
     
+#### Make Image
+
     user@host:~$ make image
     /bin/bash -c "source out/current/poky/oe-init-build-env /home/abraham/Projects/RealTime/v25/edison-src/out/current/build ; bitbake -c cleansstate edison-image ; bitbake edison-image"
     
