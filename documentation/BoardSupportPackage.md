@@ -365,7 +365,6 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     u-boot.img
     user@host:~$ ls out/linux64/build/tmp/deploy/images/edison
     user@host:~$ cd meta-intel-edison/utils/flash
-    user@host:~$ ls edison-src/build/tmp/deploy/images/edison/edison-image-edison.hddimg
 
 ### Building via Script
 
