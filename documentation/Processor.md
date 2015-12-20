@@ -8,3 +8,4 @@ Processor
 ## Links
 
 - [Intel® Atom™ Processor Z34XX Series for Smartphones and Tablets](http://www.intel.com/content/www/us/en/processors/atom/atom-z34xx-smartphones-tablets-brief.html)
+- [Intel talks Merrifield Moorefield](http://www.anandtech.com/show/7789/intel-talks-merrifield-moorefield-and-lte-at-mwc-2014)
