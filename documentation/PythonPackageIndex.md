@@ -15,6 +15,22 @@ Python Package Index
                                 utilization (CPU, memory, disks, network)in
                                 Python.
     root@edison:~# pip install psutil
+    Downloading/unpacking psutil
+      Running setup.py egg_info for package psutil
+    
+        warning: no previously-included files matching '*' found under directory 'docs/_build'
+        warning: manifest_maker: MANIFEST.in, line 18: 'recursive-include' expects <dir> <pattern1> <pattern2> ...
+        
+    Installing collected packages: psutil
+      Running setup.py install for psutil
+        
+        warning: no previously-included files matching '*' found under directory 'docs/_build'
+        warning: manifest_maker: MANIFEST.in, line 18: 'recursive-include' expects <dir> <pattern1> <pattern2> ...
+    
+    Successfully installed psutil
+    Cleaning up...
+    
+
 
 ## Python Pip Optional 
 
