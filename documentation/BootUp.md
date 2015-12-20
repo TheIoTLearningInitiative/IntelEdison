@@ -1,4 +1,4 @@
-BootUp
+Boot Up
 ==
 
 Finally, connect Intel Edison to your Host Computer using the registered COM / TTY device and launch your serial interface, e.g. Linux
