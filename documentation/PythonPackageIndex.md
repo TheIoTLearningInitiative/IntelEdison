@@ -10,6 +10,11 @@ Python Package Index
 
 
     root@edison:~# pip search psutil
+    psutil                    - psutil is a cross-platform library for retrieving
+                                information onrunning processes and system
+                                utilization (CPU, memory, disks, network)in
+                                Python.
+
     root@edison:~# pip install psutil
 
 ## Python Pip Optional 
