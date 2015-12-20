@@ -1,4 +1,4 @@
-General Purpose Input Output (GPIO) Subsystem
+General Purpose Input Output (GPIO)
 ==
 
 > General-purpose input/output (GPIO) is a generic pin on an integrated circuit whose behavior—including whether it is an input or output pin—is controllable by the user at run time. Wikipedia
