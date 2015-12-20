@@ -5,7 +5,7 @@ Serial
 
     root@edison:~# echo screen minicom
 
-## Kernel Integration
+## Kernel Display Message
 
     root@edison:~# dmesg | grep -i serial
     root@edison:~# dmesg | grep -i tty
