@@ -54,7 +54,6 @@ USB Audio
     root@edison:~# vi /etc/asound.conf
     pcm.!default sysdefault:Headset
 
-## Usage Models
 ## Userspace Applications
 
 ### Configuration
