@@ -244,6 +244,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
   - source poky/oe-init-build-env
   - bitbake edison-image
 
+
     Build Configuration:
     BB_VERSION        = "1.24.0"
     BUILD_SYS         = "i686-linux"
