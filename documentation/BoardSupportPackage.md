@@ -32,7 +32,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
 
 ### Building via Make
 
-#### Source Code Decpompression
+#### Make Setup
 
     user@host:~$ make setup
     abraham@aarcemor-desk:~/edison-src$ make setup
