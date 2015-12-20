@@ -10,6 +10,7 @@
    * [Pin Multiplexor](documentation/PinMultiplexor.md)
        * [MUX Additional Tables](documentation/MuxAdditionalTables.md)
    * [Wireless](documentation/Wireless.md)
+   * Peripherals
 * [Operating Systems](documentation/OperatingSystems.md)
    * [Linux Kernel](documentation/LinuxKernel.md)
    * [Yocto Project](documentation/YoctoProject.md)
