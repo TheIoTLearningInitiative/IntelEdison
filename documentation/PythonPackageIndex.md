@@ -8,6 +8,21 @@ Python Package Index
 - [Python Package Index Homepage](https://pypi.python.org/pypi)
 - [Python Package Index Wikipedia](https://en.wikipedia.org/wiki/Python_Package_Index)
 
+## Python Pip Optional
+
+    root@edison:~# pip install psutil --target /root
+    root@edison:~# ls /root/
+    psutil                       psutil-3.3.0-py2.7.egg-info
+    root@edison:~# ls /root/psutil
+    __init__.py       _compat.pyc       _psosx.py         _pssunos.pyc
+    __init__.pyc      _psbsd.py         _psosx.pyc        _psutil_linux.so
+    _common.py        _psbsd.pyc        _psposix.py       _psutil_posix.so
+    _common.pyc       _pslinux.py       _psposix.pyc      _pswindows.py
+    _compat.py        _pslinux.pyc      _pssunos.py       _pswindows.pyc
+    
+    root@edison:~# export PYTHONPATH=$PYTHONPATH:/root
+    root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/root" >> /etc/profile
+
 
     root@edison:~# python
     Python 2.7.3 (default, Dec 19 2015, 23:06:02)
@@ -39,20 +54,4 @@ Python Package Index
     Successfully installed psutil
     Cleaning up...
     root@edison:~# pip uninstall
-
-
-## Python Pip Optional
-
-    root@edison:~# pip install psutil --target /root
-    root@edison:~# ls /root/
-    psutil                       psutil-3.3.0-py2.7.egg-info
-    root@edison:~# ls /root/psutil
-    __init__.py       _compat.pyc       _psosx.py         _pssunos.pyc
-    __init__.pyc      _psbsd.py         _psosx.pyc        _psutil_linux.so
-    _common.py        _psbsd.pyc        _psposix.py       _psutil_posix.so
-    _common.pyc       _pslinux.py       _psposix.pyc      _pswindows.py
-    _compat.py        _pslinux.pyc      _pssunos.py       _pswindows.pyc
-    
-    root@edison:~# export PYTHONPATH=$PYTHONPATH:/root
-    root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/root" >> /etc/profile
 
