@@ -6,7 +6,7 @@ ToDo Explain Linux Kernel Version, do we have this under Operating System?
 ## Building via Make
 
     user@host:~$ pwd
-    /home/xe1gyq/edison-src
+    /home/xe1gyq/.../edison-src
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake virtual/kernel -c menuconfig
