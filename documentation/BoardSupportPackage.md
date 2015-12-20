@@ -106,6 +106,11 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     source poky/oe-init-build-env
     bitbake edison-image
     *************
+    
+    user@host:~$ ls
+    bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
+    user@host:~$ make image
+
     abraham@aarcemor-desk:~/edison-src$ make image
     /bin/bash -c "source out/current/poky/oe-init-build-env /home/abraham/edison-src/out/current/build ; bitbake -c cleansstate edison-image ; bitbake edison-image"
     
@@ -119,13 +124,64 @@ and copy the link location for "Sources - Linux Sources Files" then download the
         meta-toolchain
         adt-installer
         meta-ide-support
+        
+    You can also run generated qemu images with a command like 'runqemu qemux86'
+    Parsing recipes: 100% |#################################################################################################| Time: 00:00:10
+    Parsing of 959 .bb files complete (0 cached, 959 parsed). 1364 targets, 117 skipped, 0 masked, 0 errors.
+    NOTE: Resolving any missing task queue dependencies
+    
+    Build Configuration:
+    BB_VERSION        = "1.24.0"
+    BUILD_SYS         = "x86_64-linux"
+    NATIVELSBSTRING   = "Ubuntu-14.04"
+    TARGET_SYS        = "i586-poky-linux"
+    MACHINE           = "edison"
+    DISTRO            = "poky-edison"
+    DISTRO_VERSION    = "1.7.2"
+    TUNE_FEATURES     = "m32 core2"
+    TARGET_FPU        = ""
+    meta              
+    meta-yocto        
+    meta-yocto-bsp    = "(detachedfromyocto-1.7.2):29812e61736a95f1de64b3e9ebbb9c646ebd28dd"
+    meta-intel-edison-bsp 
+    meta-intel-edison-distro = "<unknown>:<unknown>"
+    meta-intel-iot-middleware = "(detachedfromc6d6814):c6d681475e76107e6c04c5f7a06034dc9e772d1e"
+    meta-intel-arduino = "<unknown>:<unknown>"
+    meta-arduino      = "1.6.x:541b127163acb243109f07141bf249da2ecdcd9a"
+    
+    NOTE: Preparing runqueue
+    NOTE: Executing RunQueue Tasks
+    NOTE: Tasks Summary: Attempted 2 tasks of which 0 didn't need to be rerun and all succeeded.
+    Loading cache: 100% |###################################################################################################| ETA:  00:00:00
+    Loaded 1365 entries from dependency cache.
+    NOTE: Resolving any missing task queue dependencies
+    
+    Build Configuration:
+    BB_VERSION        = "1.24.0"
+    BUILD_SYS         = "x86_64-linux"
+    NATIVELSBSTRING   = "Ubuntu-14.04"
+    TARGET_SYS        = "i586-poky-linux"
+    MACHINE           = "edison"
+    DISTRO            = "poky-edison"
+    DISTRO_VERSION    = "1.7.2"
+    TUNE_FEATURES     = "m32 core2"
+    TARGET_FPU        = ""
+    meta              
+    meta-yocto        
+    meta-yocto-bsp    = "(detachedfromyocto-1.7.2):29812e61736a95f1de64b3e9ebbb9c646ebd28dd"
+    meta-intel-edison-bsp 
+    meta-intel-edison-distro = "<unknown>:<unknown>"
+    meta-intel-iot-middleware = "(detachedfromc6d6814):c6d681475e76107e6c04c5f7a06034dc9e772d1e"
+    meta-intel-arduino = "<unknown>:<unknown>"
+    meta-arduino      = "1.6.x:541b127163acb243109f07141bf249da2ecdcd9a"
+    
+    NOTE: Preparing runqueue
+    WARNING: /home/abraham/Projects/RealTime/v25/edison-src/out/linux64/poky/meta/recipes-kernel/linux/linux-yocto_3.10.bb.do_configure is tainted from a forced run
+    NOTE: Executing SetScene Tasks
+    NOTE: Executing RunQueue Tasks
+    Currently 1 running tasks (3754 of 3757):
+    0: edison-image-1.0-r0 do_rootfs (pid 16950)
 
-
-
-
-    user@host:~$ ls
-    bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
-    user@host:~$ make image
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
     user@host:~$ make flash
