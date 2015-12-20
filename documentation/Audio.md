@@ -93,9 +93,16 @@ USB Audio
     Subdevice #0: subdevice #0
     root@edison:~# record -f cd -D plughw:1,0 -d 20 test.wav
 
-### Mpg123
+### Testing
     
     root@edison:~# mpg123
+    root@edison:~# speaker-test 
+    
+    speaker-test 1.0.28
+    
+    Playback device is default
+    Stream parameters are 48000Hz, S16_LE, 1 channels
+    Using 16 octaves of pink noise
 
 ### Espeak
     
