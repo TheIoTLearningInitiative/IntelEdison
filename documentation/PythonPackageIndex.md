@@ -54,5 +54,5 @@ Python Package Index
     _compat.py        _pslinux.pyc      _pssunos.py       _pswindows.pyc
     
     root@edison:~# export PYTHONPATH=$PYTHONPATH:/root
-    root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/other/path" >> /etc/profile
+    root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/root" >> /etc/profile
 
