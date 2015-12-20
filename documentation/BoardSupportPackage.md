@@ -30,9 +30,24 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ cd edison-src
     user@host:~$ pwd
     /home/xe1gyq/Projects/edison-src
+    
     user@host:~$ ls
     Makefile  meta-intel-edison
+    
     user@host:~$ make setup
+    abraham@aarcemor-desk:~/edison-src$ make setup
+    Setup buildenv for SDK host linux64
+    ./meta-intel-edison/setup.sh  --dl_dir=/home/abraham/edison-src/bbcache/downloads --sstate_dir=/home/abraham/edison-src/bbcache/sstate-cache --build_dir=/home/abraham/edison-src/out/linux64 --build_name=custom_build_aarcemor@20151220153244 --sdk_host=linux64
+    We are building in external mode
+    Fetching origin
+    Fetching origin
+    Fetching origin
+    Fetching origin
+    Cloning Poky in the /home/abraham/edison-src/out/linux64/poky directory
+    Cloning into 'poky'...
+    done.
+    Note: checking out 'yocto-1.7.2'.
+
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
     user@host:~$ make image
