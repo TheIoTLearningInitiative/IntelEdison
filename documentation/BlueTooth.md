@@ -45,6 +45,11 @@ BlueTooth
 
 ## Userspace Applications
 
+- bluetooth-agent
+- bluetoothctl
+- hciconfig
+- hcitool
+
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
     root@edison:~# systemctl start bluetooth
@@ -67,11 +72,6 @@ BlueTooth
     root@edison:~# hcitool scan
 
 ## Usage Models
-
-- bluetooth-agent
-- bluetoothctl
-- hciconfig
-- hcitool
 
 ### Device Pairing
 
