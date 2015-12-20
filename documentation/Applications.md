@@ -136,8 +136,8 @@ int main(int argc, char *argv[]) {
    }
    
    /* Now ask for a message from the user, this message
-      * will be read by server
-   */
+    * will be read by server
+    */
 	
    printf("Please enter the message: ");
    bzero(buffer,256);
