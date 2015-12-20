@@ -107,11 +107,11 @@ BlueTooth
 
 Libraries
 
-for c bluetooth development:
+For c bluetooth development:
 
     root@edison:~# sudo apt-get install libbluetooth-dev
 
-for python bluetooth development:
+For python bluetooth development:
 
     root@edison:~# sudo apt-get install python-bluez
     
