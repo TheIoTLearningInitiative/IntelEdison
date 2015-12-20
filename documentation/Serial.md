@@ -3,7 +3,7 @@ Serial
 
 ## Userspace Required Applications
 
-    root@edison:~# echo screen minicom
+    root@edison:~# opkg install screen
 
 ## Kernel Display Message
 
