@@ -45,6 +45,11 @@ Let's understand what it means to work with Yocto Project by building images for
     tmp/deploy/images/intel-corei7-64/core-image-minimal-intel-corei7-64.hddimg \
     TARGET_DEVICE
 
+## Links
+
+- [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
+- [Code Project Adding 3rd Party Components to Yocto/OpenEmbedded Linux](http://www.codeproject.com/Articles/774826/Adding-rd-party-components-to-Yocto-OpenEmbedded-L)
+ 
 ## ToDo Important Topics To Cover
 
 - Example Project
@@ -53,8 +58,3 @@ Let's understand what it means to work with Yocto Project by building images for
 - Build an Example Package based on a Git Repository Commit
 - Build an example package based on a Remote Source Archive
 - Build an example package based on a Local Source Archive
-
-## Links
-
-- [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
-- [Code Project Adding 3rd Party Components to Yocto/OpenEmbedded Linux](http://www.codeproject.com/Articles/774826/Adding-rd-party-components-to-Yocto-OpenEmbedded-L)
