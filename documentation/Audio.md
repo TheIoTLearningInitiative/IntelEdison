@@ -10,6 +10,7 @@ USB Audio
 ### Opkg
 
     root@edison:~# opkg install alsa-utils mpg123 espeak
+    ...
     Configuring libsamplerate0.
     Configuring libjack.
     Configuring alsa-utils-alsaloop.
@@ -24,6 +25,7 @@ USB Audio
     Configuring alsa-utils-aseqdump.
     Configuring alsa-utils.
     Configuring mpg123.
+    ...
     root@edison:~# ls /usr/share/sounds/alsa/
 
 ### Apt-Get
