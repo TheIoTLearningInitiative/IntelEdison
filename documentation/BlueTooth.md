@@ -119,10 +119,6 @@ for python bluetooth in Edison (using pip, if for some reason you don't have it,
 
     pip install pybluez
     
-
-    
-    
-    
 There are two common ways to test SPP, one is by using D-BUS, the other is by using RFCOMM transport protocol.
 
 To test using D-Bus we can use [this python script](http://downloadmirror.intel.com/24909/eng/SPP-loopback.py), copy it to Edison, enable the bluetooth device and run it:
