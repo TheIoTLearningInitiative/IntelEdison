@@ -525,16 +525,16 @@ https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
     /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter
     /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_state.ko
     /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_length.ko
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_NETMAP.ko
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack.ko
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack_broadcast.ko
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_connbytes.ko
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack_proto_sctp.ko
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nfnetlink_queue.ko
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_nat_ftp.ko
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_policy.ko
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_helper.ko
-/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_CT.ko
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_NETMAP.ko
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack.ko
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack_broadcast.ko
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_connbytes.ko
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack_proto_sctp.ko
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nfnetlink_queue.ko
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_nat_ftp.ko
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_policy.ko
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_helper.ko
+    /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_CT.ko
 /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/xt_ecn.ko
 /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack_proto_gre.ko
 /lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack_irc.ko
