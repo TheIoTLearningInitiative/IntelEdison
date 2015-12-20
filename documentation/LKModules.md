@@ -131,7 +131,7 @@ Linux Kernel Modules
     /lib/modules/3.10.17-yocto-standard/kernel/drivers/media/usb/gspca/gspca_main.ko
     /lib/modules/3.10.17-yocto-standard/kernel/drivers/staging
     /lib/modules/3.10.17-yocto-standard/kernel/drivers/staging/iio
-        /lib/modules/3.10.17-yocto-standard/kernel/drivers/staging/iio/trigger
+    /lib/modules/3.10.17-yocto-standard/kernel/drivers/staging/iio/trigger
     /lib/modules/3.10.17-yocto-standard/kernel/drivers/staging/iio/trigger/iio-trig-sysfs.ko
     /lib/modules/3.10.17-yocto-standard/kernel/drivers/usb
     /lib/modules/3.10.17-yocto-standard/kernel/drivers/usb/serial
