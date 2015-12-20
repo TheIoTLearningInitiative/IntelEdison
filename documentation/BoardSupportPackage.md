@@ -30,7 +30,6 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ cd edison-src
     user@host:~$ pwd
     /home/xe1gyq/Projects/edison-src
-    
     user@host:~$ ls
     Makefile  meta-intel-edison
     
