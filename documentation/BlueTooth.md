@@ -1,6 +1,8 @@
 BlueTooth
 ==
 
+> 
+
 - [Intel® Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
 
 ## Required Applications
