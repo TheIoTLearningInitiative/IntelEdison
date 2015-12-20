@@ -109,15 +109,15 @@ Libraries,
 
 for c bluetooth development:
 
-    sudo apt-get install libbluetooth-dev
+    root@edison:~# sudo apt-get install libbluetooth-dev
 
 for python bluetooth development:
 
-    sudo apt-get install python-bluez
+    root@edison:~# sudo apt-get install python-bluez
     
 for python bluetooth in Edison (using pip, if for some reason you don't have it, learn [How-To install pip](https://pip.pypa.io/en/stable/installing/#pip-included-with-python)):
 
-    pip install pybluez
+    root@edison:~# pip install pybluez
 
 There are two common ways to test SPP, one is by using D-BUS, the other is by using RFCOMM transport protocol.
 
@@ -131,8 +131,6 @@ then in an android device install a [Bluetooth SPP Manager](https://play.google.
 At this point you need to pair the Edison with your android device (see example above on how to use **bluetoothctl**, **hcicontrol** or any other user level application in your Edison).
 
 Once paired, open the Bluetooth SPP Manager app, hit seach, and when the edison appears  tap on in to connect.  now you can send text messages to Edison which can be seen on the terminal window of the Edison.
-
-
 
 --
 
