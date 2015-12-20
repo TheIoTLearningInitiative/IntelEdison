@@ -47,6 +47,11 @@ Install extra packages required
 
     root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils mpg123
 
+## Local Files
+
+    root@edison:~# wget http://repo.opkg.net/edison/repo/core2-32/less_458-r0_core2-32.ipk
+    root@edison:~# opkg install bash_4.3-r0_core2-32.ipk
+
 ## Installation via remote repositories
 
     root@edison:~# vi /etc/opkg/base-feeds.conf
@@ -66,8 +71,3 @@ Install extra packages required
     root@edison:~# opkg install git
     root@edison:~# git config --global user.name "Name LastName"
     root@edison:~# git config --global user.email email@adress.com
-
-## Installation via local file
-
-    root@edison:~# wget http://repo.opkg.net/edison/repo/core2-32/less_458-r0_core2-32.ipk
-    root@edison:~# opkg install bash_4.3-r0_core2-32.ipk
