@@ -141,8 +141,6 @@ also what is going to be added is  how to  programmatically do the device discov
 --
 
 
-
-
 - Tbd
 
 ### Others
