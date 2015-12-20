@@ -8,6 +8,11 @@ Serial
     root@edison:~# opkg install screen
     root@edison:~# pip install pyserial
 
+### AptGet
+
+    root@edison:~# apt-get install screen minicom cu setserial stty
+    root@edison:~# pip install pyserial
+
 ## Kernel Display Message
 
     root@edison:~# dmesg | grep -i serial
