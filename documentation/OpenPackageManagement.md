@@ -49,7 +49,7 @@ Install and configure extra packages required
     root@edison:~# git config --global user.name "Name LastName"
     root@edison:~# git config --global user.email email@adress.com
 
-## Local Files
+## Package Installation via Local Files
 
     root@edison:~# wget http://repo.opkg.net/edison/repo/core2-32/less_458-r0_core2-32.ipk
     root@edison:~# opkg install bash_4.3-r0_core2-32.ipk
