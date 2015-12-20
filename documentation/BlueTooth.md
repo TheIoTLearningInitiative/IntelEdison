@@ -70,7 +70,6 @@ BlueTooth
 - hciconfig
 - hcitool
 
-
 ## Usage Models
 
 ### Device Pairing
