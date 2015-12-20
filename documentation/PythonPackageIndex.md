@@ -49,6 +49,8 @@ Python Package Index
     [GCC 4.9.1] on linux2
     Type "help", "copyright", "credits" or "license" for more information.
     >>> import psutil
+    >>> <CTRL-D>
+    root@edison:~# pip uninstall psutil
 
 ## Python Library Default Installation Path
 
