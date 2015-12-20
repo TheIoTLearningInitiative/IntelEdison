@@ -40,8 +40,6 @@ BlueTooth
 
     bcm4334x              587105  0 
 
-## Package Management
-
 ## Configuration
 
     root@edison:~# systemctl status bluetooth.service
