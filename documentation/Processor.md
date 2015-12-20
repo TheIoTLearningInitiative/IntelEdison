@@ -10,7 +10,7 @@ Processor
 - [Intel® Atom™ Processor Z34XX Series for Smartphones and Tablets](http://www.intel.com/content/www/us/en/processors/atom/atom-z34xx-smartphones-tablets-brief.html)
 - [Intel® Atom™ SoC Support](http://www.intel.com/content/www/us/en/support/processors/desktop-processors/intel-atom-processor.html)
 
-## Communicaty Links
+## Community Links
 
 - [Atom Systen On Chip Wixipedia](https://en.wikipedia.org/wiki/Atom_%28system_on_chip%29)
 - [Intel® talks Merrifield Moorefield Anandtech](http://www.anandtech.com/show/7789/intel-talks-merrifield-moorefield-and-lte-at-mwc-2014)
