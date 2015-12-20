@@ -256,7 +256,6 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ cd out/current
     user@host:~$ ls
     build  poky
-
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake virtual/kernel -c menuconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
