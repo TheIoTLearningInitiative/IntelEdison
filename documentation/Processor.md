@@ -14,3 +14,4 @@ Processor
 ## Intel® Quark
 
 - [Intel® Quark Wikipedia](https://en.wikipedia.org/wiki/Intel_Quark)
+- [Intel® Quark ARK](http://ark.intel.com/products/family/79047/Intel-Quark-SoC)
