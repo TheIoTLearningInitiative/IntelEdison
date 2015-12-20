@@ -45,7 +45,7 @@ Note also that the GPIO signals from the PCAL9555A GPIO expanders have internal 
 ######Table3 Pin Direction and pull-up control
 ![](PinDirection_PullUpControl.png)
 
-#Let's MUX-it!
+## Let's MUX-it!
 So how all this comes together?, how can we use the aforementioned tables, to configure the GPIO pins for certain functionality required by our project?. Well if these are the kind of questions you have, you are in the right place.
 
 Trying to figure out how all this fits together at first sight  may look a little bit overwhelming and it is just in appearance, in a nutshell the steps to configure a given GPIO, bases in the use of Table1 & Table2 with the following steps:
