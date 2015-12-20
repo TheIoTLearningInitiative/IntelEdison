@@ -28,7 +28,7 @@ WiFi
     [   39.117444] wifi_platform_get_mac_addr
     [   39.117488] wifi_get_mac_addr_intel: unable to open /config/wifi/mac.txt
     root@edison:~# lsmod
-    Module                  Size  Used by
+    Module                  Size  Used by0
     usb_f_acm              14335  1 
     ...
     bcm_bt_lpm             13708  0 
