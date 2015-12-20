@@ -23,7 +23,7 @@ Debug
         [ ]   kobject debugging
         [ ]   Highmem debugging
         [ ]   Compile the kernel with debug info
-    
+
 ## Kernel Integration
 
     root@edison:~# mount -t debugfs none /sys/kernel/debug
