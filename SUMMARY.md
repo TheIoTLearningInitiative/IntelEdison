@@ -16,6 +16,7 @@
    * [Ubilinux](documentation/Ubilinux.md)
    * [Services](documentation/Services.md)
    * [Recovery](documentation/Recovery.md)
+* BootUp
 * [Package Management Systems](documentation/PackageManagementSystems.md)
    * [Open Package Management](documentation/OpenPackageManagement.md)
    * [Advanced Package Tool](documentation/AdvancedPackageTool.md)
@@ -45,5 +46,4 @@
    * [Linux Kernel](documentation/LinuxKernelCustom.md)
    * [File System](documentation/FileSystem.md)
 * [SandBox](documentation/Sandbox.md)
-* BootUp
 
