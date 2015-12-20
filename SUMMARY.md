@@ -32,6 +32,7 @@
    * [Networking](documentation/Networking.md)
    * [Block](documentation/Block.md)
    * [USB](documentation/Usb.md)
+   * PCI
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
