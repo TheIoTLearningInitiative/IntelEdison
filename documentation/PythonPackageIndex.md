@@ -45,7 +45,7 @@ Python Package Index
     root@edison:~# export PYTHONPATH=$PYTHONPATH:/root
     root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/root" >> /etc/profile
 
-## Python Library Other Optional Path
+## Python Library Default Installation Path
 
     root@edison:~# pip install psutil
     Downloading/unpacking psutil
