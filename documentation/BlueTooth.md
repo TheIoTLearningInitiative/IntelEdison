@@ -41,7 +41,6 @@ BlueTooth
     usb_f_acm              14335  1 
     ...
     bcm_bt_lpm             13708  0 
-
     bcm4334x              587105  0 
 
 ## Userspace Applications
