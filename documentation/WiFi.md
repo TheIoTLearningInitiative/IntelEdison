@@ -35,7 +35,7 @@ WiFi
     bcm4334x              587105  0 
 
 
-## WiFi Yocto Configuration
+## WiFi Yocto Default Configuration
 
     root@Edison:~# configure_edison --wifi
      Configure Edison: WiFi Connection
