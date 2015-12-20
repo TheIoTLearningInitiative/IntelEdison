@@ -3,6 +3,8 @@ Serial
 
 ## Required Applications
 
+### Opkg
+
     root@edison:~# opkg install screen
     root@edison:~# pip install pyserial
 
