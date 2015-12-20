@@ -228,6 +228,31 @@ and copy the link location for "Sources - Linux Sources Files" then download the
 #### Make Flash
 
     user@host:~$ make flash
+    abraham@aarcemor-desk:~/Projects/RealTime/v25/edison-src$ make flash
+    ./out/current/build/toFlash/flashall.sh
+    Using U-Boot target: edison-blankcdc
+    Now waiting for dfu device 8087:0a99
+    Please plug and reboot the board
+    Flashing IFWI
+    ##################################################] finished!
+    ##################################################] finished!
+    Flashing U-Boot
+    ##################################################] finished!
+    Flashing U-Boot Environment
+    ##################################################] finished!
+    Flashing U-Boot Environment Backup
+    ##################################################] finished!
+    Rebooting to apply partition changes
+    Now waiting for dfu device 8087:0a99
+    Flashing boot partition (kernel)
+    ##################################################] finished!
+    Flashing rootfs, (it can take up to 5 minutes... Please be patient)
+    ##################################################] finished!
+    Rebooting
+    U-boot & Kernel System Flash Success...
+    Your board needs to reboot to complete the flashing procedure, please do not unplug it for 2 minutes.
+    abraham@aarcemor-desk:~/Projects/RealTime/v25/edison-src$ 
+
     U-boot & Kernel System Flash Success...
     Your board needs to reboot to complete the flashing procedure, please do not unplug it for 2 minutes.
     ...
