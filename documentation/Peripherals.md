@@ -19,4 +19,4 @@ Peripherals
 
 > 0.4 mm pitch, 1.5 mm Stacking Height, Slim FPC to Board Connectors
 
-- [DF40 Series ](http://www.digikey.com/en/product-highlight/h/hirose/df40-series)
+- [DF40 Series](http://www.digikey.com/en/product-highlight/h/hirose/df40-series)
