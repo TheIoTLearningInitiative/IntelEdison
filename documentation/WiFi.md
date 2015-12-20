@@ -3,7 +3,7 @@ WiFi
 
 > Wi-Fi (or WiFi) is a local area wireless computer networking technology that allows electronic devices to connect to the network, mainly using the 2.4 gigahertz (12 cm) UHF and 5 gigahertz (6 cm) SHF ISM radio bands. Wikipedia
 
-
+- [WiFi Wikipedia](https://en.wikipedia.org/wiki/Wi-Fi)
 
 ## Features
 
