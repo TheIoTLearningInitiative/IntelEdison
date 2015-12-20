@@ -1,7 +1,7 @@
 Serial
 ==
 
-## Userspace Required Applications
+## Required Applications
 
     root@edison:~# opkg install screen
 
