@@ -108,3 +108,5 @@ BootUp
     root@edison:~# 
 
 
+## Bootup Kernel Message
+
