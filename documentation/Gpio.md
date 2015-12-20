@@ -5,7 +5,7 @@ General Purpose Input Output (GPIO) Subsystem
 
 To see the status of our exported pins in the Edison, type this your Edison's terminal:
 
-    root@edison:/# watch -n 1 cat /sys/kernel/debug/gpio
+    root@edison:~# watch -n 1 cat /sys/kernel/debug/gpio
 
 Basically, it will output the configured GPIO's to console every second:
 
