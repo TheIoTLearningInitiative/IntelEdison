@@ -11,7 +11,6 @@
    * [Pin Multiplexor](documentation/PinMultiplexor.md)
        * [MUX Additional Tables](documentation/MuxAdditionalTables.md)
 * [Operating Systems](documentation/OperatingSystems.md)
-   * BootUp
    * [Linux Kernel](documentation/LinuxKernel.md)
    * [Yocto Project](documentation/YoctoProject.md)
    * [Ubilinux](documentation/Ubilinux.md)
