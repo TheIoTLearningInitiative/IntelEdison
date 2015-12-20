@@ -45,7 +45,7 @@ Check if RMAA and UPM Libraries are installed
 
 Install extra packages required
 
-    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils mpg123
+    root@edison:~# opkg install ...
 
 ## Local Files
 
