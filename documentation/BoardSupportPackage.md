@@ -326,7 +326,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     build  poky
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake edison-image
-    user@host:~$  ls tmp/deploy/images/edison
+    user@host:~$ ls tmp/deploy/images/edison
     bzImage
     bzImage--3.10.17+git0+6ad20f049a_c03195ed6e-r0-edison-20151220135703.bin
     bzImage--3.10.17+git0+6ad20f049a_c03195ed6e-r0-edison-20151220220030.bin
