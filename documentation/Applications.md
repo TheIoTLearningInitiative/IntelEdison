@@ -1,7 +1,7 @@
 Applications
 ==
 
-## Native Compilation, Gcc Compiler
+## Native Compilation, GCC Compiler
 
 ### Socket Implementation, Server
 
