@@ -140,17 +140,6 @@ also what is going to be added is  how to  programmatically do the device discov
 
 --
 
-
-- Tbd
-
-### Others
-
-- Intel® Edison to a Bluetooth Network
-- Intel® Edison from a peer device 
-
-    root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
-    root@edison:~# ls /dev/rfcomm0
-
 ## Links
 
 - [Intel® Edison Boards Bluetooth® User Guide](http://www.intel.com/support/edison/sb/CS-035381.htm)
@@ -164,3 +153,11 @@ also what is going to be added is  how to  programmatically do the device discov
 - https://learn.sparkfun.com/tutorials/bluetooth-basics
 - [PyBluez API Ddoc](http://pybluez.googlecode.com/svn/www/docs-0.7/index.html)
 - [PIP package manager](https://pip.pypa.io/en/stable/)
+
+### Others
+
+- Intel® Edison to a Bluetooth Network
+- Intel® Edison from a peer device 
+
+    root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
+    root@edison:~# ls /dev/rfcomm0
