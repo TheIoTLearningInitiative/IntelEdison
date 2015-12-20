@@ -5,7 +5,7 @@ Open Package Management
 
 - [Open Package Management Wikipedia](https://en.wikipedia.org/wiki/Opkg)
 
-## Remote Repositories
+## Package Installation via Remote Repositories
 
 Update Opkg Repositories
 
