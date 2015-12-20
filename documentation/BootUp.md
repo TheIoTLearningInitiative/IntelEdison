@@ -134,14 +134,34 @@ Check your kernel version
     root@edison:~# uname -r
     3.10.17-poky-edison+
 
-Configure your Edison
+Configure your WiFi
 
-    root@edison:~# configure_edison
-    Configure Edison: Device Name
-    Configure Edison: Device Password
+    root@edison:~# configure_edison --wifi
     Configure Edison: WiFi Connection
+    
+    Scanning: 1 seconds left  
+    
+    0 :     Rescan for networks
+    1 :     Exit WiFi Setup
+    2 :     Manually input a hidden SSID
+    3 :     INFINITUM914E
+    
+    
+    Enter 0 to rescan for networks.
+    Enter 1 to exit.
+    Enter 2 to input a hidden network SSID.
+    Enter 3 to choose INFINITUM914E: 3
+    Is INFINITUM9### correct? [Y or N]: Y
+    Password must be between 8 and 63 characters.
+    What is the network password?: 
+    What is the network password?: **********
+    Initiating connection to INFINITUM914E. Please wait...
+    Attempting to enable network access, please check 'wpa_cli status' after a minute to confirm.
+    Done. Please connect your laptop or PC to the same network as this device and go to http://192.168.1.72 or http://edison.local in your browser.
+    Warning: SSH is not yet enabled on the wireless interface. To enable SSH access to this device via wireless run configure_edison --password first.
+    root@edison:~# 
 
-In case only WiFi was configure, configure also password to enable SSH on the wireless interface
+Configure also password to enable SSH on the wireless interface
 
     root@edison:~# configure_edison --password
     
