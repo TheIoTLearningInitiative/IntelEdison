@@ -8,7 +8,6 @@ Python Package Index
 - [Python Package Index Homepage](https://pypi.python.org/pypi)
 - [Python Package Index Wikipedia](https://en.wikipedia.org/wiki/Python_Package_Index)
 
-
     root@edison:~# pip search psutil
     root@edison:~# pip install psutil
 
