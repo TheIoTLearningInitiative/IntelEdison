@@ -3,6 +3,8 @@ Open Package Management
 
 > Opkg (Open PacKaGe Management) is a lightweight package management system based upon ipkg. It is written in C and resembles APT/dpkg in operation. It is intended for use on embedded Linux devices and is used in this capacity in the OpenEmbedded and OpenWrt projects. Wikipedia
 
+- [Open Package Management Wikipedia](https://en.wikipedia.org/wiki/Opkg)
+
 ## Installation via remote repositories
 
     root@edison:~# vi /etc/opkg/base-feeds.conf
