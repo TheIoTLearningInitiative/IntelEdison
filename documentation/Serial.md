@@ -3,12 +3,6 @@ Serial
 
 ## Userspace Applications
 
-### Apt-Get
-
-    root@edison:~# apt-get install minicom cu setserial stty
-
-### Opkg
-
     root@edison:~# echo screen minicom
 
 ## Kernel Integration
