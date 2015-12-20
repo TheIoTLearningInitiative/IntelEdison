@@ -19,7 +19,7 @@ Serial
     [    3.833730] systemd[1]: Created slice system-serial\x2dgetty.slice.
 
     root@edison:~# dmesg | grep -i tty
-        [    0.000000] Kernel command line: rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4 rootfstype=ext4 console=ttyMFD2 earlyprintk=ttyMFD2,keep loglevel=4 g_multi.ethernet_config=cdc systemd.unit=multi-user.target hardware_id=00 g_multi.iSerialNumber=5e7bb54a65035af180191c2d7bd527b6 g_multi.dev_addr=02:00:86:d5:27:b6 platform_mrfld_audio.audio_codec=dummy
+    [    0.000000] Kernel command line: rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4 rootfstype=ext4 console=ttyMFD2 earlyprintk=ttyMFD2,keep loglevel=4 g_multi.ethernet_config=cdc systemd.unit=multi-user.target hardware_id=00 g_multi.iSerialNumber=5e7bb54a65035af180191c2d7bd527b6 g_multi.dev_addr=02:00:86:d5:27:b6 platform_mrfld_audio.audio_codec=dummy
     [    0.705116] 0000:00:04.1: ttyMFD0 at MMIO 0xff010080 (irq = 28) is a hsu_bt_port_p
     [    0.706565] 0000:00:04.2: ttyMFD1 at MMIO 0xff010100 (irq = 29) is a hsu_uart1_port_p
     [    0.707871] 0000:00:04.3: ttyMFD2 at MMIO 0xff010180 (irq = 54) is a hsu_uart2_port_p
