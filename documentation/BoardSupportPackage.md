@@ -45,6 +45,68 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     Cloning into 'poky'...
     done.
     Note: checking out 'yocto-1.7.2'.
+    You are in 'detached HEAD' state. You can look around, make experimental
+    changes and commit them, and you can discard any commits you make in this
+    state without impacting any branches by performing another checkout.
+    
+    If you want to create a new branch to retain commits you create, you may
+    do so (now or later) by using -b with the checkout command again. Example:
+
+      git checkout -b new_branch_name
+
+    HEAD is now at 29812e6... busybox: unbreak tar of uncompressed files
+    Cloning Mingw layer to /home/abraham/edison-src/out/linux64/poky/meta-mingw directory from local cache
+    Cloning into 'meta-mingw'...
+    done.
+    Cloning Darwin layer to /home/abraham/edison-src/out/linux64/poky/meta-darwin directory from local cache
+    Cloning into 'meta-darwin'...
+    done.
+    Note: checking out '29b5ff31cee24e796f2eb2d2fd1269e3e92c831c'.
+
+    You are in 'detached HEAD' state. You can look around, make experimental
+    changes and commit them, and you can discard any commits you make in this
+    state without impacting any branches by performing another checkout.
+    
+    If you want to create a new branch to retain commits you create, you may
+    do so (now or later) by using -b with the checkout command again. Example:
+
+      git checkout -b new_branch_name
+
+    HEAD is now at 29b5ff3... gcc-runtime: Don't pollute global export namespace
+    Cloning meta-intel-iot-middleware layer to /home/abraham/edison-src/out/linux64/poky/meta-intel-iot-middleware directory from local cache
+    Cloning into 'meta-intel-iot-middleware'...
+    done.
+    Note: checking out 'c6d681475e76107e6c04c5f7a06034dc9e772d1e'.
+
+    You are in 'detached HEAD' state. You can look around, make experimental
+    changes and commit them, and you can discard any commits you make in this
+    state without impacting any branches by performing another checkout.
+
+    If you want to create a new branch to retain commits you create, you may
+    do so (now or later) by using -b with the checkout command again. Example:
+
+      git checkout -b new_branch_name
+
+    HEAD is now at c6d6814... upm: Update to 0.3.1
+    Cloning meta-arduino layer to /home/abraham/edison-src directory from GitHub.com/01org/meta-arduino
+    Cloning into 'meta-arduino'...
+    remote: Counting objects: 72, done.
+    remote: Total 72 (delta 0), reused 0 (delta 0), pack-reused 72
+    Unpacking objects: 100% (72/72), done.
+    Checking connectivity... done.
+    Already on '1.6.x'
+    Your branch is up-to-date with 'origin/1.6.x'.
+    Applying patch on poky
+    Initializing yocto build environment
+    Setting up yocto configuration file (in build/conf/local.conf)
+    ** Success **
+    SDK will be generated for linux64 host
+    Now run these two commands to setup and build the flashable image:
+    cd /home/abraham/edison-src/out/linux64
+    source poky/oe-init-build-env
+    bitbake edison-image
+    *************
+
 
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
