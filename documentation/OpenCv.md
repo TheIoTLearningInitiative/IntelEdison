@@ -34,5 +34,5 @@ Open Source Computer Vision
 
 ## Links
 
-- https://software.intel.com/en-us/articles/opencv-300-beta-ipp-tbb-enabled-on-yocto-with-intel-edison
-- https://software.intel.com/en-us/articles/opencv-300-ipp-tbb-enabled-on-yocto-with-intel-edison
+- [OpenCV 3.0.0-Beta ( IPP & TBB enabled ) on Yocto with Intel® Edison](https://software.intel.com/en-us/articles/opencv-300-beta-ipp-tbb-enabled-on-yocto-with-intel-edison)
+- [OpenCV 3.0.0 ( IPP & TBB enabled ) on Yocto with Intel® Edison with new Yocto image release](https://software.intel.com/en-us/articles/opencv-300-ipp-tbb-enabled-on-yocto-with-intel-edison)
