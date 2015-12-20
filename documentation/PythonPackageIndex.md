@@ -33,6 +33,20 @@ Python Package Index
 ## Python Library Optional Installation Path
 
     root@edison:~# pip install psutil --target /root
+    Downloading/unpacking psutil
+      Running setup.py egg_info for package psutil
+    
+        warning: no previously-included files matching '*' found under directory 'docs/_build'
+        warning: manifest_maker: MANIFEST.in, line 18: 'recursive-include' expects <dir> <pattern1> <pattern2> ...
+        
+    Installing collected packages: psutil
+      Running setup.py install for psutil
+        
+        warning: no previously-included files matching '*' found under directory 'docs/_build'
+        warning: manifest_maker: MANIFEST.in, line 18: 'recursive-include' expects <dir> <pattern1> <pattern2> ...
+    
+    Successfully installed psutil
+    Cleaning up...
     root@edison:~# ls /root/
     psutil                       psutil-3.3.0-py2.7.egg-info
     root@edison:~# ls /root/psutil
