@@ -66,8 +66,20 @@ Serial
     /sys/class/tty/ttyGS0
 
     root@edison:~# ls /dev/tty*
-    root@edison:~# setserial -g /dev/ttyS[0123]
-    root@edison:~# setserial -g /dev/ttyUSB[0123]
+    root@edison:~# ls /dev/tty*
+    /dev/tty      /dev/tty2     /dev/tty31    /dev/tty43    /dev/tty55    /dev/ttyGS0
+    /dev/tty0     /dev/tty20    /dev/tty32    /dev/tty44    /dev/tty56    /dev/ttyMFD0
+    /dev/tty1     /dev/tty21    /dev/tty33    /dev/tty45    /dev/tty57    /dev/ttyMFD1
+    /dev/tty10    /dev/tty22    /dev/tty34    /dev/tty46    /dev/tty58    /dev/ttyMFD2
+    /dev/tty11    /dev/tty23    /dev/tty35    /dev/tty47    /dev/tty59    /dev/ttyPTI0
+    /dev/tty12    /dev/tty24    /dev/tty36    /dev/tty48    /dev/tty6     /dev/ttyPTI1
+    /dev/tty13    /dev/tty25    /dev/tty37    /dev/tty49    /dev/tty60    /dev/ttymcu0
+    /dev/tty14    /dev/tty26    /dev/tty38    /dev/tty5     /dev/tty61    /dev/ttymcu1
+    /dev/tty15    /dev/tty27    /dev/tty39    /dev/tty50    /dev/tty62    /dev/ttymcu2
+    /dev/tty16    /dev/tty28    /dev/tty4     /dev/tty51    /dev/tty63
+    /dev/tty17    /dev/tty29    /dev/tty40    /dev/tty52    /dev/tty7
+    /dev/tty18    /dev/tty3     /dev/tty41    /dev/tty53    /dev/tty8
+    /dev/tty19    /dev/tty30    /dev/tty42    /dev/tty54    /dev/tty9
 
 ## Userspace Applications
 
