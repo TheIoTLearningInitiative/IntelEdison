@@ -51,7 +51,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ bitbake edison-image
 
-### Building via Make + Bitbake (Unchecked)
+### Building via Make + Bitbake
 
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
