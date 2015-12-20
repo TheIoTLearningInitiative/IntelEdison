@@ -11,7 +11,6 @@ Kernel Version
 
 ToDo Explain Linux Kernel Version, do we have this under Operating System?
 
-
 ## Building via Make
 
     user@host:~$ pwd
