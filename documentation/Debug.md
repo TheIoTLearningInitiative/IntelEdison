@@ -48,5 +48,5 @@ Debug
 
 # Links
 
-- https://www.kernel.org/doc/Documentation/filesystems/debugfs.txt
+- [Linux Kernel Debugfs](https://www.kernel.org/doc/Documentation/filesystems/debugfs.txt)
 - https://www.kernel.org/doc/Documentation/sysrq.txt
