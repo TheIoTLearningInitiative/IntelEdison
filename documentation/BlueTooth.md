@@ -135,9 +135,8 @@ Once paired, open the Bluetooth SPP Manager app, hit search, and when the Intel 
 
 --
 
-I know this need a lil' bit further explanation. just dropped here so i won't forget
-
-also what is going to be added is  how to  programmatically do the device discovering, pairing  and SPP using c and python
+I know this need a lil' bit further explanation. just dropped here so i won't forget.
+Also what is going to be added is  how to  programmatically do the device discovering, pairing  and SPP using c and python
 
 ## Links
 
