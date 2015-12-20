@@ -37,7 +37,16 @@ WiFi
     ...
     bcm_bt_lpm             13708  0 
     bcm4334x              587105  0 
-
+    root@edison:~# rfkill list 
+    0: phy0: wlan
+            Soft blocked: no
+            Hard blocked: no
+    1: brcmfmac-wifi: wlan
+            Soft blocked: no
+            Hard blocked: no
+    2: bcm43xx Bluetooth: bluetooth
+            Soft blocked: yes
+            Hard blocked: no
 
 ## WiFi Yocto Default Configuration
 
