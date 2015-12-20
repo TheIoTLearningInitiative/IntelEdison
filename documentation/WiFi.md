@@ -7,7 +7,7 @@ WiFi
 - Wi-Fi multirole, Allows a connection to an access point simultaneously with Wi-Fi Direct operation. 
 - Wi-Fi IBSS mode, Allows creation of multinode ad hoc networks that contain no access point.
 
-## Kernel Integration
+## Kernel Display Message
 
     root@edison:~# dmesg | grep -i wifi
     [    0.189658] Using generic wifi platform data
