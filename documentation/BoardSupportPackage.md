@@ -269,7 +269,6 @@ and copy the link location for "Sources - Linux Sources Files" then download the
         meta-ide-support
     
     You can also run generated qemu images with a command like 'runqemu qemux86'
-
     user@host:~$ bitbake virtual/kernel -c menuconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ bitbake edison-image
