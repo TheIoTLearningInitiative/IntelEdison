@@ -5,6 +5,17 @@ Sound
 
 USB Audio
 
+## Required Applications
+
+### Opkg
+
+    root@edison:~# opkg install alsa-utils mpg123 espeak
+    root@edison:~# ls /usr/share/sounds/alsa/
+
+### Apt-Get
+
+    root@edison:~# apt-get install alsa-utils mpg123 espeak
+
 ## Kernel Integration
 
     root@edison:~# dmesg | grep -i audio
@@ -23,17 +34,6 @@ USB Audio
     Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
     Bus 001 Device 003: ID 0458:708a KYE Systems Corp. (Mouse Systems) 
     Bus 001 Device 004: ID 0d8c:013c C-Media Electronics, Inc. CM108 Audio Controller
-
-## Setup
-
-### Opkg
-
-    root@edison:~# opkg install alsa-utils mpg123 espeak
-    root@edison:~# ls /usr/share/sounds/alsa/
-
-### Apt-Get
-
-    root@edison:~# apt-get install alsa-utils mpg123 espeak
 
 ## Device Configuration
 
