@@ -121,8 +121,8 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
     
     [    0.000000] Initializing cgroup subsys cpuset
     [    0.000000] Initializing cgroup subsys cpu
-    [    0.000000] Initializing cgroup subsys cpuacct
-    [    0.000000] Linux version 3.10.17-yocto-standard (abraham@aarcemor-desk) (gcc
     ...
+    [   17.842227] snd_intel_sst: runtime_idle called                               
+    [   19.841555] snd_intel_sst: runtime_suspend called
 
 __Homework__ Review the content under dmesg.file, identify which drivers/services are executed/started
