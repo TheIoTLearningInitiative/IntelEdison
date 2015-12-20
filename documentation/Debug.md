@@ -10,7 +10,7 @@ Debug
 ## Kernel Configuration
 
     Kernel hacking
-        [*] Kernel debugging
+        -*- Kernel debugging
         [*]   Magic SysRq key
         [*]   Debug filesystem
         [*]   Detect Soft Lockups
