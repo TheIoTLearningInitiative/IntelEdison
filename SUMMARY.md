@@ -16,7 +16,7 @@
    * [Ubilinux](documentation/Ubilinux.md)
    * [Services](documentation/Services.md)
    * [Recovery](documentation/Recovery.md)
-* BootUp
+* [BootUp](documentation/BootUp.md)
 * [Package Management Systems](documentation/PackageManagementSystems.md)
    * [Open Package Management](documentation/OpenPackageManagement.md)
    * [Advanced Package Tool](documentation/AdvancedPackageTool.md)
