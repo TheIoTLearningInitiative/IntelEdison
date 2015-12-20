@@ -14,7 +14,7 @@
    * [Linux Kernel](documentation/LinuxKernel.md)
        * [Patch](documentation/LKPatch.md)
        * [Modules](documentation/LKModules.md)
-       * Display Message
+       * [Display Message](documentation/LKDisplayMessage.md)
    * [Yocto Project](documentation/YoctoProject.md)
    * [Ubilinux](documentation/Ubilinux.md)
    * [Services](documentation/Services.md)
