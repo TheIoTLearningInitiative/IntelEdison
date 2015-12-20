@@ -1,23 +1,14 @@
-Suggested outline:
+Pin Multiplexing
+==
 
-* What is pin multiplexing?
-
-* How to configure the muxing
-    * How to Mux?
-    * Let's MUX-it!
-    * Exercise: use a pin for PWM, configure it, and measureit is send the correct voltage according to the PWM configuration. Using a multimeter or a DC motor.
-
-* Try to apply the knowledge acquired to a small part of a bigger problem, probably ask the participant to plan the pin configuration he is going to need for the  training project.
-
-------------------------------------------------------------------------------------------------------
-# What is pin multiplexing?
+## What is pin multiplexing?
 Some pins on the Intel® Edison may be configured with one well-defined purpose, others  are able to support  variety of functions including general-purpose I/O(GPIO), I2C, PWM, SPI , ADC among others.
 
 **Pin multiplexing** is the process of  selecting  a  specific function  for a particular multi-function shield pin. 
 
 However in some cases it can do more that just select the function. Other options for the pin include connecting  to pull-up or pull-down resistors to bias a line to a specific value. Some pins can be configured to detect input signal changes and generate an interrupt or a wakeup event.
 
-#How to MUX?
+## How to MUX?
 
 All GPIO pins on the Arduino* header require some internal GPIOs to be set up before the pin is usable. This is usually as simple as setting an output enable, pullup enable, and mode. However, some pins have extra functionality such as SPI, PWM, or I2C, so these pins need extra multiplexing (muxing) in order to be usable.
 
