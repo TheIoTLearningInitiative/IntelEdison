@@ -17,7 +17,7 @@ Python Package Index
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
     ImportError: No module named psutil
-    >>> 
+    >>> <CTRL-D>
     root@edison:~# pip search psutil
     psutil                    - psutil is a cross-platform library for retrieving
                                 information onrunning processes and system
