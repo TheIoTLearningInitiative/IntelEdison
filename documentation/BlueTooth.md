@@ -98,7 +98,7 @@ BlueTooth
     Make Your Device Discoverable
     root@edison:~# hcitool scan
     root@edison:~# rfcomm bind 0 40:78:6A:26:4A:C2
-    
+
 ### Audio
 
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
