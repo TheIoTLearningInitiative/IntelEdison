@@ -181,11 +181,51 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     NOTE: Executing RunQueue Tasks
     Currently 1 running tasks (3754 of 3757):
     0: edison-image-1.0-r0 do_rootfs (pid 16950)
+    ...
+    NOTE: Tasks Summary: Attempted 3757 tasks of which 3750 didn't need to be rerun and all succeeded.
 
+    Summary: There was 1 WARNING message shown.
+    ./meta-intel-edison/utils/flash/postBuild.sh /home/abraham/Projects/RealTime/v25/edison-src/out/current/build
+    EDISON_ROOTFS_MB = 1536, IMAGE_SIZE_MB = 548
+    1+0 records in
+    1+0 records out
+    4194304 bytes (4.2 MB) copied, 0.00332 s, 1.3 GB/s
+    1+0 records in
+    1+0 records out
+    4194304 bytes (4.2 MB) copied, 0.00321878 s, 1.3 GB/s
+    1+0 records in
+    1+0 records out
+    4194304 bytes (4.2 MB) copied, 0.00323493 s, 1.3 GB/s
+    1+0 records in
+    1+0 records out
+    4194304 bytes (4.2 MB) copied, 0.00343959 s, 1.2 GB/s
+    1+0 records in
+    1+0 records out
+    4194304 bytes (4.2 MB) copied, 0.00328377 s, 1.3 GB/s
+    1+0 records in
+    1+0 records out
+    4194304 bytes (4.2 MB) copied, 0.00338686 s, 1.2 GB/s
+    1+0 records in
+    1+0 records out
+    4194304 bytes (4.2 MB) copied, 0.00324502 s, 1.3 GB/s
+    Image Name:   Edison Updater script
+    Created:      Sun Dec 20 15:39:48 2015
+    Image Type:   PowerPC Linux Script (uncompressed)
+    Data Size:    14683 Bytes = 14.34 kB = 0.01 MB
+    Load Address: 00010000
+    Entry Point:  00010000
+    Contents:
+       Image 0: 14675 Bytes = 14.33 kB = 0.01 MB
+    **** Done ***
+    Files ready to flash in /home/abraham/Projects/RealTime/v25/edison-src/out/current/build/toFlash/
+    Run the flashall script there to start flashing.
+    *************
+    
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
     user@host:~$ make flash
-    ...
+
+
     U-boot & Kernel System Flash Success...
     Your board needs to reboot to complete the flashing procedure, please do not unplug it for 2 minutes.
     ...
