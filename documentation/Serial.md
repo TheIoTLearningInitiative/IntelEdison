@@ -1,7 +1,7 @@
 Serial
 ==
 
-## Setup
+## Userspace Applications
 
 ### Apt-Get
 
@@ -9,7 +9,7 @@ Serial
 
 ### Opkg
 
-    root@edison:~# echo "tbd"
+    root@edison:~# echo screen minicom
 
 ## Kernel Integration
 
