@@ -51,7 +51,6 @@ WiFi
     root@edison:~# ping google.com
 
 
-
 ## Userspace Applications
 
 Make sure there are no soft blocks
