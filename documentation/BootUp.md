@@ -110,3 +110,5 @@ BootUp
 
 ## Bootup Kernel Display Message
 
+- [Linux Kernel Dmesg](https://en.wikipedia.org/wiki/Dmesg)
+
