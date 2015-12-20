@@ -5,7 +5,7 @@ Open Package Management
 
 - [Open Package Management Wikipedia](https://en.wikipedia.org/wiki/Opkg)
 
-## Edison
+## Remote Repositories
 
 Update Opkg Repositories
 
