@@ -5,11 +5,11 @@ ToDo Explain Linux Kernel Version, do we have this under Operating System?
 
 Kernel Version
 
-VERSION = 3
-PATCHLEVEL = 10
-SUBLEVEL = 17
-EXTRAVERSION =
-NAME = TOSSUG Baby Fish
+    VERSION = 3
+    PATCHLEVEL = 10
+    SUBLEVEL = 17
+    EXTRAVERSION =
+    NAME = TOSSUG Baby Fish
 
 ## Building via Make
 
