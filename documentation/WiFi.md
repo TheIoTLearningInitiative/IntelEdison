@@ -48,8 +48,16 @@ WiFi
      ...
      wlan0     Link encap:Ethernet  HWaddr 78:4b:87:a6:cf:5e
                inet addr:192.168.1.68  Bcast:0.0.0.0  Mask:255.255.255.0
-    root@edison:~# ping google.com
+    root@edison:~# ping -c 3 google.com
+    PING google.com (173.194.115.196): 56 data bytes
+    64 bytes from 173.194.115.196: seq=0 ttl=58 time=28.487 ms
+    64 bytes from 173.194.115.196: seq=1 ttl=58 time=29.391 ms
+    64 bytes from 173.194.115.196: seq=2 ttl=58 time=29.773 ms
     
+    --- google.com ping statistics ---
+    3 packets transmitted, 3 packets received, 0% packet loss
+    round-trip min/avg/max = 28.487/29.217/29.773 ms
+
 
 
 ## Userspace Applications
