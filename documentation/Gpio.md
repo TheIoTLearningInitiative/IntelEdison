@@ -1,6 +1,10 @@
 General Purpose Input Output (GPIO) Subsystem
 ==
 
+
+- [](https://lwn.net/Articles/532714/)
+
+
 ## Kernel Message
 
     root@edison:~# dmesg | grep gpio
