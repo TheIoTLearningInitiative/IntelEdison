@@ -1,7 +1,7 @@
 Pin Muxing
 ==
 
-Configuring all 4 of the PWM pins
+**Configuring all 4 of the PWM pins** 
 
     root@edison:~# vi pinmuxpwm.sh
 
