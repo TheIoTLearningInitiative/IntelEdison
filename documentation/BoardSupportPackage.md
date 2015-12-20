@@ -73,9 +73,12 @@ and copy the link location for "Sources - Linux Sources Files" then download the
 
 ### Building via Script (Unchecked)
 
-    user@host:~$ tar xvf edison-src-weekly-68.tgz
-    user@host:~$ ls edison-src
-    arduino  broadcom_cws  device-software  mw
+    user@host:~$ tar xvf edison-src-ww25.5-15.tgz
+    user@host:~$ cd edison-src
+    user@host:~$ pwd
+    /home/xe1gyq/Projects/edison-src
+    user@host:~$ ls
+    Makefile  meta-intel-edison
     user@host:~$ mkdir bitbake_download_dir
     user@host:~$ mkdir bitbake_sstate_dir
     user@host:~$ ./meta-intel-edison/setup.sh --dl_dir=/path/to/bitbake_download_dir –-sstate_dir=/path/to/bitbake_sstate_dir
@@ -212,3 +215,7 @@ http://edplay.weebly.com/how-to/building-linux-for-intel-edison
 - https://communities.intel.com/message/273743
 - http://layers.openembedded.org/layerindex/branch/master/layer/meta-intel-edison-bsp/
 
+
+    user@host:~$ tar xvf edison-src-weekly-68.tgz
+    user@host:~$ ls edison-src
+    arduino  broadcom_cws  device-software  mw
