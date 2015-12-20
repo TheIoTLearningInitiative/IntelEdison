@@ -1,7 +1,7 @@
 Serial
 ==
 
-## Userspace Applications
+## Userspace Required Applications
 
     root@edison:~# echo screen minicom
 
