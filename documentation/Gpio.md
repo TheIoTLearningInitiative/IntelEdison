@@ -25,6 +25,13 @@ General Purpose Input Output (GPIO) Subsystem
     export     gpio125    gpio127    gpio129    gpio131    gpio133    gpiochip0
     gpio124    gpio126    gpio128    gpio130    gpio132    gpio134    unexport
 
+From
+
+   -	Control interfaces used to get userspace control over GPIOs;
+   -	GPIOs themselves; and
+   -	GPIO controllers ("gpio_chip" instances).
+
+- [GPIO Sysfs](https://www.kernel.org/doc/Documentation/gpio/sysfs.txt)
 
 ### Watching it change (a primer on GPIO and GPIO configuration this content is moving to GPIO Subsystem)
 
