@@ -12,7 +12,7 @@
        * [MUX Additional Tables](documentation/MuxAdditionalTables.md)
 * [Operating Systems](documentation/OperatingSystems.md)
    * [Linux Kernel](documentation/LinuxKernel.md)
-       * Patch
+       * [Patch](documentation/LKPatch.md)
        * [Modules](documentation/LKModules.md)
    * [Yocto Project](documentation/YoctoProject.md)
    * [Ubilinux](documentation/Ubilinux.md)
