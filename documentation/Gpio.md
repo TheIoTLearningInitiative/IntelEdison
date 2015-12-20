@@ -153,7 +153,7 @@ Then checking again the GPIO status we can see, that direction has changed. Here
     | gpio-48  (sysfs               ) **in**  lo| gpio-48  (sysfs               ) **out**  lo |
 
 
-### GPIO Python
+### Exercise 2: Python
 
     mraa
     apt-get install python-smbus
