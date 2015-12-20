@@ -9,7 +9,16 @@ General Purpose Input Output (GPIO) Subsystem
 
 ## Kernel Message
 
-    root@edison:~# dmesg | grep gpio
+    root@edison:~# dmesg | grep -i gpio
+    [    0.000000] SFI: GPIO E3A27, 0964 (v1  INTEL INTELFDK)
+    [    0.189472] wifi_platform_data: GPIO == 64
+    [    0.189618] IPC bus, name =        msic_gpio, irq = 0x31
+    [    0.209216] virtio_rpmsg_bus virtio0: creating channel rpmsg_msic_gpio addr 0x5
+    [    1.584512] vwlan gpio 96
+    [    1.971456] info[ 0]: name = power_btn, gpio = -1
+    [    1.971473] info[ 1]: name = SW1UI4, gpio = 61
+    [    2.004409] input: gpio-keys as /devices/platform/gpio-keys/input/input0
+
 
 # Watching it change (a primer on GPIO and GPIO configuration this content is moving to GPIO Subsystem)
 
