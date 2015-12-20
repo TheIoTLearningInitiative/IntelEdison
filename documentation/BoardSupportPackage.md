@@ -397,22 +397,6 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ make image
     user@host:~$ make flash
 
-### Tbd
-
-    user@host:~$ cd edison-src/meta-intel-edison/
-    user@host:~$ git clone https://github.com/openembedded/meta-openembedded.git
-    user@host:~$ cd meta-openembedded/
-    user@host:~$ git checkout fido
-    user@host:~$ cd ../../
-    user@host:~$ nano out/current/build/conf/bblayers.conf
-    /home/xe1gyq/Projects/edison-src/meta-intel-edison/meta-openembedded \
-    user@host:~$ nano meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
-    IMAGE_INSTALL += “opencv”
-    PACKAGECONFIG_pn-opencv="eigen jpeg libav png tiff v4l”
-    user@host:~$ cd out/current
-    user@host:~$ source poky/oe-init-build-env
-    user@host:~$ bitbake edison-image
-
 ## Links
 
 - [Intel® Edison Board Support Package](http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf)
@@ -443,3 +427,19 @@ http://edplay.weebly.com/how-to/building-linux-for-intel-edison
     user@host:~$ tar xvf edison-src-weekly-68.tgz
     user@host:~$ ls edison-src
     arduino  broadcom_cws  device-software  mw
+
+### Tbd
+
+    user@host:~$ cd edison-src/meta-intel-edison/
+    user@host:~$ git clone https://github.com/openembedded/meta-openembedded.git
+    user@host:~$ cd meta-openembedded/
+    user@host:~$ git checkout fido
+    user@host:~$ cd ../../
+    user@host:~$ nano out/current/build/conf/bblayers.conf
+    /home/xe1gyq/Projects/edison-src/meta-intel-edison/meta-openembedded \
+    user@host:~$ nano meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
+    IMAGE_INSTALL += “opencv”
+    PACKAGECONFIG_pn-opencv="eigen jpeg libav png tiff v4l”
+    user@host:~$ cd out/current
+    user@host:~$ source poky/oe-init-build-env
+    user@host:~$ bitbake edison-image
