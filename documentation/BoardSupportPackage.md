@@ -225,6 +225,45 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
 
+#### Make Building Workflow
+
+- meta-intel-edison/setup.sh
+  - --dl_dir = bbcache/downloads
+  - --sstate_dir = bbcache/sstate-cache
+  - --build_dir = out/linux64 
+  - --build_name = custom_build_xe1gyq@20151001233406
+  - --sdk_host = linux64
+- Repositories Cloning
+  - poky-mirror.git
+  - meta-mingw-mirror.git
+  - meta-darwin-mirror.git
+  - meta-intel-iot-middleware-mirror.git
+  - poky
+- Yocto Build Environment
+  - build/conf/local.conf
+  - source poky/oe-init-build-env
+  - bitbake edison-image
+
+
+    Build Configuration:
+    BB_VERSION        = "1.24.0"
+    BUILD_SYS         = "i686-linux"
+    NATIVELSBSTRING   = "Debian-8.1"
+    TARGET_SYS        = "i586-poky-linux"
+    MACHINE           = "edison"
+    DISTRO            = "poky-edison"
+    DISTRO_VERSION    = "1.7.2"
+    TUNE_FEATURES     = "m32 core2"
+    TARGET_FPU        = ""
+    meta              
+    meta-yocto        
+    meta-yocto-bsp    = "(detachedfromyocto-1.7.2):29812e61736a95f1de64b3e9ebbb9c646ebd28dd"
+    meta-intel-edison-bsp 
+    meta-intel-edison-distro = "<unknown>:<unknown>"
+    meta-intel-iot-middleware = "(detachedfromc6d6814):c6d681475e76107e6c04c5f7a06034dc9e772d1e"
+    meta-intel-arduino = "<unknown>:<unknown>"
+    meta-arduino      = "1.6.x:541b127163acb243109f07141bf249da2ecdcd9a"
+
 #### Make Flash
 
     user@host:~$ make flash
@@ -373,45 +412,6 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ cd out/current
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake edison-image
-
-### Make Building Workflow
-
-- meta-intel-edison/setup.sh
-  - --dl_dir = bbcache/downloads
-  - --sstate_dir = bbcache/sstate-cache
-  - --build_dir = out/linux64 
-  - --build_name = custom_build_xe1gyq@20151001233406
-  - --sdk_host = linux64
-- Repositories Cloning
-  - poky-mirror.git
-  - meta-mingw-mirror.git
-  - meta-darwin-mirror.git
-  - meta-intel-iot-middleware-mirror.git
-  - poky
-- Yocto Build Environment
-  - build/conf/local.conf
-  - source poky/oe-init-build-env
-  - bitbake edison-image
-
-
-    Build Configuration:
-    BB_VERSION        = "1.24.0"
-    BUILD_SYS         = "i686-linux"
-    NATIVELSBSTRING   = "Debian-8.1"
-    TARGET_SYS        = "i586-poky-linux"
-    MACHINE           = "edison"
-    DISTRO            = "poky-edison"
-    DISTRO_VERSION    = "1.7.2"
-    TUNE_FEATURES     = "m32 core2"
-    TARGET_FPU        = ""
-    meta              
-    meta-yocto        
-    meta-yocto-bsp    = "(detachedfromyocto-1.7.2):29812e61736a95f1de64b3e9ebbb9c646ebd28dd"
-    meta-intel-edison-bsp 
-    meta-intel-edison-distro = "<unknown>:<unknown>"
-    meta-intel-iot-middleware = "(detachedfromc6d6814):c6d681475e76107e6c04c5f7a06034dc9e772d1e"
-    meta-intel-arduino = "<unknown>:<unknown>"
-    meta-arduino      = "1.6.x:541b127163acb243109f07141bf249da2ecdcd9a"
 
 ## Links
 
