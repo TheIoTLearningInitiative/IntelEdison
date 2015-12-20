@@ -3,7 +3,7 @@ Pin Muxing
 
 **Configuring all 4 of the PWM pins** 
 
-```
+
     #!/bin/bash
     
     # Configuring PWM pins
