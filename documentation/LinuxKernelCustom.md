@@ -1,8 +1,6 @@
 Linux Kernel
 ==
 
-ToDo Explain Linux Kernel Version, do we have this under Operating System?
-
 Kernel Version
 
     VERSION = 3
@@ -10,6 +8,9 @@ Kernel Version
     SUBLEVEL = 17
     EXTRAVERSION =
     NAME = TOSSUG Baby Fish
+
+ToDo Explain Linux Kernel Version, do we have this under Operating System?
+
 
 ## Building via Make
 
