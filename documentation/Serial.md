@@ -63,7 +63,7 @@ Serial
     /sys/class/tty/ttymcu0                     
     /sys/class/tty/ttymcu1                     
     /sys/class/tty/ttymcu2                     
-    /sys/class/tty/ttyGS0                  
+    /sys/class/tty/ttyGS0
 
     root@edison:~# lspci
     root@edison:~# ls /dev/tty*
