@@ -11,7 +11,7 @@ BlueTooth
 ### Opkg
 
     root@edison:~# opkg install bluez5-dev
-    root@edison:~# pip install bluez5
+    root@edison:~# pip install pybluez
 
 ### Apt-Get
 
