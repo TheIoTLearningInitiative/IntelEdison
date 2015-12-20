@@ -251,11 +251,6 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     Rebooting
     U-boot & Kernel System Flash Success...
     Your board needs to reboot to complete the flashing procedure, please do not unplug it for 2 minutes.
-
-
-    U-boot & Kernel System Flash Success...
-    Your board needs to reboot to complete the flashing procedure, please do not unplug it for 2 minutes.
-    ...
     user@host:~$ ls
     bbcache  flash.log  Makefile  meta-arduino  meta-intel-edison  out  pub
     user@host:~$ cd out/current
