@@ -7,7 +7,7 @@ General Purpose Input Output (GPIO) Subsystem
 - [LWN GPIO In The Kernel: An Introduction](https://lwn.net/Articles/532714/)
 - [GPIO Wikipedia](https://en.wikipedia.org/wiki/General-purpose_input/output)
 
-## Kernel Message
+## Kernel display Message
 
     root@edison:~# dmesg | grep -i gpio
     [    0.000000] SFI: GPIO E3A27, 0964 (v1  INTEL INTELFDK)
