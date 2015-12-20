@@ -127,7 +127,7 @@ To test using D-Bus we can use [this python script](http://downloadmirror.intel.
     root@edison:~# rfkill unblock bluetooth
     root@edison:~# python SPP-loopback.py &
 
-then in an android device install a [Bluetooth SPP Manager](https://play.google.com/store/apps/details?id=at.rtcmanager).
+Then in an android device install a [Bluetooth SPP Manager](https://play.google.com/store/apps/details?id=at.rtcmanager).
 
 At this point you need to pair the Intel Edison with your android device (see example above on how to use **bluetoothctl**, **hcicontrol** or any other user level application in your Edison).
 
