@@ -21,7 +21,6 @@ General Purpose Input Output (GPIO) Subsystem
 
 ## Userspace Interfaces
 
-    root@edison:~# ls /sys/class/gpio
     root@edison:~# ls /sys/class/gpio/
     export     gpio125    gpio127    gpio129    gpio131    gpio133    gpiochip0
     gpio124    gpio126    gpio128    gpio130    gpio132    gpio134    unexport
