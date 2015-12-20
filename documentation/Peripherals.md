@@ -15,7 +15,7 @@ Peripherals
 
 - [Broadcom BCM43341](https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341)
 
-## DF40 Series
+## DF40 Series 70-Pin Connector
 
 > 0.4 mm pitch, 1.5 mm Stacking Height, Slim FPC to Board Connectors
 
