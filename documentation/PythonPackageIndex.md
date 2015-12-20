@@ -8,6 +8,17 @@ Python Package Index
 - [Python Package Index Homepage](https://pypi.python.org/pypi)
 - [Python Package Index Wikipedia](https://en.wikipedia.org/wiki/Python_Package_Index)
 
+## 
+    root@edison:~# python
+    Python 2.7.3 (default, Dec 19 2015, 23:06:02)
+    [GCC 4.9.1] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> import psutil
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    ImportError: No module named psutil
+    >>> <CTRL-D>
+
 ## Python Pip Optional
 
     root@edison:~# pip install psutil --target /root
@@ -23,16 +34,6 @@ Python Package Index
     root@edison:~# export PYTHONPATH=$PYTHONPATH:/root
     root@edison:~# echo "export PYTHONPATH=$PYTHONPATH:/root" >> /etc/profile
 
-
-    root@edison:~# python
-    Python 2.7.3 (default, Dec 19 2015, 23:06:02)
-    [GCC 4.9.1] on linux2
-    Type "help", "copyright", "credits" or "license" for more information.
-    >>> import psutil
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    ImportError: No module named psutil
-    >>> <CTRL-D>
     root@edison:~# pip search psutil
     psutil                    - psutil is a cross-platform library for retrieving
                                 information onrunning processes and system
