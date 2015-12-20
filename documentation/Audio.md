@@ -3,7 +3,7 @@ Sound
 
 ## Kernel Integration
 
-    root@edison:~# dmesg
+    root@edison:~# dmesg | grep -i audio
     [ 9635.624279] usb 1-1.2: new full-speed USB device number 4 using dwc3-host
     [ 9635.646994] usb 1-1.2: New USB device found, idVendor=0d8c, idProduct=013c
     [ 9635.647025] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
