@@ -15,7 +15,7 @@ All GPIO pins on the Arduino* header require some internal GPIOs to be set up be
 Table 1 shows this such that a programmer can easily see all the muxing pins affected for a given Arduino* header pin. The color codes in the table show related boxes. For example, the blue boxes are meant to show the relationship between the pin mux pins and the pin modes. This table is a synopsis of the more detailed tables below, which contain extra information, such as schematic pin numbers, pins used for muxing, etc. For most needs, this synopsized table
 should suffice.
 
-######Table1 Arduino* pin mux and pin mode settings 
+###### Table1 Arduino* pin mux and pin mode settings 
 ![](Arduino_pin_mux_and_pin_mode_settings.png)
 
 ##Muxing Control
