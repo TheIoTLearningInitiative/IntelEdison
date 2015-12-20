@@ -30,7 +30,7 @@ Python Package Index
                                 Python.
     ...
 
-## Python Library Optional PatInstallation h
+## Python Library Optional Installation Path
 
     root@edison:~# pip install psutil --target /root
     root@edison:~# ls /root/
