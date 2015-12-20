@@ -75,4 +75,3 @@ You should be able to use any of the PWM pins as output. For example pin IO6:
     root@edison:~# echo 2000000 > /sys/class/pwm/pwmchip0/pwm2/duty_cycle
     root@edison:~# echo 1 > /sys/class/pwm/pwmchip0/pwm2/enable
 
-
