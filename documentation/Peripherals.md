@@ -15,4 +15,4 @@ Peripherals
 
 Broadcom BCM43340 Wi-Fi/BT Device
 
-- [](https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341)
+- [Broadcom BCM43341](https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341)
