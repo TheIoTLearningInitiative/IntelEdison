@@ -139,7 +139,6 @@ I know this need a lil' bit further explanation. just dropped here so i won't fo
 
 also what is going to be added is  how to  programmatically do the device discovering, pairing  and SPP using c and python
 
---
 
 ## Links
 
