@@ -14,7 +14,6 @@ Python Package Index
                                 information onrunning processes and system
                                 utilization (CPU, memory, disks, network)in
                                 Python.
-
     root@edison:~# pip install psutil
 
 ## Python Pip Optional 
