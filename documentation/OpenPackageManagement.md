@@ -45,7 +45,7 @@ Check if RMAA and UPM Libraries are installed
 
 Install and configure extra packages required
 
-    root@edison:~# opkg install nano git
+    root@edison:~# opkg install nano git python-pip
     root@edison:~# git config --global user.name "Name LastName"
     root@edison:~# git config --global user.email email@adress.com
 
