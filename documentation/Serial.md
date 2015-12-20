@@ -17,6 +17,7 @@ Serial
 
 ## Userspace Applications
 
+    root@edison:~# screen /dev/ttyS0
     root@edison:~# minicom /dev/ttyS0
     root@edison:~# cu /dev/ttyUSB0 115200
     root@edison:~# setserial -g /dev/ttyS[0123]
