@@ -65,6 +65,20 @@ Links
 
 > BSP layer for the Intel Edison module. 
 
+It includes:
+
+bcm43340-bt Broadcom Bluetooth fw files and patch utility
+bcm43340-fw Firmware files for use with Linux kernel
+bcm43340-mod Broadcom wifi driver for the 43340
+linux-externalsrc Yocto Kernel
+mcu-fw-bin This is edison mcu fw binary.
+mcu-fw-load This is intel mcu app download daemon.
+pwr-button-handler Daemon listening to Edison PWR long button press, and starting OOBE service when it happens
+sst-fw-bin This is edison sst fw binary.
+u-boot Universal Boot Loader for embedded devices
+u-boot-fw-utils U-boot bootloader fw_printenv/setenv utils
+u-boot-tools U-boot bootloader mkimage tool
+
 - [OpenEmbedded meta-intel-edison-bsp](http://layers.openembedded.org/layerindex/branch/master/layer/meta-intel-edison-bsp/)
 
 ### meta-intel-edison-distro
