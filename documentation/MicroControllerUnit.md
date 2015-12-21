@@ -4,7 +4,6 @@ Micro Controller Unit
 root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version 
 1.0.10
 
-
 +static char *debug_msg[] = {
 +       "fatal",
 +       "error",
