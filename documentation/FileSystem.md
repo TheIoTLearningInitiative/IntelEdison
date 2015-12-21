@@ -29,6 +29,3 @@ File System
     tmpfs            481M     0  481M   0% /tmp
     /dev/mmcblk0p7    32M  5.3M   27M  17% /boot
     /dev/mmcblk0p10  1.3G  2.0M  1.3G   1% /home
-
-
-
