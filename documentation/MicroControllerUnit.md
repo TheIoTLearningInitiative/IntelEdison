@@ -33,7 +33,6 @@ fi
 echo "load mcu app" > /sys/devices/platform/intel_mcu/control
 ```
 
-
 ### Feature Set
 
 - **Onboard MCU** Viper RTOS Adds deterministic behavior to Linux* applications as a service. 
