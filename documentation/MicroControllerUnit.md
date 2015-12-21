@@ -33,7 +33,7 @@ The best MCU Reference Document to review is:
     root@edison:~# ls /sys/devices/platform/intel_mcu/ 
     control     fw_version  modalias    subsystem   uevent
     driver      log_level   power       tty
-    
+
 ### Firmware
 
     root@edison:~# configure_edison --help
