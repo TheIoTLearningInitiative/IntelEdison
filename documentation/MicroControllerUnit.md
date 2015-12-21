@@ -29,7 +29,6 @@ Micro Controller Unit
 
     +obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
 
-
 ### Driver 
 
 #### Name
