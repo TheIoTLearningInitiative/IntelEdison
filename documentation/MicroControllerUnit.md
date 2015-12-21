@@ -3,7 +3,7 @@ Micro Controller Unit
 
 ## Microcontroller Unit SDK
 
-    user@host:~$ edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/
+    user@host:~$ ls edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/
 
 ### Feature Set
 
