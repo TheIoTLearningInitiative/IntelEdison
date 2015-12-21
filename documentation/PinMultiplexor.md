@@ -82,7 +82,7 @@ Alright!, for this first example I would like to take you step by step:
 
     * Does the pin mode need to be set? 
     
-    ```YES, According to Table1, IO5 corresponds to GPIO13, which has two modes, one as GPIO and other as PWM. For our example we need it configured as GPIO.```
+    ```YES, According to Table1, IO5 corresponds to GPIO10, which has two modes, one as GPIO and other as PWM. For our example we need it configured as GPIO.```
     
     * What GPIO controls its input direction? 
     
@@ -97,7 +97,7 @@ Alright!, for this first example I would like to take you step by step:
     ```
 13  <-- the GPIO that maps to IO5
 253 <-- GPIO that controls direction, by setting "direction" to "low" will configure GPIO13 as input
-221 <--GPIO that enables/dables pull-up resistor, by setting "direction" attribute to "in" wil disable GPIO13 pull-up resistor
+221 <--GPIO that enables/disables pull-up resistor, by setting "direction" attribute to "in" wil disable GPIO13 pull-up resistor
 214 <--We always need to export this GPIO, if it is not already exported. 
 ```
 
@@ -153,7 +153,7 @@ Now, it should be possible to use IO5 as a GPIO input!!
 
     * Does a pin mode need to be set? 
     
-    ```YES, According to Table1, we need to select between I2S and SPI, the requirement for this exmaple is SPI, but for IO's 10-->19 we need to take a look to table2 because on depending what GPIO from the  pinMux configuration we selected is the GPIO we're going to use to select the pin mode. in this example we are using the GPIO 240 to select SPI, therefore in Table2 we can see that the related GPIO for pin mode when using  GPIO 240 is GPIO 111```
+    ```YES, According to Table1, we need to select between I2S and SPI, the requirement for this example is SPI, but for IO's 10-->19 we need to take a look to table2 because on depending what GPIO from the  pinMux configuration we selected is the GPIO we're going to use to select the pin mode. in this example we are using the GPIO 240 to select SPI, therefore in Table2 we can see that the related GPIO for pin mode when using  GPIO 240 is GPIO 111```
     
     * What GPIO controls its direction (input/output)? 
     
