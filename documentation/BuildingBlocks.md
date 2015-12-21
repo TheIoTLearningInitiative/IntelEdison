@@ -17,8 +17,6 @@ Building Blocks
       /home/abraham/Projects/RealTime/v25/edison-src/out/linux64/poky/meta-yocto \
       "
 
-
-
 ### poky/meta
 
 > Yocto Metadata Layers
