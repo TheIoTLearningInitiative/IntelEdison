@@ -19,7 +19,7 @@ Building Blocks
 
 
 
-## poky/meta
+### poky/meta
 
 > Yocto Metadata Layers
 
@@ -39,11 +39,15 @@ Building Blocks
     recipes-sato         - The Sato demo/reference UI/UX, its associated apps and configuration
     recipes-support      - Recipes used by other recipes but that are not directly included in images
 
-## meta-yocto
+### meta-yocto
 
 > Yocto Project integration layers (Poky distro configuration, reference hardware BSPs) 
 
 [meta-yocto](http://git.yoctoproject.org/cgit/cgit.cgi/meta-yocto)
+
+### meta-yocto-bsp 
+
+
 
 ## Links
 
