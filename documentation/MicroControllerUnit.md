@@ -16,7 +16,7 @@ Micro Controller Unit
 ### Feature Set
 
 - **Onboard MCU** Viper RTOS Adds deterministic behavior to Linux* applications as a service. 
-- **SDK access to UART, I2C, and all deviceGPIOs** Connects to a variety of sensors and extended interfaces
+- **SDK access to UART, I2C, and all GPIOs** Connects to a variety of sensors and extended interfaces
 - **SDK Interprocessor Communication (IPC) messaging with CPU wake** Uses the MCU to filter sensor data, then wakes up the CPU for further analytics 
 
 ## Kernel Integration
