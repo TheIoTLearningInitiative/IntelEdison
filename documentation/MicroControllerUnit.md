@@ -11,7 +11,7 @@ Micro Controller Unit
 
 ## MCU SDK
 
-The best MCU Reference Document is this, please completely review.
+The best MCU Reference Document to review is this:
 
 - [Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
 
