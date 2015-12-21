@@ -13,6 +13,13 @@ Micro Controller Unit
     driver      log_level   power       tty
     
     root@edison:~# ls /etc/intel_mcu/mcu_fw_loader.sh
+    
+    root@edison:~# cat /dev/ttymcu1
+    (279940000,DEBUG): CUST IPC:12(c0000000, 72617473)
+    (279941000,DEBUG): ipc process succeed
+    (279960000,DEBUG): CUST IPC:12(80000000, 72610a74)
+    (279961000,DEBUG): ipc process succeed
+
 
 ## Source Code
 
