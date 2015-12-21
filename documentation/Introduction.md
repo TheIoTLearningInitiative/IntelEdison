@@ -7,3 +7,7 @@ Introduction
 - [Intel® Edison Wikipedia](https://en.wikipedia.org/wiki/Intel_Edison)
 - [Intel® Edison 101](http://akizukidenshi.com/download/ds/intel/edisonPB331179_001Edison101Presenta[]tion.pdf)
 
+We will use:
+
+- Yocto
+- 
