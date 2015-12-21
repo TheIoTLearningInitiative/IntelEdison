@@ -48,6 +48,8 @@ Debug Level
     +       "debug",
     +};
 
+Command Handling
+
     +               case CMD_MCU_APP_GET_VERSION:
     +               case CMD_MCU_APP_DEBUG:
 
