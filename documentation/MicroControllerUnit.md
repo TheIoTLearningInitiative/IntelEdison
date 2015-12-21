@@ -32,6 +32,8 @@ Makefile
 
 ### Driver 
 
+Name
+
     +       .driver = {
     +               .name   = "intel_mcu",
     +       },
