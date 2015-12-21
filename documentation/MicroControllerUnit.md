@@ -5,7 +5,7 @@ Micro Controller Unit
 
 ### Patch
 
-Files
+#### Files
 
      drivers/hwmon/intel_mcu_common.c                   |  700 +++
      drivers/hwmon/intel_mcu_common.h                   |   79 +
