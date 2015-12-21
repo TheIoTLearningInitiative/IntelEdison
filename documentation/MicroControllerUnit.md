@@ -11,8 +11,7 @@ Micro Controller Unit
 
 ## Communications
 
-/dev/ttymcu0 
-Channel for communication. Because of the exchange program on the microcontroller is carried out by means of functions and host_send host_receive.
+__/dev/ttymcu0__ Channel for communication. Because of the exchange program on the microcontroller is carried out by means of functions and host_send host_receive.
 
 /dev/ttymcu1
 Channel through which the microcontroller sends debugging messages function debug_print.
