@@ -39,7 +39,16 @@ echo "load mcu app" > /sys/devices/platform/intel_mcu/control
     driver      log_level   power       tty
 
 
++config INTEL_MCU
++       tristate "Intel generic MCU control interface"
++       help
++         Say Y here to enable control interface for intel mcu
++ 
++         This driver provide userspace tty interface for the control and
++         message output.
++         You could use normal read/write to complete those operation.
 
++CONFIG_INTEL_MCU=y
 
      drivers/hwmon/intel_mcu_common.c                   |  700 +++
      drivers/hwmon/intel_mcu_common.h                   |   79 +
