@@ -16,6 +16,8 @@ File System
     
 ## Free Space
 
+### Yocto
+
 ### Ubilinux, Fresh Installation
 
     edison@ubilinux:~$ df -h
