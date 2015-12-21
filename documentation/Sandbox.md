@@ -2,6 +2,7 @@ SandBox
 ==
 
 http://www.aaeon.com/en/p/3-and-half-inch-sbc-aiot-x1000/
+http://linuxgizmos.com/first-quark-based-smarc-computer-on-module-runs-on-2-watts/
 
 how we structure this training? 
 -  Hardware
