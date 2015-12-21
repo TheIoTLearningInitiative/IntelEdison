@@ -1,6 +1,8 @@
 Pin Muxing
 ==
 
+> When working with the ports on the Linux-level, all these actions are performed library MRAA. In the case of the microcontroller it is necessary to take care of yourself with scripts (
+
 **Configuring all 4 of the PWM pins** 
 
     root@edison:~# vi pinmuxpwm.sh
