@@ -54,6 +54,8 @@ Building Blocks
 
 ### meta-intel-edison-bsp
 
+> 
+
 [OpenEmbedded meta-intel-edison-bsp]()
 
 ## Links
