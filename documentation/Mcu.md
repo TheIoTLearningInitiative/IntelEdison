@@ -3,6 +3,8 @@ MCU
 
 > ... one Intel Quark core at 100 MHz (for executing RTOS ViperOS) ...
 
+> Viper. An Intel (Wind River) real-time operating system that runs on the MCU. Viper provides basic OS function support, including thread scheduling, memory management, interrupt dispatch, and so on...
+
 ## Intel Links
 
 - [Intel® Quark™ Wikipedia](https://en.wikipedia.org/wiki/Intel_Quark)
