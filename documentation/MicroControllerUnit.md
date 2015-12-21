@@ -57,6 +57,8 @@ The best MCU Reference Document to review is:
     (279941000,DEBUG): ipc process succeed
     (279960000,DEBUG): CUST IPC:12(80000000, 72610a74)
     (279961000,DEBUG): ipc process succeed
+    
+    root@edison:~# ls /lib/firmware/intel_mcu.bin
 
 ### Interrupt Service Routine
 
