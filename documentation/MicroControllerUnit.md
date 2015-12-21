@@ -3,7 +3,7 @@ Micro Controller Unit
 
 ## Microcontroller Unit SDK
 
-meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/files/mcu_fw_loader.sh
+edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/files/mcu_fw_loader.sh
 
 
 ### Feature Set
