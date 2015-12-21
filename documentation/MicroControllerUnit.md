@@ -3,22 +3,24 @@ Micro Controller Unit
 
 ## Source Code
 
-+config INTEL_MCU
-+       tristate "Intel generic MCU control interface"
-+       help
-+         Say Y here to enable control interface for intel mcu
-+ 
-+         This driver provide userspace tty interface for the control and
-+         message output.
-+         You could use normal read/write to complete those operation.
-
-+obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
-
-+CONFIG_INTEL_MCU=y
+Files
 
      drivers/hwmon/intel_mcu_common.c                   |  700 +++
      drivers/hwmon/intel_mcu_common.h                   |   79 +
-     drivers/hwmon/intel_mid_gpadc.c                    | 1212 ++++
+
+    +config INTEL_MCU
+    +       tristate "Intel generic MCU control interface"
+    +       help
+    +         Say Y here to enable control interface for intel mcu
+    + 
+    +         This driver provide userspace tty interface for the control and
+    +         message output.
+    +         You could use normal read/write to complete those operation.
+
+    +obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
+
+    +CONFIG_INTEL_MCU=y
+
 
 
 
