@@ -96,7 +96,7 @@ Micro Controller Unit
     WantedBy=multi-user.target
     
     user@host:~$ cat meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/files/mcu_fw_loader.sh
-    
+
 ```sh
 #!/bin/sh
 #author: JiuJin Hong (jiujinx.hong@intel.com)
