@@ -30,21 +30,21 @@ Makefile
 
 
 
-+static char *debug_msg[] = {
-+       "fatal",
-+       "error",
-+       "warning",
-+       "info",
-+       "debug",
-+};
+    +static char *debug_msg[] = {
+    +       "fatal",
+    +       "error",
+    +       "warning",
+    +       "info",
+    +       "debug",
+    +};
 
-+               case CMD_MCU_APP_GET_VERSION:
-+               case CMD_MCU_APP_DEBUG:
+    +               case CMD_MCU_APP_GET_VERSION:
+    +               case CMD_MCU_APP_DEBUG:
 
 
-+       .driver = {
-+               .name   = "intel_mcu",
-+       },
+    +       .driver = {
+    +               .name   = "intel_mcu",
+    +       },
 
 +enum cmd_id {
 +       CMD_MCU_LOAD_APP = 0,
