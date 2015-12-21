@@ -64,6 +64,12 @@ Building Blocks
 
 [OpenEmbedded meta-intel-edison-bsp](http://layers.openembedded.org/layerindex/branch/master/layer/meta-intel-edison-distro/)
 
+### meta-intel-iot-middleware
+
+> 
+
+- [](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-iot-middleware)
+
 ## Links
 
 - [Layer for the Intel Edison Development Platform](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/)
