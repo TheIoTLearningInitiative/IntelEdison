@@ -19,14 +19,14 @@ Hardware
   - 32kHz, 19.2MHz clock output
 - Operating temperature — 0 to 40°C
 - Power:
-        Input voltage — 3.3 to 4.5 VDC
-        Consumption:
-            Typical — (tbd, per Intel)
-            Maximum — (tbd, per Intel)
-            Standby — 13mW (no radios); 21.5mW (Bluetooth); 35mW (WiFi)
-        Output — 100ma @3.3V and 100ma @ 1.8V output
-    Dimensions — 35.5 × 25.0 × 3.9mm (1.4 × 1.0 × 0.15 in.)
-    Operating system — Yocto Linux 1.6 for the Atom SoC, with support for Arduino IDE, Eclipse (C, C++, Python), Intel XDK (Node.JS, HTML5); Viper RTOS SDK for the Quark MCU
+  - Input voltage — 3.3 to 4.5 VDC
+  - Consumption:
+    - Typical — (tbd, per Intel)
+    - Maximum — (tbd, per Intel)
+    - Standby — 13mW (no radios); 21.5mW (Bluetooth); 35mW (WiFi)
+  - Output — 100ma @3.3V and 100ma @ 1.8V output
+- Dimensions — 35.5 × 25.0 × 3.9mm (1.4 × 1.0 × 0.15 in.)
+- Operating system — Yocto Linux 1.6 for the Atom SoC, with support for Arduino IDE, Eclipse (C, C++, Python), Intel XDK (Node.JS, HTML5); Viper RTOS SDK for the Quark MCU
     
 ## Links
 
