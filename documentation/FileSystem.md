@@ -1,7 +1,7 @@
 File System
 ==
     
-## Free Space
+## File System Disk Space Usage
 
 ### Yocto, Fresh Installation
 
