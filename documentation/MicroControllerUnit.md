@@ -6,6 +6,8 @@ Micro Controller Unit
     root@edison:~# ls /sys/devices/platform/intel_mcu/ 
     control     fw_version  modalias    subsystem   uevent
     driver      log_level   power       tty
+    
+    
 
 ## Source Code
 
