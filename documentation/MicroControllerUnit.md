@@ -1,6 +1,12 @@
 Micro Controller Unit
 ==
 
+## Kernel Integration
+
+    root@edison:~# ls /sys/devices/platform/intel_mcu/ 
+    control     fw_version  modalias    subsystem   uevent
+    driver      log_level   power       tty
+
 ## Source Code
 
 ### Patch
@@ -28,12 +34,6 @@ Micro Controller Unit
 #### Makefile
 
     +obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
-
-## Kernel Integration
-
-    root@edison:~# ls /sys/devices/platform/intel_mcu/ 
-    control     fw_version  modalias    subsystem   uevent
-    driver      log_level   power       tty
 
 ### Driver
 
