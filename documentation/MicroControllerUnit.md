@@ -19,6 +19,8 @@ Kconfig
     +         message output.
     +         You could use normal read/write to complete those operation.
 
+Makefile
+
     +obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
 
     +CONFIG_INTEL_MCU=y
