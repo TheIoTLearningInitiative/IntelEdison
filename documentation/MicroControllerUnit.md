@@ -1,7 +1,7 @@
 Micro Controller Unit
 ==
 
-> Viper 	An Intel (Wind River) real-time operating system that runs on the MCU. Viper provides basic OS function support, including thread scheduling, memory management, interrupt dispatch, and so on
+> Viper. An Intel (Wind River) real-time operating system that runs on the MCU. Viper provides basic OS function support, including thread scheduling, memory management, interrupt dispatch, and so on
 
 ## Kernel Integration
 
