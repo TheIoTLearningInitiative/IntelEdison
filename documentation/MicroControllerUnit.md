@@ -52,6 +52,7 @@ __/dev/ttymcu0__ Channel for communication. Because of the exchange program on t
 
 __/dev/ttymcu1__ Channel through which the microcontroller sends debugging messages function debug_print.
     
+__/dev/ttymcu2__ ...
 
 ## Source Code
 
