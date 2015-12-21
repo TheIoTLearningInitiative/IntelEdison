@@ -48,7 +48,7 @@
    * [Upm](documentation/Upm.md)
    * [OpenCv](documentation/OpenCv.md)
 * [Debug](documentation/Debug.md)
-* [Applications](documentation/Applications.md)
+* [Native Compilation](documentation/NativeCompilation.md)
 * [Micro Controller Unit](documentation/MicroControllerUnit.md)
 * [SandBox](documentation/Sandbox.md)
 
