@@ -37,7 +37,7 @@ Micro Controller Unit
     +               .name   = "intel_mcu",
     +       },
 
-#### Command Enum
+#### Commands
 
     +enum cmd_id {
     +       CMD_MCU_LOAD_APP = 0,
