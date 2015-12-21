@@ -5,7 +5,6 @@ Micro Controller Unit
 
     user@host:~$ edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/
 
-
 ### Feature Set
 
 - **Onboard MCU** Viper RTOS Adds deterministic behavior to Linux* applications as a service. 
