@@ -21,6 +21,13 @@ root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version
 +               .name   = "intel_mcu",
 +       },
 
++enum cmd_id {
++       CMD_MCU_LOAD_APP = 0,
++       CMD_MCU_SETUP_DDR,
++       CMD_MCU_APP_DEBUG,
++       CMD_MCU_APP_GET_VERSION,
++};
+
 
 ## Microcontroller Unit SDK
 
