@@ -3,6 +3,10 @@ Micro Controller Unit
 
 > Viper. An Intel (Wind River) real-time operating system that runs on the MCU. Viper provides basic OS function support, including thread scheduling, memory management, interrupt dispatch, and so on...
 
+> MCU, Microcontroller unit. On the Intel® Edison board, this is a “Minute IA” 32-bit CPU
+
+> MCU Application, Application that runs on an MCU. In most cases, it implements the expected features (controlling GPIOs, getting data from sensors, etc.)
+
 ## Kernel Integration
 
     root@edison:~# dmesg | grep -i mcu
