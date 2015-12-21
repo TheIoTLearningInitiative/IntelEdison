@@ -66,7 +66,7 @@ Building Blocks
 
 ### meta-intel-iot-middleware
 
-> 
+> Shared middleware recipes for Intel IoT platforms 
 
 - [Yocto meta-intel-iot-middleware](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-iot-middleware)
 
