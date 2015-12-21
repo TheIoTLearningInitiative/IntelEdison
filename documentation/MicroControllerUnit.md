@@ -57,6 +57,9 @@ Micro Controller Unit
     +       CMD_MCU_APP_GET_VERSION,
     +};
 
+    root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version 
+    1.0.10
+
 #### Command Handling
 
     +               case CMD_MCU_APP_GET_VERSION:
