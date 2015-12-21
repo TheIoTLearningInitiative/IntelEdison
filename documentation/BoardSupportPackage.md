@@ -430,7 +430,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     IMAGE_INSTALL += "python-opencv"
     PACKAGE_EXCLUDE = "libpng"
 
-### Packages Third Party, AX25
+### Third Party, AX25
 
     user@host:~$ pwd
     edison-src/out/linux64/build
