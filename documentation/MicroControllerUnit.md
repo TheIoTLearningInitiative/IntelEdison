@@ -8,6 +8,8 @@ Files
      drivers/hwmon/intel_mcu_common.c                   |  700 +++
      drivers/hwmon/intel_mcu_common.h                   |   79 +
 
+Kconfig
+
     +config INTEL_MCU
     +       tristate "Intel generic MCU control interface"
     +       help
