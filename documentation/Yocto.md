@@ -18,7 +18,6 @@ Let's understand what it means to work with Yocto Project by building images for
 
 ## Links
 
-- [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
 - [Code Project Adding 3rd Party Components to Yocto/OpenEmbedded Linux](http://www.codeproject.com/Articles/774826/Adding-rd-party-components-to-Yocto-OpenEmbedded-L)
  
 ## SandBox
@@ -60,3 +59,5 @@ ToDo Important Topics To Cover
     user@host:~$ sudo $HOME/source/poky/scripts/contrib/mkefidisk.sh HOST_DEVICE \
     tmp/deploy/images/intel-corei7-64/core-image-minimal-intel-corei7-64.hddimg \
     TARGET_DEVICE
+
+- [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
