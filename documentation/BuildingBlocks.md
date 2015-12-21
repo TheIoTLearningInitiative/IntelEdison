@@ -42,6 +42,8 @@ Building Blocks
 > Yocto Project integration layers (Poky distro configuration, reference hardware BSPs) 
 > Poky reference distribution for the Yocto Project 
 
+It includes:
+
 - meta-yocto-bsp
 - meta-yocto
 - scripts
