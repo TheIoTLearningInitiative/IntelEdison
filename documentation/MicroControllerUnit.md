@@ -49,7 +49,9 @@ The best MCU Reference Document to review is:
     Could not determine firmware version information.
     Could not retrieve latest firmware version information. Quitting.
     none
-    
+
+### Tools
+
     root@edison:~# ls /etc/intel_mcu/mcu_fw_loader.sh
     
     root@edison:~# cat /dev/ttymcu1
