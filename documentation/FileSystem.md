@@ -18,6 +18,8 @@ File System
 
 ### Yocto, Fresh Installation
 
+
+
 ### Ubilinux, Fresh Installation
 
     edison@ubilinux:~$ df -h
