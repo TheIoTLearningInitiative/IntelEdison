@@ -363,7 +363,6 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     u-boot-edison.img
     u-boot-envs
     u-boot.img
-    user@host:~$ cd meta-intel-edison/utils/flash
     user@host:~$ ls
     bitbake.lock  cache  conf  symbols  tmp  toFlash
     user@host:~$ ../../../meta-intel-edison/utils/flash/postBuild.sh .
