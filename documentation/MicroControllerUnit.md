@@ -28,6 +28,11 @@ Makefile
     +obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
 
 
+### Driver 
+
+    +       .driver = {
+    +               .name   = "intel_mcu",
+    +       },
 
 
     +static char *debug_msg[] = {
@@ -42,9 +47,6 @@ Makefile
     +               case CMD_MCU_APP_DEBUG:
 
 
-    +       .driver = {
-    +               .name   = "intel_mcu",
-    +       },
 
 +enum cmd_id {
 +       CMD_MCU_LOAD_APP = 0,
