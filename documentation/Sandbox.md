@@ -1,6 +1,8 @@
 SandBox
 ==
 
+http://www.aaeon.com/en/p/3-and-half-inch-sbc-aiot-x1000/
+
 how we structure this training? 
 -  Hardware
 -  OS Specific
