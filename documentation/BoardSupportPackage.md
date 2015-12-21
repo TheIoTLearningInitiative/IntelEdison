@@ -450,6 +450,7 @@ Review the content of "edison-image.bb" and add some extra packages
 
 ## Links
 
+- [](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/)
 - [Intel® Edison Board Support Package](http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf)
 
 ## Under investigation?
