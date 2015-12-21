@@ -1,6 +1,10 @@
 Micro Controller Unit
 ==
 
+root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version 
+1.0.10
+
+
 ## Microcontroller Unit SDK
 
     user@host:~$ ls edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/
