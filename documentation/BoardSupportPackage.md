@@ -420,7 +420,9 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ ls tmp/deploy/sdk
     user@host:~$ poky-edison-eglibc-x86_64-edison-image-core2-32-toolchain-1.6.1.sh
 
-## Packages Standard
+## Packages
+
+### Standard
 
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
     IMAGE_INSTALL += “libpng”
@@ -428,7 +430,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     IMAGE_INSTALL += "python-opencv"
     PACKAGE_EXCLUDE = "libpng"
 
-## Packages Third Party, AX25
+### Packages Third Party, AX25
 
     user@host:~$ pwd
     edison-src/out/linux64/build
