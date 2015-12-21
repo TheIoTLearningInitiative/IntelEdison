@@ -72,10 +72,6 @@ Micro Controller Unit
     debug
 
 
-    root@edison:~# ls /sys/devices/platform/intel_mcu/ 
-    control     fw_version  modalias    subsystem   uevent
-    driver      log_level   power       tty
-
 ## Yocto Recipes
 
     user@host:~$ ls edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/
