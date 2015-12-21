@@ -43,6 +43,8 @@ Building Blocks
 
 > Yocto Project integration layers (Poky distro configuration, reference hardware BSPs) 
 
+> Poky reference distribution for the Yocto Project 
+
 [Yocto meta-yocto](http://git.yoctoproject.org/cgit/cgit.cgi/meta-yocto)
 [OpenEmbedded meta-yocto](http://layers.openembedded.org/layerindex/branch/master/layer/meta-yocto/)
 
