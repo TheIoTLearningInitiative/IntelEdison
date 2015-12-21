@@ -12,6 +12,10 @@ Micro Controller Unit
 
 ## Kernel Integration
 
+    root@edison:~# configure_edison --version
+    Could not determine firmware version information. Quitting.
+    none
+    
     root@edison:~# dmesg | grep -i mcu
     [    1.001624] MCU detected and ready to used!
 
