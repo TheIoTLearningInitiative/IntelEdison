@@ -29,12 +29,13 @@ Micro Controller Unit
 
     +obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
 
-### Driver
-
+## Kernel Integration
 
     root@edison:~# ls /sys/devices/platform/intel_mcu/ 
     control     fw_version  modalias    subsystem   uevent
     driver      log_level   power       tty
+
+### Driver
 
 #### Name
 
