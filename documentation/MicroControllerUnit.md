@@ -53,7 +53,7 @@ Command Handling
     +               case CMD_MCU_APP_GET_VERSION:
     +               case CMD_MCU_APP_DEBUG:
 
-
+Command Enum
 
 +enum cmd_id {
 +       CMD_MCU_LOAD_APP = 0,
