@@ -80,8 +80,10 @@ Micro Controller Unit
 
     user@host:~$ ls edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/
     files  mcu-fw-bin_0.1.bb  mcu-fw-load_0.1.bb
+    
     user@host:~$ ls meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/files/
     intel_mcu.bin  mcu_fw_loader.service  mcu_fw_loader.sh
+    
     user@host:~$ cat meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/files/mcu_fw_loader.service
     [Unit]
     Description=Daemon to load edison mcu app binary
