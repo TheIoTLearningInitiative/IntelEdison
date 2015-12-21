@@ -39,6 +39,13 @@ echo "load mcu app" > /sys/devices/platform/intel_mcu/control
     driver      log_level   power       tty
 
 
+
+
+     drivers/hwmon/intel_mcu_common.c                   |  700 +++
+     drivers/hwmon/intel_mcu_common.h                   |   79 +
+     drivers/hwmon/intel_mid_gpadc.c                    | 1212 ++++
+
+
 ### Feature Set
 
 - **Onboard MCU** Viper RTOS Adds deterministic behavior to Linux* applications as a service. 
