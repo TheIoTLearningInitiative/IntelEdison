@@ -18,6 +18,8 @@ Micro Controller Unit
     [Install]
     WantedBy=multi-user.target
     user@host:~$ ls meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/files/mcu_fw_loader.sh
+
+```sh
 #!/bin/sh
 #author: JiuJin Hong (jiujinx.hong@intel.com)
 if [ ! -d "/sys/devices/platform/intel_mcu" ];then
@@ -29,7 +31,7 @@ if [ ! -f "/lib/firmware/intel_mcu.bin" ];then
 fi
 
 echo "load mcu app" > /sys/devices/platform/intel_mcu/control
-
+```
 
 
 ### Feature Set
