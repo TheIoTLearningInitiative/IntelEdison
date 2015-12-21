@@ -52,6 +52,7 @@ Building Blocks
 
 > BSP layer for Yocto Project reference hardware
 
+- [](http://layers.openembedded.org/layerindex/branch/master/layer/meta-yocto-bsp/)
 
 ## Links
 
