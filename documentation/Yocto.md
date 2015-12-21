@@ -50,7 +50,9 @@ Let's understand what it means to work with Yocto Project by building images for
 - [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
 - [Code Project Adding 3rd Party Components to Yocto/OpenEmbedded Linux](http://www.codeproject.com/Articles/774826/Adding-rd-party-components-to-Yocto-OpenEmbedded-L)
  
-## ToDo Important Topics To Cover
+## SandBox
+
+ToDo Important Topics To Cover
 
 - Example Project
 - Adding Recipes to the Build System
