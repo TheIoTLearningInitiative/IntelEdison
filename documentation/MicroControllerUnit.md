@@ -28,7 +28,6 @@ Makefile
     +obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
 
 
-
 ## Kernel Integration
 
 +static char *debug_msg[] = {
