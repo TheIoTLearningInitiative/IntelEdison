@@ -9,12 +9,6 @@ Micro Controller Unit
 
 > MCU Application, Application that runs on an MCU. In most cases, it implements the expected features (controlling GPIOs, getting data from sensors, etc.)
 
-## Communications
-
-__/dev/ttymcu0__ Channel for communication. Because of the exchange program on the microcontroller is carried out by means of functions and host_send host_receive.
-
-__/dev/ttymcu1__ Channel through which the microcontroller sends debugging messages function debug_print.
-
 ## Kernel Integration
 
     root@edison:~# configure_edison --help
@@ -51,6 +45,12 @@ __/dev/ttymcu1__ Channel through which the microcontroller sends debugging messa
     
     root@edison:~# echo auto > /sys/devices/pci0000\:00/0000\:00\:04.3/power/control
     root@edison:~# echo on > /sys/devices/pci0000\:00/0000\:00\:04.3/power/control
+
+## Communications
+
+__/dev/ttymcu0__ Channel for communication. Because of the exchange program on the microcontroller is carried out by means of functions and host_send host_receive.
+
+__/dev/ttymcu1__ Channel through which the microcontroller sends debugging messages function debug_print.
     
 
 ## Source Code
