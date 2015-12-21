@@ -28,8 +28,6 @@ Makefile
     +CONFIG_INTEL_MCU=y
 
 
-
-
 ## Kernel Integration
 
 +static char *debug_msg[] = {
