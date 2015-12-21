@@ -9,6 +9,7 @@ Micro Controller Unit
 
 > MCU Application, Application that runs on an MCU. In most cases, it implements the expected features (controlling GPIOs, getting data from sensors, etc.)
 
+## Communications
 
 /dev/ttymcu0 
 Channel for communication. Because of the exchange program on the microcontroller is carried out by means of functions and host_send host_receive.
