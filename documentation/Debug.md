@@ -46,6 +46,8 @@ Debug
 
 ## Ftrace
 
+Tbd
+
 # Links
 
 - [Linux Kernel Debugfs](https://www.kernel.org/doc/Documentation/filesystems/debugfs.txt)
