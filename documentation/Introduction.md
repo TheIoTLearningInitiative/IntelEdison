@@ -10,4 +10,3 @@ Introduction
 We will use:
 
 - Default Yocto Version from Intel
-- Python Programming Language
