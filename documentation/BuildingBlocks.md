@@ -62,7 +62,7 @@ Building Blocks
 
 > This is the distro layer used to build official Intel Edison images.
 
-[OpenEmbedded meta-intel-edison-bsp](http://layers.openembedded.org/layerindex/branch/master/layer/meta-intel-edison-distro/)
+- [OpenEmbedded meta-intel-edison-bsp](http://layers.openembedded.org/layerindex/branch/master/layer/meta-intel-edison-distro/)
 
 ### meta-intel-iot-middleware
 
