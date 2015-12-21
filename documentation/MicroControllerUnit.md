@@ -76,7 +76,7 @@ Micro Controller Unit
     control     fw_version  modalias    subsystem   uevent
     driver      log_level   power       tty
 
-## Microcontroller Unit Yocto Recipes
+## Yocto Recipes
 
     user@host:~$ ls edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/
     files  mcu-fw-bin_0.1.bb  mcu-fw-load_0.1.bb
