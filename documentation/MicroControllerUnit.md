@@ -8,6 +8,10 @@ Files
      drivers/hwmon/intel_mcu_common.c                   |  700 +++
      drivers/hwmon/intel_mcu_common.h                   |   79 +
 
+.config
+
+    +CONFIG_INTEL_MCU=y
+
 Kconfig
 
     +config INTEL_MCU
@@ -23,9 +27,6 @@ Makefile
 
     +obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
 
-.config
-
-    +CONFIG_INTEL_MCU=y
 
 
 ## Kernel Integration
