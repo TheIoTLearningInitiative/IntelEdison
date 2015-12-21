@@ -11,4 +11,4 @@ Introduction
 
 We will use:
 
-- Default Yocto Version from Intel
+- Default Yocto Version
