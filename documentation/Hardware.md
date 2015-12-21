@@ -31,3 +31,5 @@ Hardware
 ## Links
 
 - [Intel® Edison Compute Module](http://www.intel.com/support/edison/sb/CS-035274.htm?wapkw=edison+compute+module+hardware+guide)
+- [Intel® Edison Hardware Guide](http://akizukidenshi.com/download/ds/intel/edison-module_HG_331189-002.pdf)
+
