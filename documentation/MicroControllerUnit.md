@@ -25,8 +25,6 @@ The best MCU Reference Document to review is:
 
 ## Kernel Integration
 
-### 
-
     root@edison:~# dmesg | grep -i mcu
     [    1.001624] MCU detected and ready to used!
 
