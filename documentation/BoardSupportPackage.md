@@ -384,7 +384,9 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     Run the flashall script there to start flashing.
     *************
     $ ./toFlash/flashall.sh
-
+    Using U-Boot target: edison-blankcdc
+    Now waiting for dfu device 8087:0a99
+    Please plug and reboot the board
 
 ### Building via Script
 
