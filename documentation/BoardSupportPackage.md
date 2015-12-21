@@ -424,6 +424,8 @@ and copy the link location for "Sources - Linux Sources Files" then download the
 
 ### Standard, Common
 
+Review the content of "edison-image.bb" and add some extra packages
+
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
     IMAGE_INSTALL += “libpng”
     IMAGE_INSTALL += "opencv"
