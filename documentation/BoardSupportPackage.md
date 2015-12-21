@@ -364,9 +364,9 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     u-boot-envs
     u-boot.img
     user@host:~$ cd meta-intel-edison/utils/flash
-    $ ls
+    user@host:~$ ls
     bitbake.lock  cache  conf  symbols  tmp  toFlash
-    $ ../../../meta-intel-edison/utils/flash/postBuild.sh .
+    user@host:~$ ../../../meta-intel-edison/utils/flash/postBuild.sh .
     EDISON_ROOTFS_MB = 1536, IMAGE_SIZE_MB = 548
     1+0 records in
     1+0 records out
@@ -383,7 +383,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     Files ready to flash in ./toFlash/
     Run the flashall script there to start flashing.
     *************
-    $ ./toFlash/flashall.sh
+    user@host:~$ ./toFlash/flashall.sh
     Using U-Boot target: edison-blankcdc
     Now waiting for dfu device 8087:0a99
     Please plug and reboot the board
