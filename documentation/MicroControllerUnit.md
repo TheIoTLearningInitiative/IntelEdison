@@ -20,6 +20,7 @@ Micro Controller Unit
     (279960000,DEBUG): CUST IPC:12(80000000, 72610a74)
     (279961000,DEBUG): ipc process succeed
 
+    root@edison:~# cat /proc/interrupts | grep intel_psh_ipc
 
 ## Source Code
 
