@@ -52,6 +52,10 @@ Building Blocks
 
 - [OpenEmbedded meta-yocto-bsp](http://layers.openembedded.org/layerindex/branch/master/layer/meta-yocto-bsp/)
 
+### meta-intel-edison-bsp
+
+
+
 ## Links
 
 - [Layer for the Intel Edison Development Platform](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/)
