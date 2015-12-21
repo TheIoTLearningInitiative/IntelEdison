@@ -38,6 +38,7 @@ Name
     +               .name   = "intel_mcu",
     +       },
 
+Debug Level
 
     +static char *debug_msg[] = {
     +       "fatal",
