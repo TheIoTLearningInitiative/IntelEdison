@@ -47,6 +47,7 @@ Building Blocks
 
 ### meta-yocto-bsp 
 
+> BSP layer for Yocto Project reference hardware
 
 
 ## Links
