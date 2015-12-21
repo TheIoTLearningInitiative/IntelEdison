@@ -25,6 +25,8 @@ The best MCU Reference Document to review is:
 
 ## Kernel Integration
 
+### Firmware
+
     root@edison:~# configure_edison --help
     ...
       --version             Gets the current firmware version
@@ -39,6 +41,8 @@ The best MCU Reference Document to review is:
     Could not retrieve latest firmware version information. Quitting.
     none
     
+### 
+
     root@edison:~# dmesg | grep -i mcu
     [    1.001624] MCU detected and ready to used!
 
