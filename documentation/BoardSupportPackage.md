@@ -422,7 +422,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
 
 ## Packages
 
-### Standard
+### Standard, Common
 
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
     IMAGE_INSTALL += “libpng”
@@ -430,7 +430,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     IMAGE_INSTALL += "python-opencv"
     PACKAGE_EXCLUDE = "libpng"
 
-### Third Party, AX25
+### Third Party, Not Common, AX25
 
     user@host:~$ pwd
     edison-src/out/linux64/build
