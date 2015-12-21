@@ -3,9 +3,6 @@ Micro Controller Unit
 
 ## Kernel Integration
 
-root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version 
-1.0.10
-
 +static char *debug_msg[] = {
 +       "fatal",
 +       "error",
@@ -29,6 +26,9 @@ root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version
 +       CMD_MCU_APP_GET_VERSION,
 +};
 
+
+root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version 
+1.0.10
 
 ## Microcontroller Unit SDK
 
