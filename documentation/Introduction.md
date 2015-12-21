@@ -9,5 +9,5 @@ Introduction
 
 We will use:
 
-- Yocto
+- Default Yocto Version from Intel
 - 
