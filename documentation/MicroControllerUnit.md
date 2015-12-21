@@ -68,6 +68,7 @@ Micro Controller Unit
 
     root@edison:~# cat /sys/devices/platform/intel_mcu/log_level 
     info
+    
 
 ## Microcontroller Unit SDK
 
