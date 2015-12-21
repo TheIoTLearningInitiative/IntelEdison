@@ -452,6 +452,7 @@ Review the content of "edison-image.bb" and add some extra packages
 
 - [Layer for the Intel Edison Development Platform](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-edison/tree/)
 - [Intel Galileo platform support](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-galileo/tree/)
+- [Intel Galileo Rebuild](http://www.embarcados.com.br/galileo-yocto/)
 - [Intel® Edison Board Support Package](http://download.intel.com/support/edison/sb/edisonbsp_ug_331188007.pdf)
 
 ## Under investigation?
