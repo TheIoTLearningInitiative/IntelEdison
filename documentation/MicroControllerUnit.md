@@ -10,11 +10,11 @@ Micro Controller Unit
      drivers/hwmon/intel_mcu_common.c                   |  700 +++
      drivers/hwmon/intel_mcu_common.h                   |   79 +
 
-.config
+#### .config
 
     +CONFIG_INTEL_MCU=y
 
-Kconfig
+#### Kconfig
 
     +config INTEL_MCU
     +       tristate "Intel generic MCU control interface"
@@ -25,20 +25,20 @@ Kconfig
     +         message output.
     +         You could use normal read/write to complete those operation.
 
-Makefile
+#### Makefile
 
     +obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
 
 
 ### Driver 
 
-Name
+#### Name
 
     +       .driver = {
     +               .name   = "intel_mcu",
     +       },
 
-Debug Level
+#### Debug Level
 
     +static char *debug_msg[] = {
     +       "fatal",
@@ -48,7 +48,7 @@ Debug Level
     +       "debug",
     +};
 
-Command Enum
+#### Command Enum
 
     +enum cmd_id {
     +       CMD_MCU_LOAD_APP = 0,
@@ -57,7 +57,7 @@ Command Enum
     +       CMD_MCU_APP_GET_VERSION,
     +};
 
-Command Handling
+#### Command Handling
 
     +               case CMD_MCU_APP_GET_VERSION:
     +               case CMD_MCU_APP_DEBUG:
