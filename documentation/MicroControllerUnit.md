@@ -25,6 +25,15 @@ The best MCU Reference Document to review is:
 
 ## Kernel Integration
 
+### 
+
+    root@edison:~# dmesg | grep -i mcu
+    [    1.001624] MCU detected and ready to used!
+
+    root@edison:~# ls /sys/devices/platform/intel_mcu/ 
+    control     fw_version  modalias    subsystem   uevent
+    driver      log_level   power       tty
+    
 ### Firmware
 
     root@edison:~# configure_edison --help
@@ -40,15 +49,6 @@ The best MCU Reference Document to review is:
     Could not determine firmware version information.
     Could not retrieve latest firmware version information. Quitting.
     none
-    
-### 
-
-    root@edison:~# dmesg | grep -i mcu
-    [    1.001624] MCU detected and ready to used!
-
-    root@edison:~# ls /sys/devices/platform/intel_mcu/ 
-    control     fw_version  modalias    subsystem   uevent
-    driver      log_level   power       tty
     
     root@edison:~# ls /etc/intel_mcu/mcu_fw_loader.sh
     
