@@ -37,6 +37,7 @@ Building Blocks
     recipes-sato         - The Sato demo/reference UI/UX, its associated apps and configuration
     recipes-support      - Recipes used by other recipes but that are not directly included in images
 
+## meta-yocto
 
 > Yocto Project integration layers (Poky distro configuration, reference hardware BSPs) 
 
