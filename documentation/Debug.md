@@ -1,8 +1,6 @@
 Debug
 ==
 
-## Ftrace
-
 ## Debug Filesystem
 
 > Debugfs exists as a simple way for kernel developers to make information available to user space.  Unlike /proc, which is only meant for information about a process, or sysfs, which has strict one-value-per-file rules, debugfs has no rules at all.
@@ -45,6 +43,8 @@ Debug
     dynamic_debug         pmic_ccsm             x86
     emmc_ipanic           pmu_force_d0i0
     gpio                  pmu_force_d0i3
+
+## Ftrace
 
 # Links
 
