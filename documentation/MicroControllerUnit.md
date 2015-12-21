@@ -12,6 +12,11 @@ Micro Controller Unit
 
 ## Kernel Integration
 
+    root@edison:~# configure_edison --help
+    ....
+      --version             Gets the current firmware version
+      --latest-version      Gets the latest firmware version
+
     root@edison:~# configure_edison --version
     Could not determine firmware version information. Quitting.
     none
