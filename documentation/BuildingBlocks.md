@@ -79,6 +79,8 @@ It includes:
 - __u-boot-fw-utils__ U-boot bootloader fw_printenv/setenv utils
 - __u-boot-tools__ U-boot bootloader mkimage tool
 
+Links
+
 - [OpenEmbedded meta-intel-edison-bsp](http://layers.openembedded.org/layerindex/branch/master/layer/meta-intel-edison-bsp/)
 
 ### meta-intel-edison-distro
