@@ -11,6 +11,7 @@ Debug
 ## Kernel Configuration
 
     Kernel hacking
+
         -*- Kernel debugging
         [*]   Magic SysRq key
         -*-   Debug filesystem
