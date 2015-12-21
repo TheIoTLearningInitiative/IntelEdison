@@ -7,6 +7,7 @@ Micro Controller Unit
 
 > MCU Application, Application that runs on an MCU. In most cases, it implements the expected features (controlling GPIOs, getting data from sensors, etc.)
 
+> 
 ## Kernel Integration
 
     root@edison:~# dmesg | grep -i mcu
