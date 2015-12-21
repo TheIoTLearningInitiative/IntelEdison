@@ -10,6 +10,7 @@ Micro Controller Unit
     control     fw_version  modalias    subsystem   uevent
     driver      log_level   power       tty
     
+    root@edison:~# ls /etc/intel_mcu/mcu_fw_loader.sh
 
 ## Source Code
 
