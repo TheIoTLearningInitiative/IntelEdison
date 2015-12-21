@@ -55,7 +55,6 @@ Links
 - [Yocto meta-yocto](http://git.yoctoproject.org/cgit/cgit.cgi/meta-yocto)
 - [OpenEmbedded meta-yocto](http://layers.openembedded.org/layerindex/branch/master/layer/meta-yocto/)
 
-
 ### meta-yocto-bsp 
 
 > BSP layer for Yocto Project reference hardware
