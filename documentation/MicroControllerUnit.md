@@ -59,6 +59,8 @@ Micro Controller Unit
 
     root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version 
     1.0.10
+    root@edison:~# cat /sys/devices/platform/intel_mcu/log_level 
+    info
 
 #### Command Handling
 
