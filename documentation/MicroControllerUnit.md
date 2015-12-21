@@ -69,6 +69,7 @@ The best MCU Reference Document to review is:
 - __/dev/ttymcu1__ Channel through which the microcontroller sends debugging messages function debug_print.
 - __/dev/ttymcu2__ ...
 
+
     root@edison:~# cat /dev/ttymcu1
     (279940000,DEBUG): CUST IPC:12(c0000000, 72617473)
     (279941000,DEBUG): ipc process succeed
