@@ -22,6 +22,8 @@ Micro Controller Unit
 
     root@edison:~# cat /proc/interrupts | grep intel_psh_ipc
     47:         17          0   IO-APIC-fasteoi   intel_psh_ipc
+    
+    root@edison:~# echo auto > /sys/devices/pci0000\:00/0000\:00\:04.3/power/control
 
 ## Source Code
 
