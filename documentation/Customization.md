@@ -1,5 +1,3 @@
 Customization
 ==
 
-Owner: Eduardo
-
