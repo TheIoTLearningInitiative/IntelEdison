@@ -40,8 +40,8 @@
    * [Power](documentation/Power.md)
    * [Networking](documentation/Networking.md)
    * [Block](documentation/Block.md)
+   * I2C
    * [USB](documentation/Usb.md)
-* I2C
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
