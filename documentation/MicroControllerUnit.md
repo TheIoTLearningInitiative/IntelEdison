@@ -11,7 +11,6 @@ Micro Controller Unit
 
 
 /dev/ttymcu0 
-
 Channel for communication. Because Linux can work with standard file operations. Because of the exchange program on the microcontroller is carried out by means of functions and host_send host_receive.
 
 /dev/ttymcu1
