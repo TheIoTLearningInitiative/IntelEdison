@@ -68,6 +68,10 @@ Building Blocks
 
 > Shared middleware recipes for Intel IoT platforms
 
+- recipes-connectivity
+- recipes-devtools
+- recipes-extended
+
 - [Yocto meta-intel-iot-middleware](http://git.yoctoproject.org/cgit/cgit.cgi/meta-intel-iot-middleware)
 
 ## Links
