@@ -71,6 +71,11 @@ Micro Controller Unit
     root@edison:~# cat /sys/devices/platform/intel_mcu/log_level 
     debug
 
+
+    root@edison:~# ls /sys/devices/platform/intel_mcu/ 
+    control     fw_version  modalias    subsystem   uevent
+    driver      log_level   power       tty
+
 ## Microcontroller Unit Yocto Recipes
 
     user@host:~$ ls edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/
@@ -102,12 +107,6 @@ fi
 
 echo "load mcu app" > /sys/devices/platform/intel_mcu/control
 ```
-
-
-    root@edison:~# ls /sys/devices/platform/intel_mcu/ 
-    control     fw_version  modalias    subsystem   uevent
-    driver      log_level   power       tty
-
 
 ### Feature Set
 
