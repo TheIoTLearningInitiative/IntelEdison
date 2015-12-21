@@ -56,7 +56,7 @@ Building Blocks
 
 > BSP layer for the Intel Edison module. 
 
-[OpenEmbedded meta-intel-edison-bsp](http://layers.openembedded.org/layerindex/branch/master/layer/meta-intel-edison-bsp/)
+- [OpenEmbedded meta-intel-edison-bsp](http://layers.openembedded.org/layerindex/branch/master/layer/meta-intel-edison-bsp/)
 
 ### meta-intel-edison-distro
 
