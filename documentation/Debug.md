@@ -5,7 +5,7 @@ Debug
 
 > Debugfs exists as a simple way for kernel developers to make information available to user space.  Unlike /proc, which is only meant for information about a process, or sysfs, which has strict one-value-per-file rules, debugfs has no rules at all.
 
-- [Linux Kernel Debugfs Documentation](https://www.kernel.org/doc/Documentation/filesystems/debugfs.txt)
+- [Linux Kernel Documentation Debugfs](https://www.kernel.org/doc/Documentation/filesystems/debugfs.txt)
 
 ## Kernel Configuration
 
