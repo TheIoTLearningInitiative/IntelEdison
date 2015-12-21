@@ -48,6 +48,8 @@ echo "load mcu app" > /sys/devices/platform/intel_mcu/control
 +         message output.
 +         You could use normal read/write to complete those operation.
 
++obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
+
 +CONFIG_INTEL_MCU=y
 
      drivers/hwmon/intel_mcu_common.c                   |  700 +++
