@@ -169,6 +169,11 @@ fi
 echo "load mcu app" > /sys/devices/platform/intel_mcu/control
 ```
 
+Explore the internal tools from Eclipse to work with Edison MCU
+
+https://github.com/lambdasakura/irremocon-edison/tree/master/internal_tools
+
+
 ## Links
 
 - [Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
