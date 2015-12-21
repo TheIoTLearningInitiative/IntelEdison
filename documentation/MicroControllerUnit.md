@@ -1,13 +1,14 @@
 Micro Controller Unit
 ==
 
+> Host CPU, On Intel® Edison, the Intel® Atom™ processor that runs on Linux OS
+
 > Viper. An Intel (Wind River) real-time operating system that runs on the MCU. Viper provides basic OS function support, including thread scheduling, memory management, interrupt dispatch, and so on...
 
 > MCU, Microcontroller unit. On the Intel® Edison board, this is a “Minute IA” 32-bit CPU
 
 > MCU Application, Application that runs on an MCU. In most cases, it implements the expected features (controlling GPIOs, getting data from sensors, etc.)
 
-> Host CPU, On Intel® Edison, the Intel® Atom™ processor that runs on Linux OS
 
 ## Kernel Integration
 
