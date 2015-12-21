@@ -13,6 +13,8 @@ root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version
 +       "debug",
 +};
 
++               case CMD_MCU_APP_GET_VERSION:
++               case CMD_MCU_APP_DEBUG:
 
 ## Microcontroller Unit SDK
 
