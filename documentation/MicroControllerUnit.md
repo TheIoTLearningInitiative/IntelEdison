@@ -16,6 +16,12 @@ root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version
 +               case CMD_MCU_APP_GET_VERSION:
 +               case CMD_MCU_APP_DEBUG:
 
+
++       .driver = {
++               .name   = "intel_mcu",
++       },
+
+
 ## Microcontroller Unit SDK
 
     user@host:~$ ls edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/
