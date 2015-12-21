@@ -60,7 +60,7 @@ The best MCU Reference Document to review is:
     root@edison:~# echo auto > /sys/devices/pci0000\:00/0000\:00\:04.3/power/control
     root@edison:~# echo on > /sys/devices/pci0000\:00/0000\:00\:04.3/power/control
 
-## Communications
+## Userspace Communications
 
 __/dev/ttymcu0__ Channel for communication. Because of the exchange program on the microcontroller is carried out by means of functions and host_send host_receive.
 
