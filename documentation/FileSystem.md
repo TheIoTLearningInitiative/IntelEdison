@@ -16,7 +16,7 @@ File System
     
 ## Free Space
 
-### Yocto
+### Yocto, Fresh Installation
 
 ### Ubilinux, Fresh Installation
 
