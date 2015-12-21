@@ -23,6 +23,7 @@ Makefile
 
     +obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
 
+Kconfig
     +CONFIG_INTEL_MCU=y
 
 
