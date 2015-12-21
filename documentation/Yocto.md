@@ -16,6 +16,22 @@ Let's understand what it means to work with Yocto Project by building images for
     user@host:~$ bitbake core-image-sato-sdk
     user@host:~$ runqemu qemux86
 
+## Links
+
+- [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
+- [Code Project Adding 3rd Party Components to Yocto/OpenEmbedded Linux](http://www.codeproject.com/Articles/774826/Adding-rd-party-components-to-Yocto-OpenEmbedded-L)
+ 
+## SandBox
+
+ToDo Important Topics To Cover
+
+- Example Project
+- Adding Recipes to the Build System
+- Adding New Recipes to the Build System
+- Build an Example Package based on a Git Repository Commit
+- Build an example package based on a Remote Source Archive
+- Build an example package based on a Local Source Archive
+
 ## Development Workstation, Minnowboard Image Compilaton
 
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
@@ -44,19 +60,3 @@ Let's understand what it means to work with Yocto Project by building images for
     user@host:~$ sudo $HOME/source/poky/scripts/contrib/mkefidisk.sh HOST_DEVICE \
     tmp/deploy/images/intel-corei7-64/core-image-minimal-intel-corei7-64.hddimg \
     TARGET_DEVICE
-
-## Links
-
-- [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
-- [Code Project Adding 3rd Party Components to Yocto/OpenEmbedded Linux](http://www.codeproject.com/Articles/774826/Adding-rd-party-components-to-Yocto-OpenEmbedded-L)
- 
-## SandBox
-
-ToDo Important Topics To Cover
-
-- Example Project
-- Adding Recipes to the Build System
-- Adding New Recipes to the Build System
-- Build an Example Package based on a Git Repository Commit
-- Build an example package based on a Remote Source Archive
-- Build an example package based on a Local Source Archive
