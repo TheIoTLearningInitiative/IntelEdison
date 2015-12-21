@@ -38,16 +38,6 @@ Micro Controller Unit
     +               .name   = "intel_mcu",
     +       },
 
-#### Debug Level
-
-    +static char *debug_msg[] = {
-    +       "fatal",
-    +       "error",
-    +       "warning",
-    +       "info",
-    +       "debug",
-    +};
-
 #### Command Enum
 
     +enum cmd_id {
@@ -66,6 +56,16 @@ Micro Controller Unit
 
     +               case CMD_MCU_APP_GET_VERSION:
     +               case CMD_MCU_APP_DEBUG:
+
+#### Debug Level
+
+    +static char *debug_msg[] = {
+    +       "fatal",
+    +       "error",
+    +       "warning",
+    +       "info",
+    +       "debug",
+    +};
 
 
 root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version 
