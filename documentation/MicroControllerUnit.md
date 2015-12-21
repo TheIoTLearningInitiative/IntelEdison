@@ -47,15 +47,14 @@ Micro Controller Unit
     +       CMD_MCU_APP_GET_VERSION,
     +};
 
-    root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version 
-    1.0.10
-    root@edison:~# cat /sys/devices/platform/intel_mcu/log_level 
-    info
 
 #### Command Handling
 
     +               case CMD_MCU_APP_GET_VERSION:
     +               case CMD_MCU_APP_DEBUG:
+
+    root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version 
+    1.0.10
 
 #### Debug Level
 
@@ -67,6 +66,8 @@ Micro Controller Unit
     +       "debug",
     +};
 
+    root@edison:~# cat /sys/devices/platform/intel_mcu/log_level 
+    info
 
 ## Microcontroller Unit SDK
 
