@@ -21,6 +21,8 @@ Building Blocks
 
 > Yocto Metadata Layers
 
+It includes:
+
     recipes-bsp          - Anything with links to specific hardware or hardware configuration information
     recipes-connectivity - Libraries and applications related to communication with other devices
     recipes-core         - What's needed to build a basic working Linux image including commonly used dependencies
