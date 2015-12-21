@@ -7,7 +7,8 @@ Micro Controller Unit
 
 > MCU Application, Application that runs on an MCU. In most cases, it implements the expected features (controlling GPIOs, getting data from sensors, etc.)
 
-> 
+> Host CPU, On Intel® Edison, the Intel® Atom™ processor that runs on Linux OS
+
 ## Kernel Integration
 
     root@edison:~# dmesg | grep -i mcu
