@@ -20,6 +20,11 @@ Micro Controller Unit
     root@edison:~# configure_edison --version
     Could not determine firmware version information. Quitting.
     none
+
+    root@edison:~# configure_edison --latest-version
+    Could not determine firmware version information.
+    Could not retrieve latest firmware version information. Quitting.
+    none
     
     root@edison:~# dmesg | grep -i mcu
     [    1.001624] MCU detected and ready to used!
