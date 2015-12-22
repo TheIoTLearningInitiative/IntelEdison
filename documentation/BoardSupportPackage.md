@@ -476,6 +476,7 @@ http://edplay.weebly.com/how-to/building-linux-for-intel-edison
 - https://communities.intel.com/message/273743
 - http://layers.openembedded.org/layerindex/branch/master/layer/meta-intel-edison-bsp/
 - http://shawnhymel.com/724/creating-a-custom-linux-kernel-for-the-edison-yocto-2-1/
+- http://events.linuxfoundation.org/sites/events/files/slides/LinuxCon2015_meta-debian_r7.pdf
 
 
     user@host:~$ tar xvf edison-src-weekly-68.tgz
