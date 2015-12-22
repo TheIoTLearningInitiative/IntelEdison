@@ -3,6 +3,7 @@ SandBox
 
 http://www.aaeon.com/en/p/3-and-half-inch-sbc-aiot-x1000/
 http://linuxgizmos.com/first-quark-based-smarc-computer-on-module-runs-on-2-watts/
+http://blogs.intel.com/evangelists/2015/10/02/intel-microsoft-new-experiences/?utm_source=evangelists.intel.com&utm_medium=referral&utm_campaign=Caffelli%20Intel%20Evangelists
 
 how we structure this training? 
 -  Hardware
