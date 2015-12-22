@@ -164,6 +164,7 @@ Also what is going to be added is  how to  programmatically do the device discov
 - [PyBluez API Ddoc](http://pybluez.googlecode.com/svn/www/docs-0.7/index.html)
 - [PIP package manager](https://pip.pypa.io/en/stable/)
 - http://shawnhymel.com/665/using-python-and-ble-to-receive-data-from-the-rfduino/
+- http://shawnhymel.com/703/bluetooth-low-energy-peripherals-with-javascript/
 
 ## SandBox
 
