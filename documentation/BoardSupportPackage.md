@@ -401,8 +401,10 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ source poky/oe-init-build-env
     user@host:~$ bitbake edison-image
     user@host:~$ ../meta-intel-edison/utils/flash/postBuild.sh .
-    user@host:~$ build/toFlash/flashall.sh --recovery
     user@host:~$ build/toFlash/flashall.sh
+    user@host:~$ build/toFlash/flashall.sh --keep-data
+    user@host:~$ build/toFlash/flashall.sh --recovery
+
 
 ## Native SDK
 
