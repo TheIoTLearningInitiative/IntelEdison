@@ -191,4 +191,3 @@ To stop actual webserver
 
     root@edison:~# systemctl disable edison_config
     root@edison:~# systemctl stop edison_config 
-
