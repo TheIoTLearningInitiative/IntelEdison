@@ -166,6 +166,7 @@ Also what is going to be added is  how to  programmatically do the device discov
 - http://shawnhymel.com/665/using-python-and-ble-to-receive-data-from-the-rfduino/
 - http://shawnhymel.com/703/bluetooth-low-energy-peripherals-with-javascript/
 - http://stephaniemoyerman.com/?p=100
+- https://github.com/w4ilun/edison-guides/wiki/Configure-Intel-Edison-for-BLE---Bluetooth-Smart-Development
 
 ## SandBox
 
