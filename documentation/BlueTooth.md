@@ -168,6 +168,7 @@ Also what is going to be added is  how to  programmatically do the device discov
 - http://stephaniemoyerman.com/?p=100
 - https://github.com/w4ilun/edison-guides/wiki/Configure-Intel-Edison-for-BLE---Bluetooth-Smart-Development
 - https://software.intel.com/en-us/articles/connecting-to-intel-edison-from-android-with-bluetooth-le-ble
+- http://stephaniemoyerman.com/?p=100
 
 ## SandBox
 
