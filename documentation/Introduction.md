@@ -8,6 +8,7 @@ Introduction
 - [Intel® Edison Development Platform 101](http://akizukidenshi.com/download/ds/intel/edisonPB331179_001Edison101Presentation.pdf)
 - [Intel® Edison Arduino Certified](https://www.arduino.cc/en/ArduinoCertified/IntelEdison)
 - [Intel® Edison Hands On](http://blog.dimitridiakopoulos.com/2014/09/10/hands-on-intel-edison/)
+- [](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/support/maker/edison/edison-documents-and-guides.html)
 
 We will use:
 
