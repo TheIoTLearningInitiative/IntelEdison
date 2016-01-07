@@ -44,3 +44,6 @@ Peripheral Component Interconnect
     00:17.0 System peripheral: Intel Corporation Device 11a5 (rev 01)           
     00:18.0 Display controller: Intel Corporation Device 11a6 (rev 01)
 
+
+- https://communities.intel.com/thread/61150?wapkw=intel+edison+mpcie
+- https://communities.intel.com/thread/89971?start=0&tstart=0
