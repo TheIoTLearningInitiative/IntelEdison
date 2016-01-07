@@ -26,6 +26,7 @@
    * [Building Blocks](documentation/BuildingBlocks.md)
    * [Linux Kernel](documentation/LinuxKernelCustom.md)
    * [File System](documentation/FileSystem.md)
+   * Blocks
 * [Package Management Systems](documentation/PackageManagementSystems.md)
    * [Open Package Management](documentation/OpenPackageManagement.md)
    * [Python Package Index](documentation/PythonPackageIndex.md)
