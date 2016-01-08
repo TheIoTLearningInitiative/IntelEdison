@@ -58,3 +58,9 @@ Setup
 
 
 - http://freeradius.org/
+
+
+## Issues
+
+root@ubilinux:~/wifidog-auth# apt-get install postgresql-8.1
+E: Package 'postgresql-8.1' has no installation candidate
