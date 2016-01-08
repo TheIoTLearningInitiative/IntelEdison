@@ -13,3 +13,4 @@ Squid Proxy
 
     apt-get install squid3 squid3-common
 
+## WifiDog
