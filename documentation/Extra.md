@@ -38,5 +38,4 @@ Setup
 
 ## FreeRadius
 
-
     apt-get install freeradius
