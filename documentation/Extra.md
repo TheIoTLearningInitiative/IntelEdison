@@ -33,3 +33,4 @@ Setup
 
 ## WifiDog
 
+    git clone https://github.com/wifidog/wifidog-gateway.git
