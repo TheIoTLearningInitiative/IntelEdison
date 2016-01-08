@@ -50,8 +50,13 @@ Setup
     root@ubilinux:~# apt-get install postgresql-9.1
     root@ubilinux:~# apt-get install php5-pgsql
     root@ubilinux:~# apt-get install php-pear
+    root@ubilinux:~# apt-get install php5-curl
     root@ubilinux:~# 
     root@ubilinux:~# 
+    root@ubilinux:~# 
+    root@ubilinux:~# 
+    root@ubilinux:~# 
+
     
 ### Links
 
