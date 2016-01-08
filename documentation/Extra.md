@@ -47,8 +47,8 @@ Setup
 
     root@ubilinux:~# git clone https://github.com/wifidog/wifidog-auth.git
     
-    apt-get install postgresql-9.1
-    apt-get install php5-pgsql
+    root@ubilinux:~# apt-get install postgresql-9.1
+    root@ubilinux:~# apt-get install php5-pgsql
     
 ### Links
 
