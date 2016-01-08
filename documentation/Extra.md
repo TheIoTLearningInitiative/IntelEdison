@@ -77,6 +77,7 @@ Setup
 ## 3G Modem
 
 - http://www.sakis3g.com/
+- https://wiki.archlinux.org/index.php/USB_3G_Modem
 
 ## Issues
 
