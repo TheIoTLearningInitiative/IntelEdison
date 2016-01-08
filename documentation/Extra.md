@@ -4,7 +4,10 @@ Extra
 Setup
 
 - Configure Wireless LAN
-- apt-get update
+
+
+    apt-get update
+    apt-get install git
 
 ## Squid Proxy
 
