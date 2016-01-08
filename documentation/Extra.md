@@ -17,3 +17,7 @@ Setup
 - http://linuxaria.com/pills/how-to-setup-a-squid-proxy-on-your-debian-linux
 
 ## WifiDog
+
+
+## Apache
+
