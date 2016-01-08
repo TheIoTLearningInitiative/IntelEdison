@@ -74,7 +74,12 @@ Setup
 - http://freeradius.org/
 
 
+## 3G Modem
+
+- http://www.sakis3g.com/
+
 ## Issues
 
     root@ubilinux:~/wifidog-auth# apt-get install postgresql-8.1
     E: Package 'postgresql-8.1' has no installation candidate
+
