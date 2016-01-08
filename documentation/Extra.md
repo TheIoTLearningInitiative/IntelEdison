@@ -8,7 +8,7 @@ Setup
 
     apt-get update
     apt-get install git
-    apt-get modeswitch
+    apt-get -modeswitch
     apt-get install build-essential g++ automake autoconf gnu-standards autoconf-doc libtool gettext autoconf-archive
 
 ## Squid Proxy
