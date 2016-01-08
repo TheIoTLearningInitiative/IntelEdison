@@ -38,6 +38,9 @@ Setup
 
     git clone https://github.com/wifidog/wifidog-gateway.git
     ./autogen.sh
+    ./configure
+    make
+    make install
     
 
 
