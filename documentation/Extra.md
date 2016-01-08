@@ -52,7 +52,7 @@ Setup
     root@ubilinux:~# apt-get install php-pear
     root@ubilinux:~# apt-get install php5-curl
     root@ubilinux:~# wget http://prdownloads.sourceforge.net/phlickr/Phlickr-0.2.5.tgz?download
-    root@ubilinux:~# 
+    root@ubilinux:~# pear install Phlickr-0.2.5.tgz\?download
     root@ubilinux:~# 
     root@ubilinux:~# 
     root@ubilinux:~# 
