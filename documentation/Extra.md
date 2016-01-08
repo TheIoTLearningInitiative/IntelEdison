@@ -44,11 +44,13 @@ Setup
     
 
 
-https://github.com/wifidog/wifidog-auth/blob/master/INSTALL
-http://dev.wifidog.org/wiki/doc/install/debian
+- https://github.com/wifidog/wifidog-auth/blob/master/INSTALL
+- http://dev.wifidog.org/wiki/doc/install/debian
 
 
 ## FreeRadius
 
     apt-get install freeradius
 
+
+- http://freeradius.org/
