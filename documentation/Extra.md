@@ -11,6 +11,7 @@ Setup
     apt-get usb-modeswitch
     apt-get install build-essential g++ automake autoconf gnu-standards autoconf-doc libtool gettext autoconf-archive
     apt-get install wvdial
+    apt-get install bzip2
 
 ## Squid Proxy
 
