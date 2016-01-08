@@ -10,6 +10,7 @@ Setup
     apt-get install git
     apt-get usb-modeswitch
     apt-get install build-essential g++ automake autoconf gnu-standards autoconf-doc libtool gettext autoconf-archive
+    apt-get install pointtopointdialer
 
 ## Squid Proxy
 
