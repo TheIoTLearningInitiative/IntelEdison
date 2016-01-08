@@ -44,6 +44,7 @@
    * [Block](documentation/Block.md)
    * [USB](documentation/Usb.md)
    * [I2C](documentation/I2C.md)
+   * Clock
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
