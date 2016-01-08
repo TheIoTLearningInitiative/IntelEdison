@@ -46,7 +46,7 @@ Setup
     [3][Fri Jan  8 23:23:20 2016][16159](conf.c:654) Could not open configuration file '/usr/local/etc/wifidog.conf', exiting...
 
     
-
+### Links
 
 - https://github.com/wifidog/wifidog-auth/blob/master/INSTALL
 - http://dev.wifidog.org/wiki/doc/install/debian
