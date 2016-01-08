@@ -32,8 +32,8 @@ Setup
 
 
     apt-get install apache2
-    apache2 -k restart
-    /etc/init.d/apache2 restart
+    apache2 -k restart # Wrong
+    /etc/init.d/apache2 restart #Ok
 
 
 ## WifiDog
