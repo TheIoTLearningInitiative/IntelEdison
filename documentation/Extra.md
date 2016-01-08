@@ -38,6 +38,11 @@ Setup
     ./autogen.sh
     
 
+
+https://github.com/wifidog/wifidog-auth/blob/master/INSTALL
+http://dev.wifidog.org/wiki/doc/install/debian
+
+
 ## FreeRadius
 
     apt-get install freeradius
