@@ -45,7 +45,7 @@ Setup
     [6][Fri Jan  8 23:23:20 2016][16159](conf.c:651) Reading configuration file '/usr/local/etc/wifidog.conf'
     [3][Fri Jan  8 23:23:20 2016][16159](conf.c:654) Could not open configuration file '/usr/local/etc/wifidog.conf', exiting...
 
-    root@ubilinux:~/wifidog-gateway# git clone https://github.com/wifidog/wifidog-auth.git
+    root@ubilinux:~# git clone https://github.com/wifidog/wifidog-auth.git
     
     apt-get install postgresql-9.1
     apt-get install php5-pgsql
