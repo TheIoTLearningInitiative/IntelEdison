@@ -16,11 +16,17 @@ Setup
 
 - http://linuxaria.com/pills/how-to-setup-a-squid-proxy-on-your-debian-linux
 
-## WifiDog
+## DHCP
+
+
+    apt-get install dhcpd
 
 
 ## Apache
 
 
     apt-get install apache2
+
+
+## WifiDog
 
