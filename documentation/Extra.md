@@ -36,12 +36,12 @@ Setup
 
 ## WifiDog
 
-    git clone https://github.com/wifidog/wifidog-gateway.git
-    ./autogen.sh
-    ./configure
-    make
-    make install
-    root@ubilinux:~# wifidog 
+    root@ubilinux:~/wifidog-gateway# git clone https://github.com/wifidog/wifidog-gateway.git
+    root@ubilinux:~/wifidog-gateway# ./autogen.sh
+    root@ubilinux:~/wifidog-gateway# ./configure
+    root@ubilinux:~/wifidog-gateway# make
+    root@ubilinux:~/wifidog-gateway# make install
+    root@ubilinux:~/wifidog-gateway# wifidog 
     [6][Fri Jan  8 23:23:20 2016][16159](conf.c:651) Reading configuration file '/usr/local/etc/wifidog.conf'
     [3][Fri Jan  8 23:23:20 2016][16159](conf.c:654) Could not open configuration file '/usr/local/etc/wifidog.conf', exiting...
 
