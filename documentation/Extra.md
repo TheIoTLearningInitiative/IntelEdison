@@ -21,3 +21,6 @@ Setup
 
 ## Apache
 
+
+    apt-get install apache2
+
