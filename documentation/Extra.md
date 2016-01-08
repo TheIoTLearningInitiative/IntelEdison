@@ -62,5 +62,5 @@ Setup
 
 ## Issues
 
-root@ubilinux:~/wifidog-auth# apt-get install postgresql-8.1
-E: Package 'postgresql-8.1' has no installation candidate
+    root@ubilinux:~/wifidog-auth# apt-get install postgresql-8.1
+    E: Package 'postgresql-8.1' has no installation candidate
