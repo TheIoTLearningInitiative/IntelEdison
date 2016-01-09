@@ -79,6 +79,7 @@ Setup
 
 - http://www.sakis3g.com/
 - https://wiki.archlinux.org/index.php/USB_3G_Modem
+- http://www.draisberghof.de/usb_modeswitch/bb/viewtopic.php?f=4&t=1935
 
 ## Issues
 
