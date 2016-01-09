@@ -81,6 +81,7 @@ Setup
 - https://wiki.archlinux.org/index.php/USB_3G_Modem
 - http://www.draisberghof.de/usb_modeswitch/bb/viewtopic.php?f=4&t=1935
 - http://www.draisberghof.de/usb_modeswitch/bb/viewtopic.php?t=952
+- https://lawrencematthew.wordpress.com/2013/08/07/connect-raspberry-pi-to-a-3g-network-automatically-during-its-boot/
 
 ## Issues
 
