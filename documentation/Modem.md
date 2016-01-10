@@ -18,4 +18,10 @@
     [  451.830033] sr 1:0:0:0: Attached scsi CD-ROM sr0
     [  451.830818] sr 1:0:0:0: Attached scsi generic sg1 type 5
     [  451.831854] sd 0:0:0:0: [sda] Attached SCSI removable disk
+    root@ubilinux:~# lsusb
+    Bus 001 Device 002: ID 8564:4000  
+    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+    Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+    Bus 001 Device 003: ID 1bbb:f017 T & A Mobile Phones
+    
     
