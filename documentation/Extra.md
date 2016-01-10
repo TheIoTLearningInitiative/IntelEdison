@@ -215,6 +215,8 @@ Setup
     E:  Ad=82(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
 
     
+    nano /lib/udev/rules.d/40-usb_modeswitch.rules
+    
     # Alcatel
     ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="011e", RUN+="usb_modeswitch '%b/%k'"
 
