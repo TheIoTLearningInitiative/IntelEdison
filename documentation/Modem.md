@@ -2,7 +2,7 @@
 
 
     root@ubilinux:~# apt-get update
-    root@ubilinux:~# apt-get install ppp
+    root@ubilinux:~# apt-get install ppp bzip2
     root@ubilinux:~# wget "http://www.sakis3g.com/downloads/sakis3g.tar.gz" -O sakis3g.tar.gz
     root@ubilinux:~# tar -xzvf sakis3g.tar.gz
     root@ubilinux:~# chmod +x sakis3g
