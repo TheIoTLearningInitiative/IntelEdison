@@ -45,7 +45,7 @@
    * [USB](documentation/Usb.md)
    * [I2C](documentation/I2C.md)
    * [Clock](documentation/Clock.md)
-   * Modem
+   * [Modem](documentation/Modem.md)
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
