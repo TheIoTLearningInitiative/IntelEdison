@@ -138,16 +138,6 @@ WiFi to connect at power up:
 
 ## Intel Edison Ubilinux Mode AP
 
-    root@ubilinux:~# nano /etc/apt/sources.list
-    ...
-    deb ftp://ftp.us.debian.org/debian testing main
-    root@ubilinux:~# apt-get -t testing install hostapd
-    
-    
-    root@ubilinux:~# nano /etc/default/hostapd
-    DAEMON_CONF="/etc/hostapd/hostapd.conf"
-    root@ubilinux:~# /etc/init.d/hostapd restart
-
 - http://www.emutexlabs.com/forum/ubilinux/85-ubilinux-access-point-hostapd
 
 ## Links
