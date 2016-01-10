@@ -138,7 +138,9 @@ WiFi to connect at power up:
 
 ## Intel Edison Ubilinux Mode AP
 
-    /etc/default/hostapd
+    root@ubilinux:~# nano /etc/default/hostapd
+    DAEMON_CONF="/etc/hostapd/hostapd.conf"
+    root@ubilinux:~# /etc/init.d/hostapd restart
 
 ## Links
 
