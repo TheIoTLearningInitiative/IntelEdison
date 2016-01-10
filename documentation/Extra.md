@@ -77,6 +77,12 @@ Setup
 
 ## 3G Modem
 
+    xe1gyq@jessie:~$ lsusb
+    Bus 001 Device 002: ID 046d:c31c Logitech, Inc. Keyboard K120 for Business
+    Bus 002 Device 002: ID 046d:c05a Logitech, Inc. M90/M100 Optical Mouse
+    Bus 006 Device 003: ID 148f:5370 Ralink Technology, Corp. RT5370 Wireless Adapter
+    Bus 007 Device 003: ID 1bbb:011e T & A Mobile Phones 
+
     [  422.300054] usb 7-3: new high-speed USB device number 2 using ehci-pci
     [  422.434543] usb 7-3: New USB device found, idVendor=1bbb, idProduct=f017
     [  422.434547] usb 7-3: New USB device strings: Mfr=3, Product=2, SerialNumber=0
