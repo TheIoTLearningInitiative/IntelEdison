@@ -144,6 +144,23 @@ Setup
     tar -xzvf sakis3g.tar.gz
     chmod +x sakis3g
     ./sakis3g --interactive
+    
+    root@ubilinux:~# modprobe usbserial vendor=0x1bbb product=0x0017
+    root@ubilinux:~# lsmod
+    Module                  Size  Used by
+    ftdi_sio               40121  0 
+    uvcvideo               71516  0 
+    videobuf2_vmalloc      13003  1 uvcvideo
+    videobuf2_memops       13001  1 videobuf2_vmalloc
+    videobuf2_core         37707  1 uvcvideo
+    usb_f_acm              14335  1 
+    u_serial               18582  6 usb_f_acm
+    g_multi                70813  0 
+    libcomposite           39245  2 usb_f_acm,g_multi
+    bcm_bt_lpm             13676  0 
+    bcm4334x              578947  0 
+    
+
 
 
 
