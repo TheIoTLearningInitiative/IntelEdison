@@ -122,6 +122,27 @@ Setup
     [  427.574461] sd 8:0:0:0: Attached scsi generic sg1 type 0
     [  427.577271] sd 8:0:0:0: [sdb] Attached SCSI removable disk
     
+    [ 7259.343698] usb 7-3: GSM modem (1-port) converter now attached to ttyUSB6
+[ 7259.345290] qmi_wwan 7-3:1.4: cdc-wdm0: USB WDM device
+[ 7259.345547] qmi_wwan 7-3:1.4 wwan0: register 'qmi_wwan' at usb-0000:00:1d.7-3, WWAN/QMI device, 9a:a4:5e:7f:54:07
+[ 7260.341716] scsi 11:0:0:0: Direct-Access     USBModem MMC Storage      2.31 PQ: 0 ANSI: 2
+[ 7260.342729] sd 11:0:0:0: Attached scsi generic sg1 type 0
+[ 7260.346072] sd 11:0:0:0: [sdb] Attached SCSI removable disk
+[ 7520.623662] wlan0: deauthenticating from f8:01:13:a8:2b:40 by local choice (Reason: 3=DEAUTH_LEAVING)
+[ 7520.669720] cfg80211: Calling CRDA to update world regulatory domain
+[ 7520.731811] cfg80211: World regulatory domain updated:
+[ 7520.731815] cfg80211:  DFS Master region: unset
+[ 7520.731817] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[ 7520.731819] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[ 7520.731821] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[ 7520.731823] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+[ 7520.731825] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+[ 7520.731828] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+[ 7520.731829] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+[ 7520.731831] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[ 7520.731833] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+
+    
     lsusb
     Bus 007 Device 006: ID 1bbb:011e T & A Mobile Phones 
     
