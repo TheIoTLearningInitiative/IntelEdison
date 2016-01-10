@@ -3,7 +3,6 @@
 
     root@ubilinux:~# apt-get update
     root@ubilinux:~# apt-get install ppp bzip2 usb-modeswitch
-    root@ubilinux:~# wget "http://www.sakis3g.com/downloads/sakis3g.tar.gz" -O sakis3g.tar.gz
     root@ubilinux:~# dmesg
     [  450.792009] usb 1-1.3: new high-speed USB device number 3 using dwc3-host
     [  450.817656] usb 1-1.3: New USB device found, idVendor=1bbb, idProduct=f017
@@ -51,6 +50,8 @@ Connect Modem
     Jan 10 04:44:48 ubilinux kernel: [  682.392520] scsi 5:0:0:0: Direct-Access     USBModem MMC Storage      2.31 PQ: 0 ANSI: 2
     Jan 10 04:44:48 ubilinux kernel: [  682.394153] sd 5:0:0:0: Attached scsi generic sg0 type 0
     Jan 10 04:44:48 ubilinux kernel: [  682.396784] sd 5:0:0:0: [sda] Attached SCSI removable disk
+
+    root@ubilinux:~# wget "http://www.sakis3g.com/downloads/sakis3g.tar.gz" -O sakis3g.tar.gz
     root@ubilinux:~# tar -xzvf sakis3g.tar.gz
     root@ubilinux:~# chmod +x sakis3g
     root@ubilinux:~# ./sakis3g --interactive
