@@ -1,6 +1,8 @@
 # Display Message
 
 
+    root@edison:~# tail -f /var/log/messages
+    
     root@edison:~#
     dmesg
     [    0.000000] Initializing cgroup subsys cpuset
