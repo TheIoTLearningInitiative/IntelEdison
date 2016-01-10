@@ -5,9 +5,7 @@ Modem
 
     root@ubilinux:~# apt-get update
     root@ubilinux:~# apt-get install ppp bzip2 usb-modeswitch
-
-Connect Modem
-
+    <Connect Modem>
     root@ubilinux:~# dmesg
     [  450.792009] usb 1-1.3: new high-speed USB device number 3 using dwc3-host
     [  450.817656] usb 1-1.3: New USB device found, idVendor=1bbb, idProduct=f017
