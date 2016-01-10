@@ -39,7 +39,8 @@ Setup
 
 ## WifiDog
 
-    root@ubilinux:~/wifidog-gateway# git clone https://github.com/wifidog/wifidog-gateway.git
+    root@ubilinux:~# git clone https://github.com/wifidog/wifidog-gateway.git
+    root@ubilinux:~# cd wifidog-gateway
     root@ubilinux:~/wifidog-gateway# ./autogen.sh
     root@ubilinux:~/wifidog-gateway# ./configure
     root@ubilinux:~/wifidog-gateway# make
