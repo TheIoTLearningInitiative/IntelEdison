@@ -122,6 +122,8 @@ Setup
     [  427.574461] sd 8:0:0:0: Attached scsi generic sg1 type 0
     [  427.577271] sd 8:0:0:0: [sdb] Attached SCSI removable disk
 
+### Debian Whezzy Intel Edison
+
 
 - http://www.sakis3g.com/
 - https://wiki.archlinux.org/index.php/USB_3G_Modem
