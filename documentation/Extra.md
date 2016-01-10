@@ -77,7 +77,43 @@ Setup
 
 ## 3G Modem
 
-    
+    [  422.300054] usb 7-3: new high-speed USB device number 2 using ehci-pci
+    [  422.434543] usb 7-3: New USB device found, idVendor=1bbb, idProduct=f017
+    [  422.434547] usb 7-3: New USB device strings: Mfr=3, Product=2, SerialNumber=0
+    [  422.434550] usb 7-3: Product: Mobile Broad Band
+    [  422.434552] usb 7-3: Manufacturer: USBModem
+    [  422.786231] usb-storage 7-3:1.0: USB Mass Storage device detected
+    [  422.786448] scsi6 : usb-storage 7-3:1.0
+    [  422.786541] usb-storage 7-3:1.1: USB Mass Storage device detected
+    [  422.786587] scsi7 : usb-storage 7-3:1.1
+    [  422.786674] usbcore: registered new interface driver usb-storage
+    [  423.221714] usb 7-3: USB disconnect, device number 2
+    [  426.436043] usb 7-3: new high-speed USB device number 3 using ehci-pci
+    [  426.570781] usb 7-3: New USB device found, idVendor=1bbb, idProduct=011e
+    [  426.570785] usb 7-3: New USB device strings: Mfr=3, Product=2, SerialNumber=0
+    [  426.570788] usb 7-3: Product: Mobile Broad Band
+    [  426.570791] usb 7-3: Manufacturer: USBModem
+    [  426.574356] usb-storage 7-3:1.2: USB Mass Storage device detected
+    [  426.574424] scsi8 : usb-storage 7-3:1.2
+    [  426.679993] usbcore: registered new interface driver usbserial
+    [  426.680219] usbcore: registered new interface driver usbserial_generic
+    [  426.680236] usbserial: USB Serial support registered for generic
+    [  426.696159] usbcore: registered new interface driver option
+    [  426.696178] usbserial: USB Serial support registered for GSM modem (1-port)
+    [  426.696297] option 7-3:1.0: GSM modem (1-port) converter detected
+    [  426.696397] usb 7-3: GSM modem (1-port) converter now attached to ttyUSB0
+    [  426.696437] option 7-3:1.1: GSM modem (1-port) converter detected
+    [  426.696512] usb 7-3: GSM modem (1-port) converter now attached to ttyUSB1
+    [  426.696554] option 7-3:1.3: GSM modem (1-port) converter detected
+    [  426.696635] usb 7-3: GSM modem (1-port) converter now attached to ttyUSB2
+    [  426.714412] usbcore: registered new interface driver cdc_wdm
+    [  426.767392] qmi_wwan 7-3:1.4: cdc-wdm0: USB WDM device
+    [  426.767604] qmi_wwan 7-3:1.4 wwan0: register 'qmi_wwan' at usb-0000:00:1d.7-3, WWAN/QMI device, 9a:a4:5e:7f:54:07
+    [  426.767630] usbcore: registered new interface driver qmi_wwan
+    [  427.573530] scsi 8:0:0:0: Direct-Access     USBModem MMC Storage      2.31 PQ: 0 ANSI: 2
+    [  427.574461] sd 8:0:0:0: Attached scsi generic sg1 type 0
+    [  427.577271] sd 8:0:0:0: [sdb] Attached SCSI removable disk
+
 
 - http://www.sakis3g.com/
 - https://wiki.archlinux.org/index.php/USB_3G_Modem
