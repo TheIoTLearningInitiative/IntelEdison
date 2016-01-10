@@ -124,6 +124,22 @@ Setup
 
 ### Debian Whezzy Intel Edison
 
+    [  200.177110] usb 1-1.2: new high-speed USB device number 4 using dwc3-host
+    [  200.203207] usb 1-1.2: New USB device found, idVendor=1bbb, idProduct=f017
+    [  200.203240] usb 1-1.2: New USB device strings: Mfr=3, Product=2, SerialNumber=0
+    [  200.203261] usb 1-1.2: Product: Mobile Broad Band
+    [  200.203279] usb 1-1.2: Manufacturer: USBModem
+    [  200.207677] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+    [  200.208398] scsi0 : usb-storage 1-1.2:1.0
+    [  200.209556] usb-storage 1-1.2:1.1: USB Mass Storage device detected
+    [  200.209970] scsi1 : usb-storage 1-1.2:1.1
+    [  201.208324] scsi 1:0:0:0: CD-ROM            USBModem MMC Storage      2.31 PQ: 0 ANSI: 2
+    [  201.210949] sr0: scsi-1 drive
+    [  201.210973] cdrom: Uniform CD-ROM driver Revision: 3.20
+    [  201.212360] sr 1:0:0:0: Attached scsi CD-ROM sr0
+    [  201.213405] sr 1:0:0:0: Attached scsi generic sg0 type 5
+
+
 
 - http://www.sakis3g.com/
 - https://wiki.archlinux.org/index.php/USB_3G_Modem
