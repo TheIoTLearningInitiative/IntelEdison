@@ -159,6 +159,8 @@ Setup
     libcomposite           39245  2 usb_f_acm,g_multi
     bcm_bt_lpm             13676  0 
     bcm4334x              578947  0 
+    gedit /etc/udev/rules.d/50-myrules.rules
+    ATTRS{idVendor}=="1bbb",ATTRS{idProduct}=="0017", RUN+="/sbin/modprobe usbserial vendor=0x1bbb product=0x0017"
     
 
 
