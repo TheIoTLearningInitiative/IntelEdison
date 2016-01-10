@@ -138,6 +138,13 @@ Setup
     [  201.210973] cdrom: Uniform CD-ROM driver Revision: 3.20
     [  201.212360] sr 1:0:0:0: Attached scsi CD-ROM sr0
     [  201.213405] sr 1:0:0:0: Attached scsi generic sg0 type 5
+    
+    apt-get install ppp
+    wget "http://www.sakis3g.com/downloads/sakis3g.tar.gz" -O sakis3g.tar.gz
+    tar -xzvf sakis3g.tar.gz
+    chmod +x sakis3g
+    ./sakis3g --interactive
+
 
 
 
