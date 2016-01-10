@@ -14,4 +14,4 @@ Ubilinux™, Debian Based Distribution
 
 ## Programs
 
-    apt-get install systemd
+    root@ubilinux:~# apt-get install systemd
