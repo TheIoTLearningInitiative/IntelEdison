@@ -12,3 +12,6 @@ Ubilinux™, Debian Based Distribution
 - [µCast #21: Installing Ubilinux™ on the Edison (Windows)](https://www.youtube.com/watch?v=BSnXjuttSgY)
 - [Sparkfun Loading Debian (Ubilinux™) on the Edison](https://learn.sparkfun.com/tutorials/loading-debian-ubilinux-on-the-edison)
 
+## Programs
+
+    apt-get install systemd
