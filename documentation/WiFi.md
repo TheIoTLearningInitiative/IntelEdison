@@ -136,6 +136,10 @@ WiFi to connect at power up:
     systemctl enable wpa_supplicant
     systemctl start wpa_supplicant
 
+## Intel Edison Ubilinux
+
+
+
 ## Links
 
 - [Intel® Edison Boards Wi-Fi User Guide](http://www.intel.com/support/edison/sb/CS-035380.htm)
