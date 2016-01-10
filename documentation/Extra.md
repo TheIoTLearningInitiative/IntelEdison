@@ -162,6 +162,21 @@ Setup
     gedit /etc/udev/rules.d/50-myrules.rules
     ATTRS{idVendor}=="1bbb",ATTRS{idProduct}=="0017", RUN+="/sbin/modprobe usbserial vendor=0x1bbb product=0x0017"
     
+    cat /sys/kernel/debug/usb/devices | more
+    T:  Bus=01 Lev=02 Prnt=02 Port=01 Cnt=01 Dev#=  3 Spd=480  MxCh= 0
+    D:  Ver= 2.00 Cls=00(>ifc ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+    P:  Vendor=1bbb ProdID=f017 Rev= 0.00
+    S:  Manufacturer=USBModem
+    S:  Product=Mobile Broad Band
+    C:* #Ifs= 2 Cfg#= 1 Atr=c0 MxPwr=500mA
+    I:* If#= 0 Alt= 0 #EPs= 2 Cls=08(stor.) Sub=06 Prot=50 Driver=(none)
+    E:  Ad=01(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+    E:  Ad=81(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+    I:* If#= 1 Alt= 0 #EPs= 2 Cls=08(stor.) Sub=06 Prot=50 Driver=usb-storage
+    E:  Ad=02(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+    E:  Ad=82(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+
+    
 
 
 
