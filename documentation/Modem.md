@@ -27,6 +27,8 @@
     Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
     Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
     Bus 001 Device 003: ID 1bbb:f017 T & A Mobile Phones
+    root@ubilinux:~# nano /etc/udev/rules.d/50-myrules.rules
+    ATTRS{idVendor}=="1bbb",ATTRS{idProduct}=="0017", RUN+="/sbin/modprobe usbserial  vendor=0x1bbb product=0x0017"
     root@ubilinux:~# tar -xzvf sakis3g.tar.gz
     root@ubilinux:~# chmod +x sakis3g
     root@ubilinux:~# ./sakis3g --interactive
