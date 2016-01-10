@@ -33,6 +33,7 @@
 Connect Modem
     
 
+    ...
     Jan 10 04:44:44 ubilinux usb_modeswitch: switching device 1bbb:f017 on 001/005
     Jan 10 04:44:44 ubilinux kernel: [  678.066175] usb 1-1.3: USB disconnect, device number 5
     Jan 10 04:44:47 ubilinux kernel: [  681.341248] usb 1-1.3: new high-speed USB device number 6 using dwc3-host
