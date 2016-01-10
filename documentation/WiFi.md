@@ -136,9 +136,9 @@ WiFi to connect at power up:
     systemctl enable wpa_supplicant
     systemctl start wpa_supplicant
 
-## Intel Edison Ubilinux
+## Intel Edison Ubilinux Mode AP
 
-### 
+    /etc/default/hostapd
 
 ## Links
 
