@@ -142,6 +142,8 @@ WiFi to connect at power up:
     DAEMON_CONF="/etc/hostapd/hostapd.conf"
     root@ubilinux:~# /etc/init.d/hostapd restart
 
+- http://www.emutexlabs.com/forum/ubilinux/85-ubilinux-access-point-hostapd
+
 ## Links
 
 - [Intel® Edison Boards Wi-Fi User Guide](http://www.intel.com/support/edison/sb/CS-035380.htm)
