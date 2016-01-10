@@ -4,10 +4,6 @@
     root@ubilinux:~# apt-get update
     root@ubilinux:~# apt-get install ppp bzip2 usb-modeswitch
     root@ubilinux:~# wget "http://www.sakis3g.com/downloads/sakis3g.tar.gz" -O sakis3g.tar.gz
-    root@ubilinux:~# tar -xzvf sakis3g.tar.gz
-    root@ubilinux:~# chmod +x sakis3g
-    root@ubilinux:~# ./sakis3g --interactive
-
     root@ubilinux:~# dmesg
     [  450.792009] usb 1-1.3: new high-speed USB device number 3 using dwc3-host
     [  450.817656] usb 1-1.3: New USB device found, idVendor=1bbb, idProduct=f017
@@ -31,5 +27,8 @@
     Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
     Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
     Bus 001 Device 003: ID 1bbb:f017 T & A Mobile Phones
+    root@ubilinux:~# tar -xzvf sakis3g.tar.gz
+    root@ubilinux:~# chmod +x sakis3g
+    root@ubilinux:~# ./sakis3g --interactive
     
     
