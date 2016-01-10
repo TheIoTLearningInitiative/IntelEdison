@@ -49,7 +49,6 @@
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
    * [OpenCv](documentation/OpenCv.md)
-* Services
 * [Debug](documentation/Debug.md)
 * [Native Compilation](documentation/NativeCompilation.md)
 * [Microcontroller Unit](documentation/MicrocontrollerUnit.md)
