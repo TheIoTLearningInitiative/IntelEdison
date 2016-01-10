@@ -77,6 +77,8 @@ Setup
 
 ## 3G Modem
 
+### Debian Jessie x86
+
     xe1gyq@jessie:~$ lsusb
     Bus 001 Device 002: ID 046d:c31c Logitech, Inc. Keyboard K120 for Business
     Bus 002 Device 002: ID 046d:c05a Logitech, Inc. M90/M100 Optical Mouse
