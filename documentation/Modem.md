@@ -67,5 +67,7 @@ Sakis 3G
     root@ubilinux:~# tar -xzvf sakis3g.tar.gz
     root@ubilinux:~# chmod +x sakis3g
     root@ubilinux:~# ./sakis3g --interactive
+    ...
+    root@ubilinux:~# ping google.com
     
     
