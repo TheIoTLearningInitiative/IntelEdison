@@ -121,6 +121,9 @@ Setup
     [  427.573530] scsi 8:0:0:0: Direct-Access     USBModem MMC Storage      2.31 PQ: 0 ANSI: 2
     [  427.574461] sd 8:0:0:0: Attached scsi generic sg1 type 0
     [  427.577271] sd 8:0:0:0: [sdb] Attached SCSI removable disk
+    
+    lsusb
+    Bus 007 Device 006: ID 1bbb:011e T & A Mobile Phones 
 
 ### Debian Whezzy Intel Edison
 
