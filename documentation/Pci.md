@@ -43,6 +43,7 @@ Peripheral Component Interconnect
     00:16.1 Co-processor: Intel Corporation Device 11a4 (rev 01)                
     00:17.0 System peripheral: Intel Corporation Device 11a5 (rev 01)           
     00:18.0 Display controller: Intel Corporation Device 11a6 (rev 01)
+    root@ubilinux:~# cat /proc/bus/pci/devices
 
 
 - https://communities.intel.com/thread/61150?wapkw=intel+edison+mpcie
