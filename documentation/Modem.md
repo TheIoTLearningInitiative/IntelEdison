@@ -76,3 +76,4 @@ Sakis 3G
 - https://answers.launchpad.net/ubuntu/+source/gnome-nettool/+question/211095
 - http://www.monblocnotes.com/node/1943
 - http://www.paoli.cz/en/lte-modules-1/huawei-me909u-521-mini-pcie.html?cur=1&lang=1&&redirected=1
+- http://www.paoli.cz/out/media/Guide_to_Kernel_Driver_Integration_in_Linux_for_Huawei_Modules(1).pdf
