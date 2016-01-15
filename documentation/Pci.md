@@ -51,4 +51,5 @@ Peripheral Component Interconnect
 - https://www.aisler.net/projects/7252
 - http://pinball-mods.com/blogs/?p=580
 - https://hackaday.io/project/4571-intel-edison-usb-storage-sled
+- https://wiki.archlinux.org/index.php/Huawei_E220
 
