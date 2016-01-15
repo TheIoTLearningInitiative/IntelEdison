@@ -71,3 +71,4 @@ Sakis 3G
     root@ubilinux:~# ping google.com
     
     
+- https://boundarydevices.com/cellular-modems-on-i-mx6-boards/
