@@ -42,7 +42,12 @@ USB
 
 ## Debug
 
-
+$ dmesg
+$ ls –l /sys/bus/usb/drivers/
+$ ls –l /sys/bus/usb/drivers/option/***/
+$ cat /sys/bus/usb/drivers/option/***/bInterface*
+$ cat /proc/bus/usb/devices and save the output to the logcat.txt
+file. If the command cannot be executed, skip this step
 
 ## Links
 
