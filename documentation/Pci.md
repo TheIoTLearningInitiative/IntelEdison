@@ -50,3 +50,4 @@ Peripheral Component Interconnect
 - https://www.aisler.net/projects/7252
 - http://pinball-mods.com/blogs/?p=580
 - https://hackaday.io/project/4571-intel-edison-usb-storage-sled
+- https://boundarydevices.com/cellular-modems-on-i-mx6-boards/
