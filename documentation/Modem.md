@@ -75,3 +75,4 @@ Sakis 3G
 - https://boundarydevices.com/cellular-modems-on-i-mx6-boards/
 - https://answers.launchpad.net/ubuntu/+source/gnome-nettool/+question/211095
 - http://www.monblocnotes.com/node/1943
+- http://www.paoli.cz/en/lte-modules-1/huawei-me909u-521-mini-pcie.html?cur=1&lang=1&&redirected=1
