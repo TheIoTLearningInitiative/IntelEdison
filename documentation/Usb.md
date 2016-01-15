@@ -15,7 +15,7 @@ USB
     root@edison:~# lsusb
     unable to initialize libusb: -99
     $ dmesg
-    root@Edison:~# ls -l /sys/bus/usb/drivers
+    root@edison:~# ls -l /sys/bus/usb/drivers
     total 0
     drwxr-xr-x 2 root root 0 Jan  1 00:01 asix
     drwxr-xr-x 2 root root 0 Jan  1 00:01 cdc_acm
@@ -35,21 +35,21 @@ USB
 ## Setup
 ### Opkg
 
-    root@Edison:~# opkg install libusb-1.0-dev libudev1-dev
+    root@edison:~# opkg install libusb-1.0-dev libudev1-dev
 
 ### Apt-Get
 
-    root@Edison:~# apt-get install libusb-1.0-dev libudev-dev
-    root@Edison:~# apt-get install libtool
+    root@edison:~# apt-get install libusb-1.0-dev libudev-dev
+    root@edison:~# apt-get install libtool
     
 ## Device Configuration
 
-    root@Edison:~# git clone https://github.com/libusb/libusb.git
-    root@Edison:~# cd libusb
-    root@Edison:~# ./autogen.sh -disable-udev
-    root@Edison:~# make
-    root@Edison:~# cd examples
-    root@Edison:~# ./listdevs
+    root@edison:~# git clone https://github.com/libusb/libusb.git
+    root@edison:~# cd libusb
+    root@edison:~# ./autogen.sh -disable-udev
+    root@edison:~# make
+    root@edison:~# cd examples
+    root@edison:~# ./listdevs
     1d6b:0003 (bus 2, device 1)
     0458:708a (bus 1, device 3) path: 1.1
     05e3:0606 (bus 1, device 2) path: 1
@@ -59,7 +59,7 @@ USB
 
 ## Debug
 
-    root@Edison:~# ls –l /sys/bus/usb/drivers/option/***/
+    root@edison:~# ls –l /sys/bus/usb/drivers/option/***/
     $ cat /sys/bus/usb/drivers/option/***/bInterface*
     $ cat /proc/bus/usb/devices
 
