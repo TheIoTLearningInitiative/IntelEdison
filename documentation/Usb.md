@@ -44,7 +44,7 @@ USB
 
     $ dmesg
     $ ls –l /sys/bus/usb/drivers/
-    root@ubilinux:~# ls -l /sys/bus/usb/drivers
+    root@Edison:~# ls -l /sys/bus/usb/drivers
     total 0
     drwxr-xr-x 2 root root 0 Jan  1 00:01 asix
     drwxr-xr-x 2 root root 0 Jan  1 00:01 cdc_acm
