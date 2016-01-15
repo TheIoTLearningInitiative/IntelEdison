@@ -43,7 +43,6 @@ USB
 ## Debug
 
     $ dmesg
-    $ ls –l /sys/bus/usb/drivers/
     root@Edison:~# ls -l /sys/bus/usb/drivers
     total 0
     drwxr-xr-x 2 root root 0 Jan  1 00:01 asix
@@ -60,7 +59,7 @@ USB
     drwxr-xr-x 2 root root 0 Jan  1 00:01 usbserial
     drwxr-xr-x 2 root root 0 Jan  1 00:01 usb-storage
     drwxr-xr-x 2 root root 0 Jan  1 00:01 uvcvideo
-    $ ls –l /sys/bus/usb/drivers/option/***/
+    root@Edison:~# ls –l /sys/bus/usb/drivers/option/***/
     $ cat /sys/bus/usb/drivers/option/***/bInterface*
     $ cat /proc/bus/usb/devices
 
