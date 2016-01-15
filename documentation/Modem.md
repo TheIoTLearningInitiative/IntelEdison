@@ -73,3 +73,4 @@ Sakis 3G
 ## Links  
     
 - https://boundarydevices.com/cellular-modems-on-i-mx6-boards/
+- https://answers.launchpad.net/ubuntu/+source/gnome-nettool/+question/211095
