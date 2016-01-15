@@ -31,8 +31,10 @@ USB
     drwxr-xr-x 2 root root 0 Jan  1 00:01 usbserial
     drwxr-xr-x 2 root root 0 Jan  1 00:01 usb-storage
     drwxr-xr-x 2 root root 0 Jan  1 00:01 uvcvideo
+    
 
 ## Setup
+
 ### Opkg
 
     root@edison:~# opkg install libusb-1.0-dev libudev1-dev
