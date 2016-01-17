@@ -4,4 +4,4 @@
 
 > Enginursday: A Template for Edison Blocks
 
-https://www.sparkfun.com/news/1591
+- [Enginursday: A Template for Edison Blocks](https://www.sparkfun.com/news/1591)
