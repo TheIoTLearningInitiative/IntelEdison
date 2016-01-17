@@ -5,6 +5,7 @@ Let's understand what it means to work with Yocto Project by building images for
 
 ## Development Workstation, Qemu Image Compilaton
 
+```sh
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~# apt-get install qemu
     user@host:~$ mkdir source
@@ -15,6 +16,7 @@ Let's understand what it means to work with Yocto Project by building images for
     user@host:~$ bitbake core-image-full-cmdline-x86
     user@host:~$ bitbake core-image-sato-sdk
     user@host:~$ runqemu qemux86
+```
 
 ## Links
 
