@@ -25,6 +25,7 @@ Building Blocks
 
 It includes:
 
+```sh
     recipes-bsp          - Anything with links to specific hardware or hardware configuration information
     recipes-connectivity - Libraries and applications related to communication with other devices
     recipes-core         - What's needed to build a basic working Linux image including commonly used dependencies
@@ -40,6 +41,7 @@ It includes:
     recipes-qt           - All things related to the Qt application framework
     recipes-sato         - The Sato demo/reference UI/UX, its associated apps and configuration
     recipes-support      - Recipes used by other recipes but that are not directly included in images
+```
 
 ### meta-yocto
 
