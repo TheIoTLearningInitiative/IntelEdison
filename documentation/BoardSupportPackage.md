@@ -13,7 +13,9 @@ The Intel® Edison Board Support Package offers these features:
 
 ## Dependencies
 
+```sh
     user@host:~# apt-get install build-essential git diffstat gawk chrpath texinfo libtool gcc-multilib dfu-util screen u-boot-tools
+```
 
 ## Board Support Package
 
@@ -22,6 +24,7 @@ The Intel® Edison Board Support Package offers these features:
 Go to [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 and copy the link location for "Sources - Linux Sources Files" then download them
 
+```sh
     user@host:~$ wget http://downloadmirror.intel.com/25028/eng/edison-src-ww25.5-15.tgz
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
@@ -29,11 +32,13 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     /home/xe1gyq/Projects/RealTime/v25/edison-src
     user@host:~$ ls
     Makefile  meta-intel-edison
+```
 
 ### Building via Make
 
 #### Make Setup
 
+```sh
     user@host:~$ make setup
     abraham@aarcemor-desk:~/edison-src$ make setup
     Setup buildenv for SDK host linux64
@@ -110,9 +115,11 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     *************
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
+```
 
 #### Make Image
 
+```sh
     user@host:~$ make image
     /bin/bash -c "source out/current/poky/oe-init-build-env /home/abraham/Projects/RealTime/v25/edison-src/out/current/build ; bitbake -c cleansstate edison-image ; bitbake edison-image"
     
@@ -224,6 +231,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     *************
     user@host:~$ ls
     bbcache  Makefile  meta-arduino  meta-intel-edison  out  pub
+```
 
 #### Make Building Workflow
 
@@ -244,7 +252,7 @@ and copy the link location for "Sources - Linux Sources Files" then download the
   - source poky/oe-init-build-env
   - bitbake edison-image
 
-
+```sh
     Build Configuration:
     BB_VERSION        = "1.24.0"
     BUILD_SYS         = "i686-linux"
@@ -263,9 +271,11 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     meta-intel-iot-middleware = "(detachedfromc6d6814):c6d681475e76107e6c04c5f7a06034dc9e772d1e"
     meta-intel-arduino = "<unknown>:<unknown>"
     meta-arduino      = "1.6.x:541b127163acb243109f07141bf249da2ecdcd9a"
+```
 
 #### Make Flash
 
+```sh
     user@host:~$ make flash
     abraham@aarcemor-desk:~/Projects/RealTime/v25/edison-src$ make flash
     ./out/current/build/toFlash/flashall.sh
@@ -311,9 +321,11 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ bitbake virtual/kernel -c menuconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
     user@host:~$ bitbake edison-image
+```
 
 ### Building via Make + Bitbake
 
+```sh
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
     user@host:~$ ls
@@ -386,9 +398,11 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     Using U-Boot target: edison-blankcdc
     Now waiting for dfu device 8087:0a99
     Please plug and reboot the board
+```
 
 ### Building via Script
 
+```sh
     user@host:~$ tar xvf edison-src-ww25.5-15.tgz
     user@host:~$ cd edison-src
     user@host:~$ pwd
