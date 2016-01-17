@@ -5,7 +5,7 @@ General Purpose Input Output (GPIO)
 
 - [Linux Kernel GPIO Documentation](https://www.kernel.org/doc/Documentation/gpio/)
 - [LWN GPIO In The Kernel: An Introduction](https://lwn.net/Articles/532714/)
-- [GPIO Wikipedia](https://en.wikipedia.org/wiki/General-purpose_input/output)
+- [Wikipedia GPIO](https://en.wikipedia.org/wiki/General-purpose_input/output)
 
 ## Kernel Integration
 
