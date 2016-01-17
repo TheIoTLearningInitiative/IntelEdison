@@ -418,23 +418,27 @@ and copy the link location for "Sources - Linux Sources Files" then download the
     user@host:~$ build/toFlash/flashall.sh
     user@host:~$ build/toFlash/flashall.sh --keep-data
     user@host:~$ build/toFlash/flashall.sh --recovery
-
+```
 
 ## Native SDK
 
 ### Building via Make
 
+```sh
     user@host:~$ make sdk
     user@host:~$ ls out/current/build/tmp/deploy/sdk/
     poky-edison-glibc-x86_64-edison-image-core2-32-toolchain-1.7.2.manifest
     poky-edison-glibc-x86_64-edison-image-core2-32-toolchain-1.7.2.sh
     user@host:~$ out/current/build/tmp/deploy/sdk/poky-edison-glibc-x86_64-edison-image-core2-32-toolchain-1.7.2.sh
+```
 
 ### Building via BitBake
 
+```sh
     user@host:~$ bitbake edison-image-c populate_sdk
     user@host:~$ ls tmp/deploy/sdk
     user@host:~$ poky-edison-eglibc-x86_64-edison-image-core2-32-toolchain-1.6.1.sh
+```
 
 ## Packages
 
@@ -442,14 +446,17 @@ and copy the link location for "Sources - Linux Sources Files" then download the
 
 Review the content of "edison-image.bb" and add some extra packages
 
+```sh
     user@host:~$ nano edison-src/meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
     IMAGE_INSTALL += “libpng”
     IMAGE_INSTALL += "opencv"
     IMAGE_INSTALL += "python-opencv"
     PACKAGE_EXCLUDE = "libpng"
+```
 
 ### Third Party, Not Common, AX25
 
+```sh
     user@host:~$ pwd
     edison-src/out/linux64/build
     user@host:~$ cd edison-src/out/current/poky
@@ -463,6 +470,7 @@ Review the content of "edison-image.bb" and add some extra packages
     IMAGE_INSTALL += “libax25”
     user@host:~$ make image
     user@host:~$ make flash
+```
 
 ## Links
 
