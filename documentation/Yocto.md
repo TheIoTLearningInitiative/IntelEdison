@@ -35,6 +35,7 @@ ToDo Important Topics To Cover
 
 ## Development Workstation, Minnowboard Image Compilaton
 
+```sh
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
     user@host:~$ mkdir source
     user@host:~$ cd source
@@ -50,16 +51,21 @@ ToDo Important Topics To Cover
     user@host:~$ ls tmp/deploy/images/intel-corei7-64/
     ...
     core-image-minimal-intel-corei7-64.hddimg
+```
 
 ### Development Workstation, Minnowboard MAX Kernel Compilation
 
+```
     user@host:~$ bitbake virtual/kernel -c menuconfig
     user@host:~$ bitbake virtual/kernel -c configure -f -v
+```
 
 ### Development Workstation, Minnowboard MAX Flashing
 
+```
     user@host:~$ sudo $HOME/source/poky/scripts/contrib/mkefidisk.sh HOST_DEVICE \
     tmp/deploy/images/intel-corei7-64/core-image-minimal-intel-corei7-64.hddimg \
     TARGET_DEVICE
+```
 
 - [Yocto Project @ Minnowboard MAX](http://wiki.minnowboard.org/Yocto_Project)
