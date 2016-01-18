@@ -53,4 +53,9 @@ Peripheral Component Interconnect
 - http://pinball-mods.com/blogs/?p=580
 - https://hackaday.io/project/4571-intel-edison-usb-storage-sled
 - https://wiki.archlinux.org/index.php/Huawei_E220
+- https://techship.se/products/mpcie-usb-adapt-9-pin/
+- https://techship.se/products/pci-express-mini-card-to-usb-adapter/
+- https://techship.se/products/pci-express-mini-card-to-usb-adapter-with-external-voltage/
+- 
+
 
