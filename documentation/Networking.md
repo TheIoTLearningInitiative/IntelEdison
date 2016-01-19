@@ -9,3 +9,4 @@ Networking Subsystem
 
 - https://communities.intel.com/message/294647#294647
 - https://www.sparkfun.com/products/13262
+- https://store.digilentinc.com/?NavPath=2,892,942&Prod=CHIPKIT-NETWORK-SHIELD
