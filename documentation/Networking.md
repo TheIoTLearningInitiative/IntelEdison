@@ -8,3 +8,4 @@ Networking Subsystem
 ## CAN
 
 - https://communities.intel.com/message/294647#294647
+- https://www.sparkfun.com/products/13262
