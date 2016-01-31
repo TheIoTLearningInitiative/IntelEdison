@@ -107,11 +107,9 @@ http://www.h-online.com/open/news/item/Intel-develops-simpler-alternative-to-ACP
 - https://www.kernel.org/doc/ols/2009/ols2009-pages-55-60.pdf
 - https://lwn.net/Articles/406228/
 - https://simplefirmware.org/faq
-
-
-http://geektimes.ru/post/255136/
-https://communities.intel.com/message/273743
-https://edison.internet-share.com/w/index.php?title=Using_a_stock_Linux_kernel_with_Intel_Edison&redirect=no
+- http://geektimes.ru/post/255136/
+- https://communities.intel.com/message/273743
+- https://edison.internet-share.com/w/index.php?title=Using_a_stock_Linux_kernel_with_Intel_Edison&redirect=no
 
 User Linux Next
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
