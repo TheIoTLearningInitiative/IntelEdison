@@ -3,10 +3,13 @@ Boot Up
 
 Finally, connect Intel Edison to your Host Computer using the registered COM / TTY device and launch your serial interface, e.g. Linux
 
+```sh
     $ sudo minicom -D /dev/ttyUSB0 115200
+```
 
 ## Bootup U-Boot
 
+```sh
     ******************************
     PSH KERNEL VERSION: b0182b2b
                     WR: 20104000
@@ -50,9 +53,11 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
     Loading bzImage at address 00100000 (5370144 bytes)
     Magic signature found
     Kernel command line: "rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4 rootfstype=ext4 console=ttyMFD2 earlyprintk=ttyMFD2,k"
+```
 
 ## Bootup Linux Kernel
 
+```sh
     Starting kernel ...
     
     [    0.766587] pca953x 1-0020: failed reading register
@@ -100,20 +105,20 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
     Poky (Yocto Project Reference Distro) 1.7.2 edison ttyMFD2
     
     edison login: 
-
+```
 
 ## Bootup Linux Login
 
+```sh
     Poky (Yocto Project Reference Distro) 1.7.2 edison ttyMFD2
     
     edison login: root
     root@edison:~# 
-
+```
 
 ## Bootup Kernel Display Message
 
 - [Linux Kernel Dmesg](https://en.wikipedia.org/wiki/Dmesg)
-
 
     root@edison:~# dmesg
     root@edison:~# dmesg > dmesg.file
