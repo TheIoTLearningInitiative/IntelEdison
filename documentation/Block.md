@@ -48,49 +48,65 @@ Block Subsystem
     [    5.965905]  lun0: LUN: file: /dev/mmcblk0p9
     [    8.512646] FAT-fs (mmcblk0p7): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
     [    8.557697] EXT4-fs (mmcblk0p10): mounted filesystem with ordered data mode. Opts: (null)
+```
 
 ## Setup
 
 ### Apt-Get
 
+```sh
     root@edison:~# apt-get update
     root@edison:~# apt-get install e2fsprogs dosfstools xfsprogs
+```
 
 ### Opkg
 
+```sh
     root@edison:~# opkg update
     root@edison:~# opkg install e2fsprogs dosfstools
+```
 
 ## Device Configuration
 
 ### Format SD Card
+
+```sh
     root@edison:~# mount
     /dev/mmcblk0p7 on /boot type vfat (rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,err)
     /dev/mmcblk0p10 on /home type ext4 (rw,relatime,data=ordered)
     /dev/mmcblk1p1 on /media/sdcard type vfat (rw,relatime,uid=65534,fmask=0000,dmask=0000,allow_utime=0022,codepage=437,ioch)
     root@edison:~# mkfs.ext4 /dev/mmcblk1
     root@edison:~# mkfs.ext4 -t ext4 /dev/mmcblk1
+```
 
 ### Mount Manually SD Card
 
+```sh
     root@edison:~# mkdir localdirectory
     root@edison:~# mount -t ext4 /dev/mmcblk1 localdirectory
     root@edison:~# mount | grep mmcblk1
     /dev/mmcblk1 on /root/localdirectory type ext4 (rw,relatime,data=ordered)
+```
 
 ### UmountSD Card
 
+```sh
     root@edison:~# umount localdirectory
     root@edison:~# umount /dev/mmcblk1
+```
 
 ### Mount Automatically SD Card
 
+```sh
     root@edison:~# vi /etc/fstab
     /dev/mmcblk1  /path/to/localdirectory
+```
 
 ## Applications
+
 ## Usage Models
 
+```sh
     root@edison:~# cd /tmp
     root@edison:~# mkdir temptmpfs
     root@edison:~# mount -o size=16G -t tmpfs none temptmpfs/
@@ -100,6 +116,7 @@ Block Subsystem
     root@edison:~# mount
     none on /root/temptmpfs type tmpfs (rw,relatime,size=16777216k)
     root@edison:~# umount /root/temptmpfs
+```
 
 ## Links
 
