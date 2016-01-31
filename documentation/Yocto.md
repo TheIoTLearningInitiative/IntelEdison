@@ -6,11 +6,11 @@ Yocto Customization
 - [Yocto Project Homepage](https://www.yoctoproject.org/)
 - [Yocto Project and Embedded OS Webinar](http://www.intel.com/content/www/us/en/education/university/galileo-university-curricula/yocto-project-and-embedded-os-webinar-replay.html#)
 
-## Bulding Yocto
+## Building Yocto
 
 Let's understand what it means to work with Yocto Project by building images for QEMU and Minnowboard MAX.
 
-## Development Workstation, Qemu Image Compilaton
+### Development Workstation, Qemu Image Compilaton
 
 ```sh
     user@host:~# apt-get install gawk wget git-core diffstat unzip texinfo build-essential chrpath
