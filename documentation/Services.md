@@ -6,9 +6,8 @@ Services
 > systemctl command, the central management tool for controlling the init system
 
 ```sh
-    root@edison:~# nano python-main.sh
-    cd /home/root/python/script/location/
-    python main.py
+    root@edison:~# cd /home/root/python/script/location/
+    root@edison:~# nano python-main.sh    
     root@edison:~# cd /lib/systemd/system
     root@edison:~# nano python-main.service
 ```
