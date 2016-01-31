@@ -207,6 +207,7 @@ The best MCU Reference Document to review is:
     fi
 ```
 
+```sh
 echo "load mcu app" > /sys/devices/platform/intel_mcu/control
 ```
 
