@@ -3,6 +3,7 @@ Modem
 
 ## T & A Mobile Phones
 
+```sh
     root@ubilinux:~# apt-get update
     root@ubilinux:~# apt-get install ppp bzip2 usb-modeswitch
     
