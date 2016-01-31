@@ -6,7 +6,7 @@ Yocto
 > The Yocto Project is a Linux Foundation workgroup whose goal is to produce tools and processes that will enable the creation of Linux distributions for embedded software that are independent of the underlying architecture of the embedded software itself.
 
 - [Yocto Project Homepage](https://www.yoctoproject.org/)
-- [Yocto Project Quick Start Guide]()
+- [Yocto Project Quick Start Guide](http://www.yoctoproject.org/docs/2.0/yocto-project-qs/yocto-project-qs.html)
 - [Yocto Developer Manual]()
 - [Yocto Kernel Developer Manual]()
 - [Yocto Project and Embedded OS Webinar](http://www.intel.com/content/www/us/en/education/university/galileo-university-curricula/yocto-project-and-embedded-os-webinar-replay.html#)
