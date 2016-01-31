@@ -116,6 +116,22 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
     root@edison:~# 
 ```
 
+## Bootup Kernel Display Message
+
+- [Linux Kernel Dmesg](https://en.wikipedia.org/wiki/Dmesg)
+
+```sh
+    root@edison:~# dmesg
+    root@edison:~# dmesg > dmesg.file
+    root@edison:~# vi dmesg.file
+    
+    [    0.000000] Initializing cgroup subsys cpuset
+    [    0.000000] Initializing cgroup subsys cpu
+    ...
+    [   17.842227] snd_intel_sst: runtime_idle called                               
+    [   19.841555] snd_intel_sst: runtime_suspend called
+```
+
 __Homework__ Review the content under dmesg.file, identify which drivers/services are executed/started
 
 ## Bootup Initial Configuration
