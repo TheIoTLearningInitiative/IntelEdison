@@ -215,7 +215,6 @@ Explore the internal tools from Eclipse to work with Edison MCU
 
 - [Edison MCU Internal Tools](https://github.com/lambdasakura/irremocon-edison/tree/master/internal_tools)
 
-
 ## Links
 
 - [Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
