@@ -9,6 +9,7 @@ USB Audio
 
 ### Opkg
 
+```sh
     root@edison:~# opkg install alsa-utils mpg123 espeak
     ...
     Configuring libsamplerate0.
@@ -27,13 +28,17 @@ USB Audio
     Configuring mpg123.
     ...
     root@edison:~# ls /usr/share/sounds/alsa/
+```
 
 ### Apt-Get
 
+```sh
     root@edison:~# apt-get install alsa-utils mpg123 espeak
+```
 
 ## Kernel Integration
 
+```sh
     root@edison:~# dmesg | grep -i audio
     [ 9635.624279] usb 1-1.2: new full-speed USB device number 4 using dwc3-host
     [ 9635.646994] usb 1-1.2: New USB device found, idVendor=0d8c, idProduct=013c
@@ -55,9 +60,11 @@ USB Audio
                           Loopback 1
      1 [Device         ]: USB-Audio - USB PnP Sound Device
                           C-Media Electronics Inc. USB PnP Sound Device at usb-dwc3-host.2-1.2, full speed
+```
 
 ## Device Configuration
 
+```
     root@edison:~# vi ~/.asoundrc
     pcm.!default {
         type plug
@@ -74,27 +81,33 @@ USB Audio
 
     root@edison:~# vi /etc/asound.conf
     pcm.!default sysdefault:Headset
+```
 
 ## Userspace Applications
 
 ### Playback Hardware Devices
 
+```sh
     root@edison:~# aplay -Ll
     card 1: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
     Subdevices: 1/1
     Subdevice #0: subdevice #0
     root@edison:~# aplay -D hw:1,0 /usr/share/sounds/alsa/Front_Center.wav
+```
 
 ### Capture Hardware Devices
 
+```sh
     root@edison:~# arecord -Ll
     card 1: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
     Subdevices: 1/1
     Subdevice #0: subdevice #0
     root@edison:~# record -f cd -D plughw:1,0 -d 20 test.wav
+```
 
 ### Testing
-    
+
+```sh    
     root@edison:~# mpg123
     
     root@edison:~# speaker-test 
@@ -104,6 +117,7 @@ USB Audio
     Using 16 octaves of pink noise
     
     root@edison:~# espeak
+```
 
 ## Links
 
@@ -112,6 +126,7 @@ USB Audio
 
 ## Tbd
 
+```sh
     sudo modprobe -v snd_usb_audio
     sudo modprobe --force-vermagic snd-usb-audio.ko
     sudo depmod -a
@@ -120,3 +135,4 @@ USB Audio
     sudo dpkg-reconfigure alsa-base
     cat /dev/sndstat
     cat /proc/asound/cards
+```sh
