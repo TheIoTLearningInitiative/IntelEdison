@@ -1,7 +1,7 @@
 Serial
 ==
 
-## Required Applications
+## Userspace Applications
 
 ### Opkg
 
