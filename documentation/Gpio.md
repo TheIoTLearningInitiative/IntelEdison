@@ -161,18 +161,21 @@ As explained before the GPIO control interface has some read/write attributes, s
 
 2. To change it, from **"in"** to  **"out "** we only have to  write "out" to attribute **GPIO48/direction** like this:
 
-
+```sh
     echo out > /sys/class/gpio/gpio48/direction
-
+```
 
 Then checking again the GPIO status we can see, that direction has changed. Here is a table that shows the direction before and after the change: 
 
+```sh
     | GPIO48  Previous Direction | GPIO48  New Direction |
     | -- | -- |
     | gpio-48  (sysfs               ) **in**  lo| gpio-48  (sysfs               ) **out**  lo |
-
+```
 
 ### Exercise 2: Use Python Bindings
 
+```sh
     mraa
     apt-get install python-smbus
+```
