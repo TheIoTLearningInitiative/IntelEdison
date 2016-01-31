@@ -1,5 +1,4 @@
-Introduction
-==
+<center><h1><b>Experiment, Make, Innovate</b></h1></center>
 
 > The Intel® Edison is a tiny computer offered by Intel as a development system for wearable devices[1] and Internet of Things devices. The system was initially announced to be the same size and shape as an SD card and containing a dual-core Intel Quark x86 CPU at 400 MHz communicating via Bluetooth and Wi-Fi. A later announcement changed the CPU to a 22 nm Silvermont dual-core Intel Atom CPU,[5] and in September 2014 a second version of Edison was shown at IDF, which was bigger and thicker than a standard SD card. Wikipedia
 
@@ -13,3 +12,9 @@ Introduction
 We will use:
 
 - Default Yocto Version
+
+<center><a href="http://creativecommons.org/licenses/by-sa/3.0/">
+  <img src="http://mirrors.creativecommons.org/presskit/logos/cc.logo.large.png" alt="HTML tutorial">
+</a></center>
+
+<center><h2>Copyright 2015, The IoT Learning Initiative</h2></center>
