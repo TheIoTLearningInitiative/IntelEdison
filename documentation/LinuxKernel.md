@@ -96,7 +96,6 @@ https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
 ## Kernel Interfaces
 
-
 ### SFI Simple Firmware Interface
 
 http://www.h-online.com/open/news/item/Intel-develops-simpler-alternative-to-ACPI-for-Linux-742161.html
