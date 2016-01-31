@@ -203,8 +203,10 @@ Related
 
 ### APIC
 
+```sh
     arch/x86/kernel/apic/apic.c
     arch/x86/kernel/apic/io_apic.c
+```
 
 ### APB Timer
 
@@ -217,9 +219,9 @@ Related
 
 > It is also worth notice that APB timer does not support true one-shot mode, free-running mode will be used here to emulate one-shot mode. APB timer can also be used as broadcast timer along with per cpu local APIC timer, but by default APB timer has higher rating than local APIC timers.
 
-
+```sh
     arch/x86/kernel/apb_timer.c | Driver for Langwell APB timers
-
+```
  
 ### Power
 
