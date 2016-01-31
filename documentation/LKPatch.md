@@ -295,6 +295,7 @@ Related
 
 There will be another general vrtc driver for rtc subsystem
 
+```sh
     arch/x86/include/asm/intel_mid_vrtc.h
     
     obj-$(CONFIG_X86_MRST)		+= mrst.o vrtc.o
@@ -303,7 +304,7 @@ There will be another general vrtc driver for rtc subsystem
     arch/x86/kernel/mrst.c
     arch/x86/kernel/vrtc.c
     arch/x86/platform/mrst/vrtc.c | Driver for virtual RTC device on Intel MID platform
-    
+```    
 
 ### HSU
 
