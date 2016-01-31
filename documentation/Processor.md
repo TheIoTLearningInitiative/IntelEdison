@@ -17,6 +17,6 @@ Processor
 
 ## Intel SIMD Extensions
 
-> In computing, Streaming SIMD Extensions (SSE) is an SIMD instruction set extension to the x86 architecture, designed by Intel and introduced in 1999 in their Pentium III series processors as a reply to AMD's 3DNow!. SSE contains 70 new instructions, most of which work on single precision floating point data. Wikipwdia
+> In computing, Streaming SIMD Extensions (SSE) is an SIMD instruction set extension to the x86 architecture, designed by Intel and introduced in 1999 in their Pentium III series processors as a reply to AMD's 3DNow!. SSE contains 70 new instructions, most of which work on single precision floating point data. Wikipedia
 
 https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions
