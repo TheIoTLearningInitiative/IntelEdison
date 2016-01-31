@@ -17,6 +17,7 @@ WiFi
 
 ## Kernel Integration
 
+```sh
     root@edison:~# dmesg | grep -i wifi
     [    0.189658] Using generic wifi platform data
     [    0.189675] wifi_platform_data: GPIO == 64
@@ -47,9 +48,11 @@ WiFi
     2: bcm43xx Bluetooth: bluetooth
             Soft blocked: yes
             Hard blocked: no
+```
 
 ## WiFi Yocto Default Configuration
 
+```sh
     root@Edison:~# configure_edison --wifi
      Configure Edison: WiFi Connection
     root@edison:~# ifconfig
@@ -71,47 +74,65 @@ WiFi
     3 packets transmitted, 3 packets received, 0% packet loss
     round-trip min/avg/max = 28.487/29.217/29.773 ms
     root@edison:~# 
+```
 
 ## Userspace Applications
 
 Make sure there are no soft blocks
 
+```sh
     root@edison:~# rfkill list
+```
 
 Make sure wlan0 is loaded and see IP
 
+```sh
     root@edison:~# ifconfig
+```
 
 Load the wlan0 device driver
 
+```sh
     root@edison:~# wpa_supplicant -B -Dnl80211 -iwlan0 -c/etc/wpa_supplicant/wpa_supplicant.conf
+```
 
 Get DHCP and DNS
 
+```sh
     root@edison:~# busybox udhcpc -i wlan0
+```
 
 Move usb0 to a different non-conflicting subnet
 
+```sh
     root@edison:~# vi /etc/system/system/basic.target.wants/network-gadget-init.service
+```
 
 Disable usb0 device from loading
 
+```sh
     root@edison:~# systemctl disable network-gadget-init.service
+```
 
 Ensure there is a wpa_supplicant network{} definition and remove unneeded networks
 
+```sh
     root@edison:~# vi /etc/wpa_supplicant/wpa_supplicant.conf
-    
+```
+
 Enable first network definition
 
+```sh
     root@edison:~# wpa_cli
          > enable_network 0
          > select_network 0
          > save
          > quit
+```
 
 Example WEP key wpa_supplicant.conf
 
+```sh
     ctrl_interface=/var/run/wpa_supplicant
     ctrl_interface_group=0
     update_config=1
@@ -122,19 +143,26 @@ Example WEP key wpa_supplicant.conf
          auth_alg=OPEN
          wep_key0=f0039faded348299992344be23
     }
+```
 
 Remove soft block on wlan0
 
+```sh
     root@edison:~# rfkill unblock wlan
+```
 
 Enable wifi on boot once config is confirmed correct
 
+```sh
     root@edison:~# systemctl enable wa_supplicant
+```
 
 WiFi to connect at power up:
 
+```sh
     systemctl enable wpa_supplicant
     systemctl start wpa_supplicant
+```
 
 ## Intel Edison Ubilinux Mode AP
 
