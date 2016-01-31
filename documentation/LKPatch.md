@@ -354,17 +354,17 @@ It includes enums from:
     arch/x86/include/asm/intel_basincove_gpadc.h
     arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.c
     arch/x86/platform/intel-mid/device_libs/platform_bcove_adc.h
-    
     drivers/iio/adc/iio_basincove_gpadc.c
 ```
 
 Related
 
+
 ```c
     ACPI / PMIC: support PMIC operation region for CrystalCove
     #define DRIVER_NAME "bcove_bcu"
     #define DEVICE_NAME "mrfl_pmic_bcu"
-``
+```
 
 arch/x86/include/asm/intel_basincove_gpadc.h
 arch/x86/include/asm/intel_basincove_ocd.h
@@ -375,16 +375,20 @@ Broadcom Bluetooth Low Power Mode
     
     bcm_bt_lpm
 
-
+```c
     arch/x86/include/asm/bcm_bt_lpm.h
     drivers/misc/bcm-bt-lpm.c
     arch/x86/platform/intel-mid/device_libs/platform_btlpm.c | btlpm platform data initialization file
       Bluetooth is using UART port number 0
       .name = "bcm_bt_lpm",
       device_initcall(bluetooth_init);
+```
 
 ### GPIO
+
+```sh
 arch/x86/include/asm/gpio.h
+```
 
 ### GPIO Keys
 
