@@ -2,9 +2,8 @@
 
 
 ```sh
-    root@edison:~# tail -f /var/log/messages
-    root@edison:~#
-    dmesg
+root@edison:~# tail -f /var/log/messages
+root@edison:~# dmesg
 [    0.000000] Initializing cgroup subsys cpuset
 [    0.000000] Initializing cgroup subsys cpu
 [    0.000000] Initializing cgroup subsys cpuacct
