@@ -14,3 +14,7 @@ Processor
 
 - [Atom Systen On Chip Wixipedia](https://en.wikipedia.org/wiki/Atom_%28system_on_chip%29)
 - [Intel® talks Merrifield Moorefield Anandtech](http://www.anandtech.com/show/7789/intel-talks-merrifield-moorefield-and-lte-at-mwc-2014)
+
+## Intel SIMD Extensions
+
+https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions
