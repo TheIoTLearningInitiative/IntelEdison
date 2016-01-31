@@ -11,7 +11,7 @@ out-of-band) signaling for UART to support low power mode. ...
 
 - [Rfkill Homepage](https://wireless.wiki.kernel.org/en/users/documentation/rfkill)
 
-## Userspace Applications
+## Required Applications
 
 ### Opkg
 
