@@ -165,18 +165,24 @@ int main(int argc, char *argv[]) {
 }
 ```
 
+```sh
     root@edison:~# gcc socketclient.c -o socketclient
+```
 
 ### Socket Implementation, Test
 
+```sh
     root@edison:~# ./socketserver &
     root@edison:~# ./socketclient 192.168.1.74 5001
+```
 
 ## Native Compilation, G++ Compiler
 
+```sh
     root@edison:~# g++
     g++: fatal error: no input files
     compilation terminated.
+```
 
 ## Flask
 
@@ -184,11 +190,11 @@ int main(int argc, char *argv[]) {
 
 - [Flask Homepage](http://flask.pocoo.org/)
 
-
+```sh
     root@edison:~# pip install Flask
     root@edison:~# apt-get install python-flask
     root@edison:~# nano myflask.py 
-
+```
 
 ```Python
 from flask import Flask
