@@ -1,8 +1,6 @@
 Linux Kernel
 ==
 
-Owner: Abraham
-
 # Explain how we give support ot Linux Kernel
 
 > Intel Silvermont (Atom)
