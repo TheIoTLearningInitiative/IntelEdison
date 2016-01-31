@@ -34,13 +34,20 @@ Modem
     Bus 001 Device 003: ID 1bbb:f017 T & A Mobile Phones
     root@ubilinux:~# nano /etc/udev/rules.d/50-myrules.rules
     ATTRS{idVendor}=="1bbb",ATTRS{idProduct}=="0017", RUN+="/sbin/modprobe usbserial  vendor=0x1bbb product=0x0017"
-    
+```
+```sh
     <Disconnect Modem>
-    
+```
+
+```sh
     root@ubilinux:~# reboot
-    
+```
+
+```sh
     <Connect Modem>
-    
+```
+
+```sh
     root@ubilinux:~# tail -f /var/log/messages
     ...
     Jan 10 04:44:44 ubilinux usb_modeswitch: switching device 1bbb:f017 on 001/005
