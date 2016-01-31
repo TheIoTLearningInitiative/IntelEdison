@@ -61,6 +61,7 @@ Modem
     Jan 10 04:44:48 ubilinux kernel: [  682.392520] scsi 5:0:0:0: Direct-Access     USBModem MMC Storage      2.31 PQ: 0 ANSI: 2
     Jan 10 04:44:48 ubilinux kernel: [  682.394153] sd 5:0:0:0: Attached scsi generic sg0 type 0
     Jan 10 04:44:48 ubilinux kernel: [  682.396784] sd 5:0:0:0: [sda] Attached SCSI removable disk
+```
 
 Sakis 3G
 
