@@ -8,15 +8,18 @@
 
 ### Cmake
 
+```sh
     root@ubilinux:~$ wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
     root@ubilinux:~$ tar xvf cmake-3.2.2.tar.gz
     root@ubilinux:~$ cd cmake-3.2.2
     root@ubilinux:~$ ./bootstrap
     root@ubilinux:~$ make
     root@ubilinux:~# make install
+```
 
 ### Upm
 
+```sh
     root@Edison:~$ git clone https://github.com/intel-iot-devkit/upm.git
     root@Edison:~$ cd upm
     root@Edison:~$ mkdir build
@@ -26,6 +29,7 @@
     root@Edison:~# make install
     root@ubilinux:~$ nano ~/.bashrc
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
+```
 
 ## Testing
 
