@@ -30,6 +30,7 @@ Debug
 
 ## Kernel Integration
 
+```sh
     root@edison:~# mount -t debugfs none /sys/kernel/debug
     root@edison:~# ls /sys/kernel/debug/
     asoc                  gpio_debug            pmu_sync_d0ix
@@ -49,6 +50,7 @@ Debug
     dynamic_debug         pmic_ccsm             x86
     emmc_ipanic           pmu_force_d0i0
     gpio                  pmu_force_d0i3
+```
 
 ## Ftrace
 
