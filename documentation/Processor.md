@@ -23,6 +23,6 @@ Processor
 
 ## Intel® 14 nm Technology 
 
-> 
+> Supporting a wide range of products from mobile devices to servers, 14 nm transistors improve performance and reduce leakage power. Intel® 14 nm technology will be used to manufacture a wide range of high-performance to low-power products including servers, personal computing devices, and products for the Internet of Things. 
 
 - [Intel® 14 nm Technology Homepage](http://www.intel.com/content/www/us/en/silicon-innovations/intel-14nm-technology.html)
