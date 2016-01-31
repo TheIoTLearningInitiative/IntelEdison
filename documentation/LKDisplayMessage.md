@@ -1,8 +1,8 @@
 # Display Message
 
 
+```sh
     root@edison:~# tail -f /var/log/messages
-    
     root@edison:~#
     dmesg
     [    0.000000] Initializing cgroup subsys cpuset
@@ -781,3 +781,4 @@
 [   17.414880] snd_intel_sst: Free for str 1 pipe 0x90
 [   17.418527] snd_intel_sst: runtime_idle called
 [   19.412615] snd_intel_sst: runtime_suspend called
+```
