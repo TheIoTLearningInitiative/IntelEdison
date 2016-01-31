@@ -54,13 +54,17 @@ The best MCU Reference Document to review is:
 
 ### Tools
 
+```sh
     root@edison:~# ls /etc/intel_mcu/mcu_fw_loader.sh
     root@edison:~# file /lib/firmware/intel_mcu.bin
+```
 
 ### Interrupt Service Routine
 
+```sh
     root@edison:~# cat /proc/interrupts | grep intel_psh_ipc
     47:         17          0   IO-APIC-fasteoi   intel_psh_ipc
+```
 
 ### SysFs Power Interfaces
 
