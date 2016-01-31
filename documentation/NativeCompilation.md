@@ -208,22 +208,24 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
 ```
 
-
+```sh
     root@edison:~# python myflask.py
     * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
     * Restarting with stat
     192.168.1.73 - - [18/Oct/2015 16:34:56] "GET / HTTP/1.1" 200 -
     192.168.1.73 - - [18/Oct/2015 16:34:56] "GET /favicon.ico HTTP/1.1" 404 -
     192.168.1.73 - - [18/Oct/2015 16:34:56] "GET /favicon.ico HTTP/1.1" 404 -
-
+```
 
 ## Others
 
+```sh
     root@edison:~# journalctl 
     root@edison:~# cat /etc/modprobe.d/bcm4334x.conf 
     options bcm4334x firmware_path=/etc/firmware/fw_bcmdhd.bin nvram_path=/etc/firmware/bcmdhd.cal op_mode=4
     root@edison:~# cat /etc/modprobe.d/g_multi.conf  
     options g_multi file=/dev/mmcblk0p9 stall=0 idVendor=0x8087 idProduct=0x0A9E iProduct=Edison iManufacturer=Intel
+```
 
 ## Links
 
