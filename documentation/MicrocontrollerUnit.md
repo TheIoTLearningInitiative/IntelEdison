@@ -127,27 +127,32 @@ The best MCU Reference Document to review is:
 
 #### Name
 
+```sh
     +       .driver = {
     +               .name   = "intel_mcu",
     +       },
+```
 
 #### Commands
 
+```sh
     +enum cmd_id {
     +       CMD_MCU_LOAD_APP = 0,
     +       CMD_MCU_SETUP_DDR,
     +       CMD_MCU_APP_DEBUG,
     +       CMD_MCU_APP_GET_VERSION,
     +};
-
+```
 
 #### Command Handling
 
+```sh
     +               case CMD_MCU_APP_GET_VERSION:
     +               case CMD_MCU_APP_DEBUG:
 
     root@edison:~# cat /sys/devices/platform/intel_mcu/fw_version 
     1.0.10
+```
 
 #### Debug Level
 
