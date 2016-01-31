@@ -17,7 +17,7 @@ Links
 
 ## Kernel Integration
 
-    
+```sh
     root@edison:~# rfkill block Bluetooth # BlueTooth
     
     root@edison:~# modprobe -r bcm4334x # WiFi
@@ -53,9 +53,11 @@ Links
     ondemand userspace performance
     root@edison:~# cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
     500000
-    
+```sh
+
 ### Suspend to Ram
 
+```sh
     root@edison:~# echo "mem" > /sys/power/state
     [23496.070128] pci_pm_suspend(): sdhci_pci_suspend+0x0/0xd0 returns -16
     [23496.070144] dpm_run_callback(): pci_pm_suspend+0x0/0x1d0 returns -16
@@ -138,18 +140,20 @@ Links
     [23500.707829] 
     [23500.763280] wl_bss_connect_done succeeded with f8:01:13:a8:2b:40
     [23500.769798] wl_bss_connect_done succeeded with f8:01:13:a8:2b:40
-
+```
 
 - https://communities.intel.com/thread/61067?tstart=0
 - https://github.com/01org/edison-linux/commit/149de7abd8829bcc009641e215b53fe89fcf29b2
 
 ## Userspace Applications
 
+```sh
     root@edison:~# systemctl poweroff
     root@edison:~# cat /sys/module/pcie_aspm/parameters/policy
     default [performance] powersave 
     root@edison:~# cpufreq-info
     root@edison:~# head /sys/class/regulator/*/name
+```sh
 
 ## Setup
 ### Opkg
