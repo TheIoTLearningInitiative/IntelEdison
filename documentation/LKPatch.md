@@ -225,6 +225,7 @@ Related
  
 ### Power
 
+```sh
     arch/x86/include/asm/mwait.h
       +#ifdef CONFIG_ATOM_SOC_POWER
       +#define MWAIT_MAX_NUM_CSTATES          10
@@ -241,8 +242,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic_i2c.c | Platform data for Merrifield PMIC I2C
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_pmic_i2c.h
     arch/x86/platform/intel-mid/device_libs/platform_mrfl_regulator.c
-
-
+```
 
 ### Debug
 
