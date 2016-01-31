@@ -23,6 +23,7 @@ Linux Kernel
     bcm_bt_lpm             13708  0 
     bcm4334x              587105  0 
 ```
+## Intel Edison Kernel Patch
 
 ```sh
     Documentation/kernel-parameters.txt
