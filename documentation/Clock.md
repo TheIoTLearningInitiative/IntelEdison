@@ -2,3 +2,4 @@
 
 ```sh
     apt-get ntp server
+```
