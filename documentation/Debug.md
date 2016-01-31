@@ -10,6 +10,7 @@ Debug
 
 ## Kernel Configuration
 
+```sh
     Kernel hacking
 
         -*- Kernel debugging
@@ -25,6 +26,7 @@ Debug
         [ ]   kobject debugging
         [ ]   Highmem debugging
         [ ]   Compile the kernel with debug info
+```
 
 ## Kernel Integration
 
