@@ -68,8 +68,10 @@ The best MCU Reference Document to review is:
 
 ### SysFs Power Interfaces
 
+```sh
     root@edison:~# echo auto > /sys/devices/pci0000\:00/0000\:00\:04.3/power/control
     root@edison:~# echo on > /sys/devices/pci0000\:00/0000\:00\:04.3/power/control
+```
 
 ## Userspace Communications
 
