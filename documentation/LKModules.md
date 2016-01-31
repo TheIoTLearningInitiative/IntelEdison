@@ -1,15 +1,21 @@
 Linux Kernel Modules
 ==
 
-    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'uvc'
-    /lib/modules/3.10.17-yocto-standard/kernel/drivers/media/usb/uvc
-    root@edison:~/IntelEdison/examples# opkg install kernel-module-uvcvideo
-    Package kernel-module-uvcvideo (3.10.17-r0) installed in root is up to date.
-    root@edison:~/IntelEdison/examples# lsmod | grep uvc
-    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'snd'
-    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'audio'
-    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'alsa'
-    root@edison:~/IntelEdison/examples# find /lib/modules/* -name ''
+## Intel Edison Linux Kernel Loaded Modules
+
+```sh
+    root@edison:~# lsmod
+    Module                  Size  Used by
+    usb_f_acm              14335  1 
+    u_serial               18582  6 usb_f_acm
+    g_multi                70924  0 
+    libcomposite           39245  2 usb_f_acm,g_multi
+    bcm_bt_lpm             13708  0 
+    bcm4334x              587105  0 
+```
+## Intel Edison Linux Kernel All Modules
+
+```sh
     root@edison:~/IntelEdison/examples# find /lib/modules/* -name '*'
     /lib/modules/3.10.17-yocto-standard
     /lib/modules/3.10.17-yocto-standard/modules.devname
@@ -156,4 +162,17 @@ Linux Kernel Modules
     /lib/modules/3.10.17-yocto-standard/kernel/arch/x86/kernel
     /lib/modules/3.10.17-yocto-standard/kernel/arch/x86/kernel/test_nx.ko
     /lib/modules/3.10.17-yocto-standard/modules.symbols.bin
+```
+## Intel Edison Linux Kernel One Modules
 
+```sh
+    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'uvc'
+    /lib/modules/3.10.17-yocto-standard/kernel/drivers/media/usb/uvc
+    root@edison:~/IntelEdison/examples# opkg install kernel-module-uvcvideo
+    Package kernel-module-uvcvideo (3.10.17-r0) installed in root is up to date.
+    root@edison:~/IntelEdison/examples# lsmod | grep uvc
+    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'snd'
+    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'audio'
+    root@edison:~/IntelEdison/examples# find /lib/modules/* -name 'alsa'
+    root@edison:~/IntelEdison/examples# find /lib/modules/* -name ''
+```
