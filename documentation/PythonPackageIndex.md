@@ -10,6 +10,7 @@ Python Package Index
 
 ## Python Library
 
+```sh
     root@edison:~# python
     Python 2.7.3 (default, Dec 19 2015, 23:06:02)
     [GCC 4.9.1] on linux2
@@ -19,9 +20,11 @@ Python Package Index
       File "<stdin>", line 1, in <module>
     ImportError: No module named psutil
     >>> <CTRL-D>
+```
 
 ## Python Library Search
 
+```sh
     root@edison:~# pip search psutil
     ...
     psutil                    - psutil is a cross-platform library for retrieving
@@ -29,9 +32,11 @@ Python Package Index
                                 utilization (CPU, memory, disks, network)in
                                 Python.
     ...
+```
 
 ## Python Library Optional Installation Path
 
+```sh
     root@edison:~# pip install psutil --target /root
     Downloading/unpacking psutil
       Running setup.py egg_info for package psutil
@@ -65,9 +70,11 @@ Python Package Index
     >>> import psutil
     >>> <CTRL-D>
     root@edison:~# pip uninstall psutil
+```
 
 ## Python Library Default Installation Path
 
+```sh
     root@edison:~# pip install psutil
     Downloading/unpacking psutil
       Running setup.py egg_info for package psutil
@@ -83,3 +90,4 @@ Python Package Index
     
     Successfully installed psutil
     Cleaning up...
+```
