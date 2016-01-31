@@ -9,7 +9,7 @@
 - [Intel® Edison Hands On](http://blog.dimitridiakopoulos.com/2014/09/10/hands-on-intel-edison/)
 - [Intel® Edison Boards Hardware Support](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/support/maker/edison/edison-documents-and-guides.html)
 
-We will use - Default Yocto Version
+We will use Default Yocto Version
 
 <center><a href="http://creativecommons.org/licenses/by-sa/3.0/">
   <img src="http://mirrors.creativecommons.org/presskit/logos/cc.logo.large.png" alt="HTML tutorial">
