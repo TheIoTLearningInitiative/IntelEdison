@@ -5,7 +5,7 @@ Peripheral Component Interconnect
 
 - [Wikipedia Peripheral Component Interconnect](https://es.wikipedia.org/wiki/Peripheral_Component_Interconnect)
 
-
+```sh
     root@edison:~# lspci
     00:00.0 Host bridge: Intel Corporation Device 1170 (rev 01)             
     00:01.0 SD Host controller: Intel Corporation Device 1190 (rev 01)      
@@ -44,6 +44,7 @@ Peripheral Component Interconnect
     00:17.0 System peripheral: Intel Corporation Device 11a5 (rev 01)           
     00:18.0 Display controller: Intel Corporation Device 11a6 (rev 01)
     root@ubilinux:~# cat /proc/bus/pci/devices
+```
 
 ## Links
 
