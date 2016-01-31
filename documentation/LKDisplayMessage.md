@@ -5,21 +5,21 @@
     root@edison:~# tail -f /var/log/messages
     root@edison:~#
     dmesg
-    [    0.000000] Initializing cgroup subsys cpuset
-    [    0.000000] Initializing cgroup subsys cpu
-    [    0.000000] Initializing cgroup subsys cpuacct
-    [    0.000000] Linux version 3.10.17-poky-edison+ (sys_dswci@tlsndgbuild004) (gcc version 4.9.1 (GCC) ) #1 SMP PREEMPT Fr5
-    [    0.000000] e820: BIOS-provided physical RAM map:
-    [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x0000000000097fff] usable
-    [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x0000000003ffffff] usable
-    [    0.000000] BIOS-e820: [mem 0x0000000004000000-0x0000000005ffffff] reserved
-    [    0.000000] BIOS-e820: [mem 0x0000000006000000-0x000000003f4fffff] usable
-    [    0.000000] BIOS-e820: [mem 0x000000003f500000-0x000000003fffffff] reserved
-    [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
-    [    0.000000] BIOS-e820: [mem 0x00000000fec04000-0x00000000fec07fff] reserved
-    [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
-    [    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
-    [    0.000000] NX (Execute Disable) protection: active
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.10.17-poky-edison+ (sys_dswci@tlsndgbuild004) (gcc version 4.9.1 (GCC) ) #1 SMP PREEMPT Fr5
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x0000000000097fff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x0000000003ffffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000004000000-0x0000000005ffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000006000000-0x000000003f4fffff] usable
+[    0.000000] BIOS-e820: [mem 0x000000003f500000-0x000000003fffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec04000-0x00000000fec07fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+[    0.000000] NX (Execute Disable) protection: active
 [    0.000000] SMBIOS 2.6 present.
 [    0.000000] DMI: Intel Corporation Merrifield/BODEGA BAY, BIOS 542 2015.01.21:18.19.48
 [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
