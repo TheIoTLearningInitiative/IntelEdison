@@ -120,6 +120,7 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
 
 - [Linux Kernel Dmesg](https://en.wikipedia.org/wiki/Dmesg)
 
+```sh
     root@edison:~# dmesg
     root@edison:~# dmesg > dmesg.file
     root@edison:~# vi dmesg.file
@@ -129,6 +130,7 @@ Finally, connect Intel Edison to your Host Computer using the registered COM / T
     ...
     [   17.842227] snd_intel_sst: runtime_idle called                               
     [   19.841555] snd_intel_sst: runtime_suspend called
+```
 
 __Homework__ Review the content under dmesg.file, identify which drivers/services are executed/started
 
@@ -136,11 +138,14 @@ __Homework__ Review the content under dmesg.file, identify which drivers/service
 
 Check your kernel version
 
+```sh
     root@edison:~# uname -r
     3.10.17-poky-edison+
+```
 
 Configure your WiFi
 
+```sh
     root@edison:~# configure_edison --wifi
     Configure Edison: WiFi Connection
     
@@ -165,9 +170,11 @@ Configure your WiFi
     Done. Please connect your laptop or PC to the same network as this device and go to http://192.168.1.72 or http://edison.local in your browser.
     Warning: SSH is not yet enabled on the wireless interface. To enable SSH access to this device via wireless run configure_edison --password first.
     root@edison:~# 
+```
 
 Configure also password to enable SSH on the wireless interface
 
+```
     root@edison:~# configure_edison --password
     
     Configure Edison: Device Password
@@ -178,15 +185,17 @@ Configure also password to enable SSH on the wireless interface
     Please enter the password again:        ********
     First-time root password setup complete. Enabling SSH on WiFi interface.
     The device password has been changed.
+```
 
 Check IP address assigned
 
+```sh
     root@edison:~# ifconfig
     lo        Link encap:Local Loopback  
               inet addr:127.0.0.1  Mask:255.0.0.0
     wlan      Link encap:Ethernet  HWaddr 00:1C:C0:AE:B5:E6  
               inet addr:192.168.1.74  Bcast:192.168.0.255  Mask:255.255.255.0
-
+```
 
 ## Services
 
@@ -194,5 +203,7 @@ Check IP address assigned
 
 To stop actual webserver
 
+```sh
     root@edison:~# systemctl disable edison_config
     root@edison:~# systemctl stop edison_config 
+```
