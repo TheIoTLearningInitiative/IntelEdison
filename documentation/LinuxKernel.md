@@ -26,6 +26,7 @@ Linux Kernel
 
 https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
 
+```sh
     Documentation/kernel-parameters.txt
     arch/x86/configs/i386_edison_defconfig
     arch/x86/
@@ -91,6 +92,7 @@ https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
     sound/soc/codecs/wm8994.c
     sound/soc/codecs/wm_hubs.c
     sound/soc/intel/
+```
 
 ## Kernel Interfaces
 
