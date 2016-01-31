@@ -77,7 +77,9 @@ arch/x86/Makefile_32.cpu
 
 #### Intel MID Specific Setup Code
 
+```sh
     arch/x86/include/asm/intel-mid.h
+``
 
 It includes code from:
 
@@ -90,14 +92,16 @@ It includes code from:
 - Device Creation (Board Information)
 - x86_init, x86_platform_init
 
-
+```sh
     #define INTEL_MID_OPS_INIT {\
            DECLARE_INTEL_MID_OPS_INIT(penwell, INTEL_MID_CPU_CHIP_PENWELL) \
            DECLARE_INTEL_MID_OPS_INIT(cloverview, INTEL_MID_CPU_CHIP_CLOVERVIEW) \
            DECLARE_INTEL_MID_OPS_INIT(tangier, INTEL_MID_CPU_CHIP_TANGIER) \
+```
 
 Related
 
+```sh
     arch/x86/include/asm/intel_mid_gpadc.h
     arch/x86/include/asm/intel_mid_hsu.h
     arch/x86/include/asm/intel_mid_pcihelpers.h
@@ -195,7 +199,7 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_tc35876x.c | tc35876x platform data initilization file
     arch/x86/platform/intel-mid/device_libs/platform_tc35876x.h
     arch/x86/platform/intel-mid/device_libs/platform_tca6416.c | tca6416 platform data initilization file
-    Here
+```
 
 ### APIC
 
