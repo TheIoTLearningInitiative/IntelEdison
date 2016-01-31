@@ -7,6 +7,7 @@ Pin Muxing
 
 **Configuring all 4 of the PWM pins** 
 
+```sh
     root@edison:~# vi pinmuxpwm.sh
 
     #!/bin/bash
@@ -70,12 +71,12 @@ Pin Muxing
     echo high > /sys/class/gpio/gpio214/direction
     
     echo "PWM pins configured"
-    
+```
 
 You should be able to use any of the PWM pins as output. For example pin IO6:
 
-
+```sh
     root@edison:~# echo 2 > /sys/class/pwm/pwmchip0/export
     root@edison:~# echo 2000000 > /sys/class/pwm/pwmchip0/pwm2/duty_cycle
     root@edison:~# echo 1 > /sys/class/pwm/pwmchip0/pwm2/enable
-
+```
