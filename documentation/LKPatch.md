@@ -246,11 +246,15 @@ Related
 
 ### Debug
 
+```sh
     arch/x86/include/asm/intel_soc_debug.h
+```
 
 ### MIP
 
+```sh
     arch/x86/include/asm/intel_mip.h
+```
 
 ### SCU IPC
 
