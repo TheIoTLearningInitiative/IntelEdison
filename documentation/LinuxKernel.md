@@ -24,8 +24,6 @@ Linux Kernel
     bcm4334x              587105  0 
 ```
 
-https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341
-
 ```sh
     Documentation/kernel-parameters.txt
     arch/x86/configs/i386_edison_defconfig
