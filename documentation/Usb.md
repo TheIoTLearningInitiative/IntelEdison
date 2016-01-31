@@ -11,6 +11,7 @@ USB
 
 ## Userspace Applications
 
+```sh
     root@edison:~# dmesg
     root@edison:~# lsusb
     unable to initialize libusb: -99
@@ -31,21 +32,26 @@ USB
     drwxr-xr-x 2 root root 0 Jan  1 00:01 usbserial
     drwxr-xr-x 2 root root 0 Jan  1 00:01 usb-storage
     drwxr-xr-x 2 root root 0 Jan  1 00:01 uvcvideo
-    
+```
 
 ## Setup
 
 ### Opkg
 
+```sh
     root@edison:~# opkg install libusb-1.0-dev libudev1-dev
+```
 
 ### Apt-Get
 
+```sh
     root@edison:~# apt-get install libusb-1.0-dev libudev-dev
     root@edison:~# apt-get install libtool
-    
+```
+
 ## Device Configuration
 
+```sh
     root@edison:~# git clone https://github.com/libusb/libusb.git
     root@edison:~# cd libusb
     root@edison:~# ./autogen.sh -disable-udev
@@ -56,14 +62,17 @@ USB
     0458:708a (bus 1, device 3) path: 1.1
     05e3:0606 (bus 1, device 2) path: 1
     1d6b:0002 (bus 1, device 1)
+```
 
 ## Usage Models
 
 ## Debug
 
+```sh
     root@edison:~# ls –l /sys/bus/usb/drivers/option/***/
     $ cat /sys/bus/usb/drivers/option/***/bInterface*
     $ cat /proc/bus/usb/devices
+```
 
 ## Links
 
