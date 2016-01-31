@@ -9,6 +9,7 @@ General Purpose Input Output (GPIO)
 
 ## Kernel Integration
 
+```sh
     root@edison:~# dmesg | grep -i gpio
     [    0.000000] SFI: GPIO E3A27, 0964 (v1  INTEL INTELFDK)
     [    0.189472] wifi_platform_data: GPIO == 64
@@ -18,18 +19,21 @@ General Purpose Input Output (GPIO)
     [    1.971456] info[ 0]: name = power_btn, gpio = -1
     [    1.971473] info[ 1]: name = SW1UI4, gpio = 61
     [    2.004409] input: gpio-keys as /devices/platform/gpio-keys/input/input0
+```
 
 ## Userspace Interfaces
 
+```sh
     root@edison:~# ls /sys/class/gpio/
     export     gpio125    gpio127    gpio129    gpio131    gpio133    gpiochip0
     gpio124    gpio126    gpio128    gpio130    gpio132    gpio134    unexport
+```
 
 You are seeing 3 kind of entries: 
 
-   -	Control interfaces used to get userspace control over GPIOs;
-   -	GPIOs themselves; and
-   -	GPIO controllers ("gpio_chip" instances).
+   - Control interfaces used to get userspace control over GPIOs;
+   - GPIOs themselves; and
+   - GPIO controllers ("gpio_chip" instances).
 
 - [GPIO Sysfs](https://www.kernel.org/doc/Documentation/gpio/sysfs.txt)
 
@@ -37,11 +41,13 @@ You are seeing 3 kind of entries:
 
 To see the status of our exported pins in the Edison, type this your Edison's terminal:
 
+```sh
     root@edison:~# watch -n 1 cat /sys/kernel/debug/gpio
+```
 
 Basically, it will output the configured GPIO's to console every second:
 
-
+```sh
     Every 1s: cat /sys/kernel/debug/gpio                        2015-10-13 21:02:27
     
     PIOs 0-191, pci/0000:00:0c.0, 0000:00:0c.0:
@@ -74,19 +80,20 @@ Basically, it will output the configured GPIO's to console every second:
     GPIOs 232-247, i2c/1-0022, pcal9555a, can sleep:
     
     GPIOs 248-263, i2c/1-0023, pcal9555a, can sleep:
-
+```
 
 The gpio's displayed above, are the ones reserved (AKA exported) by default in a newly flashed  yocto image **Poky (Yocto Project Reference Distro) 1.7.2 edison**,  kernel  **3.10.17-poky-edison+**
 
 To reserve and use a GPIO, 
 Before:
 
+```sh
     root@edison:~# ls /sys/class/gpio
     export       gpio127      gpio131      gpio207        gpiochip216
     gpio124      gpio128      gpio132      gpio215        gpiochip232
     gpio125      gpio129      gpio133      gpiochip0      gpiochip248
     gpio126      gpio130      gpio134      gpiochip200    unexport
-
+```
 
 let's say 48 lets type the following:
 
@@ -95,14 +102,17 @@ let's say 48 lets type the following:
 by this mechanism, a new directory is created in **/sys/class/gpio**, which should be **gpio48**:
 After:
 
+```sh
     root@edison:/# ls sys/class/gpio/
     export       gpio127      gpio131      gpio207      gpiochip200  unexport
     gpio124      gpio128      gpio132      gpio215      gpiochip216
     gpio125      gpio129      gpio133      gpio48       gpiochip232
     gpio126      gpio130      gpio134      gpiochip0    gpiochip248
+```
 
 this directory, is a control interface used to get userspace control over GPIO48, therefore can have the following read/write attributes:
 
+```sh
 	"direction" ... reads as either "in" or "out". This value may
 		normally be written. Writing as "out" defaults to
 		initializing the value as low. To ensure glitch free
@@ -141,7 +151,7 @@ this directory, is a control interface used to get userspace control over GPIO48
 		poll(2) support configuration via the edge attribute
 		for "rising" and "falling" edges will follow this
 		setting.
-
+```
 
 
 ### Exercise 1: Change GPIO direction
