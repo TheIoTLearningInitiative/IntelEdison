@@ -93,9 +93,10 @@ The best MCU Reference Document to review is:
 
 #### Files
 
+```sh
      drivers/hwmon/intel_mcu_common.c                   |  700 +++
      drivers/hwmon/intel_mcu_common.h                   |   79 +
-
+```
 #### .config
 
     +CONFIG_INTEL_MCU=y
