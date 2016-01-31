@@ -156,6 +156,7 @@ The best MCU Reference Document to review is:
 
 #### Debug Level
 
+```sh
     +static char *debug_msg[] = {
     +       "fatal",
     +       "error",
@@ -169,9 +170,11 @@ The best MCU Reference Document to review is:
     root@edison:~# echo debug > /sys/devices/platform/intel_mcu/log_level 
     root@edison:~# cat /sys/devices/platform/intel_mcu/log_level 
     debug
+```
 
 ## Yocto Recipes
 
+```sh
     user@host:~$ ls edison-src/meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/
     files  mcu-fw-bin_0.1.bb  mcu-fw-load_0.1.bb
     
@@ -190,6 +193,7 @@ The best MCU Reference Document to review is:
     WantedBy=multi-user.target
     
     user@host:~$ cat meta-intel-edison/meta-intel-edison-bsp/recipes-support/edison-mcu/files/mcu_fw_loader.sh
+```
 
 ```sh
 #!/bin/sh
