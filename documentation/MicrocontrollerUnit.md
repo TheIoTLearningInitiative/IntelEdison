@@ -97,12 +97,16 @@ The best MCU Reference Document to review is:
      drivers/hwmon/intel_mcu_common.c                   |  700 +++
      drivers/hwmon/intel_mcu_common.h                   |   79 +
 ```
+
 #### .config
 
+```sh
     +CONFIG_INTEL_MCU=y
+```
 
 #### Kconfig
 
+```sh
     +config INTEL_MCU
     +       tristate "Intel generic MCU control interface"
     +       help
@@ -111,6 +115,7 @@ The best MCU Reference Document to review is:
     +         This driver provide userspace tty interface for the control and
     +         message output.
     +         You could use normal read/write to complete those operation.
+```
 
 #### Makefile
 
