@@ -37,13 +37,7 @@ Modem
 ```
 ```sh
     <Disconnect Modem>
-```
-
-```sh
     root@ubilinux:~# reboot
-```
-
-```sh
     <Connect Modem>
 ```
 
