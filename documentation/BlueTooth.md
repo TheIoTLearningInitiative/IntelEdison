@@ -15,16 +15,21 @@ out-of-band) signaling for UART to support low power mode. ...
 
 ### Opkg
 
+```sh
     root@edison:~# opkg install bluez5-dev
     root@edison:~# pip install pybluez
+```
 
 ### Apt-Get
 
+```sh
     root@edison:~# apt-get install bluetooth
     root@edison:~# /etc/init.d/bluetooth start
+```
 
 ## Kernel Integration
 
+```sh
     root@edison:~# dmesg | grep -i blue
     [    0.235619] Bluetooth: Core ver 2.16
     [    0.235722] Bluetooth: HCI device and connection manager initialized
@@ -57,6 +62,7 @@ out-of-band) signaling for UART to support low power mode. ...
     2: bcm43xx Bluetooth: bluetooth
             Soft blocked: yes
             Hard blocked: no
+```
 
 ## Userspace Applications
 
@@ -65,7 +71,7 @@ out-of-band) signaling for UART to support low power mode. ...
 - hciconfig
 - hcitool
 
-
+```sh
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl stop bluetooth
     root@edison:~# systemctl start bluetooth
@@ -86,11 +92,13 @@ out-of-band) signaling for UART to support low power mode. ...
     root@edison:~# hciconfig hci0 piscan
     ...
     root@edison:~# hcitool scan
+```
 
 ## Userspace Applications Usage Models
 
 ### Device Pairing
 
+```sh
     root@galileo:~# rfkill unblock bluetooth
     root@galileo:~# bluetoothctl
     [bluetooth]# scan on
@@ -100,9 +108,11 @@ out-of-band) signaling for UART to support low power mode. ...
     [bluetooth]# paired-devices
     [bluetooth]# info 40:78:6A:26:4A:C2
     [bluetooth]# exit
+```
 
 ### Text
 
+```sh
     root@edison:~# systemctl status bluetooth.service
     root@edison:~# systemctl start bluetooth
     root@edison:~# systemctl enable bluetooth
@@ -112,10 +122,13 @@ out-of-band) signaling for UART to support low power mode. ...
     Make Your Device Discoverable
     root@edison:~# hcitool scan
     root@edison:~# rfcomm bind 0 40:78:6A:26:4A:C2
+```
 
 ### Audio
 
+```sh
     root@edison:~# apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware
+```
 
 ### Serial Port Profile (SPP)
 
@@ -123,22 +136,30 @@ Libraries
 
 For C Bluetooth Development:
 
+```sh
     root@edison:~# sudo apt-get install libbluetooth-dev
+```
 
 For Python Bluetooth Development:
 
+```sh
     root@edison:~# sudo apt-get install python-bluez
-    
+```
+
 For Python Bluetooth in Edison (using pip, if for some reason you don't have it, learn [How-To Install Pip](https://pip.pypa.io/en/stable/installing/#pip-included-with-python)):
 
+```sh
     root@edison:~# pip install pybluez
+```
 
 There are two common ways to test SPP, one is by using D-BUS, the other is by using RFCOMM transport protocol.
 
 To test using D-Bus we can use [this python script](http://downloadmirror.intel.com/24909/eng/SPP-loopback.py), copy it to Edison, enable the bluetooth device and run it:
 
+```sh
     root@edison:~# rfkill unblock bluetooth
     root@edison:~# python SPP-loopback.py &
+```
 
 Then in an android device install a [Bluetooth SPP Manager](https://play.google.com/store/apps/details?id=at.rtcmanager).
 
