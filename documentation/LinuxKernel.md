@@ -11,18 +11,6 @@ Linux Kernel
 
 > Intel MID is Intel's Low Power Intel Architecture (LPIA) based Mobile Internet Device(MID) platform. Unlike standard x86 PCs, Intel MID does not have many legacy devices nor standard legacy replacement devices/features. e.g. It does not contain i8259, i8254, HPET, legacy BIOS, most of the io ports.
 
-## Intel Edison Linux Kernel Modules
-
-```sh
-    root@edison:~# lsmod
-    Module                  Size  Used by
-    usb_f_acm              14335  1 
-    u_serial               18582  6 usb_f_acm
-    g_multi                70924  0 
-    libcomposite           39245  2 usb_f_acm,g_multi
-    bcm_bt_lpm             13708  0 
-    bcm4334x              587105  0 
-```
 ## Intel Edison Linux Kernel Patched Files
 
 ```sh
