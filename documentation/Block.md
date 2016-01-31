@@ -3,6 +3,7 @@ Block Subsystem
 
 ## Kernel Integration
 
+```sh
     root@edison:~# dmesg | grep mmc
     [    0.190762] SDIO bus = 1, name = bcm43xx_clk_vmmc, ref_clock = 26000000, addr =0x401
     [    0.741385] emmc_ipanic: init success
