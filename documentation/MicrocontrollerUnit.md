@@ -119,7 +119,9 @@ The best MCU Reference Document to review is:
 
 #### Makefile
 
+```sh
     +obj-$(CONFIG_INTEL_MCU)        += intel_mcu_common.o
+```
 
 ### Driver
 
