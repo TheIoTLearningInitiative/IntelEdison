@@ -21,6 +21,6 @@ Processor
 
 - [Intel SIMD Extensions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions)
 
-## 
+## Intel® 14 nm Technology 
 
 - [](http://www.intel.com/content/www/us/en/silicon-innovations/intel-14nm-technology.html)
