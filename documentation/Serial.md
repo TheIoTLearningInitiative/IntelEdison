@@ -5,16 +5,21 @@ Serial
 
 ### Opkg
 
+```sh
     root@edison:~# opkg install screen
     root@edison:~# pip install pyserial
+```
 
 ### Apt-Get
 
+```sh
     root@edison:~# apt-get install screen minicom cu setserial stty
     root@edison:~# pip install pyserial
+```
 
 ## Kernel Integration
 
+```sh
     root@edison:~# dmesg | grep -i serial
     [    0.000000] Kernel command line: rootwait root=PARTUUID=012b3303-34ac-284d-99b4-34e03a2335f4 rootfstype=ext4 console=ttyMFD2 earlyprintk=ttyMFD2,keep loglevel=4 g_multi.ethernet_config=cdc systemd.unit=multi-user.target hardware_id=00 g_multi.iSerialNumber=5e7bb54a65035af180191c2d7bd527b6 g_multi.dev_addr=02:00:86:d5:27:b6 platform_mrfld_audio.audio_codec=dummy
     [    0.704157] HSU serial 0000:00:04.0: FUNC: 0 driver: 0 addr:ff010000 len:80
@@ -87,9 +92,11 @@ Serial
     /dev/tty17    /dev/tty29    /dev/tty40    /dev/tty52    /dev/tty7
     /dev/tty18    /dev/tty3     /dev/tty41    /dev/tty53    /dev/tty8
     /dev/tty19    /dev/tty30    /dev/tty42    /dev/tty54    /dev/tty9
+```
 
 ## Userspace Applications
 
+```sh
     root@edison:~# screen /dev/ttyS0
     root@edison:~# minicom /dev/ttyS0
     root@edison:~# cu /dev/ttyUSB0 115200
@@ -97,6 +104,7 @@ Serial
     root@edison:~# setserial -g /dev/ttyUSBS[0123]
     root@edison:~# setserial /dev/ttyS0 115200
     root@edison:~# stty -F /dev/ttyUSB0 115200 
+```
 
 ## Python Applications
 
