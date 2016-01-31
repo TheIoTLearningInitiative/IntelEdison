@@ -7,5 +7,7 @@ Power Management Multi-Channel IC (PMIC)
 
 Taken from Intel forums...
 
-> Thank you for contacting TI Semiconductor Support. Unfortunately, since this is a non-distributor item, there is no documentation available for the SNB9024 device (datasheets, user guides, etc.).
+> Thank you for contacting TI Semiconductor Support. Unfortunately, since this is a non-distributor item, there is no documentation available for the SNB9024 device (datasheets, user guides, etc.). 
+
+- [TI SNB9024 power management IC Data Sheet](https://communities.intel.com/thread/58627?start=0&tstart=0)
 
