@@ -264,6 +264,7 @@ Related
 
 > SCU runing in ARC processor communicates with other entity running in IA core through IPC mechanism which in turn messaging between IA core ad SCU. SCU has two IPC mechanism IPC-1 and IPC-2. IPC-1 is used between IA32 and SCU where IPC-2 is used between P-Unit and SCU. This driver delas with IPC-1 Driver provides an API for power control unit registers (e.g. MSIC) along with other APIs.
 
+```sh
     obj-$(CONFIG_INTEL_SCU_IPC)	+= intel_scu_ipc.o
     arch/x86/Kconfig | Not Edison Patch 
     arch/x86/include/asm/intel_scu_ipc.h | Not Edison Patch 
@@ -279,10 +280,10 @@ Related
     arch/x86/platform/intel-mid/device_libs/platform_ipc.c | IPC platform library file
     arch/x86/platform/intel-mid/device_libs/platform_ipc.h
     
-    
     OSHOB-OS Handoff Buffer
     OSNIB interface
     scu_ipc_pmdb_buffer
+```
 
 ### Virtual Real Time Clock (VRTC)
 
