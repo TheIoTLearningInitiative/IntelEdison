@@ -11,6 +11,9 @@ Services
     python main.py
     root@edison:~# cd /lib/systemd/system
     root@edison:~# nano python-main.service
+```
+
+```sh
     [Unit]
     Description=Python Main
     After=sys-subsystem-net-devices-%i.device
@@ -23,7 +26,8 @@ Services
     [Install]
     Alias=pythonmain
     WantedBy=multi-user.target
-    
+```
+```sh
     root@edison:~# systemctl daemon-reload
     root@edison:~# systemctl --system enable python-main
     root@edison:~# systemctl start python-main
