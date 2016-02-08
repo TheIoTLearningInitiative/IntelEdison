@@ -182,7 +182,9 @@ In the latest Yocto release (2.1 from 09/28/15), there is a problem when trying 
 
 But this only works the first time after a reboot.
 
-The patch involves modifying two lines of code from intel_soc_pmu.c file from the linux kernel: https://github.com/01org/edison-linux/commit/149de7abd8829bcc009641e215b53fe89fcf29b2
+The patch involves modifying two lines of code from intel_soc_pmu.c file from the linux kernel: 
+
+https://github.com/01org/edison-linux/commit/149de7abd8829bcc009641e215b53fe89fcf29b2
 
 
 Assuming you have a working yocto build environment (Check Edison BSP instructions for this), the file is on the following path:
