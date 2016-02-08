@@ -180,9 +180,7 @@ In the latest Yocto release (2.1 from 09/28/15), there is a problem when trying 
     root@debian8:~# echo -n "mem" > /sys/power/state
 ```
 
-But this only works the first time after a reboot.
-
-The patch involves modifying two lines of code from intel_soc_pmu.c file from the linux kernel: 
+But this only works the first time after a reboot. The patch involves modifying two lines of code from intel_soc_pmu.c file from the linux kernel: 
 
 https://github.com/01org/edison-linux/commit/149de7abd8829bcc009641e215b53fe89fcf29b2
 
