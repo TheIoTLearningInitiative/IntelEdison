@@ -170,3 +170,16 @@ Links
 - https://communities.intel.com/thread/61067
 - performance states (P-states) or power saving states (C-states)
 - Dongle Host Driver, version 1.141.59 (r)
+
+## Suspend Issue
+
+In the latest Yocto release (2.1 from 09/28/15), there is a problem when trying to put asleep the edison board. The commands to put the edison board in S3 state are:
+
+```sh
+    root@debian8:~# systemctl stop wpa_supplicant
+    root@debian8:~# echo -n "mem" > /sys/power/state
+```
+
+But this only works the first time after a reboot.
+
+The patch involves modifying two lines of code from intel_soc_pmu.c file from the linux kernel: https://github.com/01org/edison-linux/commit/149de7abd8829bcc009641e215b53fe89fcf29b2
