@@ -153,7 +153,7 @@ Links
     default [performance] powersave 
     root@edison:~# cpufreq-info
     root@edison:~# head /sys/class/regulator/*/name
-```sh
+```
 
 ## Setup
 ### Opkg
