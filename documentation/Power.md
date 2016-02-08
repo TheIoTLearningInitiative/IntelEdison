@@ -183,3 +183,12 @@ In the latest Yocto release (2.1 from 09/28/15), there is a problem when trying 
 But this only works the first time after a reboot.
 
 The patch involves modifying two lines of code from intel_soc_pmu.c file from the linux kernel: https://github.com/01org/edison-linux/commit/149de7abd8829bcc009641e215b53fe89fcf29b2
+
+
+Assuming you have a working yocto build environment (Check Edison BSP instructions for this), the file is on the following path:
+iotlab@debian8:~/edison-src$ vim ./out/linux64/build/tmp/work/edison-poky-linux/linux- yocto/3.10.17-r0/linux/arch/x86/platform/intel-mid/intel_soc_pmu.c
+Then we need to recompile and rebuild the image:
+
+```sh
+    iotlab@debian8:~/edison-src/out/linux64$ source poky/oe-init-build-env iotlab@debian8:~/edison-src/out/linux64/build$ bitbake linux-yocto -f -c compile iotlab@debian8:~/edison-src/out/linux64/build$ bitbake edison-image iotlab@debian8:~/edison-src/out/linux64/build$ cd ~/edison-src/meta-intel-edison/utils/flash iotlab@debian8:~/edison-src/meta-intel-edison/utils/flash$ ./postBuild.sh
+```
