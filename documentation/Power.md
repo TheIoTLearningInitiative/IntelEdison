@@ -186,7 +186,11 @@ The patch involves modifying two lines of code from intel_soc_pmu.c file from th
 
 
 Assuming you have a working yocto build environment (Check Edison BSP instructions for this), the file is on the following path:
-iotlab@debian8:~/edison-src$ vim ./out/linux64/build/tmp/work/edison-poky-linux/linux- yocto/3.10.17-r0/linux/arch/x86/platform/intel-mid/intel_soc_pmu.c
+
+```sh
+    iotlab@debian8:~/edison-src$ vim ./out/linux64/build/tmp/work/edison-poky-linux/linux- yocto/3.10.17-r0/linux/arch/x86/platform/intel-mid/intel_soc_pmu.c
+```
+
 Then we need to recompile and rebuild the image:
 
 ```sh
