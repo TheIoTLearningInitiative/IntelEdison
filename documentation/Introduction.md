@@ -8,7 +8,7 @@
 - [Intel® Edison Arduino Certified](https://www.arduino.cc/en/ArduinoCertified/IntelEdison)
 - [Intel® Edison Hands On](http://blog.dimitridiakopoulos.com/2014/09/10/hands-on-intel-edison/)
 - [Intel® Edison Boards Hardware Support](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/support/maker/edison/edison-documents-and-guides.html)
-- [](http://www.i-programmer.info/ebooks/exploring-edison.html)
+- [I-Programmer Exploring Intel® Edison](http://www.i-programmer.info/ebooks/exploring-edison.html)
 
 <center><a href="http://creativecommons.org/licenses/by-sa/3.0/">
   <img src="http://mirrors.creativecommons.org/presskit/logos/cc.logo.large.png" alt="HTML tutorial">
