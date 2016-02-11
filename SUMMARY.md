@@ -29,9 +29,9 @@
    * [Hardware Blocks](documentation/HardwareBlocks.md)
 * [Package Management Systems](documentation/PackageManagementSystems.md)
    * [Open Package Management](documentation/OpenPackageManagement.md)
-   * Modules
    * [Python Package Index](documentation/PythonPackageIndex.md)
 * [Subsystems](documentation/Subsystems.md)
+   * Modules
    * [Pin Muxing](documentation/PinMuxing.md)
    * [GPIO](documentation/Gpio.md)
    * [Serial](documentation/Serial.md)
