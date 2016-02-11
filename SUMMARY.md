@@ -31,7 +31,7 @@
    * [Open Package Management](documentation/OpenPackageManagement.md)
    * [Python Package Index](documentation/PythonPackageIndex.md)
 * [Subsystems](documentation/Subsystems.md)
-   * Modules
+   * [Modules](documentation/Modules.md)
    * [Pin Muxing](documentation/PinMuxing.md)
    * [GPIO](documentation/Gpio.md)
    * [Serial](documentation/Serial.md)
