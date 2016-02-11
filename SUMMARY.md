@@ -46,6 +46,7 @@
    * [Clock](documentation/Clock.md)
    * [PCI](documentation/Pci.md)
    * [Modem](documentation/Modem.md)
+   * Modules
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
