@@ -29,6 +29,7 @@
    * [Hardware Blocks](documentation/HardwareBlocks.md)
 * [Package Management Systems](documentation/PackageManagementSystems.md)
    * [Open Package Management](documentation/OpenPackageManagement.md)
+   * Modules
    * [Python Package Index](documentation/PythonPackageIndex.md)
 * [Subsystems](documentation/Subsystems.md)
    * [Pin Muxing](documentation/PinMuxing.md)
@@ -46,7 +47,6 @@
    * [Clock](documentation/Clock.md)
    * [PCI](documentation/Pci.md)
    * [Modem](documentation/Modem.md)
-   * Modules
 * [Libraries](documentation/Libraries.md)
    * [Mraa](documentation/Mraa.md)
    * [Upm](documentation/Upm.md)
