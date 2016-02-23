@@ -14,7 +14,6 @@ The Intel® Edison Board Support Package offers these features:
 -[2](https://communities.intel.com/thread/60446?start=0&tstart=0)
 -[3](https://communities.intel.com/thread/60224?start=0&tstart=0)
 
-
 ## Dependencies
 
 ```sh
