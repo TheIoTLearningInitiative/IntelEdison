@@ -1,6 +1,9 @@
 Extra
 ==
 
+
+http://www.wolfram.com/intel-edison/
+
 Setup
 
 - Configure Wireless LAN
