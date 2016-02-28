@@ -20,6 +20,7 @@ Peripherals
 - [Broadcom BCM43341](https://www.broadcom.com/products/wireless-connectivity/bluetooth/bcm43341)
 - 
 ## Bluetooth
+
 > The host processor on the Intel® Edison development board is connected to a Broadcom* BCM43340 combo chip via UART (uart0 mapped to /dev/MFD0) as transport layer and uses additional GPIOs to handle power (on, reset, etc.), OOB (
 out-of-band) signaling for UART to support low power mode. ...
 
