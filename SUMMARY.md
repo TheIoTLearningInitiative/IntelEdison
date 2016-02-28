@@ -12,7 +12,6 @@
        * [MUX Additional Tables](documentation/MuxAdditionalTables.md)
 * [Operating Systems](documentation/OperatingSystems.md)
    * [Ubilinux](documentation/Ubilinux.md)
-   * [Services](documentation/Services.md)
    * [Recovery](documentation/Recovery.md)
 * [Customization](documentation/Customization.md)
    * [Hardware Blocks](documentation/HardwareBlocks.md)
