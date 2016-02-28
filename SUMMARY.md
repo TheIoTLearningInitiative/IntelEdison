@@ -13,7 +13,6 @@
 * [Operating Systems](documentation/OperatingSystems.md)
    * [Linux Kernel](documentation/LinuxKernel.md)
        * [Patch](documentation/LKPatch.md)
-       * [Modules](documentation/LKModules.md)
        * [Display Message](documentation/LKDisplayMessage.md)
    * [Yocto Project](documentation/YoctoProject.md)
    * [Ubilinux](documentation/Ubilinux.md)
