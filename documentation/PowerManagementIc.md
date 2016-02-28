@@ -3,6 +3,9 @@ Power Management Multi-Channel IC (PMIC)
 
 > Edison uses the Texas Instruments *SNB9024 Power Management Integrated Circuit (PMIC). The SNB9024 PMIC is for mobile application processors platforms with high feature integration in order to minimize system board area. It includes subsystems for voltage regulation, A/D conversion, GPIOs, and RTC. The SNB9024 device is controlled and programmed using an I2C interface. There is also a serial voltage ID interface between the SOC and PMIC for handling core voltage rail settings as well as system control signals.
 
+> The Intel® Edison board has a known error on all UARTs. When Edison goes into low power sleep, the UART internal FIFO and interface is powered down. Therefore, a two-wire UART (Rx/Tx) will lose the first received character whenever Edison is in sleep mode. In order to avoid this condition, when sleep mode is enabled, a four-wire UART (Rx, Tx, CTS, and RTS) is required.
+
+
 ## SNB9024 Datasheet Availability
 
 Taken from Intel forums...
