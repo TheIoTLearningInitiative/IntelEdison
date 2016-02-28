@@ -1,7 +1,6 @@
 Extra
 ==
 
-
 http://www.wolfram.com/intel-edison/
 https://downloadcenter.intel.com/search?keyword=edison
 
