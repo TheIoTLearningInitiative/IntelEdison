@@ -10,7 +10,6 @@
    * [Power Management IC](documentation/PowerManagementIc.md)
    * [Pin Multiplexor](documentation/PinMultiplexor.md)
        * [MUX Additional Tables](documentation/MuxAdditionalTables.md)
-* [Operating Systems](documentation/OperatingSystems.md)
 * [Customization](documentation/Customization.md)
    * [Hardware Blocks](documentation/HardwareBlocks.md)
 * [Package Management Systems](documentation/PackageManagementSystems.md)
