@@ -16,7 +16,6 @@
    * [Recovery](documentation/Recovery.md)
 * [BootUp](documentation/BootUp.md)
 * [Customization](documentation/Customization.md)
-   * [File System](documentation/FileSystem.md)
    * [Hardware Blocks](documentation/HardwareBlocks.md)
 * [Package Management Systems](documentation/PackageManagementSystems.md)
    * [Open Package Management](documentation/OpenPackageManagement.md)
