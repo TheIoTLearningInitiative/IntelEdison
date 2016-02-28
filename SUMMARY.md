@@ -21,7 +21,6 @@
    * [Recovery](documentation/Recovery.md)
 * [BootUp](documentation/BootUp.md)
 * [Customization](documentation/Customization.md)
-   * [Yocto](documentation/Yocto.md)
    * [Board Support Package](documentation/BoardSupportPackage.md)
    * [Building Blocks](documentation/BuildingBlocks.md)
    * [Linux Kernel](documentation/LinuxKernelCustom.md)
