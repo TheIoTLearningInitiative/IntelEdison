@@ -13,7 +13,6 @@
 * [Customization](documentation/Customization.md)
    * [Hardware Blocks](documentation/HardwareBlocks.md)
 * [Subsystems](documentation/Subsystems.md)
-   * [Modules](documentation/Modules.md)
    * [Pin Muxing](documentation/PinMuxing.md)
    * [GPIO](documentation/Gpio.md)
    * [Serial](documentation/Serial.md)
