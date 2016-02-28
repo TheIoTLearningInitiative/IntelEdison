@@ -1,5 +1,7 @@
 Extra
 ==
+
+```sh
 xe1gyq@jessie:~/Flash/EdisonSource$ ls
 edison_dnx_fwr.bin          edison_ifwi-dbg-04.bin         flashall.bat
 edison_dnx_osr.bin          edison_ifwi-dbg-04-dfu.bin     flashall.sh
@@ -11,7 +13,7 @@ edison_ifwi-dbg-02.bin      edison-image-edison.ext4       u-boot-edison.bin
 edison_ifwi-dbg-02-dfu.bin  edison-image-edison.hddimg     u-boot-edison.img
 edison_ifwi-dbg-03.bin      edison-iotdk-image-280915.zip  u-boot-envs
 edison_ifwi-dbg-03-dfu.bin  filter-dfu-out.js              zip
-
+```
 
 http://www.wolfram.com/intel-edison/
 https://downloadcenter.intel.com/search?keyword=edison
