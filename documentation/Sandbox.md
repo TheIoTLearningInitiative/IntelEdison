@@ -1,6 +1,8 @@
 SandBox
 ==
 
+http://akizukidenshi.com/download/ds/intel/edisonPB331179_001Edison101Presentation.pdf
+
 - http://johnny-five.io/
 - http://www.ros.org/
 - http://www.aaeon.com/en/p/3-and-half-inch-sbc-aiot-x1000/
