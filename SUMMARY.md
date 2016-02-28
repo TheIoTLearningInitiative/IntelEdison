@@ -21,7 +21,6 @@
    * [Recovery](documentation/Recovery.md)
 * [BootUp](documentation/BootUp.md)
 * [Customization](documentation/Customization.md)
-   * [Board Support Package](documentation/BoardSupportPackage.md)
    * [Linux Kernel](documentation/LinuxKernelCustom.md)
    * [File System](documentation/FileSystem.md)
    * [Hardware Blocks](documentation/HardwareBlocks.md)
