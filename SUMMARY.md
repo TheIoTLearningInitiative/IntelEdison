@@ -22,7 +22,6 @@
 * [BootUp](documentation/BootUp.md)
 * [Customization](documentation/Customization.md)
    * [Board Support Package](documentation/BoardSupportPackage.md)
-   * [Building Blocks](documentation/BuildingBlocks.md)
    * [Linux Kernel](documentation/LinuxKernelCustom.md)
    * [File System](documentation/FileSystem.md)
    * [Hardware Blocks](documentation/HardwareBlocks.md)
