@@ -1,9 +1,7 @@
 Processor
 ==
 
-> Intel Silvermont (Atom)
-
-> Mobile Internet Device(MID)
+> Intel Silvermont (Atom), Mobile Internet Device(MID)
 
 > Medfield is the follow-up of Moorestown, it combines two chip solution into one. Other than that it also added always-on and constant tsc and lapic timers. Medfield is the platform name, and the chip name is called Penwell we treat Medfield/Penwell as a variant of Moorestown. Penwell can be identified via MSRs.
 
