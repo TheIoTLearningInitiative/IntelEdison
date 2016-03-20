@@ -2,9 +2,9 @@ Hardware
 ==
 
 
-> Especifications
-
-- Processor — “Tangier” Atom SoC with 22nm Intel Atom (2x Silvermont/Merrifield-like cores @ 500MHz) and 100MHz, 32-bit Intel Quark
+Especifications
+ 
+> Processor — “Tangier” Atom SoC with 22nm Intel Atom (2x Silvermont/Merrifield-like cores @ 500MHz) and 100MHz, 32-bit Intel Quark
 - Memory — 1GB LPDDR3 POP RAM (2-ch. 32-bit) @ 800MT/sec; 4GB eMMC (v4.51)
 - Wireless:
   - 802.11 a/b/g/n (2.4/5GHz) using Broadcom 43340 module
