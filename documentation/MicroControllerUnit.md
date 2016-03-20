@@ -208,9 +208,14 @@ Explore the internal tools from Eclipse to work with Edison MCU
 
 ## Userspace Communications
 
-- __/dev/ttymcu0__ Channel for communication. Because of the exchange program on the microcontroller is carried out by means of functions and host_send host_receive.
-- __/dev/ttymcu1__ Channel through which the microcontroller sends debugging messages function debug_print.
-- __/dev/ttymcu2__ ...
+> __/dev/ttymcu0__
+> > Channel for communication. Because of the exchange program on the microcontroller is carried out by means of functions and host_send host_receive.
+
+> __/dev/ttymcu1__ 
+> > Channel through which the microcontroller sends debugging messages function debug_print.
+
+> __/dev/ttymcu2__ 
+> > ...
 
 ```sh
     root@edison:~# cat /dev/ttymcu1
