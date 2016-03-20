@@ -41,6 +41,7 @@ Intel® Edison
 - [Intel® Edison Homepage](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)
 - [Intel® Edison Compute Module](http://www.intel.com/support/edison/sb/CS-035274.htm?wapkw=edison+compute+module+hardware+guide)
 - [Intel® Edison Hardware Guide](http://akizukidenshi.com/download/ds/intel/edison-module_HG_331189-002.pdf)
+- [Intel® Edison Software](http://download.intel.com/support/edison/sb/edison_rn_332032008.pdf)
 - [Intel® Edison Development Platform 101](http://akizukidenshi.com/download/ds/intel/edisonPB331179_001Edison101Presentation.pdf)
 - [Intel® Edison Arduino Certified](https://www.arduino.cc/en/ArduinoCertified/IntelEdison)
 - [Intel® Edison Hands On](http://blog.dimitridiakopoulos.com/2014/09/10/hands-on-intel-edison/)
