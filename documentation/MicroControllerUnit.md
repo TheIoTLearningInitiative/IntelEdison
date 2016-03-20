@@ -11,6 +11,10 @@ Micro Controller Unit
 
 > The scheduler in a Real Time Operating System (RTOS) is designed to provide a predictable (normally described as deterministic) execution pattern. This is particularly of interest to embedded systems as embedded systems often have real time requirements. A real time requirements is one that specifies that the embedded system must respond to a certain event within a strictly defined time (the deadline). A guarantee to meet real time requirements can only be made if the behaviour of the operating system's scheduler can be predicted (and is therefore deterministic).
 
+- [Creating applications with the MCU SDK for the Intel® Edison board: Overview](https://software.intel.com/en-us/node/557537)
+- [Intel® Edison Software](http://download.intel.com/support/edison/sb/edison_rn_332032008.pdf)
+- [Habra News Using the built-in microcontroller Intel Edison](http://habranews.net/inteledison.html)
+- 
 ## MCU SDK
 
 The best MCU Reference Document to review is:
@@ -224,10 +228,3 @@ Explore the internal tools from Eclipse to work with Edison MCU
     (279960000,DEBUG): CUST IPC:12(80000000, 72610a74)
     (279961000,DEBUG): ipc process succeed
 ```
-
-## Links
-
-- [Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
-- https://software.intel.com/en-us/node/557537
-- http://download.intel.com/support/edison/sb/edison_rn_332032008.pdf
-- http://habranews.net/inteledison.html
