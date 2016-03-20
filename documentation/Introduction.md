@@ -38,7 +38,7 @@ Intel® Edison
 > __Operating system__ — Yocto Linux 1.6 for the Atom SoC, with support for Arduino IDE, Eclipse (C, C++, Python), Intel XDK (Node.JS, HTML5); Viper RTOS SDK for the Quark MCU
     
 
-- [Intel® Edison](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)
+- [Intel® Edison Homepage](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)
 - [Intel® Edison Compute Module](http://www.intel.com/support/edison/sb/CS-035274.htm?wapkw=edison+compute+module+hardware+guide)
 - [Intel® Edison Hardware Guide](http://akizukidenshi.com/download/ds/intel/edison-module_HG_331189-002.pdf)
 - [Intel® Edison Development Platform 101](http://akizukidenshi.com/download/ds/intel/edisonPB331179_001Edison101Presentation.pdf)
