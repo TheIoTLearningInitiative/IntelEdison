@@ -17,11 +17,9 @@ Micro Controller Unit
 - 
 ## MCU SDK
 
-> This guide contains steps to create, build, and debug applications for the generic microcontroller unit (MCU) on an Intel® Edison board using the MCU SDK. The MCU SDK is an Eclipse*-based software development kit for Windows*, Mac* OS X*, and Linux*, used to create applications for the MCU. It is separate from the Eclipse SDK for the Intel® Atom™ processor. [Microcontroller (MCU) SDK Download](https://software.intel.com/iot/hardware/edison/downloads)
+> This guide contains steps to create, build, and debug applications for the generic microcontroller unit (MCU) on an Intel® Edison board using the MCU SDK. The MCU SDK is an Eclipse*-based software development kit for Windows*, Mac* OS X*, and Linux*, used to create applications for the MCU. It is separate from the Eclipse SDK for the Intel® Atom™ processor. [Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
 
-The official MCU Reference Document to review is:
-
-- [Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
+[Microcontroller (MCU) SDK Download](https://software.intel.com/iot/hardware/edison/downloads)
 
 ### Feature Set
 
