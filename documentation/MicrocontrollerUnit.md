@@ -1,4 +1,4 @@
-Microcontroller Unit
+Micro Controller Unit
 ==
 
 > Host CPU, On Intel® Edison, the Intel® Atom™ processor that runs on Linux OS
