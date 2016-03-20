@@ -189,7 +189,7 @@ Explore the internal tools from Eclipse to work with Edison MCU
 
 ```sh
     root@edison:~# ls /etc/intel_mcu/mcu_fw_loader.sh
-    root@edison:~# file /lib/firmware/intel_mcu.bin
+      root@edison:~# file /lib/firmware/intel_mcu.bin
 ```
 
 ### Interrupt Service Routine
@@ -199,7 +199,7 @@ Explore the internal tools from Eclipse to work with Edison MCU
     47:         17          0   IO-APIC-fasteoi   intel_psh_ipc
 ```
 
-### SysFs Power Interfaces
+### Power Interfaces
 
 ```sh
     root@edison:~# echo auto > /sys/devices/pci0000\:00/0000\:00\:04.3/power/control
