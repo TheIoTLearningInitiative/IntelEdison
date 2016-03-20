@@ -3,8 +3,6 @@ Intel® Edison
 
 > The Intel® Edison is a tiny computer offered by Intel as a development system for wearable devices[1] and Internet of Things devices. The system was initially announced to be the same size and shape as an SD card and containing a dual-core Intel Quark x86 CPU at 400 MHz communicating via Bluetooth and Wi-Fi. A later announcement changed the CPU to a 22 nm Silvermont dual-core Intel Atom CPU,[5] and in September 2014 a second version of Edison was shown at IDF, which was bigger and thicker than a standard SD card. [Wikipedia](https://en.wikipedia.org/wiki/Intel_Edison)
 
-## Specifications
- 
 > __Processor__ — “Tangier” Atom SoC with 22nm Intel Atom (2x Silvermont/Merrifield-like cores @ 500MHz) and 100MHz, 32-bit Intel Quark
 
 >__Memory__ — 1GB LPDDR3 POP RAM (2-ch. 32-bit) @ 800MT/sec; 4GB eMMC (v4.51)
