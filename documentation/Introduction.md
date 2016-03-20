@@ -5,13 +5,16 @@ Intel® Edison
 
 Especifications
  
-> Processor — “Tangier” Atom SoC with 22nm Intel Atom (2x Silvermont/Merrifield-like cores @ 500MHz) and 100MHz, 32-bit Intel Quark
-- Memory — 1GB LPDDR3 POP RAM (2-ch. 32-bit) @ 800MT/sec; 4GB eMMC (v4.51)
-- Wireless:
+> __Processor__ — “Tangier” Atom SoC with 22nm Intel Atom (2x Silvermont/Merrifield-like cores @ 500MHz) and 100MHz, 32-bit Intel Quark
+
+>__Memory__ — 1GB LPDDR3 POP RAM (2-ch. 32-bit) @ 800MT/sec; 4GB eMMC (v4.51)
+
+> __Wireless__
   - 802.11 a/b/g/n (2.4/5GHz) using Broadcom 43340 module
   - Bluetooth 4.0 (Bluetooth LE due in Q4)
   - Onboard or ext. antenna options
-- I/O — via 70-pin Hirose DF40 Series connector (1.5, 2.0, or 3.0mm stack height) with 40x GPIOs for:
+
+> __I/O__ — via 70-pin Hirose DF40 Series connector (1.5, 2.0, or 3.0mm stack height) with 40x GPIOs for:
   - USB 2.0 OTG
   - SD
   - 2x UART
@@ -20,16 +23,20 @@ Especifications
   - I2S
   - 12x GPIO (includes 4x capable of PWM)
   - 32kHz, 19.2MHz clock output
-- Operating temperature — 0 to 40°C
-- Power:
+
+> __Operating temperature__ — 0 to 40°C
+
+> __Power__
   - Input voltage — 3.3 to 4.5 VDC
   - Consumption:
     - Typical — (tbd, per Intel)
     - Maximum — (tbd, per Intel)
     - Standby — 13mW (no radios); 21.5mW (Bluetooth); 35mW (WiFi)
   - Output — 100ma @3.3V and 100ma @ 1.8V output
-- Dimensions — 35.5 × 25.0 × 3.9mm (1.4 × 1.0 × 0.15 in.)
-- Operating system — Yocto Linux 1.6 for the Atom SoC, with support for Arduino IDE, Eclipse (C, C++, Python), Intel XDK (Node.JS, HTML5); Viper RTOS SDK for the Quark MCU
+
+> __Dimensions__ — 35.5 × 25.0 × 3.9mm (1.4 × 1.0 × 0.15 in.)
+
+> __Operating system__ — Yocto Linux 1.6 for the Atom SoC, with support for Arduino IDE, Eclipse (C, C++, Python), Intel XDK (Node.JS, HTML5); Viper RTOS SDK for the Quark MCU
     
 ## Links
 
