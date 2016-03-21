@@ -24,9 +24,6 @@ out-of-band) signaling for UART to support low power mode. ...
 - [Intel® Edison Board Getting Started with Bluetooth](https://software.intel.com/en-us/articles/intel-edison-board-getting-started-with-bluetooth)
 - [Intel® Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
 
-## Bluetooth
-
-
 ## DF40 Series 70-Pin Connector
 
 > 0.4 mm pitch, 1.5 mm Stacking Height, Slim FPC to Board Connectors
