@@ -15,4 +15,5 @@ Taken from Intel forums...
 
 ## Power Consumption
 
-https://scivision.co/measured-power-consumption-of-intel-edison/
+- [Measured power consumption of Intel Edison](https://scivision.co/measured-power-consumption-of-intel-edison/)
+
