@@ -13,3 +13,6 @@ Taken from Intel forums...
 
 - [TI SNB9024 power management IC Data Sheet](https://communities.intel.com/thread/58627?start=0&tstart=0)
 
+## Power Consumption
+
+https://scivision.co/measured-power-consumption-of-intel-edison/
