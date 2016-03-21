@@ -187,6 +187,7 @@ Setup
 
 
 nano /etc/usb_modeswitch.d/1bbb\:f017
+```
 # Alcatel Onetouch 3G module
 #
 DefaultVendor=0x1bbb
@@ -197,7 +198,7 @@ TargetProduct=0x0000
 #MessageContent="55534243123456782400000080000685000000240000000000000000000000"
 CheckSuccess=20
 MessageContent="55534243123456788000000080000606f50402527000000000000000000000"
-
+```
 
 
 - http://www.sakis3g.com/
