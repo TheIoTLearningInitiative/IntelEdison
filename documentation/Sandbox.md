@@ -2,7 +2,7 @@ SandBox
 ==
 - https://communities.intel.com/docs/DOC-23391
 - https://www.npmjs.com/package/edison-i2c-config
- http://akizukidenshi.com/download/ds/intel/edisonPB331179_001Edison101Presentation.pdf
+http://akizukidenshi.com/download/ds/intel/edisonPB331179_001Edison101Presentation.pdf
 - http://johnny-five.io/
 - http://www.ros.org/
 - http://www.aaeon.com/en/p/3-and-half-inch-sbc-aiot-x1000/
