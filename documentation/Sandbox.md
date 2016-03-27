@@ -1,6 +1,7 @@
 SandBox
 ==
 - https://communities.intel.com/docs/DOC-23391
+- https://www.npmjs.com/package/edison-i2c-config
 - http://akizukidenshi.com/download/ds/intel/edisonPB331179_001Edison101Presentation.pdf
 - http://johnny-five.io/
 - http://www.ros.org/
