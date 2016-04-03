@@ -13,6 +13,6 @@ Hardware Blocks
 
 - [Audio Block for Intel Edison](http://www.malinov.com/Home/sergeys-projects/audio-block-for-intel-edison)
 
-## Mini PCI-Express
+## Mini PCI-Express Block
 
 - [Aisler Edison mini PCI-express Block](https://aisler.net/LGSInnovations/edison-mini-pcie/mpcie)
