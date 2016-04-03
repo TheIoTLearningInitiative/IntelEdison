@@ -7,7 +7,7 @@ Hardware Blocks
 
 - [Enginursday: A Template for Edison Blocks](https://www.sparkfun.com/news/1591)
 
-## Audio Block for Intel Edison
+## Audio Block
 
 > Audio Block is an add-on board for Intel Edison compute module. It provides audio playback and recording capabilities using the I2S/DSP interface present in the Intel Edison. Audio Block supports stereo output (either as a line output, or as a headphones output using a built-in amplifier), a stereo line input, or and microphone input. Malinov Homepage
 
