@@ -50,7 +50,7 @@ Peripheral Component Interconnect
 
 - https://communities.intel.com/thread/61150?wapkw=intel+edison+mpcie
 - https://communities.intel.com/thread/89971?start=0&tstart=0
-- https://www.aisler.net/projects/7252
+- https://aisler.net/LGSInnovations/edison-mini-pcie/mpcie
 - http://pinball-mods.com/blogs/?p=580
 - https://hackaday.io/project/4571-intel-edison-usb-storage-sled
 - https://wiki.archlinux.org/index.php/Huawei_E220
