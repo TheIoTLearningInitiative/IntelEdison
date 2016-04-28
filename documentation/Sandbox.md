@@ -1,5 +1,7 @@
 SandBox
 ==
+
+- http://www.networkworld.com/article/3061891/intels-edison-board-now-links-up-to-ibms-bluemix-cloud-service.html#tk.rss_cloudcomputing
 - https://communities.intel.com/docs/DOC-23391
 - https://www.npmjs.com/package/edison-i2c-config
 http://akizukidenshi.com/download/ds/intel/edisonPB331179_001Edison101Presentation.pdf
