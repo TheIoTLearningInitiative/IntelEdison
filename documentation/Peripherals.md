@@ -47,7 +47,7 @@ root@edison:~# i2cdetect -y -r 1
 70: -- -- -- -- -- -- -- --
 ```
 
-Sparkfun Breakout Board
+### Sparkfun Breakout Board
 
 ```sh
 root@edison:~# i2cdetect -y -r 1
