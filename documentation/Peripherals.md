@@ -29,3 +29,16 @@ out-of-band) signaling for UART to support low power mode. ...
 > 0.4 mm pitch, 1.5 mm Stacking Height, Slim FPC to Board Connectors
 
 - [DF40 Series](https://www.hirose-connectors.com/connectors/H204SeriesListCompare.aspx?snprm=DF40)
+
+## I2C
+
+root@edison:~# i2cdetect -y -r 1
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:          -- -- -- -- -- -- -- -- -- -- -- -- --
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+20: UU UU UU UU -- -- -- -- -- -- -- -- -- -- -- --
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+70: -- -- -- -- -- -- -- --
