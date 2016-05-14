@@ -14,6 +14,7 @@
    * [Hardware Blocks](documentation/HardwareBlocks.md)
    * [Operating System](documentation/OperatingSystem.md)
 * [Software](documentation/Software.md)
+   * WiFi
 * [SandBox](documentation/Sandbox.md)
 * [Micro Controller Unit](documentation/MicroControllerUnit.md)
 
