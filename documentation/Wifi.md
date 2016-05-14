@@ -75,4 +75,3 @@ network={
      password = changewifi[2]
      if len(password) < 8 or len(password) > 63:
 ```
-
