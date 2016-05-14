@@ -13,7 +13,7 @@
 * [Customization](documentation/Customization.md)
    * [Hardware Blocks](documentation/HardwareBlocks.md)
    * [Operating System](documentation/OperatingSystem.md)
+* [SandBox](documentation/Sandbox.md)
 * Software
 * [Micro Controller Unit](documentation/MicroControllerUnit.md)
-* [SandBox](documentation/Sandbox.md)
 
