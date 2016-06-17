@@ -9,6 +9,7 @@ Hardware
 - [Intel® Edison Arduino® Board Schematic for Boards and Kits](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005829.html)
 - [Intel® Edison Breakout Board Schematic](http://www.intel.com/content/www/us/en/support/boards-and-kits/000005699.html)
 - [Intel® Edison Kit for Arduino – Buttons and Switch](https://communities.intel.com/docs/DOC-23454)
+- [Intel® Edison Shields Compatibility](http://download.intel.com/support/Galileo-Edison_ShieldTestReport_330937-002.pdf)
 
 
 
