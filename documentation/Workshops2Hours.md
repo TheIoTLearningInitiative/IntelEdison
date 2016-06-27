@@ -4,6 +4,7 @@ Requirements
 
 - Intel Edison
 - [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427)
+- Internet Connection
 
 # Flashing
 
