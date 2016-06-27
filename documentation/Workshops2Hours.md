@@ -1,4 +1,4 @@
-# 2 Hours
+# Intel Edison 2 Hours Workshop
 
 # Flashing
 
