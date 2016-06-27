@@ -2,7 +2,7 @@
 
 # Flashing
 
-Requirements
+## Installer
 
 - Download the specific installer from [Intel Edison Installers](https://software.intel.com/en-us/iot/hardware/edison/downloads)
   - Double click
@@ -12,9 +12,18 @@ Requirements
     - Flash Firmware
       - C:\Intel\Edison\Image\edison-image-20160606
       - Use existing image located at 
-- Putty
+
+## Serial Clients
+
+- Putty @ Windows
   - Session Connection Type: Serial
   - Session Serial Linea: COMx
+  - Session Speed: 115200
+  - Connection Serial Flow Control: None
+
+- Screen || Minicom @ Linux
+  - Session Connection Type: Serial
+  - Session Serial Linea: /dev/tttyUSBx
   - Session Speed: 115200
   - Connection Serial Flow Control: None
 
