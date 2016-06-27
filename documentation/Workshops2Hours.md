@@ -142,8 +142,7 @@ Data Sensor Mqtt Published!
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# 
 ```
 
-
-# Telegram Bots
+## Telegram Bots
 
 
 ![Telegram](https://telegram.org/img/t_logo.png)
@@ -151,11 +150,11 @@ root@edison:~/TheIoTLearningInitiative/InternetOfThings101#
 
 > Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things [Bot Revolution](https://telegram.org/blog/bot-revolution)
 
-## Bot Code Examples
+### Bot Code Examples
 
 > Many members of our community are building bots and publishing the source code. We collect these examples here. Ping us on BotSupport if you've built a bot and would like to share its code with others [Bot Code Examples](https://core.telegram.org/bots/samples)
 
-## BotFather
+### BotFather
 
 ```sh
 BotFather:
@@ -181,7 +180,7 @@ You can control me by sending these commands:
 /cancel - cancel the current operation
 ```
 
-## Bot Creation
+### Bot Creation
 
 ```sh
 Abraham:
@@ -209,7 +208,7 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 CANCELFORWARD 1 DELETE 1 REPLY
 ```
 
-## Python Telegram Bot Library Installation
+### Python Telegram Bot Library Installation
 
 > Not just a Python Wrapper around the Telegram Bot API [Homepage](https://python-telegram-bot.org/) [Github](https://github.com/python-telegram-bot)
 
@@ -238,7 +237,7 @@ root@edison:~/python-telegram-bot# python setup.py install
 root@edison:~# cd
 ```
 
-# Bot Example
+### Bot @ Intel Edison
 
 ```sh
 root@edison:~# vi mybot.py
