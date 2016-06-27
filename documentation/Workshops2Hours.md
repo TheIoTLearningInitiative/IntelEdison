@@ -1,5 +1,9 @@
 # Intel Edison 2 Hours Workshop
 
+Requirements
+
+
+
 # Flashing
 
 ## Installer
