@@ -13,9 +13,10 @@ Requirements
       - C:\Intel\Edison\Image\edison-image-20160606
       - Use existing image located at 
 - Putty
-  - Connection Type: Serial
-  - Serial Linea: COMxx
-  - Speed: 115200 
+  - Session Connection Type: Serial
+  - Session Serial Linea: COMx
+  - Session Speed: 115200
+  - 
 
 # Booting
 
