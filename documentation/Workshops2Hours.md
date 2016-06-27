@@ -105,6 +105,7 @@ root@edison:~# cd TheIoTLearningInitiative
 root@edison:~/TheIoTLearningInitiative#
 root@edison:~/TheIoTLearningInitiative# pip install -r requirements.pip
 root@edison:~/TheIoTLearningInitiative# sh requirements.manual
+root@edison:~/TheIoTLearningInitiative# python main.py
 ```
 
 # Telegram Bots
