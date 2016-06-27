@@ -10,7 +10,8 @@ Requirements
     - Finish
   - Firmware version installed: not detected. Latest available: 201606061707
     - Flash Firmware
-    - Use existing image located at 
+      - C:\Intel\Edison\Image\edison-image-20160606
+      - Use existing image located at 
 
 
 # Booting
