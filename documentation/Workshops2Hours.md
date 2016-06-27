@@ -13,7 +13,6 @@ Requirements
       - C:\Intel\Edison\Image\edison-image-20160606
       - Use existing image located at 
 
-
 # Booting
 
 # Project Cloning
