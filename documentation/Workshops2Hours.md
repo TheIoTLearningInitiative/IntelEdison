@@ -7,9 +7,9 @@ Requirements
 - Internet Connection
 - Laptop
 
-# Flashing
+## Flashing
 
-## Installer
+### Installer
 
 - Download the specific installer from [Intel Edison Installers](https://software.intel.com/en-us/iot/hardware/edison/downloads)
   - Double click
@@ -20,7 +20,7 @@ Requirements
       - C:\Intel\Edison\Image\edison-image-20160606
       - Use existing image located at 
 
-## Serial Clients
+### Serial Clients
 
 - Putty @ Windows
   - Session Connection Type: Serial
@@ -34,7 +34,7 @@ Requirements
   - Session Speed: 115200
   - Connection Serial Flow Control: None
 
-# Booting
+## Booting
 
 ```sh
 Poky (Yocto Project Reference Distro) 1.7.3 edison ttyMFD2                      
@@ -42,6 +42,8 @@ Poky (Yocto Project Reference Distro) 1.7.3 edison ttyMFD2
 edison login: root                                                              
 Last login: Mon Jun  6 21:33:16 UTC 2016 on ttyMFD2
 ```
+
+### Kernel Version
 
 Check your kernel version
 
@@ -51,6 +53,8 @@ root@edison:~# uname -r
 root@edison:~# 
 
 ```
+
+### WiFi
 
 Configure your Edison WiFi network
 
@@ -97,7 +101,7 @@ round-trip min/avg/max = 43.713/97.686/151.659 ms
 root@edison:~# 
 ```
 
-# Project Cloning
+## Project Cloning
 
 ```sh
 root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
@@ -107,6 +111,11 @@ root@edison:~/TheIoTLearningInitiative/InternetOfThings101# pip install -r requi
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# sh requirements.manual
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# 
 ```
+
+### Dependencies Setup
+
+
+### Execution
 
 ```sh
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# python main.py 
