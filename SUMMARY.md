@@ -10,6 +10,7 @@
    * [Power Management IC](documentation/PowerManagementIc.md)
    * [Pin Multiplexor](documentation/PinMultiplexor.md)
        * [MUX Additional Tables](documentation/MuxAdditionalTables.md)
+* [Micro Controller Unit](documentation/MicroControllerUnit.md)
 * [Software](documentation/Software.md)
    * [WiFi](documentation/Wifi.md)
 * [Customization](documentation/Customization.md)
@@ -17,5 +18,4 @@
    * [Operating System](documentation/OperatingSystem.md)
 * Workshops
 * [SandBox](documentation/Sandbox.md)
-* [Micro Controller Unit](documentation/MicroControllerUnit.md)
 
