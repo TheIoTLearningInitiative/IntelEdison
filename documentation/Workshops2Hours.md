@@ -255,3 +255,6 @@ if __name__ == '__main__':
 ```sh
 root@edison:~# python mybot.py
 ```
+
+# Challenge
+
