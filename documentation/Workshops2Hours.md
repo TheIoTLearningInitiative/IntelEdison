@@ -16,7 +16,7 @@ Requirements
   - Session Connection Type: Serial
   - Session Serial Linea: COMx
   - Session Speed: 115200
-  - 
+  - Connection Serial Flow Control: None
 
 # Booting
 
