@@ -5,7 +5,8 @@
 Requirements
 
 - [Installers](https://software.intel.com/en-us/iot/hardware/edison/downloads)
-  - Double clic 
+  - Double clic
+  - Select "USB drivers installed"
 
 # Booting
 
