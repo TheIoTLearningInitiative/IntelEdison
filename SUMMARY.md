@@ -15,7 +15,7 @@
 * [Customization](documentation/Customization.md)
    * [Hardware Blocks](documentation/HardwareBlocks.md)
    * [Operating System](documentation/OperatingSystem.md)
+* Workshops
 * [SandBox](documentation/Sandbox.md)
 * [Micro Controller Unit](documentation/MicroControllerUnit.md)
-* Workshops
 
