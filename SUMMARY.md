@@ -17,5 +17,6 @@
    * [Hardware Blocks](documentation/HardwareBlocks.md)
    * [Operating System](documentation/OperatingSystem.md)
 * Workshops
+   * 2 Hours
 * [SandBox](documentation/Sandbox.md)
 
