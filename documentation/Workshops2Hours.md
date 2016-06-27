@@ -5,6 +5,7 @@
 Requirements
 
 - [Installers](https://software.intel.com/en-us/iot/hardware/edison/downloads)
+  - Double clic 
 
 # Booting
 
