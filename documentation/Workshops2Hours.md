@@ -105,8 +105,28 @@ root@edison:~# cd TheIoTLearningInitiative
 root@edison:~/TheIoTLearningInitiative#
 root@edison:~/TheIoTLearningInitiative# pip install -r requirements.pip
 root@edison:~/TheIoTLearningInitiative# sh requirements.manual
-root@edison:~/TheIoTLearningInitiative# python main.py
+root@edison:~/TheIoTLearningInitiative# 
 ```
+
+root@edison:~/TheIoTLearningInitiative/InternetOfThings101# python main.py 
+Hello Internet of Things 101
+Data Sensor: 11513 
+Data Sensor Mqtt Published!
+API Weather: Guadalajara, JO, Mexico, Temperature 18 C, Atmospheric Pressure 842 mbar 
+Data Sensor Mqtt Published!
+Data Sensor Mqtt Published!
+Data Sensor Mqtt Published!
+Data Sensor Mqtt Published!
+Data Sensor Mqtt Published!
+Hello Internet of Things 101
+Data Sensor: 11617 
+API Weather: Guadalajara, JO, Mexico, Temperature 18 C, Atmospheric Pressure 842 mbar 
+Data Sensor Mqtt Published!
+^Z
+[6]+  Stopped(SIGTSTP)        python main.py
+root@edison:~/TheIoTLearningInitiative/InternetOfThings101# 
+```
+
 
 # Telegram Bots
 
