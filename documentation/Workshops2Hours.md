@@ -105,6 +105,8 @@ root@edison:~#
 
 ```sh
 root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
+...
+root@edison:~# 
 ```
 
 ### Dependencies Setup
@@ -118,7 +120,7 @@ root@edison:~/TheIoTLearningInitiative/InternetOfThings101# sh requirements.manu
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# 
 ```
 
-### Execution
+### Project Execution
 
 ```sh
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# python main.py 
