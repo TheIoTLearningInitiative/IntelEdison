@@ -265,3 +265,4 @@ root@edison:~# python mybot.py
 
 # Challenge
 
+Integrate Telegram Bot code into "The IoT Learning Initiative" code
