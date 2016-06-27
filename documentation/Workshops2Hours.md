@@ -98,15 +98,9 @@ root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
 
 # Challenge
 
-> A new era of messaging. Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. [Homepage](https://telegram.org/)
- 
-> Telegram Web Version 0.5.4 [Homepage](https://web.telegram.org/#/im)
-
 
 ![Telegram](https://telegram.org/img/t_logo.png)
 
-
-## Bot Revolution
 
 > Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things [Bot Revolution](https://telegram.org/blog/bot-revolution)
 
