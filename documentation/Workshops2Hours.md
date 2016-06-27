@@ -101,6 +101,9 @@ root@edison:~#
 
 ```sh
 root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
+root@edison:~# cd TheIoTLearningInitiative
+root@edison:~/python-telegram-bot#
+root@edison:~# pip install -r requirements.pip
 ```
 
 # Telegram Bots
