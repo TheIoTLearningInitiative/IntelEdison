@@ -78,4 +78,6 @@ root@edison:~#
 
 # Project Cloning
 
-https://github.com/xe1gyq/TheIoTLearningInitiative.git
+```sh
+root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
+```
