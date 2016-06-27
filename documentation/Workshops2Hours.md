@@ -9,7 +9,8 @@ Requirements
     - Select "USB drivers installed"
     - Finish
   - Firmware version installed: not detected. Latest available: 201606061707
-    - Flash Firmware 
+    - Flash Firmware
+    - Use existing image located at 
 
 
 # Booting
