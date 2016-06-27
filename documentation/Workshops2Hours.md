@@ -12,8 +12,10 @@ Requirements
     - Flash Firmware
       - C:\Intel\Edison\Image\edison-image-20160606
       - Use existing image located at 
-
 - Putty
+  - Connection Type: Serial
+  - Serial Linea: COMxx
+  - Speed: 115200 
 
 # Booting
 
