@@ -96,7 +96,7 @@ root@edison:~#
 root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
 ```
 
-# Challenge
+# Telegram Bot
 
 
 ![Telegram](https://telegram.org/img/t_logo.png)
