@@ -108,6 +108,7 @@ root@edison:~/TheIoTLearningInitiative/InternetOfThings101# sh requirements.manu
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# 
 ```
 
+```sh
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# python main.py 
 Hello Internet of Things 101
 Data Sensor: 11513 
