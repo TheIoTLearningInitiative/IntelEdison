@@ -2,7 +2,8 @@
 
 Requirements
 
-
+- Intel Edison
+- 
 
 # Flashing
 
