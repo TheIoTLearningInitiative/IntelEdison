@@ -2,6 +2,9 @@
 
 # Flashing
 
+Requirements
+
+
 # Booting
 
 # Project Cloning
