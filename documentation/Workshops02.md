@@ -39,6 +39,9 @@ Requirements
 
 ## Grove – Button
 
+> Author: Sarah Knepper <sarah.knepper@intel.com>
+> Copyright (c) 2014 Intel Corporation.
+
 
 
 ## Grove - Touch Sensor
