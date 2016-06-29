@@ -22,7 +22,7 @@ Requirements
 - Telegram Bots
   - Bot Code Examples
   - Bot Creation by BotFather
-
+- Python Telegram Bot Library
 
 # Base Project Base Cloning
 
@@ -129,7 +129,7 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 CANCELFORWARD 1 DELETE 1 REPLY
 ```
 
-# Python Telegram Bot Library Installation
+# Python Telegram Bot Library
 
 > Not just a Python Wrapper around the Telegram Bot API [Homepage](https://python-telegram-bot.org/) [Github](https://github.com/python-telegram-bot)
 
