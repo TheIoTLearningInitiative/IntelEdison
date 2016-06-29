@@ -20,6 +20,7 @@ Requirements
 # Agenda
 
 - Base Project
+  - Cloning 
   - Dependencies Setup
   - Project Execution
 - Telegram Bots
