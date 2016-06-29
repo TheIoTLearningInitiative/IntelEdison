@@ -175,7 +175,7 @@ root@edison:~# cd
 ## Telegram Bot @ Intel Edison
 
 ```sh
-root@edison:~# vi mybot.py
+root@edison:~# vi telegrambot.py
 ```
 
 ```python
