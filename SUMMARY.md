@@ -18,7 +18,7 @@
    * [Operating System](documentation/OperatingSystem.md)
 * Workshops
    * [The Setup](documentation/Workshops00.md)
-   * [The Telegram Bot Project](documentation/Workshops01.md)
+   * [The Telegram Bot Workshop](documentation/Workshops01.md)
    * [The Grove Starter Kit Plus Project](documentation/Workshops02.md)
 * [SandBox](documentation/Sandbox.md)
 
