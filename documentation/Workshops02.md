@@ -139,7 +139,7 @@ root@edison:~# python buzzer.py
 > Author: Mihai Tudor Panu <mihai.tudor.panu@intel.com>
 > Copyright (c) 2014 Intel Corporation.
 
-- [UPM Python Rotary Angle Sensor(P)]()
+- [UPM Python Rotary Angle Sensor(P)](https://github.com/intel-iot-devkit/upm/blob/master/examples/python/groverotary.py)
 
 ```sh
 root@edison:~# vi .py
