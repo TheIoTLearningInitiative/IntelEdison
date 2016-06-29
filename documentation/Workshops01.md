@@ -237,6 +237,8 @@ if __name__ == '__main__':
 root@edison:~# python telegrambot.py
 ```
 
+- Interact within your Web Telegram Org Application
+
 ## Challenge
 
 Integrate Telegram Bot code into "The IoT Learning Initiative" code
