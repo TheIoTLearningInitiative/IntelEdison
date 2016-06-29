@@ -11,25 +11,6 @@ Requirements
 - Intel Edison
 - [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427)
 
-## Project Cloning
-
-```sh
-root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
-...
-root@edison:~# 
-```
-
-### Dependencies Setup
-
-```sh
-root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
-root@edison:~# cd TheIoTLearningInitiative/InternetOfThings101
-root@edison:~/TheIoTLearningInitiative/InternetOfThings101#
-root@edison:~/TheIoTLearningInitiative/InternetOfThings101# pip install -r requirements.pip
-root@edison:~/TheIoTLearningInitiative/InternetOfThings101# sh requirements.manual
-root@edison:~/TheIoTLearningInitiative/InternetOfThings101# 
-```
-
 ### Project Execution
 
 ```sh
