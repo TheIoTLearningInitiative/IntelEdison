@@ -13,7 +13,13 @@ Requirements
 
 # Agenda
 
-
+-  Flashing
+  -  Installer
+  -  Serial Clients
+- Booting
+  - Kernel Version
+  - WiFi
+  - Open Package Management
 
 # Flashing
 
