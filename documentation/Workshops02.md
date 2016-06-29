@@ -1,4 +1,4 @@
-# The Grove Indoor Environment Kit Project
+# The Grove Indoor Environment Kit Workshop
 
 Time
 
