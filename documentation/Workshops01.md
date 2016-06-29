@@ -20,7 +20,10 @@ Requirements
   - Dependencies Setup
   - Project Execution
 - Telegram Bots
+  - Bot Code Examples
   - 
+
+
 # Base Project Base Cloning
 
 ```sh
