@@ -89,7 +89,8 @@ root@edison:~/TheIoTLearningInitiative/InternetOfThings101#
 
 ## Bot Creation by BotFather
 
-Go to [Web Telegram Org](https://web.telegram.org/#/im) and sign up
+- Go to [Web Telegram Org](https://web.telegram.org/#/im) and sign up
+- 
 
 ```sh
 BotFather:
