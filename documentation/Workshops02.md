@@ -72,7 +72,7 @@ root@edison:~# python button.py
 > Copyright (c) 2014 Intel Corporation.
 
 ```sh
-root@edison:~# vi button.py
+root@edison:~# vi touch.py
 ```
 
 ```python
