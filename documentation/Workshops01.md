@@ -1,4 +1,4 @@
-# Intel Edison 2 Hours Workshop
+# The Telegram Bot Project
 
 Requirements
 
