@@ -1,4 +1,4 @@
-# The Telegram Bot Project
+# The Telegram Bot Workshop
 
 Time
 
