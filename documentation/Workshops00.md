@@ -110,16 +110,16 @@ root@edison:~#
 Update Opkg Repositories
 
 ```sh
-    root@edison:~# opkg update
-    Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/Packages.
-    Updated list of available packages in /var/lib/opkg/iotkit.
-    root@edison:~#
+root@edison:~# opkg update
+Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/Packages.
+Updated list of available packages in /var/lib/opkg/iotkit.
+root@edison:~#
 ```
 
 Enable a Opkg feed and update package list, we will not upgrade to avoid consuming disk space
 
 ```sh
-    root@edison:~# vi /etc/opkg/base-feeds.conf # Add the below lines to the opened file
+root@edison:~# vi /etc/opkg/base-feeds.conf # Add the below lines to the opened file
 ```
 
 ```sh
