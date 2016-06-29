@@ -42,7 +42,9 @@ Requirements
 > Author: Sarah Knepper <sarah.knepper@intel.com>
 > Copyright (c) 2014 Intel Corporation.
 
+```python
 
+```
 
 ## Grove - Touch Sensor
 
