@@ -1,4 +1,4 @@
-# The Grove Indoor Environment Kit Workshop
+# The Grove Starter Kit Plus Workshop
 
 Time
 
@@ -34,6 +34,8 @@ Requirements
 - [Grove - Light Sensor](http://www.seeedstudio.com/wiki/Grove_-_Light_Sensor)
 - [Grove - Temperature Sensor](http://www.seeedstudio.com/wiki/Grove_-_Temperature_Sensor)
 - [Grove - LCD RGB Backlight](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
+
+# 
 
 ## Grove – Button
 
