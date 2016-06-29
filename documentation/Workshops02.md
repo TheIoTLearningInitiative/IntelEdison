@@ -100,7 +100,7 @@ root@edison:~# python touch.py
 > Author: Sarah Knepper <sarah.knepper@intel.com>
 > Copyright (c) 2015 Intel Corporation.
 
-- [UPM Python Grove Buzzer]()
+- [UPM Python Grove Buzzer](https://github.com/intel-iot-devkit/upm/blob/master/examples/python/buzzer.py)
 
 ```sh
 root@edison:~# vi buzzer.py
