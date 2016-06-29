@@ -178,6 +178,8 @@ root@edison:~# python .py
 > Author: Sarah Knepper <sarah.knepper@intel.com>
 > Copyright (c) 2014 Intel Corporation.
 
+- [UPM Python Grove Light](https://github.com/intel-iot-devkit/upm/blob/master/examples/python/grovelight.py)
+
 ```sh
 root@edison:~# vi light.py
 ```
