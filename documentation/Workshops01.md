@@ -23,6 +23,8 @@ Requirements
   - Bot Code Examples
   - Bot Creation by BotFather
 - Python Telegram Bot Library
+  - Telegram Bot @ Intel Edison
+- Challenge
 
 # Base Project Base Cloning
 
