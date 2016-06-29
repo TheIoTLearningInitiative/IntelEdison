@@ -72,7 +72,8 @@ API Weather: Guadalajara, JO, Mexico, Temperature 18 C, Atmospheric Pressure 842
 Data Sensor Mqtt Published!
 ^Z
 [6]+  Stopped(SIGTSTP)        python main.py
-root@edison:~/TheIoTLearningInitiative/InternetOfThings101# 
+root@edison:~/TheIoTLearningInitiative/InternetOfThings101# cd
+root@edison:~# 
 ```
 
 # Telegram Bots
