@@ -47,7 +47,6 @@ root@edison:~#
 ## Dependencies Setup
 
 ```sh
-root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
 root@edison:~# cd TheIoTLearningInitiative/InternetOfThings101
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101#
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# pip install -r requirements.pip
