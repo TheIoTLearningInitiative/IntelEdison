@@ -211,7 +211,7 @@ root@edison:~# python light.py
 > Copyright (c) 2014 Intel Corporation.
 
 ```sh
-root@edison:~# vi .py
+root@edison:~# vi temperature.py
 ```
 
 ```python
@@ -236,7 +236,7 @@ del temp
 ```
 
 ```sh
-root@edison:~# python .py
+root@edison:~# python temperature.py
 ```
 
 ## Grove - LCD RGB Backlight
