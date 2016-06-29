@@ -63,7 +63,7 @@ del button
 ```
 
 ```sh
-root@edison:~# vi button.py
+root@edison:~# python button.py
 ```
 
 ## Grove - Touch Sensor
