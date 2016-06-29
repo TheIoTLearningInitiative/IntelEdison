@@ -85,14 +85,88 @@ root@edison:~# python .py
 
 ## Grove - Buzzer
 
+> Author: 
+> 
+
+```sh
+root@edison:~# vi .py
+```
+
+```python
+
+```
+
+```sh
+root@edison:~# python .py
+```
+
 ## Grove - Rotary Angle Sensor(P)
+
+> Author: 
+> 
+
+```sh
+root@edison:~# vi .py
+```
+
+```python
+
+```
+
+```sh
+root@edison:~# python .py
+```
 
 ## Grove - Light Sensor
 
+> Author: 
+> 
+
+```sh
+root@edison:~# vi .py
+```
+
+```python
+
+```
+
+```sh
+root@edison:~# python .py
+```
+
 ## Grove - Temperature Sensor
+
+> Author: 
+> 
+
+```sh
+root@edison:~# vi .py
+```
+
+```python
+
+```
+
+```sh
+root@edison:~# python .py
+```
 
 ## Grove - LCD RGB Backlight
 
+> Author: 
+> 
+
+```sh
+root@edison:~# vi .py
+```
+
+```python
+
+```
+
+```sh
+root@edison:~# python .py
+```
 
 ## Challenge
 
