@@ -97,8 +97,8 @@ root@edison:~# python touch.py
 
 ## Grove - Buzzer
 
-> Author: 
-> 
+> Author: Sarah Knepper <sarah.knepper@intel.com>
+> Copyright (c) 2015 Intel Corporation.
 
 ```sh
 root@edison:~# vi .py
