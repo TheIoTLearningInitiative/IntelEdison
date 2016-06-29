@@ -92,7 +92,7 @@ del touch
 ```
 
 ```sh
-root@edison:~# python button.py
+root@edison:~# python touch.py
 ```
 
 ## Grove - Buzzer
