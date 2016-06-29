@@ -158,7 +158,7 @@ root@edison:~/python-telegram-bot# python setup.py install
 root@edison:~# cd
 ```
 
-## Bot @ Intel Edison
+## Telegram Bot @ Intel Edison
 
 ```sh
 root@edison:~# vi mybot.py
