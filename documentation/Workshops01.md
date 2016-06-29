@@ -14,6 +14,11 @@ Requirements
   - [Grove - Light Sensor](http://www.seeedstudio.com/wiki/Grove_-_Light_Sensor)
   - [Grove - LCD RGB Backlight](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
 
+# Agenda
+
+- Project Cloning
+- 
+
 # Project Cloning
 
 ```sh
