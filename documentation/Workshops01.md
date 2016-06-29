@@ -16,9 +16,11 @@ Requirements
 
 # Agenda
 
-- Project Cloning
-- 
-
+- Base Project Base Cloning
+  - Dependencies Setup
+  - Project Execution
+- Telegram Bots
+  - 
 # Base Project Base Cloning
 
 ```sh
