@@ -44,7 +44,6 @@ Requirements
 
 - [UPM Python Grove Button](https://github.com/intel-iot-devkit/upm/blob/master/examples/python/grovebutton.py)
 
-
 ```sh
 root@edison:~# vi button.py
 ```
