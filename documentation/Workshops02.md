@@ -253,8 +253,10 @@ root@edison:~# python temperature.py
 
 ## Grove - LCD RGB Backlight
 
-> Author: 
-> 
+> Author: Brendan Le Foll <brendan.le.foll@intel.com>
+> Copyright (c) 2014 Intel Corporation.
+
+- [UPM Python ](https://github.com/intel-iot-devkit/upm/blob/master/examples/python/jhd1313m1-lcd.py)
 
 ```sh
 root@edison:~# vi .py
