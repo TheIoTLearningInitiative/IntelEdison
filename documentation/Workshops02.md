@@ -210,6 +210,8 @@ root@edison:~# python light.py
 > Contributions: Sarah Knepper <sarah.knepper@intel.com>
 > Copyright (c) 2014 Intel Corporation.
 
+- [UPM Python Grove Temp](https://github.com/intel-iot-devkit/upm/blob/master/examples/python/grovetemp.py)
+
 ```sh
 root@edison:~# vi temperature.py
 ```
