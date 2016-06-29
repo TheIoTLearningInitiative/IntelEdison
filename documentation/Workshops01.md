@@ -31,6 +31,8 @@ Requirements
 
 # Base Project
 
+# Cloning
+
 ```sh
 root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
 ...
