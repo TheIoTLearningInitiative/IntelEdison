@@ -17,7 +17,7 @@ Requirements
   - [Grove - Buzzer](http://www.seeedstudio.com/wiki/Grove_-_Buzzer)
     ![](http://www.seeedstudio.com/wiki/images/thumb/e/ed/Buzzer1.jpg/400px-Buzzer1.jpg) 
   - [Grove - Rotary Angle Sensor(P)](http://www.seeedstudio.com/wiki/Grove_-_Rotary_Angle_Sensor)
-  - ![](http://www.seeedstudio.com/wiki/images/thumb/a/af/Grove_-_Rotary_Angle_Sensor_%28P%29.jpg/400px-Grove_-_Rotary_Angle_Sensor_%28P%29.jpg)
+    ![](http://www.seeedstudio.com/wiki/images/thumb/a/af/Grove_-_Rotary_Angle_Sensor_%28P%29.jpg/400px-Grove_-_Rotary_Angle_Sensor_%28P%29.jpg)
   - []()
   - []()
   - []()
