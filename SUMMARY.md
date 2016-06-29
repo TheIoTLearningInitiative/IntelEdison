@@ -17,7 +17,7 @@
    * [Hardware Blocks](documentation/HardwareBlocks.md)
    * [Operating System](documentation/OperatingSystem.md)
 * Workshops
-   * The Setup
+   * [The Setup](documentation/Workshops00.md)
    * [The Telegram Bot Project](documentation/Workshops01.md)
    * [The Grove Indoor Environment Kit Project](documentation/Workshops02.md)
 * [SandBox](documentation/Sandbox.md)
