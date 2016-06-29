@@ -12,6 +12,7 @@ Requirements
 - [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427)
   - [Grove - Temperature Sensor](http://www.seeedstudio.com/wiki/Grove_-_Temperature_Sensor) 
   - [Grove - Light Sensor](http://www.seeedstudio.com/wiki/Grove_-_Light_Sensor)
+  - [Grove - LCD RGB Backlight](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
 
 # Project Cloning
 
