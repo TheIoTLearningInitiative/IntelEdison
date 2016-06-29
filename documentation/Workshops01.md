@@ -48,7 +48,6 @@ root@edison:~#
 
 ```sh
 root@edison:~# cd TheIoTLearningInitiative/InternetOfThings101
-root@edison:~/TheIoTLearningInitiative/InternetOfThings101#
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# pip install -r requirements.pip
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# sh requirements.manual
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# 
