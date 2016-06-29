@@ -29,7 +29,7 @@ Requirements
   - Telegram Bot @ Intel Edison
 - Challenge
 
-# Base Project Base Cloning
+# Base Project
 
 ```sh
 root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
