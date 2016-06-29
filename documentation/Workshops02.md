@@ -114,8 +114,8 @@ root@edison:~# vi buzzer.py
 import time
 import pyupm_buzzer as upmBuzzer
 
-# Create the buzzer object using GPIO pin 5
-buzzer = upmBuzzer.Buzzer(5)
+# Create the buzzer object using GPIO pin 4
+buzzer = upmBuzzer.Buzzer(4)
 
 chords = [upmBuzzer.DO, upmBuzzer.RE, upmBuzzer.MI, upmBuzzer.FA, 
           upmBuzzer.SOL, upmBuzzer.LA, upmBuzzer.SI, upmBuzzer.DO, 
