@@ -18,5 +18,6 @@
    * [Operating System](documentation/OperatingSystem.md)
 * Workshops
    * [The Telegram Bot Project](documentation/Workshops01.md)
+   * The Grove Indoor Environment Kit Project
 * [SandBox](documentation/Sandbox.md)
 
