@@ -68,6 +68,21 @@ root@edison:~# python button.py
 
 ## Grove - Touch Sensor
 
+> Author: 
+> 
+
+```sh
+root@edison:~# vi .py
+```
+
+```python
+
+```
+
+```sh
+root@edison:~# python .py
+```
+
 ## Grove - Buzzer
 
 ## Grove - Rotary Angle Sensor(P)
