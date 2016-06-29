@@ -1,5 +1,9 @@
 # The Telegram Bot Project
 
+Time
+
+- 2 hours approximately
+
 Requirements
 
 - Intel Edison
