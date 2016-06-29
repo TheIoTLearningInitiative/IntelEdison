@@ -2,7 +2,7 @@
 
 Time
 
-- 2 hours approximately
+- 2 hours
 
 Requirements
 
