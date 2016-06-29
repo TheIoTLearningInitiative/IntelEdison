@@ -129,17 +129,17 @@ src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
 ```
 
 ```sh
-    root@edison:~# opkg update
-    Downloading http://repo.opkg.net/edison/repo/all/Packages.gz.
-    Inflating http://repo.opkg.net/edison/repo/all/Packages.gz.
-    Updated list of available packages in /var/lib/opkg/all.
-    Downloading http://repo.opkg.net/edison/repo/edison/Packages.gz.
-    Inflating http://repo.opkg.net/edison/repo/edison/Packages.gz.
-    Updated list of available packages in /var/lib/opkg/edison.
-    Downloading http://repo.opkg.net/edison/repo/core2-32/Packages.gz.
-    Inflating http://repo.opkg.net/edison/repo/core2-32/Packages.gz.
-    Updated list of available packages in /var/lib/opkg/core2-32.
-    Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/Packages.
-    Updated list of available packages in /var/lib/opkg/iotkit.
-    root@edison:~# 
+root@edison:~# opkg update
+Downloading http://repo.opkg.net/edison/repo/all/Packages.gz.
+Inflating http://repo.opkg.net/edison/repo/all/Packages.gz.
+Updated list of available packages in /var/lib/opkg/all.
+Downloading http://repo.opkg.net/edison/repo/edison/Packages.gz.
+Inflating http://repo.opkg.net/edison/repo/edison/Packages.gz.
+Updated list of available packages in /var/lib/opkg/edison.
+Downloading http://repo.opkg.net/edison/repo/core2-32/Packages.gz.
+Inflating http://repo.opkg.net/edison/repo/core2-32/Packages.gz.
+Updated list of available packages in /var/lib/opkg/core2-32.
+Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/Packages.
+Updated list of available packages in /var/lib/opkg/iotkit.
+root@edison:~# 
 ```
