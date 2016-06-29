@@ -17,6 +17,6 @@
    * [Hardware Blocks](documentation/HardwareBlocks.md)
    * [Operating System](documentation/OperatingSystem.md)
 * Workshops
-   * [2 Hours](documentation/Workshops01.md)
+   * [The Telegram Bot Project](documentation/Workshops01.md)
 * [SandBox](documentation/Sandbox.md)
 
