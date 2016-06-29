@@ -11,7 +11,7 @@ Requirements
 - Intel Edison
 - [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427)
 
-## Project Cloning
+# Project Cloning
 
 ```sh
 root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
@@ -19,7 +19,7 @@ root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
 root@edison:~# 
 ```
 
-### Dependencies Setup
+## Dependencies Setup
 
 ```sh
 root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
@@ -30,7 +30,7 @@ root@edison:~/TheIoTLearningInitiative/InternetOfThings101# sh requirements.manu
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# 
 ```
 
-### Project Execution
+## Project Execution
 
 ```sh
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# python main.py 
@@ -52,7 +52,7 @@ Data Sensor Mqtt Published!
 root@edison:~/TheIoTLearningInitiative/InternetOfThings101# 
 ```
 
-## Telegram Bots
+# Telegram Bots
 
 
 ![Telegram](https://telegram.org/img/t_logo.png)
@@ -60,11 +60,11 @@ root@edison:~/TheIoTLearningInitiative/InternetOfThings101#
 
 > Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things [Bot Revolution](https://telegram.org/blog/bot-revolution)
 
-### Bot Code Examples
+## Bot Code Examples
 
 > Many members of our community are building bots and publishing the source code. We collect these examples here. Ping us on BotSupport if you've built a bot and would like to share its code with others [Bot Code Examples](https://core.telegram.org/bots/samples)
 
-### BotFather
+## Bot Creation by BotFather
 
 ```sh
 BotFather:
@@ -89,8 +89,6 @@ You can control me by sending these commands:
 /deletebot - delete a bot
 /cancel - cancel the current operation
 ```
-
-### Bot Creation
 
 ```sh
 Abraham:
@@ -118,7 +116,7 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 CANCELFORWARD 1 DELETE 1 REPLY
 ```
 
-### Python Telegram Bot Library Installation
+## Python Telegram Bot Library Installation
 
 > Not just a Python Wrapper around the Telegram Bot API [Homepage](https://python-telegram-bot.org/) [Github](https://github.com/python-telegram-bot)
 
