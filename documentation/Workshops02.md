@@ -15,6 +15,7 @@ Requirements
   - [Grove - Touch Sensor](http://www.seeedstudio.com/wiki/Grove_-_Touch_Sensor)
   - ![](http://www.seeedstudio.com/wiki/images/thumb/a/a2/Twig-Touch.jpg/300px-Twig-Touch.jpg)
   - [Grove - Buzzer](http://www.seeedstudio.com/wiki/Grove_-_Buzzer)
+    ![](http://www.seeedstudio.com/wiki/images/thumb/e/ed/Buzzer1.jpg/400px-Buzzer1.jpg) 
   - []()
   - []()
   - []()
