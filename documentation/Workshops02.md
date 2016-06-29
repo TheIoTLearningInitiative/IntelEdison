@@ -68,19 +68,31 @@ root@edison:~# python button.py
 
 ## Grove - Touch Sensor
 
-> Author: 
-> 
+> Author: Sarah Knepper <sarah.knepper@intel.com>
+> Copyright (c) 2014 Intel Corporation.
 
 ```sh
-root@edison:~# vi .py
+root@edison:~# vi button.py
 ```
 
 ```python
+import time
+import pyupm_grove as grove
 
+# Create the button object using GPIO pin 4
+touch = grove.GroveButton(4)
+
+# Read the input and print, waiting one second between readings
+while 1:
+    print touch.name(), ' value is ', touch.value()
+    time.sleep(1)
+
+# Delete the touch object
+del touch
 ```
 
 ```sh
-root@edison:~# python .py
+root@edison:~# python button.py
 ```
 
 ## Grove - Buzzer
