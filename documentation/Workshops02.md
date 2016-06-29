@@ -62,6 +62,10 @@ while 1:
 del button
 ```
 
+```sh
+root@edison:~# vi button.py
+```
+
 ## Grove - Touch Sensor
 
 ## Grove - Buzzer
