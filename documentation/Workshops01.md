@@ -234,7 +234,7 @@ if __name__ == '__main__':
 ```
 
 ```sh
-root@edison:~# python mybot.py
+root@edison:~# python telegrambot.py
 ```
 
 ## Challenge
