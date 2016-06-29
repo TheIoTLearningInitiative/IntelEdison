@@ -17,4 +17,4 @@ Requirements
 
 # Challenge
 
-Integrate Telegram Bot code into "The IoT Learning Initiative" code
+
