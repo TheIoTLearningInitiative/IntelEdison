@@ -20,7 +20,8 @@ Requirements
     ![](http://www.seeedstudio.com/wiki/images/thumb/a/af/Grove_-_Rotary_Angle_Sensor_%28P%29.jpg/400px-Grove_-_Rotary_Angle_Sensor_%28P%29.jpg)
   - [Grove - Light Sensor](http://www.seeedstudio.com/wiki/Grove_-_Light_Sensor)
     ![](http://www.seeedstudio.com/wiki/images/thumb/1/1c/Twig-Light.jpg/500px-Twig-Light.jpg)
-  - []()
+  - [Grove - Temperature Sensor](http://www.seeedstudio.com/wiki/Grove_-_Temperature_Sensor)
+    ![](http://www.seeedstudio.com/wiki/images/thumb/b/b0/Temperature1.jpg/400px-Temperature1.jpg)
   - []()
     
     
