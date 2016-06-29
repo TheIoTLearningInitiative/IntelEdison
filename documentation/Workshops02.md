@@ -35,7 +35,7 @@ Requirements
 - [Grove - Temperature Sensor](http://www.seeedstudio.com/wiki/Grove_-_Temperature_Sensor)
 - [Grove - LCD RGB Backlight](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
 
-# 
+# Grove Starter Kit Plus
 
 ## Grove – Button
 
