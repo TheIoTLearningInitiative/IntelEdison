@@ -50,8 +50,8 @@ root@edison:~# vi button.py
 import time
 import pyupm_grove as grove
 
-# Create the button object using GPIO pin 0
-button = grove.GroveButton(0)
+# Create the button object using GPIO pin 8
+button = grove.GroveButton(8)
 
 # Read the input and print, waiting one second between readings
 while 1:
