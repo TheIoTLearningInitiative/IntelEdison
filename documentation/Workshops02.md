@@ -43,7 +43,7 @@ Requirements
 > Copyright (c) 2014 Intel Corporation.
 
 ```sh
-
+root@edison:~# vi button.py
 ```
 
 ```python
