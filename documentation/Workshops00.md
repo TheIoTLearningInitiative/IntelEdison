@@ -105,7 +105,7 @@ round-trip min/avg/max = 43.713/97.686/151.659 ms
 root@edison:~# 
 ```
 
-## Package Installation via Remote Repositories
+# Package Installation via Remote Repositories
 
 Update Opkg Repositories
 
