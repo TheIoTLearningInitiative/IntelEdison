@@ -206,8 +206,9 @@ root@edison:~# python light.py
 
 ## Grove - Temperature Sensor
 
-> Author: 
-> 
+> Author: Brendan Le Foll <brendan.le.foll@intel.com>
+> Contributions: Sarah Knepper <sarah.knepper@intel.com>
+> Copyright (c) 2014 Intel Corporation.
 
 ```sh
 root@edison:~# vi .py
