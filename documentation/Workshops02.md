@@ -259,7 +259,7 @@ root@edison:~# python temperature.py
 - [UPM Python Grove LCD RGB Backlight](https://github.com/intel-iot-devkit/upm/blob/master/examples/python/jhd1313m1-lcd.py)
 
 ```sh
-root@edison:~# vi .py
+root@edison:~# vi lcd.py
 ```
 
 ```python
@@ -267,7 +267,7 @@ root@edison:~# vi .py
 ```
 
 ```sh
-root@edison:~# python .py
+root@edison:~# python lcd.py
 ```
 
 ## Challenge
