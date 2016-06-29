@@ -90,7 +90,7 @@ root@edison:~/TheIoTLearningInitiative/InternetOfThings101#
 ## Bot Creation by BotFather
 
 - Go to [Web Telegram Org](https://web.telegram.org/#/im) and sign up
-- Search for BotFather and add it, click
+- Search for BotFather and add it, click on it
 
 ```sh
 BotFather:
