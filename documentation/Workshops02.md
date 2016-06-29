@@ -18,7 +18,8 @@ Requirements
     ![](http://www.seeedstudio.com/wiki/images/thumb/e/ed/Buzzer1.jpg/400px-Buzzer1.jpg) 
   - [Grove - Rotary Angle Sensor(P)](http://www.seeedstudio.com/wiki/Grove_-_Rotary_Angle_Sensor)
     ![](http://www.seeedstudio.com/wiki/images/thumb/a/af/Grove_-_Rotary_Angle_Sensor_%28P%29.jpg/400px-Grove_-_Rotary_Angle_Sensor_%28P%29.jpg)
-  - []()
+  - [Grove - Light Sensor](http://www.seeedstudio.com/wiki/Grove_-_Light_Sensor)
+    ![](http://www.seeedstudio.com/wiki/images/thumb/1/1c/Twig-Light.jpg/500px-Twig-Light.jpg)
   - []()
   - []()
     
