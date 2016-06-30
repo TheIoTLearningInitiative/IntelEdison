@@ -35,7 +35,7 @@ Requirements
  
 [Twitter Homepage](https://twitter.com/)
 
-# Base Project
+# Core Project
 
 ## Cloning
 
