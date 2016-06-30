@@ -111,12 +111,10 @@ root@edison:~# cd
 root@edison:~# vi twittersample.py
 ```
 
-```python
 ```Python
     from core.xtweet import xTwitter
     
-    idTwitter = xTwitter()
-    idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
+    itweet('#TheIoTLearningInitiative Testing Time', None)
 ```
 
 ```
