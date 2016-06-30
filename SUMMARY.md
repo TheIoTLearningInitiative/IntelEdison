@@ -20,5 +20,6 @@
    * [The Setup](documentation/Workshops00.md)
    * [The Telegram Bot Workshop](documentation/Workshops01.md)
    * [The Grove Starter Kit Plus Project](documentation/Workshops02.md)
+   * The Twitter Project
 * [SandBox](documentation/Sandbox.md)
 
