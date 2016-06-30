@@ -23,7 +23,7 @@ Requirements
   - Grove – Button
   - Grove - LCD RGB Backlight
 - Core Library + Your Project
-  - Cloning
+  - Source Code Cloning
   - Dependencies Setup
   - Credentials Setup
   - Your Twitter Code
