@@ -80,12 +80,6 @@ access_token_secret =
 
 Modify
 
-```Python
-    from core.xtweet import xTwitter
-    
-    idTwitter = xTwitter()
-    idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
-```
 
 ```sh
     $ python core/xtwitter.py
@@ -118,6 +112,13 @@ root@edison:~# vi twitter.py
 ```
 
 ```python
+```Python
+    from core.xtweet import xTwitter
+    
+    idTwitter = xTwitter()
+    idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
+```
+
 ```
 
 ```sh
