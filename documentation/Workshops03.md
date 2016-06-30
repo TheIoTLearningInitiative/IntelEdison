@@ -68,6 +68,41 @@ del button
 root@edison:~# python button.py
 ```
 
+
+## Grove - LCD RGB Backlight
+
+> Author: Brendan Le Foll <brendan.le.foll@intel.com>
+> Copyright (c) 2014 Intel Corporation.
+
+- [UPM Python Grove LCD RGB Backlight](https://github.com/intel-iot-devkit/upm/blob/master/examples/python/jhd1313m1-lcd.py)
+
+```sh
+root@edison:~# vi lcd.py
+```
+
+```python
+import pyupm_i2clcd as lcd
+
+# Initialize Jhd1313m1 at 0x3E (LCD_ADDRESS) and 0x62 (RGB_ADDRESS) 
+myLcd = lcd.Jhd1313m1(0, 0x3E, 0x62)
+
+myLcd.setCursor(0,0)
+# RGB Blue
+#myLcd.setColor(53, 39, 249)
+
+# RGB Red
+myLcd.setColor(255, 0, 0)
+
+while True:
+    myLcd.write('Hello World')
+    myLcd.setCursor(1,2)
+    myLcd.write('Hello World')
+```
+
+```sh
+root@edison:~# python lcd.py
+```
+
 # Twitter
 
 ## Cloning
