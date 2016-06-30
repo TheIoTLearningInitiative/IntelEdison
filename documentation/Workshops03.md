@@ -35,7 +35,40 @@ Requirements
  
 [Twitter Homepage](https://twitter.com/)
 
-# Base Project
+# Grove Starter Kit Plus
+
+## Grove – Button
+
+> Author: Sarah Knepper <sarah.knepper@intel.com>
+> Copyright (c) 2014 Intel Corporation.
+
+- [UPM Python Grove Button](https://github.com/intel-iot-devkit/upm/blob/master/examples/python/grovebutton.py)
+
+```sh
+root@edison:~# vi button.py
+```
+
+```python
+import time
+import pyupm_grove as grove
+
+# Create the button object using GPIO pin 2
+button = grove.GroveButton(2)
+
+# Read the input and print, waiting one second between readings
+while 1:
+    print button.name(), ' value is ', button.value()
+    time.sleep(1)
+
+# Delete the button object
+del button
+```
+
+```sh
+root@edison:~# python button.py
+```
+
+# Twitter
 
 ## Cloning
 
