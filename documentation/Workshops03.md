@@ -114,7 +114,7 @@ root@edison:~# python lcd.py
 
 # Core Library + Your Project
 
-## Cloning
+## Source Code Cloning
 
 ```sh
 root@edison:~# cd
