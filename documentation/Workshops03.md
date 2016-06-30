@@ -41,31 +41,12 @@ Requirements
 ## Project Execution
 
 ```sh
-root@edison:~/TheIoTLearningInitiative/InternetOfThings101# python main.py 
-Hello Internet of Things 101
-Data Sensor: 11513 
-Data Sensor Mqtt Published!
-API Weather: Guadalajara, JO, Mexico, Temperature 18 C, Atmospheric Pressure 842 mbar 
-Data Sensor Mqtt Published!
-Data Sensor Mqtt Published!
-Data Sensor Mqtt Published!
-Data Sensor Mqtt Published!
-Data Sensor Mqtt Published!
-Hello Internet of Things 101
-Data Sensor: 11617 
-API Weather: Guadalajara, JO, Mexico, Temperature 18 C, Atmospheric Pressure 842 mbar 
-Data Sensor Mqtt Published!
-^Z
-[6]+  Stopped(SIGTSTP)        python main.py
-root@edison:~/TheIoTLearningInitiative/InternetOfThings101# cd
-root@edison:~# 
 ```
 
 # Twitter
 
 
 ![](https://pbs.twimg.com/profile_images/666407537084796928/YBGgi9BO.png)¿
-
 
 > 
 
