@@ -108,7 +108,7 @@ root@edison:~# cd
 ## Twitter @ Intel Edison
 
 ```sh
-root@edison:~# vi twitter.py
+root@edison:~# vi twittersample.py
 ```
 
 ```python
