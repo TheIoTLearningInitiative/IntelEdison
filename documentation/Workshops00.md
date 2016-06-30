@@ -115,6 +115,12 @@ round-trip min/avg/max = 43.713/97.686/151.659 ms
 root@edison:~# 
 ```
 
+# Text Editors
+
+## Nano
+
+## Vi
+
 # Open Package Management
 
 Update Opkg Repositories
