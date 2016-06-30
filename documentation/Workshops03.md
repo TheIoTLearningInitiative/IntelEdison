@@ -101,6 +101,8 @@ root@edison:~/myproject# nano twittersample.py
 root@edison:~# python twittersample.py
 ```
 
+Look at your Twitter account...
+
 ## Challenge
 
 
