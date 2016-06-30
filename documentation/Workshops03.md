@@ -33,22 +33,11 @@ Requirements
 # Cloning
 
 ```sh
-root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
-Cloning into 'TheIoTLearningInitiative'...
-remote: Counting objects: 79, done.
-remote: Total 79 (delta 0), reused 0 (delta 0), pack-reused 79
-Unpacking objects: 100% (79/79), done.
-Checking connectivity... done.
-root@edison:~# 
 ```
 
 ## Dependencies Setup
 
 ```sh
-root@edison:~# cd TheIoTLearningInitiative/InternetOfThings101
-root@edison:~/TheIoTLearningInitiative/InternetOfThings101# pip install -r requirements.pip
-root@edison:~/TheIoTLearningInitiative/InternetOfThings101# sh requirements.manual
-root@edison:~/TheIoTLearningInitiative/InternetOfThings101# 
 ```
 
 ## Project Execution
