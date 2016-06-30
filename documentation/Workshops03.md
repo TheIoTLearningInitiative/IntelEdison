@@ -26,6 +26,15 @@ Requirements
   - 
 - Challenge
 
+# Twitter
+
+
+![](https://pbs.twimg.com/profile_images/666407537084796928/YBGgi9BO.png)¿
+
+> Twitter is an online social networking service that enables users to send and read short 140-character messages called "tweets". Registered users can read and post tweets, but those who are unregistered can only read them. [Wikipedia](https://en.wikipedia.org/wiki/Twitter)
+ 
+[Twitter Homepage](https://twitter.com/)
+
 # Base Project
 
 # Cloning
@@ -85,27 +94,7 @@ Modify
     $ python core/xtwitter.py
 ```
 
-# Twitter
-
-
-![](https://pbs.twimg.com/profile_images/666407537084796928/YBGgi9BO.png)¿
-
-> Twitter is an online social networking service that enables users to send and read short 140-character messages called "tweets". Registered users can read and post tweets, but those who are unregistered can only read them. [Wikipedia](https://en.wikipedia.org/wiki/Twitter)
- 
-[Twitter Homepage](https://twitter.com/)
-
-# Python Twitter Libraries
-
-> Twython
-
-```sh
-```
-
-```sh
-root@edison:~# cd
-```
-
-## Twitter @ Intel Edison
+## Your Code Twitter
 
 ```sh
 root@edison:~# vi twittersample.py
