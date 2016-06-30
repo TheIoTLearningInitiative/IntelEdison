@@ -81,15 +81,15 @@ access_token_secret =
 
 ## Core Execution
 
-```sh
-    $ python core/xtwitter.py
-```
-
 ```Python
     from core.xtweet import xTwitter
     
     idTwitter = xTwitter()
     idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
+```
+
+```sh
+    $ python core/xtwitter.py
 ```
 
 # Twitter
