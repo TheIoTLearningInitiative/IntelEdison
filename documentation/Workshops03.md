@@ -57,7 +57,6 @@ root@edison:~/myproject#
 
 ## Credentials Setup
 
-
 ```sh
 root@edison:~/myproject# nano core/configuration/credentials.config
 ```
