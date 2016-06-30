@@ -26,9 +26,6 @@ Requirements
   - Dependencies Setup
   - Credentials Setup
   - Your Twitter Code
-
-
-
 - Challenge
 
 # Twitter
