@@ -21,11 +21,9 @@ Requirements
   - Cloning 
   - Dependencies Setup
   - Project Execution
-- Telegram Bots
-  - Bot Code Examples
-  - Bot Creation by BotFather
-- Python Telegram Bot Library
-  - Telegram Bot @ Intel Edison
+- Twitter
+- Python Twitter Libraries
+  - 
 - Challenge
 
 # Base Project
