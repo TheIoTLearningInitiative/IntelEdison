@@ -103,7 +103,7 @@ while True:
 root@edison:~# python lcd.py
 ```
 
-# Twitter
+# Core Library
 
 ## Cloning
 
