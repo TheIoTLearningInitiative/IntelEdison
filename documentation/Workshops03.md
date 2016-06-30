@@ -48,6 +48,7 @@ Requirements
 
 ![](https://pbs.twimg.com/profile_images/666407537084796928/YBGgi9BO.png)¿
 
+> Twitter is an online social networking service that enables users to send and read short 140-character messages called "tweets". Registered users can read and post tweets, but those who are unregistered can only read them.
 > 
 
 # Python Twitter Libraries
