@@ -103,7 +103,7 @@ while True:
 root@edison:~# python lcd.py
 ```
 
-# Core Library
+# Core Library + Your Project
 
 ## Cloning
 
