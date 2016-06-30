@@ -85,15 +85,6 @@ access_token =
 access_token_secret = 
 ```
 
-## Core Twitter Execution
-
-Modify
-
-
-```sh
-root@edison:~/myproject# nano core/xtwitter.py
-```
-
 ## Your Code Twitter
 
 ```sh
