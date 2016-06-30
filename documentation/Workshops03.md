@@ -180,4 +180,4 @@ Important Notes about Twitter!
 - Make sure your tweet is not the same to the previous one, have a minor difference e.g.
   - "01 Testing Tweet #IntelEdison #IAmIntel"
   - "02 Testing Tweet #IntelEdison #IAmIntel"
-- Make sure your tweeting time is within the limits
+- Make sure the time between tweets is within the limits
