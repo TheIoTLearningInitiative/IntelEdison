@@ -79,9 +79,17 @@ access_token =
 access_token_secret = 
 ```
 
-## Project Execution
+## Core Execution
 
 ```sh
+    $ python core/xtwitter.py
+```
+
+```Python
+    from core.xtweet import xTwitter
+    
+    idTwitter = xTwitter()
+    idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
 ```
 
 # Twitter
@@ -91,10 +99,11 @@ access_token_secret =
 
 > Twitter is an online social networking service that enables users to send and read short 140-character messages called "tweets". Registered users can read and post tweets, but those who are unregistered can only read them. [Wikipedia](https://en.wikipedia.org/wiki/Twitter)
  
+[Twitter Homepage](https://twitter.com/)
 
 # Python Twitter Libraries
 
-> 
+> Twython
 
 ```sh
 ```
