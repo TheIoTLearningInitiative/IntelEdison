@@ -76,7 +76,7 @@ access_token =
 access_token_secret = 
 ```
 
-## Core Execution
+## Core Twitter Execution
 
 Modify
 
