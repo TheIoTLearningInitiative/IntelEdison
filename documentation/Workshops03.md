@@ -37,7 +37,7 @@ Requirements
  
 [Twitter Homepage](https://twitter.com/)
 
-## Very Important!
+## Important Notes about Twitter!
 
 - Make sure your tweet is not the same to the previous one, have a minor difference e.g.
   - "01 Testing Tweet #IntelEdison #IAmIntel"
@@ -182,5 +182,3 @@ Look at your Twitter account...
 ## Challenge
 
 Create an application using Twitter, Button and LCD... Button can be used to push a tweet (Core library usage will be enough) and LCD can be used to display latest tweet (direct usage of Twython API is required) 
-
-Important Notes about Twitter!
