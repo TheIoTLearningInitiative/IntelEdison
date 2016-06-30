@@ -21,6 +21,13 @@ Requirements
 - Grove Starter Kit Plus
   - Grove – Button
   - Grove - LCD RGB Backlight
+- Core Library + Your Project
+  - Cloning
+  - Dependencies Setup
+  - Credentials Setup
+  - Your Twitter Code
+
+
 
 - Challenge
 
@@ -157,7 +164,7 @@ access_token =
 access_token_secret = 
 ```
 
-## Your Code Twitter
+## Your Twitter Code
 
 ```sh
 root@edison:~/myproject# nano twittersample.py
