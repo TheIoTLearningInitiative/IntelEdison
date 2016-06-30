@@ -91,13 +91,13 @@ Modify
 
 
 ```sh
-    $ python core/xtwitter.py
+root@edison:~/myproject# nano core/xtwitter.py
 ```
 
 ## Your Code Twitter
 
 ```sh
-root@edison:~# vi twittersample.py
+root@edison:~/myproject# nano twittersample.py
 ```
 
 ```Python
