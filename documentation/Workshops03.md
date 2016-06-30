@@ -55,6 +55,31 @@ Cleaning up...
 root@edison:~/myproject# 
 ```
 
+## Credentials Setup
+
+
+```sh
+root@edison:~/myproject# nano core/configuration/credentials.config
+```
+
+```sh
+# Twitter
+#
+# Go to dev.twitter.com and sign up
+# Go to Tools -> Manage Your Apps (Application Management)
+# Create a New Application and go to "Keys and Access Tokens" tab
+# Generate and get under Application Settings section:
+#  Consumer Key (API Key), Consumer Secret (API Secret)
+# Generate and get under Your Access Token section
+#  Access Token and Access Token Secret
+# Give Access Level "Read and Write"
+[twitter]
+consumer_key = 
+consumer_secret = 
+access_token = 
+access_token_secret = 
+```
+
 ## Project Execution
 
 ```sh
