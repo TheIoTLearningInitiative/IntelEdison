@@ -17,13 +17,11 @@ Requirements
 
 # Agenda
 
-- Base Project
-  - Cloning 
-  - Dependencies Setup
-  - Project Execution
 - Twitter
-- Python Twitter Libraries
-  - 
+- Grove Starter Kit Plus
+  - Grove – Button
+  - Grove - LCD RGB Backlight
+
 - Challenge
 
 # Twitter
@@ -35,6 +33,12 @@ Requirements
  
 [Twitter Homepage](https://twitter.com/)
 
+## Very Important!
+
+- Make sure your tweet is not the same to the previous one, have a minor difference e.g.
+  - "01 Testing Tweet #IntelEdison #IAmIntel"
+  - "02 Testing Tweet #IntelEdison #IAmIntel"
+- Make sure the time between tweets is within the limits
 # Grove Starter Kit Plus
 
 ## Grove – Button
@@ -176,8 +180,3 @@ Look at your Twitter account...
 Create an application using Twitter, Button and LCD... Button can be used to push a tweet (Core library usage will be enough) and LCD can be used to display latest tweet (direct usage of Twython API is required) 
 
 Important Notes about Twitter!
-
-- Make sure your tweet is not the same to the previous one, have a minor difference e.g.
-  - "01 Testing Tweet #IntelEdison #IAmIntel"
-  - "02 Testing Tweet #IntelEdison #IAmIntel"
-- Make sure the time between tweets is within the limits
