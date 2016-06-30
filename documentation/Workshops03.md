@@ -117,8 +117,6 @@ root@edison:~# vi twittersample.py
     itweet('#TheIoTLearningInitiative Testing Time', None)
 ```
 
-```
-
 ```sh
 root@edison:~# python twitter.py
 ```
