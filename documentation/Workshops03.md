@@ -121,8 +121,6 @@ root@edison:~# vi twittersample.py
 root@edison:~# python twitter.py
 ```
 
-- Interact with your Bot using the Web Telegram Org Application
-
 ## Challenge
 
 
