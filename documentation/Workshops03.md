@@ -98,7 +98,7 @@ root@edison:~/myproject# nano twittersample.py
 ```
 
 ```sh
-root@edison:~# python twitter.py
+root@edison:~# python twittersample.py
 ```
 
 ## Challenge
