@@ -20,7 +20,7 @@ Requirements
 # Agenda
 
 - Base Project
-  - Cloning 
+  - Source Code Cloning 
   - Dependencies Setup
   - Project Execution
 - Telegram Bots
@@ -32,7 +32,7 @@ Requirements
 
 # Base Project
 
-# Cloning
+# Source Code Cloning
 
 ```sh
 root@edison:~# git clone https://github.com/xe1gyq/TheIoTLearningInitiative.git
