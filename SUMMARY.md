@@ -1,8 +1,8 @@
 # Summary
 
 * [Cover](README.md)
-* [Introduction](documentation/Introduction.md)
 * [Summary](SUMMARY.md)
+* [Introduction](documentation/Introduction.md)
 * [Hardware](documentation/Hardware.md)
    * [Processor](documentation/Processor.md)
    * [MCU](documentation/Mcu.md)
