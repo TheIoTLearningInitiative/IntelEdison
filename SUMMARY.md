@@ -3,7 +3,7 @@
 * [Cover](README.md)
 * [Summary](SUMMARY.md)
 * [Introduction](documentation/Introduction.md)
-   * Communities
+   * [Communities](documentation/Communities.md)
 * [Hardware](documentation/Hardware.md)
    * [Processor](documentation/Processor.md)
    * [MCU](documentation/Mcu.md)
