@@ -1,6 +1,6 @@
 # Communities
 
-- [](https://scivision.co/category/intel-edison/)
+- [Scivision Category Archives: Intel Edison](https://scivision.co/category/intel-edison/)
 
 # Hardware Academy
 
