@@ -49,5 +49,5 @@ Intel® Edison
 - [Intel® Edison Hands On](http://blog.dimitridiakopoulos.com/2014/09/10/hands-on-intel-edison/)
 - [Intel® Edison Boards Hardware Support](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/support/maker/edison/edison-documents-and-guides.html)
 - [I-Programmer Exploring Intel® Edison](http://www.i-programmer.info/ebooks/exploring-edison.html)
-- [](https://software.intel.com/en-us/intel-edison-board-user-guide)
+- [Intel® Edison Board User Guide](https://software.intel.com/en-us/intel-edison-board-user-guide)
 
