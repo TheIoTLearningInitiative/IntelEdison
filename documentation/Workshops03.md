@@ -41,6 +41,7 @@ Requirements
   - "01 Testing Tweet #IntelEdison #IAmIntel"
   - "02 Testing Tweet #IntelEdison #IAmIntel"
 - Make sure the time between tweets is within the limits
+
 # Grove Starter Kit Plus
 
 ## Grove – Button
