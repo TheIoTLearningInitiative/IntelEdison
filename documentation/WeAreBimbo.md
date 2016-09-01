@@ -125,7 +125,10 @@ root@edison:~/IntelEdisonDemos/SomosBimbo# python main.py
 
 - Install Telegram 
 - Search and start a conversation with your Bot
-- 
+  - Bimbo Marinela
+  - Bimbo Barcel
+  - Bimbo Ricolino
+- Interact with your bot
 
 # Marketing Specialist
 
