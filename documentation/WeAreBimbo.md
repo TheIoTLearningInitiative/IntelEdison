@@ -1,6 +1,6 @@
 # We Are Bimbo
 
-# Team Requirements
+# Requirements
 
 - Hardware
   - Laptop
@@ -8,7 +8,8 @@
   - Intel Edison 
   - [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427)
 
-
+- Team
+- 
 
 # Hardware Engineer
 
