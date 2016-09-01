@@ -35,6 +35,7 @@
 
 
 ```sh
+...
 [  OK  ] Reached target Multi-User System.
          Starting Redis Server...
 [  OK  ] Started Redis Server.
@@ -43,3 +44,17 @@ Poky (Yocto Project Reference Distro) 1.7.3 edison ttyMFD2
 
 edison login: 
 ```
+
+Enter your username as root, no password is required
+
+```sh
+edison login: root
+root@edison:~# 
+```
+
+Configure your WiFi
+
+```sh
+root@edison:~# configure_edison --wifi
+```
+
