@@ -5,17 +5,17 @@
 - Who We Are!
   - Name your team
   - Choose a slogan
+  - Select your Team Specialists
+    - Hardware
+    - Embedded Software
+    - Cloud
+    - Marketing
+    - Presenter
 - Hardware
   - Laptop
   - Internet Connection
   - Intel Edison 
   - [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427)
-- Team Specialists
-  - Hardware
-  - Embedded Software
-  - Cloud
-  - Marketing
-  - Presenter
 - Challenge
   - Integrate all components
   - First team to deliver data to our Somos Bimbo Dashboard Wins!
