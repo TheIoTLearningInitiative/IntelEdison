@@ -124,6 +124,7 @@ root@edison:~/IntelEdisonDemos/SomosBimbo# python main.py
 # Cloud Specialist
 
 - Install Telegram 
+- 
 
 # Marketing Specialist
 
