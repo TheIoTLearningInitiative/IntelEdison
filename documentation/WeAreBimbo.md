@@ -10,7 +10,8 @@
 
 - Team
   - Hardware Engineer
-  -   
+  - Embedded Software Engineer
+  - 
 
 # Hardware Engineer
 
