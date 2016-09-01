@@ -10,7 +10,6 @@
     - Embedded Software
     - Cloud
     - Marketing
-    - Presenter
 - Hardware
   - Laptop
   - Internet Connection
