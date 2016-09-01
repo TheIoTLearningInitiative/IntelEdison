@@ -11,6 +11,7 @@
 - Team
   - Hardware Engineer
   - Embedded Software Engineer
+  - Cloud Engineer
   - 
 
 # Hardware Engineer
