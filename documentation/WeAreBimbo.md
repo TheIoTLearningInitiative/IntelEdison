@@ -20,7 +20,7 @@
   - [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427)
 - Internet of Things Presentation (20 minutes)
 - Challenge
-  - Let's run our application
+  - Let's integrate all components
   - Deliver data to our "Somos Bimbo" Dashboard by changing "ProjectName" to your "BimboProject"
   - Change the message from ""Hi! I'm Main!" to "BimboProject"
 
