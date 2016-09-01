@@ -8,7 +8,6 @@
   - Select your Specialists
     - Hardware
     - Embedded Software
-    - Cloud
     - Marketing
 - Hardware
   - Laptop
