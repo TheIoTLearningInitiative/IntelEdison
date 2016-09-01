@@ -115,6 +115,10 @@ root@edison:~/IntelEdisonDemos/SomosBimbo# python main.py
 ...
 ```
 
-# Marketing
+# Cloud Specialist
+
+
+
+# Marketing Specialist
 
 
