@@ -18,7 +18,7 @@
   - Presenter
 - Challenge
   - Integrate all components
-  - 
+  - First team to deliver data to our Somos Bimbo Dashboard Wins!
 # Hardware Engineer
 
 - Laptop
