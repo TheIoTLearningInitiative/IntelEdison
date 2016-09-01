@@ -18,7 +18,6 @@
 - Challenge
   - Integrate all components
   - Deliver data to our "Somos Bimbo" Dashboard
-  - 
 
 # Hardware Specialist
 
