@@ -128,7 +128,10 @@ root@edison:~/IntelEdisonDemos/SomosBimbo# python main.py
   - Bimbo Marinela
   - Bimbo Barcel
   - Bimbo Ricolino
-- Interact with your bot
+- Interact with your bot using 3 commands
+  - /light
+  - /message
+  - /relay 
 
 # Marketing Specialist
 
