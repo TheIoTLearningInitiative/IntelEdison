@@ -2,8 +2,9 @@
 
 # Requirements
 
-- Name
-  - 
+- Who We Are!
+  - Name your team
+  - Choose a slogan
 - Hardware
   - Laptop
   - Internet Connection
