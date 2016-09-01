@@ -17,7 +17,7 @@
 - Internet of Things Presentation (20 minutes)
   - 
 - Challenge
-  - Integrate all components
+  - Let's integrate all components
   - Deliver data to our "Somos Bimbo" Dashboard
 
 # Hardware Specialist
