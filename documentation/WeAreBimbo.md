@@ -13,7 +13,7 @@
   - Identify your project name
     - Bimbo Marinela
     - Bimbo Barcel
-    - Bimbo Ricolino 
+    - Bimbo Ricolino
 - Hardware
   - Laptop
   - Internet Connection
