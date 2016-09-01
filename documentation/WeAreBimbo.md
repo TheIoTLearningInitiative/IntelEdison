@@ -8,7 +8,6 @@
   - Select your Specialists (2 minutes)
     - Hardware
     - Embedded Software
-    - Cloud
     - Marketing
 - Hardware
   - Laptop
