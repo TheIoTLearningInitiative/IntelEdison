@@ -28,7 +28,7 @@
   - [Grove - Light Sensor](http://www.seeedstudio.com/wiki/Grove_-_Light_Sensor)
     ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Light_Sensor/master/images/cover.jpg)
   - [Grove - Relay](https://wiki.seeedstudio.com/wiki/Grove_-_Relay)
-    ![]()
+    ![](http://wiki.seeedstudio.com/images/3/34/Twig-Relay.jpg)
   - [Grove - LCD RGB Backlight](http://www.seeedstudio.com/wiki/Grove_-_LCD_RGB_Backlight)
     ![](https://raw.githubusercontent.com/SeeedDocument/Grove_LCD_RGB_Backlight/master/images/intro.jpg)
 
