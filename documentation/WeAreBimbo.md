@@ -12,7 +12,7 @@
   - Hardware Engineer
   - Embedded Software Engineer
   - Cloud Engineer
-  - 
+  - Marketing
 
 # Hardware Engineer
 
