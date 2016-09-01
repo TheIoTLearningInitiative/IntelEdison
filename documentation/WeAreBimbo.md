@@ -5,7 +5,7 @@
 - Who We Are!
   - Name your team
   - Choose a slogan
-  - Select your Team Specialists
+  - Select your Specialists
     - Hardware
     - Embedded Software
     - Cloud
