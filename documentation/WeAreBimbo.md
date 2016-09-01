@@ -98,7 +98,7 @@ Go to your working directory
 
 ```sh
 root@edison:~# ls
-device  openstack
+IntelEdisonDemos  openstack
 root@edison:~# cd device/
 root@edison:~/device# ls
 bimbo........       iot101inc.py  requirements.opkg  setup.sh
