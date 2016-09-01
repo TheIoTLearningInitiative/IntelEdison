@@ -3,7 +3,9 @@
 # Telegram BotFather
 
 - Go to [Web Telegram Org](https://web.telegram.org/#/im) and sign up
-- Search for BotFather and add it, click on it
+- Search for "BotFather" under "Search" and click on it to start a conversation
+
+You will see the following messages:
 
 ```sh
 BotFather:
@@ -28,6 +30,8 @@ You can control me by sending these commands:
 /deletebot - delete a bot
 /cancel - cancel the current operation
 ```
+
+Let's create our Bot
 
 ```sh
 Abraham:
