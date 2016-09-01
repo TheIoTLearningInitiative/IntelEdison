@@ -8,6 +8,7 @@
   - Select your Specialists (2 minutes)
     - Hardware
     - Embedded Software
+    - Cloud
     - Marketing
   - Identify your project name
     - Bimbo Marinela
