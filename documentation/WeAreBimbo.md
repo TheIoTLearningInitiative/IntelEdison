@@ -17,7 +17,8 @@
   - [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427)
 - Challenge
   - Integrate all components
-  - First team to deliver data to our Somos Bimbo Dashboard Wins!
+  - Deliver data to our "Somos Bimbo" Dashboard
+  - 
 
 # Hardware Specialist
 
