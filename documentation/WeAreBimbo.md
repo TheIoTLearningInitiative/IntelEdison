@@ -16,7 +16,9 @@
   - Cloud
   - Marketing
   - Presenter
-
+- Challenge
+  - Integrate all components
+  - 
 # Hardware Engineer
 
 - Laptop
