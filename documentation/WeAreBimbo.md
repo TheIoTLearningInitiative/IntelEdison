@@ -15,6 +15,7 @@
   - Embedded Software
   - Cloud
   - Marketing
+  - Presenter
 
 # Hardware Engineer
 
