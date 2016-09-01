@@ -52,7 +52,7 @@ edison login: root
 root@edison:~# 
 ```
 
-Bring down usb0 interface
+Shutdown down usb0 interface
 
 ```
 root@edison:~# ifconfig usb0 down
