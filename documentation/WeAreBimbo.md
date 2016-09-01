@@ -3,9 +3,9 @@
 # Requirements
 
 - Who We Are!
-  - Name your team
-  - Choose a slogan
-  - Select your Specialists
+  - Name your team (1 minutes)
+  - Choose a slogan (1 minutes)
+  - Select your Specialists (2 minutes)
     - Hardware
     - Embedded Software
     - Cloud
