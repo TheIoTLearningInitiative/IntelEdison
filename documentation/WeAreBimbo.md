@@ -8,10 +8,10 @@
   - Intel Edison 
   - [Grove Indoor Environment Kit for Intel® Edison](https://www.seeedstudio.com/item_detail.html?p_id=2427)
 
-- Team
-  - Hardware Engineer
-  - Embedded Software Engineer
-  - Cloud Engineer
+- Team Specialists
+  - Hardware
+  - Embedded Software
+  - Cloud
   - Marketing
 
 # Hardware Engineer
