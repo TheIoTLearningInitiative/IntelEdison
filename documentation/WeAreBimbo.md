@@ -131,8 +131,9 @@ root@edison:~/IntelEdisonDemos/SomosBimbo# python main.py
 - Interact with your bot using 3 commands
   - /light
   - /message
-  - /relay 
+  - /relay
 
 # Marketing Specialist
 
-
+- Discuss with your team a possible project to use IoT Technologies
+- Present to all the audience 
