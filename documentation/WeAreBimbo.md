@@ -99,10 +99,10 @@ Go to your working directory
 ```sh
 root@edison:~# ls
 IntelEdisonDemos  openstack
-root@edison:~# cd device/
-root@edison:~/device# ls
-bimbo........       iot101inc.py  requirements.opkg  setup.sh
+root@edison:~# cd IntelEdisonDemos/SomosBimbo/
+root@edison:~/IntelEdisonDemos/SomosBimbo# ls
+bimbomarinela       iot101inc.py  requirements.opkg  setup.sh
 credentials.config  main.py       requirements.pip
-root@edison:~/device# 
+root@edison:~/IntelEdisonDemos/SomosBimbo# 
 ```
 
