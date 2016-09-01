@@ -125,9 +125,9 @@ root@edison:~/IntelEdisonDemos/SomosBimbo# python main.py
 
 - Install Telegram 
 - Search and start a conversation with your Bot
-  - Bimbo Marinela
-  - Bimbo Barcel
-  - Bimbo Ricolino
+  - BimboMarinelaBot
+  - BimboBarcelBot
+  - BimboRicolinoBot
 - Interact with your bot using 3 commands
   - /light
   - /message
