@@ -18,7 +18,8 @@
   - 
 - Challenge
   - Let's integrate all components
-  - Deliver data to our "Somos Bimbo" Dashboard
+  - Deliver data to our "Somos Bimbo" Dashboard by changing "ProjectName" to your "BimboProject"
+  - Change the message from ""
 
 # Hardware Specialist
 
