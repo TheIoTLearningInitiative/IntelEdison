@@ -99,6 +99,8 @@ Go to your working directory
 ```sh
 root@edison:~# ls
 device  openstack
-root@edison:~# cd device
-
+root@edison:~# cd device/
+credentials.config  main.py            requirements.pip
+iot101inc.py        requirements.opkg  setup.sh
+root@edison:~/device# 
 ```
