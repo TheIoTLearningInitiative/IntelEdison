@@ -22,5 +22,6 @@
    * [The Grove Starter Kit Plus Project](documentation/Workshops02.md)
    * [The Telegram Bot Workshop](documentation/Workshops01.md)
    * [The Twitter Project](documentation/Workshops03.md)
+   * We Are Bimbo
 * [SandBox](documentation/Sandbox.md)
 
