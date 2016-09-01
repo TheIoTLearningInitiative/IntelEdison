@@ -64,3 +64,31 @@ Configure your WiFi
 root@edison:~# configure_edison --wifi
 ```
 
+```sh
+Configure Edison: WiFi Connection
+
+Scanning: 1 seconds left
+
+0 :     Rescan for networks
+1 :     Exit WiFi Setup
+2 :     Manually input a hidden SSID
+3 :     Guest
+4 :     TP-LINK_2A2C7A
+5 :     LabWLAN
+6 :     EmployeeHotspot
+7 :     TSNOfficeWLAN
+8 :     RSN2OfficeWLAN
+9 :     IOT-Lab
+
+
+Enter 0 to rescan for networks.
+Enter 1 to exit.
+Enter 2 to input a hidden network SSID.
+Enter a number between 3 to 9 to choose one of the listed network SSIDs: 6
+Is EmployeeHotspot correct? [Y or N]: Y
+Please enter the network username: hs_11342026_2
+What is the network password?: ********
+Initiating connection to EmployeeHotspot. Please wait...
+
+...
+
