@@ -9,6 +9,10 @@
     - Hardware
     - Embedded Software
     - Marketing
+  - Identify your project name
+    - Bimbo Marinela
+    - Bimbo Barcel
+    - Bimbo ricolino 
 - Hardware
   - Laptop
   - Internet Connection
