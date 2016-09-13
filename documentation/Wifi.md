@@ -2,7 +2,18 @@
 
 ## Fixed IP
 
+```sh
+$ vim /etc/wpa_supplicant/wpa_cli-actions.sh
+```
 
+```
+if [ "$CMD" = "CONNECTED" ]; then
+    kill_daemon udhcpc /var/run/udhcpc-$IFNAME.pid
+#   udhcpc -i $IFNAME -p /var/run/udhcpc-$IFNAME.pid -S
+    ifconfig $IFNAME 192.168.1.171 netmask 255.255.255.0
+    route add default gw 192.168.1.1
+fi
+```
 
 ## Password Lenght
 
