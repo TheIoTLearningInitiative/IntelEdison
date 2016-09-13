@@ -3,7 +3,7 @@
 ## Fixed IP
 
 ```sh
-root@edison:~#  vim /etc/wpa_supplicant/wpa_cli-actions.sh
+root@edison:~# vim /etc/wpa_supplicant/wpa_cli-actions.sh
 ```
 
 ```
