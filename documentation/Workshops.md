@@ -5,7 +5,7 @@
 ## The IoT Learning Initiative
 
 - __Edzna__ Home Assistant
-  - [Gitbook]()
+  - [Gitbook](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Edzna/documentation/Edzna.html)
   - [Github]()
 - __Q'umarkaj__ Amazon Echo / Alexa 
   - [Gitbook]()
