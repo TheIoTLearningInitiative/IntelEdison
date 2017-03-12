@@ -8,7 +8,7 @@
   - [Gitbook](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Edzna/documentation/Edzna.html)
   - [Github]()
 - __Q'umarkaj__ Amazon Echo / Alexa 
-  - [Gitbook]()
+  - [Gitbook](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Qumarkaj/documentation/Qumarkaj.html)
   - [Github]()
 - __Chichen Itza__ Audio as a Service
   - [Gitbook]()
