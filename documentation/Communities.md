@@ -1,5 +1,14 @@
 # Communities
 
+
+# Adafruit
+
+
+
+# Sparkfun
+
+https://www.sparkfun.com/categories/272
+
 - [Scivision Category Archives: Intel Edison](https://scivision.co/category/intel-edison/)
 
 # Hardware Academy
