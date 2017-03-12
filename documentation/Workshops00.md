@@ -1,6 +1,6 @@
 # The Setup
 
-> For a more detailed training on Intel Edison Yocto Linux Distribution please follow [Embedded Linux](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/)
+> For a more detailed training on Intel Edison Yocto Linux Distribution please follow [The IoT Learning Initiative Embedded Linux](https://theiotlearninginitiative.gitbooks.io/embedded-linux/content/)
 
 Time
 
