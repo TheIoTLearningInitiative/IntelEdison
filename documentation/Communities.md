@@ -1,16 +1,14 @@
 # Communities
 
+## Adafruit
 
-# Adafruit
+[Intel® Edison Compute Module](https://www.adafruit.com/product/2112)
 
-
-
-# Sparkfun
+## Sparkfun
 
 [Home Product Categories Intel® Edison](https://www.sparkfun.com/categories/272)
 
-
-# Hardware Academy
+## Hardware Academy
 
 > Find the help you need to get the most value out of your Intel Edison. [Hardware Academy Intel Edison](http://www.hardwareacademy.io/intel-edison-developer-challenge-resources
 
