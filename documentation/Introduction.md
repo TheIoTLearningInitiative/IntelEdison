@@ -37,17 +37,24 @@ Intel® Edison
 > __Dimensions__ — 35.5 × 25.0 × 3.9mm (1.4 × 1.0 × 0.15 in.)
 
 > __Operating system__ — Yocto Linux 1.6 for the Atom SoC, with support for Arduino IDE, Eclipse (C, C++, Python), Intel XDK (Node.JS, HTML5); Viper RTOS SDK for the Quark MCU
-    
+
+## Intel Links    
 
 - [Intel® Edison Homepage](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)
 - [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 - [Intel® Edison Compute Module](http://www.intel.com/support/edison/sb/CS-035274.htm?wapkw=edison+compute+module+hardware+guide)
 - [Intel® Edison Hardware Guide](http://akizukidenshi.com/download/ds/intel/edison-module_HG_331189-002.pdf)
 - [Intel® Edison Software](http://download.intel.com/support/edison/sb/edison_rn_332032008.pdf)
-- [Intel® Edison Development Platform 101](http://akizukidenshi.com/download/ds/intel/edisonPB331179_001Edison101Presentation.pdf)
-- [Intel® Edison Arduino Certified](https://www.arduino.cc/en/ArduinoCertified/IntelEdison)
-- [Intel® Edison Hands On](http://blog.dimitridiakopoulos.com/2014/09/10/hands-on-intel-edison/)
 - [Intel® Edison Boards Hardware Support](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/support/maker/edison/edison-documents-and-guides.html)
-- [I-Programmer Exploring Intel® Edison](http://www.i-programmer.info/ebooks/exploring-edison.html)
 - [Intel® Edison Board User Guide](https://software.intel.com/en-us/intel-edison-board-user-guide)
+
+## Arduino Links    
+
+- [Intel® Edison Arduino Certified](https://www.arduino.cc/en/ArduinoCertified/IntelEdison)
+
+## Other Links    
+
+- [Intel® Edison Development Platform 101](http://akizukidenshi.com/download/ds/intel/edisonPB331179_001Edison101Presentation.pdf)
+- [Intel® Edison Hands On](http://blog.dimitridiakopoulos.com/2014/09/10/hands-on-intel-edison/)
+- [I-Programmer Exploring Intel® Edison](http://www.i-programmer.info/ebooks/exploring-edison.html)
 
