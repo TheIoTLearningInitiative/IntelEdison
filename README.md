@@ -6,5 +6,3 @@
 
 <h1><center><b>Experiment, Make, Innovate</b></center></h1>
 
-<h4><center><b>Under Construction</b></center></h4>
-
