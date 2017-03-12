@@ -19,6 +19,12 @@
 - __Chicanna__ Camara as a Service
   - [Gitbook](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Chicanna/documentation/Chicanna.html)
   - [Github](https://github.com/TheIoTLearningInitiative/CodeLabs)
+- __Chacmultun__ Optimization Through Device Drivers Layers
+  - [Gitbook]()
+  - [Github](https://github.com/TheIoTLearningInitiative/CodeLabs)
+- __Coba__ Your First Linux Kernel Module
+  - [Gitbook]()
+  - [Github](https://github.com/TheIoTLearningInitiative/CodeLabs)
 
 ## Google
 
