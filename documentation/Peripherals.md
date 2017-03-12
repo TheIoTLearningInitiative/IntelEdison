@@ -1,5 +1,4 @@
-Peripherals
-==
+# Peripherals
 
 ## Embedded MultiMediaCard (eMMC)
 
