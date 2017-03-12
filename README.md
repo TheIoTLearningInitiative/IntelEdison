@@ -4,4 +4,7 @@
 
 <h3><center>by The IoT Learning Initiative</center></h3>
 
-<center><h1><b>Experiment, Make, Innovate</b></h1></center>
+<h1><center><b>Experiment, Make, Innovate</b></center></h1>
+
+<h4><center><b>Under Construction</b></center></h4>
+
