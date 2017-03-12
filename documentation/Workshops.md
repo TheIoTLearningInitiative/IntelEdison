@@ -1,6 +1,6 @@
 # Workshops
 
-> A training workshop is a type of interactive training where participants carry out a number of training activities rather than passively listen to a lecture or presentation. Broadly, two types of workshops exist: A general workshop is put on for a mixed audience, and a closed workshop is tailored towards meeting the training needs of a specific group. [Wikipedia]()
+> A training workshop is a type of interactive training where participants carry out a number of training activities rather than passively listen to a lecture or presentation. Broadly, two types of workshops exist: A general workshop is put on for a mixed audience, and a closed workshop is tailored towards meeting the training needs of a specific group. [Wikipedia](https://en.wikipedia.org/wiki/Training_workshop)
 
 ## The IoT Learning Initiative
 
