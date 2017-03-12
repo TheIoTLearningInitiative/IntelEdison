@@ -4,16 +4,21 @@
 
 ## The IoT Learning Initiative
 
-- __Edzna__ 
-  - [Home Assistant Gitbook]()
-  - [Home Assistant Github]()
-- __Q'umarkaj__
-  - [Amazon Echo / Alexa Gitbook]()
-  - [Amazon Echo / Alexa Github]()
-- __Chichen Itza__ [Audio as a Service]()
-  - 
-- __Acat__ [IBM Node-Red]()
-- __Chicanna__ (Camara as a Service)()
+- __Edzna__ Home Assistant
+  - [Gitbook]()
+  - [Github]()
+- __Q'umarkaj__ Amazon Echo / Alexa 
+  - [Gitbook]()
+  - [Github]()
+- __Chichen Itza__ Audio as a Service
+  - [Gitbook]()
+  - [Github]()
+- __Acat__ IBM Node-Red 
+  - [Gitbook]()
+  - [Github]()
+- __Chicanna__ Camara as a Service
+  - [Gitbook]()
+  - [Github]()
 
 ## Google
 
