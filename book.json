@@ -1,0 +1,11 @@
+{
+  "gitbook": "2.4.3",
+  "title": "Intel Edison",
+  "description": "Intel Edison",
+  "structure": {
+    "summary": "README.md",
+  },
+  "plugins": [
+    "include"
+  ],
+}
