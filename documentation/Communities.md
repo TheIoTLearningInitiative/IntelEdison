@@ -2,7 +2,7 @@
 
 ## Adafruit
 
-[Intel® Edison Compute Module](https://www.adafruit.com/product/2112)
+> The Intel® Edison is a compact computing platform that's small by design so you can easily integrate it into projects.  It's primarily designed for "Internet of Things" projects and is pretty powerful for its small size. [Intel® Edison Compute Module](https://www.adafruit.com/product/2112)
 
 ## Sparkfun
 
