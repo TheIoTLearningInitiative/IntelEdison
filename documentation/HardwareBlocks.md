@@ -1,5 +1,4 @@
-Hardware Blocks
-==
+# Hardware Blocks
 
 ## Sparkfun Blocks
 
