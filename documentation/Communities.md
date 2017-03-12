@@ -8,6 +8,10 @@
 
 > The Intel® Edison is an ultra small computing platform that will change the way you look at embedded electronics. Each Edison packs a huge amount of tech goodies into a tiny package while still providing the same robust strength of your go-to single-board computer. [Home Product Categories Intel® Edison](https://www.sparkfun.com/categories/272)
 
+## SeeedStudio
+
+
+
 ## Hardware Academy
 
 > Find the help you need to get the most value out of your Intel Edison. [Hardware Academy Intel Edison](http://www.hardwareacademy.io/intel-edison-developer-challenge-resources)
