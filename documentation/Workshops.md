@@ -23,7 +23,7 @@
   - [Gitbook](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Chacmultun/documentation/Chacmultun.html)
   - [Github](https://github.com/TheIoTLearningInitiative/CodeLabs)
 - __Coba__ Your First Linux Kernel Module
-  - [Gitbook]()
+  - [Gitbook](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Coba/documentation/Coba.html)
   - [Github](https://github.com/TheIoTLearningInitiative/CodeLabs)
 
 ## Google
