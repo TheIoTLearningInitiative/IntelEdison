@@ -17,7 +17,7 @@
   - [Gitbook](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Gods/Acat/documentation/Acat.html)
   - [Github]()
 - __Chicanna__ Camara as a Service
-  - [Gitbook]()
+  - [Gitbook](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Chicanna/documentation/Chicanna.html)
   - [Github]()
 
 ## Google
