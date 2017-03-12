@@ -1,5 +1,4 @@
-MCU
-==
+# MCU
 
 > ... one Intel Quark core at 100 MHz (for executing RTOS ViperOS) ...
 
