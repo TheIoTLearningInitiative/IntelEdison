@@ -10,7 +10,7 @@
 
 ## SeeedStudio
 
-
+> Intel Edison is a tiny computer-on-module offered by Intel as a development system for wearable devices[1] and Internet of Things devices. It is a powerful tiny-computer with which developers are able to create IoT projects such as smart cup, smart cloth, smart latch etc. [Bazaar Edison & Galileo](https://www.seeedstudio.com/category/Edison-%26-Galileo-c-13.html)
 
 ## Hardware Academy
 
