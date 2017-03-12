@@ -6,6 +6,7 @@
 - __Q'umarkaj__ [Amazon Echo / Alexa]
 - __Chichen Itza__ [Audio as a Service]
 - __Acat__ [Node-Red]
+- __Chicanna__ Camara as a Service
 
 # Google
 
