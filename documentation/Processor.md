@@ -1,5 +1,4 @@
-Processor
-==
+# Processor
 
 > Intel Silvermont (Atom), Mobile Internet Device(MID)
 
