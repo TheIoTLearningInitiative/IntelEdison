@@ -199,7 +199,7 @@ class xTwitter(object):
 if __name__ == "__main__":
 
     idTwitter = xTwitter()
-    idTwitter.tweet('#TheIoTLearningInitiative Testing Time', None)
+    idTwitter.tweet('#TheIoTLearningInitiative Testing Time')
 ```
 
 ```sh
