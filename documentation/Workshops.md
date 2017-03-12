@@ -11,7 +11,7 @@
   - [Gitbook](https://theiotlearninginitiative.gitbooks.io/codelabs/content/Qumarkaj/documentation/Qumarkaj.html)
   - [Github]()
 - __Chichen Itza__ Audio as a Service
-  - [Gitbook]()
+  - [Gitbook](https://theiotlearninginitiative.gitbooks.io/codelabs/content/ChichenItza/documentation/ChichenItza.html)
   - [Github]()
 - __Acat__ IBM Node-Red 
   - [Gitbook]()
