@@ -180,4 +180,4 @@ Look at your Twitter account...
 
 ## Challenge
 
-Create an application using Twitter, Button and LCD... Button can be used to push a tweet (Core library usage will be enough) and LCD can be used to display latest tweet (direct usage of Twython API is required) 
+> Create an application using Twitter, Button and LCD... Button can be used to push a tweet (Core library usage will be enough) and LCD can be used to display latest tweet (direct usage of Twython API is required) 
