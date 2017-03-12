@@ -1,5 +1,4 @@
-Pin Multiplexing
-==
+# Pin Multiplexing
 
 ## What is pin multiplexing?
 Some pins on the Intel® Edison may be configured with one well-defined purpose, others  are able to support  variety of functions including general-purpose I/O(GPIO), I2C, PWM, SPI , ADC among others.
