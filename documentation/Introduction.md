@@ -41,6 +41,7 @@ Intel® Edison
 ## Intel Links    
 
 - [Intel® Edison Homepage](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)
+- [IoT Hardware Intel® Edison Compute Module](https://software.intel.com/en-us/iot/hardware/edison)
 - [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 - [Intel® Edison Compute Module](http://www.intel.com/support/edison/sb/CS-035274.htm?wapkw=edison+compute+module+hardware+guide)
 - [Intel® Edison Hardware Guide](http://akizukidenshi.com/download/ds/intel/edison-module_HG_331189-002.pdf)

@@ -25,6 +25,7 @@ Requirements
 
 ## Installer
 
+
 - Download the specific installer from [Intel Edison Installers](https://software.intel.com/en-us/iot/hardware/edison/downloads)
   - Double click
     - Select "USB drivers installed"
