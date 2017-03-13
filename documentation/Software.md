@@ -1,6 +1,6 @@
 # Software
 
-- [Intel IoT setup](https://wilsonmar.github.io/intel-iot-setup/)
+- [Intel IoT Setup](https://wilsonmar.github.io/intel-iot-setup/)
 
 ## Bloop
 
